@@ -1,0 +1,22 @@
+name: Publish Edition No. 002
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Replace index.html with Edition No. 002
+        run: |
+          git config user.name "davidmeislv-bot"
+          git config user.email "davidmeislv-bot@users.noreply.github.com"
+          git rm index.html
+          git mv the-ai-frontier.html index.html
+          git commit -m "Publish Edition No. 002 (Nov 13, 2026)"
+          git push
