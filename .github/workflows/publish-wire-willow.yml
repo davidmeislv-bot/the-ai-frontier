@@ -1,0 +1,19 @@
+name: Publish Wire Willow site
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Replace index.html with Wire Willow site
+        run: |
+          git config user.name "davidmeislv-bot"
+          git config user.email "davidmeislv-bot@users.noreply.github.com"
+          git rm index.html
+          git mv wire-willow-index.html index.html
+          git commit -m "Publish Wire Willow site (Edition No. 002)"
+          git push
