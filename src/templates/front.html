@@ -1,51 +1,55 @@
-<div class="ticker" aria-label="{{ticker_aria}}">
+<section class="ticker" aria-label="{{ticker_aria}}">
   <div class="ticker-inner">
-    <div class="ticker-label">{{ticker_label}}</div>
-    <div class="ticker-track"><div class="ticker-items" id="tickerItems">{{ticker_items}}</div></div>
+    <p class="ticker-label">{{ticker_label}}</p>
+    <div class="ticker-track">
+      <div class="ticker-items">
+{{ticker_items}}      </div>
+    </div>
+    <button class="ticker-toggle" type="button" aria-pressed="false" hidden>Pause</button>
   </div>
-</div>
+</section>
 
-<main class="wrap">
+<main id="main" class="wrap">
 {{crumbs}}
-  <div class="datestrip">
-    <span><time datetime="{{date_iso}}">{{date_long}}</time></span><span aria-hidden="true">·</span>
-    <span>Edition — {{edition_number}}</span><span aria-hidden="true">·</span>
+  <p class="datestrip">
+    <time datetime="{{date_iso}}">{{date_long}}</time><span aria-hidden="true">·</span>
+    <span>Edition {{edition_number}}</span><span aria-hidden="true">·</span>
     <span>Las Vegas, Nevada</span>
-  </div>
+  </p>
 
-  <!-- LEAD STORY -->
-  <section class="hero" id="leadSection" data-search="{{lead_search}}">
-    <figure>
-      <img src="{{lead_image}}" alt="{{lead_image_alt}}" width="{{lead_image_width}}" height="{{lead_image_height}}" fetchpriority="high" />
+  <!-- Lead story -->
+  <section class="hero" id="leadSection" data-cat="{{lead_cat}}" data-search="{{lead_search}}" aria-labelledby="lead-title">
+    <figure class="hero-media">
+      {{lead_image_tag}}
     </figure>
     <div class="hero-card">
-      <span class="eyebrow accent">Lead · {{lead_cat_label}}</span>
-      <h2>{{lead_title}}</h2>
+      <p class="eyebrow accent">Lead · {{lead_cat_label}}</p>
+      <h1 id="lead-title">{{lead_title}}</h1>
       <p class="dek">{{lead_dek}}</p>
-      <p class="byline">By <b>Wire Willow Staff</b> · {{date_short}} · {{lead_read_time}}</p>
-      <a class="readbtn" href="{{lead_url}}">Read the full story →</a>
+      <p class="byline">By <b>Wire Willow Staff</b> · <time datetime="{{date_iso}}">{{date_short}}</time> · {{lead_read_time}}</p>
+      <a class="readbtn notched" href="{{lead_url}}">Read the full story <span aria-hidden="true">→</span></a>
     </div>
-    <figcaption>{{lead_caption}}</figcaption>
+    <p class="caption">{{lead_caption}}</p>
 {{lead_factbox}}  </section>
 
-  <!-- FRONT PAGE GRID -->
-  <section class="front">
+  <!-- Front page grid -->
+  <section class="front" aria-labelledby="front-title">
     <div class="sechead">
-      <h2>Today’s Front Page</h2>
-      <span class="more" id="countLabel" data-updated="{{date_upper}}">{{count_label}}</span>
+      <h2 id="front-title">Today’s Front Page</h2>
+      <p class="sechead-more" id="countLabel" role="status" data-updated="{{date_short}}">{{count_label}}</p>
     </div>
     <div class="grid" id="cardGrid">
-{{cards}}    </div>
+{{cards}}      <p class="noresults" hidden>Nothing in today’s edition matches that — try another section or search.</p>
+    </div>
   </section>
-
 </main>
 
-<!-- BY THE NUMBERS -->
-<section class="band" aria-label="Today by the numbers">
+<!-- By the numbers -->
+<section class="band" aria-labelledby="band-title">
   <div class="wrap">
     <div class="sechead">
-      <h2>Today, by the numbers</h2>
-      <span class="more">From today’s reporting</span>
+      <h2 id="band-title">Today, by the numbers</h2>
+      <p class="sechead-more">From today’s reporting</p>
     </div>
     <div class="numbers">
 {{band_stats}}    </div>
@@ -53,18 +57,15 @@
 </section>
 
 <div class="wrap">
-
-  <!-- BRIEFS + WORKFLOW -->
   <div class="cols">
-    <section aria-label="News briefs">
+    <section aria-labelledby="briefs-title">
       <div class="sechead">
-        <h2>In Brief</h2>
-        <span class="more">{{briefs_label}}</span>
+        <h2 id="briefs-title">In Brief</h2>
+        <p class="sechead-more">{{briefs_label}}</p>
       </div>
 {{briefs}}{{briefs_links}}    </section>
 
 {{panel}}  </div>
 
-  <!-- SUBSCRIBE -->
   {{subscribe}}
 </div>

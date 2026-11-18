@@ -1,29 +1,29 @@
-<main class="wrap">
-  <div class="story">
+<main id="main" class="wrap">
+  <article class="story">
     <p class="crumbs"><a href="/">Home</a> &middot; <a href="{{edition_url}}">{{edition_label}}</a> &middot; {{cat_label}}</p>
-    <p class="eyebrow accent" style="margin-top:14px">{{cat_label}} &middot; {{date_short}}</p>
+    <p class="eyebrow accent story-kicker">{{cat_label}} &middot; {{date_short}}</p>
     <h1>{{title}}</h1>
     <p class="dek">{{dek}}</p>
     <p class="byline">By <b>Wire Willow Staff</b> &middot; <time datetime="{{date_iso}}">{{date_short}}</time> &middot; {{read_time}}</p>
-    <figure>
-      <img src="{{image}}" alt="{{image_alt}}" width="{{image_width}}" height="{{image_height}}" fetchpriority="high" />
-      <figcaption>{{caption}}</figcaption>
+    <figure class="story-figure">
+      {{image_tag}}
+      <figcaption class="caption">{{caption}}</figcaption>
     </figure>
-{{factbox}}    <div class="body">
+{{factbox}}    <div class="story-body">
 {{body}}    </div>
-    <div class="sources">
-      <h2>Sources &mdash; read the originals</h2>
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Sources &mdash; read the originals</h2>
       <ul>
 {{sources}}      </ul>
-    </div>
-    <div class="related">
-      <h2>More from {{edition_label}}</h2>
+    </section>
+    <nav class="related" aria-labelledby="related-title">
+      <h2 id="related-title">More from {{edition_label}}</h2>
       <ul>
 {{related}}      </ul>
-    </div>
-    <div class="storynav">
+    </nav>
+    <nav class="storynav" aria-label="Previous and next story">
       <span>{{prev_link}}</span><span>{{next_link}}</span>
-    </div>
-  </div>
+    </nav>
+  </article>
 </main>
 {{subscribe}}

@@ -1,13 +1,14 @@
-<section class="subscribe" aria-label="Get the daily edition by email">
+<section class="subscribe notched" aria-labelledby="subscribe-title">
   <div>
-    <h2>Wire Willow, in your inbox by 9 a.m.</h2>
-    <p>One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
+    <h2 id="subscribe-title">Wire Willow, in your inbox by 9 a.m.</h2>
+    <p class="subscribe-copy">One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
   </div>
   <div>
-    <form id="subForm">
-      <input type="email" id="subEmail" placeholder="you@example.com" required aria-label="Email address" />
+    <form class="subscribe-form" id="subForm"{{form_attrs}}>
+      <label class="visually-hidden" for="subEmail">Email address</label>
+      <input type="email" id="subEmail" name="email" autocomplete="email" placeholder="you@example.com" required />
       <button type="submit">Get the edition</button>
     </form>
-    <p class="subnote">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
+    <p class="subscribe-note">{{subscribe_note}}</p>
   </div>
 </section>

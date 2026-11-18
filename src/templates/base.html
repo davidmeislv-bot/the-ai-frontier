@@ -6,12 +6,13 @@
 <meta name="color-scheme" content="light" />
 <title>{{head_title}}</title>
 <meta name="description" content="{{head_description}}" />
-<link rel="canonical" href="{{canonical}}" />
+{{robots_meta}}<link rel="canonical" href="{{canonical}}" />
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" type="image/png" href="/favicon.png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="{{og_type}}" />
 <meta property="og:site_name" content="Wire Willow" />
+<meta property="og:locale" content="en_US" />
 <meta property="og:title" content="{{head_title}}" />
 <meta property="og:description" content="{{head_description}}" />
 <meta property="og:url" content="{{canonical}}" />
@@ -28,16 +29,13 @@
 {{org_json}}
 </script>
 {{extra_jsonld}}<link rel="alternate" type="application/rss+xml" title="Wire Willow" href="https://wirewillow.com/feed.xml" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/assets/css/style.css" />
-</head>
+<link rel="preload" href="/assets/fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="{{css_href}}" />
+{{script_tag}}</head>
 <body>
-
+<a class="skip-link" href="#main">Skip to content</a>
 {{header}}
 {{body}}
 {{footer}}
-{{scripts}}
 </body>
 </html>

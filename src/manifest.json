@@ -11,8 +11,10 @@
     "feed_description": "Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.",
     "feed_language": "en-US",
     "footer_intro": "A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip.",
-    "footer_default_edition": "Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
-    "footer_default_fine": "Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026"
+    "newsletter": {
+      "action": "",
+      "fallback_email": "davidmeislv@gmail.com"
+    }
   },
   "articles": [
     {
@@ -32,8 +34,6 @@
       "read_time": "4 min read",
       "image": "/images/spacex-starbase-ai-campus.webp",
       "image_alt": "Editorial illustration of desert AI supercomputing campuses with circuit-patterned data center buildings, cooling towers, power lines and a rocket on a launch pad at sunrise",
-      "image_width": 2736,
-      "image_height": 912,
       "og_image": "https://wirewillow.com/images/og-spacex-ai-supercomputing-campuses.jpg",
       "caption": "Illustration: Wire Willow. Two desert campuses, one very large proposal — and two local votes still to come on Dec. 9.",
       "factbox": {
@@ -93,8 +93,6 @@
       "read_time": "3 min read",
       "image": "/images/gemini-4-hydrogen-coding-agents.webp",
       "image_alt": "Editorial illustration of a glowing hydrogen-atom AI core surrounded by small coding agent robots working at floating code windows",
-      "image_width": 2736,
-      "image_height": 912,
       "og_image": "https://wirewillow.com/images/og-gemini-4-hydrogen-coding-agents.jpg",
       "caption": "Illustration: Wire Willow.",
       "factbox": null,
@@ -130,8 +128,6 @@
       "read_time": "3 min read",
       "image": "/images/striker-doodle-labs-xtend-drones.webp",
       "image_alt": "Editorial illustration of tactical drones linked by glowing mesh radio waves over rocky terrain, connected to a ground operator",
-      "image_width": 1920,
-      "image_height": 1280,
       "og_image": "https://wirewillow.com/images/og-doodle-labs-xtend-striker-drones.jpg",
       "caption": "Illustration: Wire Willow.",
       "factbox": null,
@@ -167,8 +163,6 @@
       "read_time": "3 min read",
       "image": "/images/gagamba-unlv-window-washing-drone.webp",
       "image_alt": "Editorial illustration of a window-washing drone with a water tank, robotic brush and squeegee cleaning a Las Vegas high-rise tower",
-      "image_width": 1920,
-      "image_height": 1280,
       "og_image": "https://wirewillow.com/images/og-gagamba-unlv-window-washing-drone.jpg",
       "caption": "Illustration: Wire Willow.",
       "factbox": null,
@@ -389,7 +383,7 @@
         "Whether Gagamba finds local business partners for testing its prototype"
       ],
       "footer_edition": "Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
-      "footer_fine": "Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
       "archive_eyebrow": "Friday, November 13, 2026 · Edition No. 002",
       "archive_headline": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
       "archive_summary": "4 stories + 3 briefs: SpaceX's AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, the STRIKER drone partnership, and a UNLV window-washing drone.",
@@ -405,8 +399,8 @@
       "date_short": "Nov 18, 2026",
       "url": "/2026/11/18/",
       "head": {
-        "title": "In Brief: Nov 18, 2026 — UFORCE's $700M Raise, Microsoft's Specialist Models & a Cyber Review Board Bill | Wire Willow",
-        "description": "Three briefs from November 18, 2026: UFORCE's $700 million Series A, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
+        "title": "Nov 18 Briefs: UFORCE, Microsoft MAI Models & an AI Board Bill | Wire Willow",
+        "description": "UFORCE's $700M Series A, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
         "canonical": "https://wirewillow.com/2026/11/18/",
         "og_type": "website",
         "og_image": "https://wirewillow.com/images/og-home.jpg",

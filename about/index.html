@@ -12,6 +12,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Wire Willow" />
+<meta property="og:locale" content="en_US" />
 <meta property="og:title" content="About Wire Willow — Daily Tech News, Human-Approved" />
 <meta property="og:description" content="Wire Willow is a daily tech newspaper on AI, robotics, drones, fintech and gossip. Original stories, checked against sources, approved by a human before publishing." />
 <meta property="og:url" content="https://wirewillow.com/about/" />
@@ -38,16 +39,15 @@
 }
 </script>
 <link rel="alternate" type="application/rss+xml" title="Wire Willow" href="https://wirewillow.com/feed.xml" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="preload" href="/assets/fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css?v=dd2b554783" />
+<script type="module" src="/assets/js/main.js?v=846c67f404"></script>
 </head>
 <body>
-
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap topbar-in">
-    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="ai">Willow</span><span class="tick" aria-hidden="true"></span></a>
+    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="wordmark-accent">Willow</span><span class="wordmark-tick" aria-hidden="true"></span></a>
     <nav class="topnav" aria-label="Site">
       <a href="/">Latest edition</a>
       <a href="/archive/">Archive</a>
@@ -55,12 +55,12 @@
     </nav>
   </div>
 </header>
-<main class="wrap">
+<main id="main" class="wrap">
   <div class="story">
     <p class="crumbs"><a href="/">Home</a> &middot; About</p>
     <h1>About Wire Willow</h1>
     <p class="dek">Wire Willow is a daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip.</p>
-    <div class="body">
+    <div class="story-body">
       <h2>How the daily edition works</h2>
       <p><strong>Morning scan.</strong> Every morning, the day's tech news is swept across five desks: AI, robotics, drones, fintech and gossip.</p>
       <p><strong>Original drafts.</strong> Three to four stories are written up fresh &mdash; our own words, facts checked against the sources, every claim linked.</p>
@@ -75,36 +75,33 @@
     </div>
   </div>
 </main>
-<section class="subscribe" aria-label="Get the daily edition by email">
+<section class="subscribe notched" aria-labelledby="subscribe-title">
   <div>
-    <h2>Wire Willow, in your inbox by 9 a.m.</h2>
-    <p>One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
+    <h2 id="subscribe-title">Wire Willow, in your inbox by 9 a.m.</h2>
+    <p class="subscribe-copy">One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
   </div>
   <div>
-    <form id="subForm">
-      <input type="email" id="subEmail" placeholder="you@example.com" required aria-label="Email address" />
+    <form class="subscribe-form" id="subForm" data-mailto-user="davidmeislv" data-mailto-domain="gmail.com">
+      <label class="visually-hidden" for="subEmail">Email address</label>
+      <input type="email" id="subEmail" name="email" autocomplete="email" placeholder="you@example.com" required />
       <button type="submit">Get the edition</button>
     </form>
-    <p class="subnote">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
+    <p class="subscribe-note">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
   </div>
 </section>
-<footer>
-  <div class="wrap">
-    <div class="cols2">
-      <div>
-        <div class="flogo">Wire <span class="ai">Willow</span></div>
-        <p>A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip. Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.</p>
-        <p class="fine">Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026</p>
-      </div>
-      <div>
-        <p><strong>Desks</strong><br/>AI · Robotics · Drones · Fintech · The Gossip</p>
-        <p><strong>Find us at</strong><br/>wirewillow.com</p>
-        <p><strong>More</strong><br/><a href="/archive/">Archive</a> &middot; <a href="/about/">About</a> &middot; <a href="/feed.xml">RSS</a></p>
-      </div>
+<footer class="site-footer">
+  <div class="wrap footer-cols">
+    <div>
+      <p class="footer-logo">Wire <span class="wordmark-accent">Willow</span></p>
+      <p>A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip. Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.</p>
+      <p class="footer-fine">Illustrations: original editorial artwork created for this edition</p>
+    </div>
+    <div>
+      <p><strong>Desks</strong><br />AI · Robotics · Drones · Fintech · The Gossip</p>
+      <p><strong>Find us at</strong><br /><a href="https://wirewillow.com/">wirewillow.com</a></p>
+      <p><strong>More</strong><br /><a href="/archive/">Archive</a> &middot; <a href="/about/">About</a> &middot; <a href="/feed.xml">RSS</a></p>
     </div>
   </div>
 </footer>
-
-<script src="/assets/js/main.js"></script>
 </body>
 </html>

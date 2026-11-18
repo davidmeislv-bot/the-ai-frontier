@@ -19,10 +19,16 @@ Usage:
 Validation fails loudly (exit 1, errors listed) and nothing is written
 when any check fails: every internal link and image must resolve, every
 page needs exactly one H1 plus title/canonical/description, no template
-placeholders or base64 images may survive, and the sitemap and feed must
-match the manifest exactly.
+placeholders, base64 images or inline styles may survive, heading levels
+may not skip, social images must be 1200x630 and unique, the homepage must
+show the newest edition and briefs, and the sitemap and feed must match
+the manifest exactly.
+
+Images: run tools/make_images.py (needs Pillow) after adding an image; it
+writes the -640/-1024/-1600 variants this script turns into srcset.
 """
 
+import hashlib
 import html as htmlmod
 import json
 import re
@@ -111,6 +117,39 @@ def validate_manifest(m):
         fail("manifest: homepage references an unknown edition")
     if m["homepage"]["briefs"] not in m["brief_sets"]:
         fail("manifest: homepage references an unknown brief set")
+    # The homepage must always show the newest content, never a stale edition.
+    full = [e for e in m["editions"] if e["kind"] == "edition"]
+    if full:
+        newest = max(full, key=lambda e: e["date"])
+        if m["homepage"]["edition"] != newest["id"]:
+            fail(f"manifest: homepage shows edition {m['homepage']['edition']}, "
+                 f"but the newest edition is {newest['id']}")
+    newest_briefs = max(m["editions"], key=lambda e: e["date"])["briefs"]
+    if m["homepage"]["briefs"] != newest_briefs:
+        fail(f"manifest: homepage shows brief set {m['homepage']['briefs']}, "
+             f"but the newest is {newest_briefs}")
+    # Images: lead images exist; social cards exist, are 1200x630 and unique.
+    og_hashes = {}
+    default_og = site.get("default_og_image", "")
+    for url in [default_og] + [a["og_image"] for a in m["articles"]]:
+        path = ROOT / url[len(site["base_url"]):].lstrip("/")
+        if not path.is_file():
+            fail(f"manifest: social image missing: {url}")
+            continue
+        if image_size(path) != (1200, 630):
+            fail(f"manifest: social image is {image_size(path)}, expected 1200x630: {url}")
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        if digest in og_hashes and og_hashes[digest] != url:
+            fail(f"manifest: social image {url} is a byte-for-byte copy of {og_hashes[digest]}")
+        og_hashes.setdefault(digest, url)
+    for a in m["articles"]:
+        if not (ROOT / a["image"].lstrip("/")).is_file():
+            fail(f"manifest: article {a['slug']} image missing: {a['image']}")
+        if a["category"] not in dict(DESKS):
+            fail(f"manifest: article {a['slug']} has unknown category {a['category']!r}")
+    newsletter = site.get("newsletter", {})
+    if not newsletter.get("action") and "@" not in newsletter.get("fallback_email", ""):
+        fail("manifest: site.newsletter needs an action URL or a fallback_email")
     return articles, editions
 
 
@@ -170,32 +209,107 @@ def news_article_block(site, article):
 # ---------------------------------------------------------------- fragments
 
 def search_text(title, dek, cat_label):
-    """The text a front-page search matches against (same formula the
-    old inline script used for cards, now also used for the lead)."""
+    """The text a front-page search matches against (cards and lead)."""
     return (title + " " + dek + " " + cat_label).lower()
 
 
-def render_card(article, edition):
-    if article.get("image"):
-        thumb = ('<img class="thumb" src="%s" alt="%s" loading="lazy" width="1920" height="1280" />'
-                 % (esc(article["image"]), esc(article["image_alt"])))
+# Desks in display order: filter value -> button label.
+DESKS = [("ai", "AI"), ("robotics", "Robotics"), ("drones", "Drones"),
+         ("fintech", "Fintech"), ("gossip", "The Gossip")]
+
+
+# ---------------------------------------------------------------- images
+
+RESPONSIVE_WIDTHS = (640, 1024, 1600)
+
+
+def image_size(path):
+    """Return (width, height) of a WebP, PNG or JPEG file, stdlib only."""
+    data = Path(path).read_bytes()
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        chunk = data[12:16]
+        if chunk == b"VP8X":
+            w = int.from_bytes(data[24:27], "little") + 1
+            h = int.from_bytes(data[27:30], "little") + 1
+            return w, h
+        if chunk == b"VP8 ":
+            return (int.from_bytes(data[26:28], "little") & 0x3FFF,
+                    int.from_bytes(data[28:30], "little") & 0x3FFF)
+        if chunk == b"VP8L":
+            b = data[21:25]
+            w = 1 + (((b[1] & 0x3F) << 8) | b[0])
+            h = 1 + (((b[3] & 0x0F) << 10) | (b[2] << 2) | ((b[1] & 0xC0) >> 6))
+            return w, h
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+    if data[:2] == b"\xff\xd8":
+        i = 2
+        while i < len(data):
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            marker = data[i + 1]
+            if marker in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                return int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big")
+            i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
+    raise ValueError(f"unsupported or corrupt image: {path}")
+
+
+def variant_url(src, width):
+    stem, dot, ext = src.rpartition(".")
+    return "%s-%d.%s" % (stem, width, ext)
+
+
+def responsive_img(src, alt, sizes, css_class="", lazy=False, priority=False):
+    """An <img> with real dimensions and a srcset of the variants made by
+    tools/make_images.py. Variants that don't exist are simply skipped."""
+    width, height = image_size(ROOT / src.lstrip("/"))
+    candidates = [(variant_url(src, w), w) for w in RESPONSIVE_WIDTHS
+                  if w < width and (ROOT / variant_url(src, w).lstrip("/")).is_file()]
+    candidates.append((src, width))
+    attrs = []
+    if css_class:
+        attrs.append('class="%s"' % css_class)
+    # src falls back to a mid-size variant; srcset-aware browsers pick their own
+    attrs.append('src="%s"' % esc(candidates[min(1, len(candidates) - 1)][0]))
+    if len(candidates) > 1:
+        attrs.append('srcset="%s"' % esc(", ".join("%s %dw" % c for c in candidates)))
+        attrs.append('sizes="%s"' % esc(sizes))
+    attrs.append('alt="%s"' % esc(alt))
+    attrs.append('width="%d" height="%d"' % (width, height))
+    if lazy:
+        attrs.append('loading="lazy"')
+    if priority:
+        attrs.append('fetchpriority="high"')
     else:
-        thumb = ('<div class="thumb-fallback" aria-hidden="true">%s</div>'
-                 % esc(article.get("emoji", "")))
+        attrs.append('decoding="async"')
+    return "<img %s />" % " ".join(attrs)
+
+
+SIZES_HERO = "(min-width: 1240px) 1200px, calc(100vw - 40px)"
+SIZES_CARD = "(min-width: 1240px) 380px, (min-width: 900px) 30vw, (min-width: 560px) 45vw, calc(100vw - 40px)"
+SIZES_STORY = "(min-width: 820px) 780px, calc(100vw - 40px)"
+
+
+# ---------------------------------------------------------------- fragments
+
+def render_card(article, edition):
+    thumb = responsive_img(article["image"], article["image_alt"], SIZES_CARD,
+                           css_class="card-thumb", lazy=True)
     return (
-        '<a class="card" href="%s" data-cat="%s" data-id="%s" data-search="%s">'
+        '<article class="card" data-cat="%s" data-search="%s">'
         "%s"
-        '<div class="card-body"><span class="eyebrow accent">%s</span>'
-        "<h3>%s</h3><p>%s</p>"
-        '<div class="meta"><span>%s · %s</span>'
-        '<span style="color:var(--accent);font-weight:800">READ →</span></div></div></a>'
+        '<div class="card-body"><p class="eyebrow accent">%s</p>'
+        '<h3 class="card-title"><a class="card-link" href="%s">%s</a></h3>'
+        '<p class="card-dek">%s</p>'
+        '<p class="card-meta"><span>%s · %s</span>'
+        '<span class="card-cta" aria-hidden="true">Read →</span></p></div></article>'
         % (
-            esc(article["url"]),
             esc(article["category"]),
-            esc(article["id"]),
             esc(search_text(article["title"], article["dek"], article["cat_label"])),
             thumb,
             esc(article["cat_label"]),
+            esc(article["url"]),
             esc(article["title"]),
             esc(article["dek"]),
             esc(edition["date_upper"]),
@@ -204,21 +318,32 @@ def render_card(article, edition):
     )
 
 
+def render_filter_buttons(categories):
+    """'Front Page' plus one button per desk that has a story today, so no
+    filter ever leads to an empty page."""
+    buttons = [("all", "Front Page")] + [d for d in DESKS if d[0] in categories]
+    return "".join(
+        '      <button class="fbtn" type="button" data-filter="%s" aria-pressed="%s">%s</button>\n'
+        % (esc(value), "true" if value == "all" else "false", esc(label))
+        for value, label in buttons)
+
+
 def render_ticker(ticker):
-    """Ticker items, duplicated for the seamless CSS loop, exactly as
-    the old inline script built them."""
+    """Ticker items as a list, plus an aria-hidden copy so the CSS loop is
+    seamless without screen readers hearing every headline twice."""
     parts = []
     for label, text, extra, cls in ticker:
-        s = "<span><b>%s</b> %s" % (esc(label), esc(text))
+        s = "<li><b>%s</b> %s" % (esc(label), esc(text))
         if extra:
             s += ' <span class="%s">%s</span>' % (esc(cls), esc(extra))
-        s += "</span>"
+        s += "</li>"
         parts.append(s)
     once = "".join(parts)
-    return once + once
+    return ('        <ul class="ticker-set">%s</ul>\n'
+            '        <ul class="ticker-set" aria-hidden="true">%s</ul>\n' % (once, once))
 
 
-def render_briefs(briefs, with_eyebrows, separator):
+def render_briefs(briefs, with_eyebrows, separator, level=3):
     out = []
     for b in briefs:
         links = separator.join(
@@ -226,32 +351,39 @@ def render_briefs(briefs, with_eyebrows, separator):
             for label, url in b["sources"]
         )
         word = "Source" if len(b["sources"]) == 1 else "Sources"
-        out.append('      <div class="brief">')
+        out.append('      <article class="brief">')
         if with_eyebrows and b.get("eyebrow"):
             out.append('        <p class="eyebrow accent">%s</p>' % esc(b["eyebrow"]))
-        out.append("        <h3>%s</h3>" % esc(b["title"]))
+        out.append("        <h%d>%s</h%d>" % (level, esc(b["title"]), level))
         out.append("        <p>%s</p>" % esc(b["body"]))
         out.append('        <p class="src">%s: %s</p>' % (word, links))
-        out.append("      </div>")
+        out.append("      </article>")
     return "\n".join(out) + "\n" if out else ""
 
 
 def render_factbox(factbox, indent="    "):
     if not factbox:
         return ""
-    lines = [indent + '<div class="factbox">',
-             indent + "  <h3>%s</h3>" % esc(factbox["heading"]),
+    lines = [indent + '<aside class="factbox">',
+             indent + "  <h2>%s</h2>" % esc(factbox["heading"]),
              indent + "  <ul>"]
     for strong, rest in factbox["items"]:
         lines.append(indent + "    <li><strong>%s</strong>%s</li>" % (esc(strong), esc(rest)))
     lines.append(indent + "  </ul>")
-    lines.append(indent + "</div>")
+    lines.append(indent + "</aside>")
     return "\n".join(lines) + "\n"
 
 
 def indent_block(text, spaces):
     pad = " " * spaces
     return "".join(pad + line + "\n" for line in text.strip("\n").split("\n"))
+
+
+def asset_href(rel):
+    """Site path with a short content hash, so browsers re-fetch an asset
+    exactly when it changes (GitHub Pages can't set long cache headers)."""
+    digest = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()[:10]
+    return "/%s?v=%s" % (rel, digest)
 
 
 # ---------------------------------------------------------------- pages
@@ -266,8 +398,25 @@ class Builder:
         self.header_filter = load_template("partials/header_filter.html").rstrip("\n")
         self.header_nav = load_template("partials/header_nav.html").rstrip("\n")
         self.footer_tpl = load_template("partials/footer.html").rstrip("\n")
-        self.subscribe = load_template("partials/subscribe.html").rstrip("\n")
+        self.subscribe = self.render_subscribe()
         self.org_json = json.dumps(org_block(self.site), indent=2, ensure_ascii=False)
+        self.css_href = asset_href("assets/css/style.css")
+        self.js_href = asset_href("assets/js/main.js")
+
+    def render_subscribe(self):
+        """Newsletter form. With site.newsletter.action set (e.g. a Buttondown
+        or Beehiiv embed URL) the form posts there and works without JS.
+        Otherwise main.js opens a pre-filled signup email."""
+        cfg = self.site.get("newsletter", {})
+        if cfg.get("action"):
+            attrs = ' action="%s" method="post" target="_blank"' % esc(cfg["action"])
+            note = cfg.get("note", "You’ll get one confirmation email. Unsubscribe any time.")
+        else:
+            user, _, domain = cfg.get("fallback_email", "").partition("@")
+            attrs = ' data-mailto-user="%s" data-mailto-domain="%s"' % (esc(user), esc(domain))
+            note = "Opens your email app with a ready-to-send signup note — you stay in control of sending it."
+        return render(load_template("partials/subscribe.html").rstrip("\n"),
+                      {"form_attrs": attrs, "subscribe_note": esc(note)})
 
     def footer(self, edition_line, fine_line):
         return render(self.footer_tpl, {
@@ -277,9 +426,13 @@ class Builder:
         })
 
     def default_footer(self):
-        return self.footer(self.site["footer_default_edition"], self.site["footer_default_fine"])
+        """Site-wide footer, always taken from the edition the homepage shows,
+        so it can never drift out of date."""
+        edition = self.editions[self.m["homepage"]["edition"]]
+        return self.footer(edition["footer_edition"], edition["footer_fine"])
 
-    def page(self, head, header, body, footer, scripts=True, article_meta="", extra_jsonld=""):
+    def page(self, head, header, body, footer, scripts=True, article_meta="", extra_jsonld="",
+             noindex=False):
         tokens = {
             "head_title": esc(head["title"]),
             "head_description": esc(head["description"]),
@@ -293,7 +446,9 @@ class Builder:
             "header": header,
             "body": body,
             "footer": footer,
-            "scripts": '\n<script src="/assets/js/main.js"></script>' if scripts else "",
+            "css_href": self.css_href,
+            "script_tag": ('<script type="module" src="%s"></script>\n' % self.js_href) if scripts else "",
+            "robots_meta": '<meta name="robots" content="noindex" />\n' if noindex else "",
         }
         return render(self.base, tokens)
 
@@ -330,12 +485,16 @@ class Builder:
         cards = [self.articles[s] for s in edition["article_slugs"] if s != edition["lead_slug"]]
         card_html = "\n".join("      " + render_card(a, edition) for a in cards) + "\n"
         count = len(cards) + 1
+        header = render(self.header_filter, {
+            "filter_buttons": render_filter_buttons(
+                {lead["category"]} | {a["category"] for a in cards}),
+        })
         panel = render(load_template("partials/panel.html").rstrip("\n"), {
             "watchbox": "".join("          <li>%s</li>\n" % esc(w) for w in edition["watchbox"]),
         })
         if briefs_links:
             links = self.m["homepage"]["briefs_link_lines"]
-            links_html = "      " + '<p class="src" style="margin-top:4px">' + " &middot; ".join(
+            links_html = "      " + '<p class="briefs-links">' + " &middot; ".join(
                 '<a href="%s">%s</a>' % (esc(link["url"]), esc(link["text"])) for link in links
             ) + "</p>\n"
         else:
@@ -349,10 +508,8 @@ class Builder:
             "date_long": esc(edition["date_long"]),
             "edition_number": esc(edition["number"]),
             "lead_search": esc(search_text(lead["title"], lead["dek"], lead["cat_label"])),
-            "lead_image": esc(lead["image"]),
-            "lead_image_alt": esc(lead["image_alt"]),
-            "lead_image_width": str(lead["image_width"]),
-            "lead_image_height": str(lead["image_height"]),
+            "lead_cat": esc(lead["category"]),
+            "lead_image_tag": responsive_img(lead["image"], lead["image_alt"], SIZES_HERO, priority=True),
             "lead_cat_label": esc(lead["cat_label"]),
             "lead_title": esc(lead["title"]),
             "lead_dek": esc(lead["dek"]),
@@ -362,11 +519,10 @@ class Builder:
             "lead_caption": esc(lead["caption"]),
             "lead_factbox": render_factbox(lead.get("factbox")),
             "count_label": "%d %s · Updated %s" % (
-                count, "story" if count == 1 else "stories", edition["date_short"]),
-            "date_upper": esc(edition["date_upper"]),
+                count, "story" if count == 1 else "stories", esc(edition["date_short"])),
             "cards": card_html,
             "band_stats": "".join(
-                '      <div class="stat"><div class="big">%s</div><div class="lbl">%s</div></div>\n'
+                '      <div class="stat"><p class="stat-big">%s</p><p class="stat-label">%s</p></div>\n'
                 % (esc(big), esc(lbl)) for big, lbl in edition["band_stats"]),
             "briefs_label": esc(briefs_label),
             "briefs": render_briefs(briefs, with_eyebrows=False, separator=" · "),
@@ -374,21 +530,21 @@ class Builder:
             "panel": panel,
             "subscribe": self.subscribe,
         })
-        return body
+        return header, body
 
     def build_homepage(self):
         cfg = self.m["homepage"]
         edition = self.editions[cfg["edition"]]
-        body = self.front_page(edition, cfg["briefs"], cfg["briefs_label"],
-                               cfg["briefs_links"], "", cfg["head"])
-        return self.page(cfg["head"], self.header_filter, body, self.default_footer())
+        header, body = self.front_page(edition, cfg["briefs"], cfg["briefs_label"],
+                                       cfg["briefs_links"], "", cfg["head"])
+        return self.page(cfg["head"], header, body, self.default_footer())
 
     def build_edition_page(self, edition):
         crumbs = '  <p class="crumbs"><a href="/">Home</a> &middot; <a href="/archive/">Archive</a> &middot; %s</p>\n' \
             % esc(edition["label"])
-        body = self.front_page(edition, edition["briefs"], edition["briefs_label"],
-                               edition["briefs_links"], crumbs, edition["head"])
-        return self.page(edition["head"], self.header_filter, body,
+        header, body = self.front_page(edition, edition["briefs"], edition["briefs_label"],
+                                       edition["briefs_links"], crumbs, edition["head"])
+        return self.page(edition["head"], header, body,
                          self.footer(edition["footer_edition"], edition["footer_fine"]),
                          extra_jsonld=self.edition_jsonld(edition))
 
@@ -426,10 +582,7 @@ class Builder:
             "dek": esc(article["dek"]),
             "date_iso": esc(article["date"]),
             "read_time": esc(article["read_time"]),
-            "image": esc(article["image"]),
-            "image_alt": esc(article["image_alt"]),
-            "image_width": str(article["image_width"]),
-            "image_height": str(article["image_height"]),
+            "image_tag": responsive_img(article["image"], article["image_alt"], SIZES_STORY, priority=True),
             "caption": esc(article["caption"]),
             "factbox": render_factbox(article.get("factbox")),
             "body": indent_block(body_text, 6),
@@ -456,7 +609,7 @@ class Builder:
             "date_iso": esc(edition["date"]),
             "date_long": esc(edition["date_long"]),
             "dek": esc(edition["dek"]),
-            "briefs": render_briefs(briefs, with_eyebrows=True, separator=" &middot; "),
+            "briefs": render_briefs(briefs, with_eyebrows=True, separator=" &middot; ", level=2),
             "prev_url": esc(prev_ed["url"]) if prev_ed else "/archive/",
             "prev_label": esc(prev_ed["label"]) if prev_ed else "",
             "prev_date_short": esc(prev_ed["date_short"]) if prev_ed else "",
@@ -483,14 +636,14 @@ class Builder:
         for edition in sorted(self.m["editions"], key=lambda e: e["date"], reverse=True):
             lines = ["      <li>",
                      '        <p class="eyebrow accent">%s</p>' % esc(edition["archive_eyebrow"]),
-                     '        <h2><a href="%s" style="color:var(--ink);text-decoration:none">%s</a></h2>'
+                     '        <h2><a class="archive-headline" href="%s">%s</a></h2>'
                      % (esc(edition["url"]), esc(edition["archive_headline"])),
                      "        <p>%s</p>" % esc(edition["archive_summary"])]
             if edition.get("article_slugs"):
                 lines.append("        <ul>")
                 for slug in edition["article_slugs"]:
                     a = self.articles[slug]
-                    lines.append('          <li><a href="%s">%s</a> <span style="color:var(--ink3)">— %s</span></li>'
+                    lines.append('          <li><a href="%s">%s</a> <span class="archive-desk">— %s</span></li>'
                                  % (esc(a["url"]), esc(a["title"]), esc(a["cat_label"])))
                 lines.append("        </ul>")
             lines.append('        <p><a href="%s">%s</a></p>' % (esc(edition["url"]), esc(edition["archive_read_text"])))
@@ -505,7 +658,8 @@ class Builder:
     def build_notfound(self):
         cfg = self.m["pages"]["notfound"]
         body = load_template("notfound.html").rstrip("\n")
-        return self.page(cfg["head"], self.header_nav, body, self.default_footer(), scripts=False)
+        return self.page(cfg["head"], self.header_nav, body, self.default_footer(),
+                         scripts=False, noindex=True)
 
     # ---- sitemap + feed ----
 
@@ -603,11 +757,14 @@ class PageInspector(HTMLParser):
         self.links = []
         self.images = []
         self.meta_images = []
+        self.headings = []
 
     def handle_starttag(self, tag, attrs):
         d = dict(attrs)
         if tag == "h1":
             self.h1_count += 1
+        if len(tag) == 2 and tag[0] == "h" and tag[1] in "123456":
+            self.headings.append(int(tag[1]))
         if tag == "title":
             self.in_title = True
         if tag == "link" and d.get("rel") == "canonical":
@@ -669,6 +826,14 @@ def validate_outputs(outputs, manifest):
             fail(f"{rel}: missing canonical link")
         if not insp.has_description:
             fail(f"{rel}: missing meta description")
+        if insp.headings and insp.headings[0] != 1:
+            fail(f"{rel}: first heading is h{insp.headings[0]}, expected h1")
+        for prev, cur in zip(insp.headings, insp.headings[1:]):
+            if cur > prev + 1:
+                fail(f"{rel}: heading level skips from h{prev} to h{cur}")
+                break
+        if "style=" in content:
+            fail(f"{rel}: inline style attribute found (use a class in style.css)")
         dupes = sorted({i for i in insp.ids if insp.ids.count(i) > 1})
         if dupes:
             fail(f"{rel}: duplicate id attributes: {dupes}")
@@ -747,6 +912,9 @@ def validate_outputs(outputs, manifest):
         fail("assets/css/style.css is missing")
     if not (ROOT / "assets/js/main.js").is_file():
         fail("assets/js/main.js is missing")
+    for font in ("archivo-latin-wght-normal.woff2", "archivo-latin-ext-wght-normal.woff2"):
+        if not (ROOT / "assets/fonts" / font).is_file():
+            fail(f"assets/fonts/{font} is missing")
 
 
 def main(argv):

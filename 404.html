@@ -6,12 +6,14 @@
 <meta name="color-scheme" content="light" />
 <title>Page Not Found | Wire Willow</title>
 <meta name="description" content="That Wire Willow page doesn&#x27;t exist. Find the latest daily tech edition or browse the archive." />
+<meta name="robots" content="noindex" />
 <link rel="canonical" href="https://wirewillow.com/404.html" />
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" type="image/png" href="/favicon.png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Wire Willow" />
+<meta property="og:locale" content="en_US" />
 <meta property="og:title" content="Page Not Found | Wire Willow" />
 <meta property="og:description" content="That Wire Willow page doesn&#x27;t exist. Find the latest daily tech edition or browse the archive." />
 <meta property="og:url" content="https://wirewillow.com/404.html" />
@@ -38,16 +40,14 @@
 }
 </script>
 <link rel="alternate" type="application/rss+xml" title="Wire Willow" href="https://wirewillow.com/feed.xml" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="preload" href="/assets/fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css?v=dd2b554783" />
 </head>
 <body>
-
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap topbar-in">
-    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="ai">Willow</span><span class="tick" aria-hidden="true"></span></a>
+    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="wordmark-accent">Willow</span><span class="wordmark-tick" aria-hidden="true"></span></a>
     <nav class="topnav" aria-label="Site">
       <a href="/">Latest edition</a>
       <a href="/archive/">Archive</a>
@@ -55,29 +55,26 @@
     </nav>
   </div>
 </header>
-<main class="wrap">
+<main id="main" class="wrap">
   <div class="story">
     <h1>Page not found</h1>
     <p class="dek">That page doesn't exist, or it moved. Try the latest edition or the archive.</p>
     <p><a href="/">Latest edition</a> &middot; <a href="/archive/">Archive</a> &middot; <a href="/about/">About Wire Willow</a></p>
   </div>
 </main>
-<footer>
-  <div class="wrap">
-    <div class="cols2">
-      <div>
-        <div class="flogo">Wire <span class="ai">Willow</span></div>
-        <p>A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip. Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.</p>
-        <p class="fine">Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026</p>
-      </div>
-      <div>
-        <p><strong>Desks</strong><br/>AI · Robotics · Drones · Fintech · The Gossip</p>
-        <p><strong>Find us at</strong><br/>wirewillow.com</p>
-        <p><strong>More</strong><br/><a href="/archive/">Archive</a> &middot; <a href="/about/">About</a> &middot; <a href="/feed.xml">RSS</a></p>
-      </div>
+<footer class="site-footer">
+  <div class="wrap footer-cols">
+    <div>
+      <p class="footer-logo">Wire <span class="wordmark-accent">Willow</span></p>
+      <p>A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip. Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.</p>
+      <p class="footer-fine">Illustrations: original editorial artwork created for this edition</p>
+    </div>
+    <div>
+      <p><strong>Desks</strong><br />AI · Robotics · Drones · Fintech · The Gossip</p>
+      <p><strong>Find us at</strong><br /><a href="https://wirewillow.com/">wirewillow.com</a></p>
+      <p><strong>More</strong><br /><a href="/archive/">Archive</a> &middot; <a href="/about/">About</a> &middot; <a href="/feed.xml">RSS</a></p>
     </div>
   </div>
 </footer>
-
 </body>
 </html>
