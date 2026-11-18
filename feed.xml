@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Wire Willow</title>
+  <link>https://wirewillow.com/</link>
+  <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
+  <language>en-US</language>
+  <lastBuildDate>Fri, 13 Nov 2026 09:00:00 -0800</lastBuildDate>
+  <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>SpaceX proposes more than $74 billion for two AI supercomputing campuses</title>
+    <link>https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/</guid>
+    <description>SpaceX says it plans to put more than $24 billion into Starbase, Texas and roughly $50 billion into Cochise County, Arizona. This is proposed spending from a company statement — not money spent or built yet — and both sites still need local decisions on Dec. 9.</description>
+    <pubDate>Fri, 13 Nov 2026 09:00:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google pitches Gemini 4 Hydrogen for coding agents</title>
+    <link>https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/</guid>
+    <description>Announced Nov. 12, Gemini 4 Hydrogen is Google’s faster, lower-cost pitch for everyday coding and agentic work — $1.50 per million input tokens and $7.50 per million output tokens across a 1 million-token window. The performance claims are Google’s own, not independently verified.</description>
+    <pubDate>Fri, 13 Nov 2026 09:00:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Doodle Labs and XTEND expand STRIKER connectivity partnership</title>
+    <link>https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/</guid>
+    <description>Press-release story: the two companies said Nov. 13 they are expanding their partnership to bring Doodle Labs Mesh Rider radios into XTEND’s XOS software, with integration complete on the STRIKER drone. The resilience claims in the release are the companies’ claims.</description>
+    <pubDate>Fri, 13 Nov 2026 09:00:00 -0800</pubDate>
+    <category>Drones</category>
+  </item>
+  <item>
+    <title>UNLV’s Gagamba is building a drone to wash high-rise windows on the Strip</title>
+    <link>https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/</guid>
+    <description>A UNLV student team is working on an AI-guided drone with a water tank, a robotic brush and a squeegee for cleaning high-rise windows. It is a pre-commercial prototype — the team is building toward a prototype and looking for local business partners for testing.</description>
+    <pubDate>Fri, 13 Nov 2026 09:00:00 -0800</pubDate>
+    <category>Drones</category>
+  </item>
+</channel>
+</rss>
