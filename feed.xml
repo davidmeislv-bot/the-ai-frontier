@@ -5,8 +5,18 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Fri, 13 Nov 2026 09:00:00 -0800</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>In Brief — November 18, 2026: UFORCE's $700M raise, Microsoft's specialist models, and a cyber investigations board bill</title>
+    <link>https://wirewillow.com/2026/11/18/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/</guid>
+    <description>Three briefs: UFORCE raised $700 million at a $6 billion valuation to scale Ukraine-tested uncrewed systems; Microsoft announced specialist MAI models for coding, security and small decisions at Ignite; and a bipartisan bill would create a National Cyber and AI Investigations Board inside CISA.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 -0800</pubDate>
+    <category>Drones</category>
+    <category>AI</category>
+    <category>Policy</category>
+  </item>
   <item>
     <title>SpaceX proposes more than $74 billion for two AI supercomputing campuses</title>
     <link>https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/</link>
