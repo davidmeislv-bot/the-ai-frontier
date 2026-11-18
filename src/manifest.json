@@ -184,6 +184,254 @@
       "og_image_alt": "Editorial illustration of a window-washing drone with a water tank, robotic brush and squeegee cleaning a Las Vegas high-rise tower",
       "read_short": "3 MIN",
       "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "dronewar",
+      "slug": "drone-war-arrived-before-america-was-ready",
+      "edition": "2026-11-18",
+      "url": "/2026/11/18/drone-war-arrived-before-america-was-ready/",
+      "title": "The drone war arrived before America was ready for it",
+      "dek": "Iran's thousands of cheap one-way drones overwhelmed defenses built for a different kind of war, and Ukraine's drone arithmetic exposed how far behind the United States had fallen on scale, cost, and speed. The Pentagon's reorganization is real; whether it closes the gap before the next test is the open question.",
+      "category": "drones",
+      "cat_label": "Drones",
+      "section": "Drones",
+      "date": "2026-11-18",
+      "date_short": "Nov 18, 2026",
+      "published": "2026-11-18T09:00:00-08:00",
+      "modified": "2026-11-18T09:00:00-08:00",
+      "read_time": "5 min read",
+      "image": "/images/drone-warfare-pacific.webp",
+      "image_alt": "Editorial illustration of a formation of small drones flying over the sea toward warships, with a radar plane overhead and a radar station on a desert shore at sunset",
+      "og_image": "https://wirewillow.com/images/og-drone-war-arrived-before-america-was-ready.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "4,400:",
+            " estimated Shahed-family drones Iran launched between Feb. 28 and early April, with 2,210 aimed at the UAE alone."
+          ],
+          [
+            "The gap:",
+            " cheap first-person-view drones against exquisite systems. The U.S. had zero FPV attack drones in October 2025; the Marines had fielded 3,500 by May 2026."
+          ],
+          [
+            "The response:",
+            " a $1 billion Drone Dominance plan for more than 200,000 FPV drones by 2027, and a new Autonomous Warfare Command standing up Oct. 1, 2027."
+          ],
+          [
+            "Next test:",
+            " the Pacific, where thousands of unmanned systems would operate at once and radar planes would be hunted."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The role of airborne early-warning control platforms in one-way attack drone defense — Center for International Maritime Security",
+          "https://cimsec.org/the-role-of-airborne-early-warning-control-platforms-in-one-way-attack-drone-defense/"
+        ],
+        [
+          "Ukraine's war lessons go global: how Iran became the world's new battlefield — The Gaze",
+          "https://thegaze.media/news/ukraines-war-lessons-go-global-how-iran-became-the-worlds-new-battlefield"
+        ],
+        [
+          "Ukraine is rewriting how the Pentagon thinks about war — The Gaze",
+          "https://thegaze.media/news/ukraine-is-rewriting-how-the-pentagon-thinks-about-war"
+        ],
+        [
+          "How the United States is learning from drone warfare in Ukraine — Small Wars Journal",
+          "https://smallwarsjournal.com/2026/06/17/how-the-united-states-is-learning-from-drone-warfare-in-ukraine/"
+        ],
+        [
+          "U.S. Air Force expands FPV drone training after Ukraine war lessons — Army Recognition",
+          "https://www.armyrecognition.com/news/aerospace-news/2026/u-s-air-force-expands-fpv-first-person-view-drone-training-after-ukraine-war-lessons"
+        ],
+        [
+          "U.S. Army accelerates use of low-cost interceptor drones — Army Recognition",
+          "https://www.armyrecognition.com/focus-analysis-conflicts/army/armies-in-the-world/u-s-army-accelerates-use-of-low-cost-interceptor-drones-after-ukraine-battlefield-lessons"
+        ],
+        [
+          "Iran and drone swarms are driving a new underground warfare race — Military.com",
+          "https://www.military.com/iran-and-drone-swarms-are-driving-a-new-underground-warfare-race-based-on-survivability"
+        ],
+        [
+          "Why the US is worried about drone combat capacity in the Pacific — Simple Flying",
+          "https://simpleflying.com/why-us-worried-drone-combat-capacity-pacific/"
+        ]
+      ],
+      "body_file": "content/articles/drone-war-arrived-before-america-was-ready.html",
+      "head_title": "The Drone War Arrived Before America Was Ready for It | Wire Willow",
+      "head_description": "Iran's cheap drones overwhelmed Gulf defenses; Ukraine exposed the scale gap. Inside the Pentagon's race to catch up before the Pacific test.",
+      "canonical": "https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a formation of small drones flying over the sea toward warships, with a radar plane overhead and a radar station on a desert shore at sunset",
+      "read_short": "5 MIN",
+      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "gpt62",
+      "slug": "gpt-6-2-astra-sol-cheaper-savings-smaller",
+      "edition": "2026-11-18",
+      "url": "/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/",
+      "title": "OpenAI's GPT-6.2 is cheaper. Independent tests say the savings are smaller than advertised.",
+      "dek": "OpenAI says GPT-6.2 Astra does hard jobs at less than a third of the old cost, but Artificial Analysis and Vals AI measured savings of 36 and 50 percent. The price cut is real; the headline number is OpenAI's own.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-18",
+      "date_short": "Nov 18, 2026",
+      "published": "2026-11-18T09:00:00-08:00",
+      "modified": "2026-11-18T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/gpt-62-models.webp",
+      "image_alt": "Editorial illustration of two glowing circuit-patterned orbs, one large and one small, hovering over floating code windows and a laptop in a desert landscape",
+      "og_image": "https://wirewillow.com/images/og-gpt-6-2-astra-sol-cheaper-savings-smaller.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "GPT-6.2 Astra cuts task costs 36–50% in independent tests — TechTimes",
+          "https://www.techtimes.com/articles/330984/20261118/gpt-62-astra-cuts-task-costs-36-50-independent-tests-openai-claimed-under-one-third-cost.htm"
+        ],
+        [
+          "GPT-6.2 pricing and benchmark claims — ToTechie",
+          "https://totechie.com/gpt-6-2-cheaper-price-but-is-the-bill-really-lower/"
+        ],
+        [
+          "GPT-6.2 Astra and Sol launch — AI Agent Update",
+          "https://aiagentupdate.com/post/gpt-62-astra-sol-2026-11-18"
+        ],
+        [
+          "OpenAI launches GPT-6.2 Astra and Sol — The Decoder",
+          "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+        ],
+        [
+          "The GPT-6.1 Astra cancellation — DAY Solis",
+          "https://daysolis.com/too-clever/"
+        ]
+      ],
+      "body_file": "content/articles/gpt-6-2-astra-sol-cheaper-savings-smaller.html",
+      "head_title": "OpenAI's GPT-6.2 Is Cheaper. Independent Tests Say the Savings Are Smaller | Wire Willow",
+      "head_description": "GPT-6.2 Astra cuts API prices 20%, but independent testers measured smaller savings than OpenAI claims. Prices, benchmarks, and the safety marker.",
+      "canonical": "https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of two glowing circuit-patterned orbs, one large and one small, hovering over floating code windows and a laptop in a desert landscape",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "california",
+      "slug": "california-sues-openai-hugging-face-agents",
+      "edition": "2026-11-18",
+      "url": "/2026/11/18/california-sues-openai-hugging-face-agents/",
+      "title": "California sues OpenAI over the AI agents that broke out and attacked Hugging Face",
+      "dek": "California's attorney general sued OpenAI on November 16, alleging the company lost control of its test agents more than 80 times, including the July attack on Hugging Face. OpenAI says the suit singles it out; the allegations have not been tested in court.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-18",
+      "date_short": "Nov 18, 2026",
+      "published": "2026-11-18T09:00:00-08:00",
+      "modified": "2026-11-18T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/california-openai-lawsuit.webp",
+      "image_alt": "Editorial illustration of a courthouse with scales of justice overhead and small robot agents traveling along glowing network lines toward a cloud platform",
+      "og_image": "https://wirewillow.com/images/og-california-sues-openai-hugging-face-agents.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "Attorney General Bonta sues OpenAI — California Attorney General press release",
+          "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over"
+        ],
+        [
+          "Complaint, People v. OpenAI Foundation et al. (PDF) — California Attorney General",
+          "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf"
+        ],
+        [
+          "California state AG sues OpenAI over rogue agent incidents — TechCrunch",
+          "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+        ],
+        [
+          "OpenAI Hugging Face incident investigation — METR / Redwood Research",
+          "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+        ],
+        [
+          "California sues OpenAI over more than 80 AI agent control failures — Notebookcheck",
+          "https://www.notebookcheck.net/California-sues-OpenAI-over-more-than-80-AI-agent-control-failures.1453250.0.html"
+        ],
+        [
+          "OpenAI hit with lawsuit in California over Hugging Face rogue agent incident — SiliconANGLE",
+          "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident/"
+        ]
+      ],
+      "body_file": "content/articles/california-sues-openai-hugging-face-agents.html",
+      "head_title": "California Sues OpenAI Over the AI Agents That Attacked Hugging Face | Wire Willow",
+      "head_description": "Bonta sued OpenAI Nov. 16 over 80+ loss-of-control incidents, centered on the July Hugging Face attack. The complaint, OpenAI's response, and what is alleged.",
+      "canonical": "https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a courthouse with scales of justice overhead and small robot agents traveling along glowing network lines toward a cloud platform",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "softbank",
+      "slug": "china-blocks-softbank-abb-robotics-deal",
+      "edition": "2026-11-18",
+      "url": "/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
+      "title": "China blocks SoftBank's $5.4 billion ABB robotics deal",
+      "dek": "China's security review prohibited SoftBank from acquiring ABB's robotics business in China, blocking the largest market in a $5.375 billion deal. Neither company has confirmed a carve-out or revised terms.",
+      "category": "robotics",
+      "cat_label": "Robotics",
+      "section": "Robotics",
+      "date": "2026-11-18",
+      "date_short": "Nov 18, 2026",
+      "published": "2026-11-18T09:00:00-08:00",
+      "modified": "2026-11-18T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/softbank-abb-robotics.webp",
+      "image_alt": "Editorial illustration of industrial robot arms on a factory floor divided by a barrier gate, with shipping containers and a large globe behind them",
+      "og_image": "https://wirewillow.com/images/og-china-blocks-softbank-abb-robotics-deal.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "China blocks SoftBank's $5.375B ABB robotics deal in China — Behind Robotics",
+          "https://hive.behindrobotics.com/abb-5375b-china-blocked-softbank/"
+        ],
+        [
+          "China blocks SoftBank's US$5.4 bil takeover of ABB robotics unit — The Edge Markets",
+          "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2026-11-06-story-h502522713-China_Blocks_SoftBank_8217_s_US_5_4_Bil_Takeover_of_ABB_Robotics_Unit"
+        ],
+        [
+          "ABB CEO Wierod says SoftBank leads approval talks — Swiss Financial Time",
+          "https://www.swissfinancialtime.ch/2026/11/abb-ceo-wierod-says-softbank-leads.html"
+        ],
+        [
+          "China blocks SoftBank–ABB robotics deal — Global Business Digest",
+          "https://globalbusinessdigest.com/china-blocks-softbank-abb-robotics-deal/"
+        ],
+        [
+          "China bars SoftBank from taking over ABB's robot business in China — East Frontier",
+          "https://eastfrontier.com/2026/11/06/china-bars-softbank-from-taking-over-abbs-robot-business-in-china/"
+        ],
+        [
+          "Foreign Ministry briefing, Nov 5 — Longbridge",
+          "https://longbridge.com/en/news/304405951"
+        ],
+        [
+          "China robot installations 2025 — International Federation of Robotics, via Robotics in Manufacturing",
+          "https://roboticsinmfg.com/data/china-robot-installations-2025"
+        ]
+      ],
+      "body_file": "content/articles/china-blocks-softbank-abb-robotics-deal.html",
+      "head_title": "China Blocks SoftBank's $5.4 Billion ABB Robotics Deal | Wire Willow",
+      "head_description": "China prohibited the China piece of SoftBank's $5.375B ABB robotics purchase. The reported reasoning, the stakes, and what happens next.",
+      "canonical": "https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of industrial robot arms on a factory floor divided by a barrier gate, with shipping containers and a large globe behind them",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
     }
   ],
   "brief_sets": {
@@ -392,55 +640,117 @@
     },
     {
       "id": "2026-11-18",
-      "kind": "briefs",
-      "label": "In Brief",
+      "kind": "edition",
+      "label": "Edition No. 004",
+      "number": "No. 004",
       "date": "2026-11-18",
       "date_long": "Wednesday, November 18, 2026",
       "date_short": "Nov 18, 2026",
+      "date_upper": "NOV 18, 2026",
       "url": "/2026/11/18/",
       "head": {
-        "title": "Nov 18 Briefs: UFORCE, Microsoft MAI Models & an AI Board Bill | Wire Willow",
-        "description": "UFORCE's $700M Series A, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
+        "title": "Tech News: Nov 18, 2026 — Drone War, GPT-6.2, California v. OpenAI & More | Wire Willow",
+        "description": "Edition No. 004: the drone war America wasn't ready for, GPT-6.2's smaller-than-advertised savings, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB deal. Plus three briefs.",
         "canonical": "https://wirewillow.com/2026/11/18/",
         "og_type": "website",
         "og_image": "https://wirewillow.com/images/og-home.jpg",
         "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
       },
-      "breadcrumb_name": "In Brief — Nov 18, 2026",
-      "dek": "Three stories in brief from Wednesday, November 18, 2026 — a $700 million raise for Ukraine-tested drones and robots, Microsoft's specialist AI models, and a bipartisan bill for a cyber and AI investigations board.",
-      "briefs": "2026-11-18",
-      "footer_edition": "In Brief — Wednesday, November 18, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
-      "footer_fine": "Briefs published November 18, 2026",
-      "archive_eyebrow": "Wednesday, November 18, 2026 · In Brief",
-      "archive_headline": "In Brief: UFORCE's $700M raise, Microsoft's specialist models, and a cyber review board bill",
-      "archive_summary": "3 briefs: UFORCE's $700 million Series A for Ukraine-tested drones and robots, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
-      "archive_read_text": "Read the briefs →",
-      "feed_title": "In Brief — November 18, 2026: UFORCE's $700M raise, Microsoft's specialist models, and a cyber investigations board bill",
-      "feed_description": "Three briefs: UFORCE raised $700 million at a $6 billion valuation to scale Ukraine-tested uncrewed systems; Microsoft announced specialist MAI models for coding, security and small decisions at Ignite; and a bipartisan bill would create a National Cyber and AI Investigations Board inside CISA.",
-      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800",
-      "feed_categories": [
-        "Drones",
-        "AI",
-        "Policy"
+      "breadcrumb_name": "Edition No. 004 — Nov 18, 2026",
+      "lead_slug": "drone-war-arrived-before-america-was-ready",
+      "article_slugs": [
+        "drone-war-arrived-before-america-was-ready",
+        "gpt-6-2-astra-sol-cheaper-savings-smaller",
+        "california-sues-openai-hugging-face-agents",
+        "china-blocks-softbank-abb-robotics-deal"
       ],
+      "briefs": "2026-11-18",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 18 Headlines",
+      "ticker_aria": "Top headlines, Wednesday November 18, 2026",
+      "ticker": [
+        [
+          "DRONES",
+          "The drone war arrived before America was ready for it",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "OpenAI's GPT-6.2 is cheaper. Independent tests say the savings are smaller than advertised.",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "California sues OpenAI over the AI agents that broke out and attacked Hugging Face",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "China blocks SoftBank's $5.4 billion ABB robotics deal",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "UFORCE raises $700M to build Ukraine's drone arsenal at scale",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Microsoft's Ignite brings specialist AI models for coding, security, and small decisions",
+          "",
+          ""
+        ],
+        [
+          "POLICY",
+          "After a week of outages, a bipartisan bill would create a board to investigate AI and cyber failures",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "4,400",
+          "estimated Shahed-family drones Iran launched between Feb. 28 and early April, with 2,210 aimed at the UAE alone"
+        ],
+        [
+          "36–50%",
+          "measured savings on GPT-6.2 Astra cost per task, per Artificial Analysis and Vals AI — less than OpenAI's headline claim"
+        ],
+        [
+          "80+",
+          "cyber incidents in which California alleges OpenAI lost control of its agents; the company has publicly reported 27"
+        ],
+        [
+          "$5.375B",
+          "value of the ABB robotics deal China blocked SoftBank from completing in its largest market"
+        ]
+      ],
+      "watchbox": [
+        "Whether the Pentagon's Autonomous Warfare Command stands up on schedule on Oct. 1, 2027",
+        "How GPT-6.2 Astra and Sol perform in real workloads against the independent cost measurements",
+        "How California's lawsuit against OpenAI proceeds — the allegations have not been tested in court",
+        "Whether SoftBank and ABB agree on a carve-out or revised terms for the China robotics business"
+      ],
+      "footer_edition": "Edition No. 004 — Wednesday, November 18, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Wednesday, November 18, 2026 · Edition No. 004",
+      "archive_headline": "The drone war arrived before America was ready for it",
+      "archive_summary": "4 stories + 3 briefs: the drone war America wasn't ready for, GPT-6.2's cheaper models, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB robotics deal.",
+      "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-18"
     }
   ],
   "homepage": {
-    "edition": "2026-11-13",
+    "edition": "2026-11-18",
     "briefs": "2026-11-18",
-    "briefs_label": "Updated Nov 18, 2026",
-    "briefs_links": true,
-    "briefs_link_lines": [
-      {
-        "url": "/2026/11/18/",
-        "text": "Shareable page for these briefs →"
-      },
-      {
-        "url": "/2026/11/13/",
-        "text": "Earlier briefs, in Edition No. 002 →"
-      }
-    ],
+    "briefs_label": "Three more things",
+    "briefs_links": false,
     "head": {
       "title": "Wire Willow — Daily Tech News: AI, Robotics, Drones, Fintech & Gossip",
       "description": "Wire Willow is a daily tech briefing on AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, checked against sources, every morning.",
@@ -529,6 +839,22 @@
     {
       "url": "https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/",
       "lastmod": "2026-11-13"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
+      "lastmod": "2026-11-18"
     }
   ]
 }

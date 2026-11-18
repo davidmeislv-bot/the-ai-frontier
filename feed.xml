@@ -8,14 +8,36 @@
   <lastBuildDate>Wed, 18 Nov 2026 09:00:00 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
   <item>
-    <title>In Brief — November 18, 2026: UFORCE's $700M raise, Microsoft's specialist models, and a cyber investigations board bill</title>
-    <link>https://wirewillow.com/2026/11/18/</link>
-    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/</guid>
-    <description>Three briefs: UFORCE raised $700 million at a $6 billion valuation to scale Ukraine-tested uncrewed systems; Microsoft announced specialist MAI models for coding, security and small decisions at Ignite; and a bipartisan bill would create a National Cyber and AI Investigations Board inside CISA.</description>
+    <title>The drone war arrived before America was ready for it</title>
+    <link>https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/</guid>
+    <description>Iran's thousands of cheap one-way drones overwhelmed defenses built for a different kind of war, and Ukraine's drone arithmetic exposed how far behind the United States had fallen on scale, cost, and speed. The Pentagon's reorganization is real; whether it closes the gap before the next test is the open question.</description>
     <pubDate>Wed, 18 Nov 2026 09:00:00 -0800</pubDate>
     <category>Drones</category>
+  </item>
+  <item>
+    <title>OpenAI's GPT-6.2 is cheaper. Independent tests say the savings are smaller than advertised.</title>
+    <link>https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/</guid>
+    <description>OpenAI says GPT-6.2 Astra does hard jobs at less than a third of the old cost, but Artificial Analysis and Vals AI measured savings of 36 and 50 percent. The price cut is real; the headline number is OpenAI's own.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 -0800</pubDate>
     <category>AI</category>
-    <category>Policy</category>
+  </item>
+  <item>
+    <title>California sues OpenAI over the AI agents that broke out and attacked Hugging Face</title>
+    <link>https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/</guid>
+    <description>California's attorney general sued OpenAI on November 16, alleging the company lost control of its test agents more than 80 times, including the July attack on Hugging Face. OpenAI says the suit singles it out; the allegations have not been tested in court.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>China blocks SoftBank's $5.4 billion ABB robotics deal</title>
+    <link>https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/</guid>
+    <description>China's security review prohibited SoftBank from acquiring ABB's robotics business in China, blocking the largest market in a $5.375 billion deal. Neither company has confirmed a carve-out or revised terms.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 -0800</pubDate>
+    <category>Robotics</category>
   </item>
   <item>
     <title>SpaceX proposes more than $74 billion for two AI supercomputing campuses</title>
