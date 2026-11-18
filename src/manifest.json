@@ -1,0 +1,540 @@
+{
+  "site": {
+    "name": "Wire Willow",
+    "base_url": "https://wirewillow.com",
+    "org_description": "A daily tech newspaper covering AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved before publishing.",
+    "logo_url": "https://wirewillow.com/images/wire-willow-logo.png",
+    "founding_date": "2026-11-13",
+    "area_served": "Worldwide",
+    "default_og_image": "https://wirewillow.com/images/og-home.jpg",
+    "default_og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip",
+    "feed_description": "Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.",
+    "feed_language": "en-US",
+    "footer_intro": "A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip.",
+    "footer_default_edition": "Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+    "footer_default_fine": "Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026"
+  },
+  "articles": [
+    {
+      "id": "spacex",
+      "slug": "spacex-ai-supercomputing-campuses",
+      "edition": "2026-11-13",
+      "url": "/2026/11/13/spacex-ai-supercomputing-campuses/",
+      "title": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
+      "dek": "SpaceX says it plans to put more than $24 billion into Starbase, Texas and roughly $50 billion into Cochise County, Arizona. This is proposed spending from a company statement — not money spent or built yet — and both sites still need local decisions on Dec. 9.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-13",
+      "date_short": "Nov 13, 2026",
+      "published": "2026-11-13T09:00:00-08:00",
+      "modified": "2026-11-13T09:00:00-08:00",
+      "read_time": "4 min read",
+      "image": "/images/spacex-starbase-ai-campus.webp",
+      "image_alt": "Editorial illustration of desert AI supercomputing campuses with circuit-patterned data center buildings, cooling towers, power lines and a rocket on a launch pad at sunrise",
+      "image_width": 2736,
+      "image_height": 912,
+      "og_image": "https://wirewillow.com/images/og-spacex-ai-supercomputing-campuses.jpg",
+      "caption": "Illustration: Wire Willow. Two desert campuses, one very large proposal — and two local votes still to come on Dec. 9.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "Proposed total:",
+            " More than $74 billion across two AI supercomputing campuses, according to a SpaceX statement reported by Reuters."
+          ],
+          [
+            "Split:",
+            " More than $24 billion at Starbase, Texas and roughly $50 billion in Cochise County, Arizona."
+          ],
+          [
+            "Not yet built:",
+            " This is proposed spending, not money spent or construction completed, and both sites still need local decisions on Dec. 9."
+          ],
+          [
+            "Dec. 9 decisions:",
+            " A Cochise County zoning hearing and a Starbase tax-abatement vote."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "SpaceX to invest over $74 billion in supercompute facilities in Texas, Arizona — KTWB / Reuters reporting",
+          "https://ktwb.com/2026/11/12/spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona/"
+        ],
+        [
+          "SpaceX plans more than $74 billion of AI supercomputing campuses in Texas and Arizona — MLQ.ai",
+          "https://mlq.ai/news/spacex-plans-more-than-74-billion-of-ai-supercomputing-campuses-in-texas-and-arizona/"
+        ]
+      ],
+      "body_file": "content/articles/spacex-ai-supercomputing-campuses.html",
+      "head_title": "SpaceX Proposes $74B for Two AI Supercomputing Campuses | Wire Willow",
+      "head_description": "SpaceX proposes $24B+ at Starbase and ~$50B in Arizona for AI campuses. Proposed spending, not built yet — two local votes decide it Dec. 9.",
+      "canonical": "https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of desert AI supercomputing campuses with circuit-patterned data center buildings, cooling towers, power lines and a rocket on a launch pad at sunrise",
+      "read_short": "4 MIN",
+      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "gemini",
+      "slug": "gemini-4-hydrogen-coding-agents",
+      "edition": "2026-11-13",
+      "url": "/2026/11/13/gemini-4-hydrogen-coding-agents/",
+      "title": "Google pitches Gemini 4 Hydrogen for coding agents",
+      "dek": "Announced Nov. 12, Gemini 4 Hydrogen is Google’s faster, lower-cost pitch for everyday coding and agentic work — $1.50 per million input tokens and $7.50 per million output tokens across a 1 million-token window. The performance claims are Google’s own, not independently verified.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-13",
+      "date_short": "Nov 13, 2026",
+      "published": "2026-11-13T09:00:00-08:00",
+      "modified": "2026-11-13T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/gemini-4-hydrogen-coding-agents.webp",
+      "image_alt": "Editorial illustration of a glowing hydrogen-atom AI core surrounded by small coding agent robots working at floating code windows",
+      "image_width": 2736,
+      "image_height": 912,
+      "og_image": "https://wirewillow.com/images/og-gemini-4-hydrogen-coding-agents.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "Introducing Gemini 4 Hydrogen — Google",
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        ]
+      ],
+      "body_file": "content/articles/gemini-4-hydrogen-coding-agents.html",
+      "head_title": "Google Pitches Gemini 4 Hydrogen for Coding Agents | Wire Willow",
+      "head_description": "Google positions Gemini 4 Hydrogen for everyday coding and agentic workflows. What it does, who it's for, and what to watch.",
+      "canonical": "https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a glowing hydrogen-atom AI core surrounded by small coding agent robots working at floating code windows",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "striker",
+      "slug": "doodle-labs-xtend-striker-drones",
+      "edition": "2026-11-13",
+      "url": "/2026/11/13/doodle-labs-xtend-striker-drones/",
+      "title": "Doodle Labs and XTEND expand STRIKER connectivity partnership",
+      "dek": "Press-release story: the two companies said Nov. 13 they are expanding their partnership to bring Doodle Labs Mesh Rider radios into XTEND’s XOS software, with integration complete on the STRIKER drone. The resilience claims in the release are the companies’ claims.",
+      "category": "drones",
+      "cat_label": "Drones",
+      "section": "Drones",
+      "date": "2026-11-13",
+      "date_short": "Nov 13, 2026",
+      "published": "2026-11-13T09:00:00-08:00",
+      "modified": "2026-11-13T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/striker-doodle-labs-xtend-drones.webp",
+      "image_alt": "Editorial illustration of tactical drones linked by glowing mesh radio waves over rocky terrain, connected to a ground operator",
+      "image_width": 1920,
+      "image_height": 1280,
+      "og_image": "https://wirewillow.com/images/og-doodle-labs-xtend-striker-drones.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "Doodle Labs, XTEND expand strategic partnership to bring resilient connectivity to XOS-powered systems — EIN Presswire",
+          "https://www.einpresswire.com/article/956354701/doodle-labs-xtend-ai-robotics-inc-expand-strategic-partnership-to-bring-resilient-connectivity-to-xos-powered-systems"
+        ]
+      ],
+      "body_file": "content/articles/doodle-labs-xtend-striker-drones.html",
+      "head_title": "Doodle Labs and XTEND Expand STRIKER Drone Partnership | Wire Willow",
+      "head_description": "Mesh Rider radios meet XTEND's XOS software in an expanded STRIKER partnership. What the integration means for tactical drones.",
+      "canonical": "https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of tactical drones linked by glowing mesh radio waves over rocky terrain, connected to a ground operator",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "gagamba",
+      "slug": "gagamba-unlv-window-washing-drone",
+      "edition": "2026-11-13",
+      "url": "/2026/11/13/gagamba-unlv-window-washing-drone/",
+      "title": "UNLV’s Gagamba is building a drone to wash high-rise windows on the Strip",
+      "dek": "A UNLV student team is working on an AI-guided drone with a water tank, a robotic brush and a squeegee for cleaning high-rise windows. It is a pre-commercial prototype — the team is building toward a prototype and looking for local business partners for testing.",
+      "category": "drones",
+      "cat_label": "Drones · Las Vegas",
+      "section": "Drones",
+      "date": "2026-11-13",
+      "date_short": "Nov 13, 2026",
+      "published": "2026-11-13T09:00:00-08:00",
+      "modified": "2026-11-13T09:00:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/gagamba-unlv-window-washing-drone.webp",
+      "image_alt": "Editorial illustration of a window-washing drone with a water tank, robotic brush and squeegee cleaning a Las Vegas high-rise tower",
+      "image_width": 1920,
+      "image_height": 1280,
+      "og_image": "https://wirewillow.com/images/og-gagamba-unlv-window-washing-drone.jpg",
+      "caption": "Illustration: Wire Willow.",
+      "factbox": null,
+      "sources": [
+        [
+          "UNLV students building AI-powered drone to keep window washers off high-rise scaffolds — Las Vegas Newsroom",
+          "https://lasvegasnewsroom.com/2026/11/13/unlv-students-building-ai-powered-drone-to-keep-window-washers-off-high-rise-scaffolds/"
+        ],
+        [
+          "Team Gagamba takes flight: winners of the 2026 President’s Innovation Challenge — UNLV",
+          "https://www.unlv.edu/news/article/team-gagamba-takes-flight-winners-2026-presidents-innovation-challenge"
+        ]
+      ],
+      "body_file": "content/articles/gagamba-unlv-window-washing-drone.html",
+      "head_title": "UNLV's Gagamba Drone Aims to Wash High-Rise Windows on the Strip | Wire Willow",
+      "head_description": "A UNLV student team is building an AI-guided drone to clean Las Vegas high-rise windows. How it works and what's next.",
+      "canonical": "https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a window-washing drone with a water tank, robotic brush and squeegee cleaning a Las Vegas high-rise tower",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+    }
+  ],
+  "brief_sets": {
+    "2026-11-13": {
+      "briefs": [
+        {
+          "eyebrow": null,
+          "title": "Agile Robots closes a $500M Series F",
+          "body": "Agile Robots closed a $500 million Series F led by SoftBank at an $8.5 billion valuation. Nvidia, Hitachi and T.Capital also took part, bringing the company’s total funding to about $2 billion.",
+          "sources": [
+            [
+              "Agile Robots",
+              "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/"
+            ],
+            [
+              "SiliconANGLE, Nov 12",
+              "https://siliconangle.com/2026/11/12/agile-robots-raises-500m-funding-led-by-softbank-at-8-5b-valuation/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": null,
+          "title": "Griffin raises $20M to add cards and stablecoin services",
+          "body": "Griffin, a UK licensed bank for fintechs, raised $20 million in a Series B announced Nov. 12, led by Octagon Partners with Notion Capital, A+ Ventures, Nordic Ninja and Breega taking part, at a valuation above $100 million. The plan is to expand into card issuing — branded retail and corporate debit cards, with credit to follow — and stablecoin services, including reserve services for stablecoin businesses and on-chain cross-border payments. Those are planned services, not launched, and no rollout schedule was given.",
+          "sources": [
+            [
+              "CoinDesk, Nov 12",
+              "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments"
+            ],
+            [
+              "PYMNTS",
+              "https://www.pymnts.com/cryptocurrency/2026/griffin-eyes-stablecoin-expansion-after-raising-20-million-dollars/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": null,
+          "title": "Anthropic opens a private beta for self-hosted Claude Managed Agents",
+          "body": "Anthropic opened a private beta on Nov. 12 that lets companies run the Claude Managed Agents service — the harness, sandboxes, credentials and session history — in their own cloud or on-premises. The model itself does not move: model requests still go to Anthropic, Amazon Bedrock, Google’s Agent Platform, Microsoft Foundry, or the customer’s own gateway. Access is by request through an Anthropic account team, with no pricing or general-availability date given. This is a private beta only — not a general release and not a fully offline Claude. The same day, Anthropic launched Claude for Manufacturing for Team and Enterprise plans, with 17 skills and connectors for Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite.",
+          "sources": [
+            [
+              "AI Insiders",
+              "https://www.aiinsiders.net/article/anthropic-lets-companies-host-managed-agents-entirely"
+            ],
+            [
+              "GE Roundtable",
+              "https://geroundtable.com/claude-managed-agents-self-hosted-beta/"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-18": {
+      "briefs": [
+        {
+          "eyebrow": "Drones · Funding",
+          "title": "UFORCE raises $700M to build Ukraine's drone arsenal at scale",
+          "body": "UFORCE, the London-headquartered, Ukrainian-founded maker of uncrewed sea, air, and land systems, raised a $700 million Series A at a $6 billion valuation on November 12, co-led by Valor Equity Partners and the UK National Wealth Fund, which put in £113 million (about $150 million) — the fund's largest defense investment to date — with the U.S.–Ukraine Reconstruction Investment Fund also taking part. The company says its MAGURA sea drones contributed to the destruction of more than a dozen Russian warships, and its NEMESIS strike drones have flown more than 300,000 combat flights; those figures are the company's own and have not been independently verified. No revenue was disclosed.",
+          "sources": [
+            [
+              "Modern Robotics, Nov 13",
+              "https://modernrobotics.co.uk/articles/uforce-700m-6bn-valuation-uk-national-wealth-fund-drones"
+            ],
+            [
+              "TechTimes, Nov 14",
+              "https://www.techtimes.com/articles/330604/20261114/uforce-raises-700-million-uk-wealth-fund-touts-british-drone-boats-ceo-puts-ukraine-first.htm"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "AI",
+          "title": "Microsoft's Ignite brings specialist AI models for coding, security, and small decisions",
+          "body": "At Ignite, Microsoft announced MAI Code 2 for agentic coding, MAI Cyber 2 Flash with 12 billion active parameters for cybersecurity, and Microsoft-Decision-1.1 for routing, classification, and verification tasks too small for a large general model. It also introduced Agent 365 Business Analytics to tie AI spending to business outcomes. Separately, Microsoft said on November 13 it will switch the small language model built into Windows from Phi Silica to the 2.3-billion-parameter Aion Instruct.",
+          "sources": [
+            [
+              "EPC Group, Nov 18",
+              "https://www.epcgroup.net/insights/microsoft-ignite-2026-day-1-announcements"
+            ],
+            [
+              "Microsoft Dev Blogs",
+              "https://devblogs.microsoft.com/foundry-on-windows/aion-instruct-local-ai-windows-gpu/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Policy",
+          "title": "After a week of outages, a bipartisan bill would create a board to investigate AI and cyber failures",
+          "body": "Reps. Morgan Luttrell (R-Texas) and Ritchie Torres (D-N.Y.) introduced the ROOT CAUSE Act on Wednesday to establish a National Cyber and AI Investigations Board inside CISA, to determine why significant incidents happened and recommend ways to prevent them from recurring. The bill follows a nationwide FAA ground stop that delayed more than 10,000 flights, a Microsoft outage that disrupted workplace tools, and an outage on the NSA's classified NSANet network. A companion proposal, the AI INSIGHT Act from Rep. Matt Van Epps, would direct CISA to help agencies identify AI agents on federal networks and limit their access.",
+          "sources": [
+            [
+              "Nextgov/FCW, Nov 18",
+              "https://www.nextgov.com/policy/2026/11/bipartisan-bill-would-create-cyber-and-ai-review-board-amid-series-tech-outages/417299/"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "editions": [
+    {
+      "id": "2026-11-13",
+      "kind": "edition",
+      "label": "Edition No. 002",
+      "number": "No. 002",
+      "date": "2026-11-13",
+      "date_long": "Friday, November 13, 2026",
+      "date_short": "Nov 13, 2026",
+      "date_upper": "NOV 13, 2026",
+      "url": "/2026/11/13/",
+      "head": {
+        "title": "Tech News: Nov 13, 2026 — SpaceX's $74B AI Campuses, Gemini 4 Hydrogen & More | Wire Willow",
+        "description": "Edition No. 002: SpaceX's $74B AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, STRIKER drones, and a UNLV window-washing drone. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/13/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 002 — Nov 13, 2026",
+      "lead_slug": "spacex-ai-supercomputing-campuses",
+      "article_slugs": [
+        "spacex-ai-supercomputing-campuses",
+        "gemini-4-hydrogen-coding-agents",
+        "doodle-labs-xtend-striker-drones",
+        "gagamba-unlv-window-washing-drone"
+      ],
+      "briefs": "2026-11-13",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 13 Headlines",
+      "ticker_aria": "Top headlines, Friday November 13, 2026",
+      "ticker": [
+        [
+          "AI",
+          "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google pitches Gemini 4 Hydrogen for coding agents",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Doodle Labs and XTEND expand STRIKER connectivity partnership",
+          "",
+          ""
+        ],
+        [
+          "DRONES · LAS VEGAS",
+          "UNLV’s Gagamba is building a window-washing drone",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Agile Robots closes a $500M Series F",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "Griffin raises $20M in a Series B",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic opens a private beta for self-hosted Claude Managed Agents",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "$74B+",
+          "in proposed SpaceX spending across the Starbase and Cochise County AI campuses"
+        ],
+        [
+          "6 GW",
+          "described for the Arizona plan at full build-out, with dry cooling"
+        ],
+        [
+          "$500M",
+          "Agile Robots Series F led by SoftBank, at an $8.5B valuation"
+        ],
+        [
+          "6,000",
+          "STRIKER systems in the $40.5 million XTEND order announced Oct. 13"
+        ]
+      ],
+      "watchbox": [
+        "Dec. 9: the Cochise County zoning hearing and the Starbase tax-abatement vote on the SpaceX campuses",
+        "Whether developers adopt Gemini 4 Hydrogen for everyday coding and agentic work",
+        "How the STRIKER rollout proceeds with Mesh Rider radios integrated into XOS",
+        "Whether Gagamba finds local business partners for testing its prototype"
+      ],
+      "footer_edition": "Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition · Next edition: Sat, Nov 14, 2026",
+      "archive_eyebrow": "Friday, November 13, 2026 · Edition No. 002",
+      "archive_headline": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
+      "archive_summary": "4 stories + 3 briefs: SpaceX's AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, the STRIKER drone partnership, and a UNLV window-washing drone.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "id": "2026-11-18",
+      "kind": "briefs",
+      "label": "In Brief",
+      "date": "2026-11-18",
+      "date_long": "Wednesday, November 18, 2026",
+      "date_short": "Nov 18, 2026",
+      "url": "/2026/11/18/",
+      "head": {
+        "title": "In Brief: Nov 18, 2026 — UFORCE's $700M Raise, Microsoft's Specialist Models & a Cyber Review Board Bill | Wire Willow",
+        "description": "Three briefs from November 18, 2026: UFORCE's $700 million Series A, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
+        "canonical": "https://wirewillow.com/2026/11/18/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "In Brief — Nov 18, 2026",
+      "dek": "Three stories in brief from Wednesday, November 18, 2026 — a $700 million raise for Ukraine-tested drones and robots, Microsoft's specialist AI models, and a bipartisan bill for a cyber and AI investigations board.",
+      "briefs": "2026-11-18",
+      "footer_edition": "In Brief — Wednesday, November 18, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Briefs published November 18, 2026",
+      "archive_eyebrow": "Wednesday, November 18, 2026 · In Brief",
+      "archive_headline": "In Brief: UFORCE's $700M raise, Microsoft's specialist models, and a cyber review board bill",
+      "archive_summary": "3 briefs: UFORCE's $700 million Series A for Ukraine-tested drones and robots, Microsoft's specialist MAI models at Ignite, and a bipartisan bill for a National Cyber and AI Investigations Board.",
+      "archive_read_text": "Read the briefs →",
+      "feed_title": "In Brief — November 18, 2026: UFORCE's $700M raise, Microsoft's specialist models, and a cyber investigations board bill",
+      "feed_description": "Three briefs: UFORCE raised $700 million at a $6 billion valuation to scale Ukraine-tested uncrewed systems; Microsoft announced specialist MAI models for coding, security and small decisions at Ignite; and a bipartisan bill would create a National Cyber and AI Investigations Board inside CISA.",
+      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800",
+      "feed_categories": [
+        "Drones",
+        "AI",
+        "Policy"
+      ],
+      "lastmod": "2026-11-18"
+    }
+  ],
+  "homepage": {
+    "edition": "2026-11-13",
+    "briefs": "2026-11-18",
+    "briefs_label": "Updated Nov 18, 2026",
+    "briefs_links": true,
+    "briefs_link_lines": [
+      {
+        "url": "/2026/11/18/",
+        "text": "Shareable page for these briefs →"
+      },
+      {
+        "url": "/2026/11/13/",
+        "text": "Earlier briefs, in Edition No. 002 →"
+      }
+    ],
+    "head": {
+      "title": "Wire Willow — Daily Tech News: AI, Robotics, Drones, Fintech & Gossip",
+      "description": "Wire Willow is a daily tech briefing on AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, checked against sources, every morning.",
+      "canonical": "https://wirewillow.com/",
+      "og_type": "website",
+      "og_image": "https://wirewillow.com/images/og-home.jpg",
+      "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+    },
+    "lastmod": "2026-11-18",
+    "changefreq": "daily"
+  },
+  "pages": {
+    "about": {
+      "url": "/about/",
+      "head": {
+        "title": "About Wire Willow — Daily Tech News, Human-Approved",
+        "description": "Wire Willow is a daily tech newspaper on AI, robotics, drones, fintech and gossip. Original stories, checked against sources, approved by a human before publishing.",
+        "canonical": "https://wirewillow.com/about/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "lastmod": "2026-11-17",
+      "body_file": "content/pages/about.html"
+    },
+    "archive": {
+      "url": "/archive/",
+      "head": {
+        "title": "Archive | Wire Willow",
+        "description": "Every Wire Willow daily tech edition, newest first. AI, robotics, drones, fintech and Silicon Valley gossip, archived by date.",
+        "canonical": "https://wirewillow.com/archive/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "lastmod": "2026-11-18",
+      "changefreq": "daily"
+    },
+    "notfound": {
+      "url": "/404.html",
+      "head": {
+        "title": "Page Not Found | Wire Willow",
+        "description": "That Wire Willow page doesn't exist. Find the latest daily tech edition or browse the archive.",
+        "canonical": "https://wirewillow.com/404.html",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      }
+    }
+  },
+  "sitemap": [
+    {
+      "url": "https://wirewillow.com/",
+      "lastmod": "2026-11-18",
+      "changefreq": "daily"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/13/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/18/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "url": "https://wirewillow.com/archive/",
+      "lastmod": "2026-11-18",
+      "changefreq": "daily"
+    },
+    {
+      "url": "https://wirewillow.com/about/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/",
+      "lastmod": "2026-11-13"
+    }
+  ]
+}

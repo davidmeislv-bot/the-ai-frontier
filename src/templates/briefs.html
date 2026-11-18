@@ -1,0 +1,19 @@
+<main class="wrap">
+  <div class="story">
+    <p class="crumbs"><a href="/">Home</a> &middot; <a href="/archive/">Archive</a> &middot; {{label}}</p>
+    <div class="datestrip">
+      <span><time datetime="{{date_iso}}">{{date_long}}</time></span><span aria-hidden="true">·</span>
+      <span>{{label}}</span><span aria-hidden="true">·</span>
+      <span>Las Vegas, Nevada</span>
+    </div>
+    <h1>{{label}}</h1>
+    <p class="dek">{{dek}}</p>
+    <section aria-label="News briefs">
+{{briefs}}    </section>
+    <div class="storynav">
+      <a href="{{prev_url}}">&larr; Previous: {{prev_label}} — {{prev_date_short}}</a>
+      <a href="/archive/">Archive &rarr;</a>
+    </div>
+  </div>
+</main>
+{{subscribe}}
