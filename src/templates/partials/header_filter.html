@@ -1,17 +1,11 @@
 <header class="topbar">
   <div class="wrap topbar-in">
-    <h1 class="wordmark-wrap"><a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="ai">Willow</span><span class="tick" aria-hidden="true"></span></a></h1>
-    <nav class="sectionnav" aria-label="Filter stories by section">
-      <button class="fbtn" data-filter="all" aria-pressed="true">Front Page</button>
-      <button class="fbtn" data-filter="ai" aria-pressed="false">AI</button>
-      <button class="fbtn" data-filter="robotics" aria-pressed="false">Robotics</button>
-      <button class="fbtn" data-filter="drones" aria-pressed="false">Drones</button>
-      <button class="fbtn" data-filter="fintech" aria-pressed="false">Fintech</button>
-      <button class="fbtn" data-filter="gossip" aria-pressed="false">The Gossip</button>
-    </nav>
-    <div class="searchbox">
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16 L21.5 21.5"/></svg>
-      <label for="q" class="hidden">Search stories</label>
+    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="wordmark-accent">Willow</span><span class="wordmark-tick" aria-hidden="true"></span></a>
+    <div class="sectionnav" role="group" aria-label="Filter stories by section">
+{{filter_buttons}}    </div>
+    <div class="searchbox" role="search">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16 L21.5 21.5"/></svg>
+      <label for="q" class="visually-hidden">Search today’s stories</label>
       <input id="q" type="search" placeholder="Search" autocomplete="off" />
     </div>
   </div>

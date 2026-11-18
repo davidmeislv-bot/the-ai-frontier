@@ -1,75 +1,91 @@
-/* Wire Willow front-page behavior.
+/* Wire Willow — site behavior.
  *
- * Story cards and the ticker are rendered as static HTML at build time;
- * this script only filters/searches them and handles the subscribe form.
- * It is safe to load on every page: each section checks its elements
- * exist before wiring anything up.
+ * Loaded on every page as a module (deferred, strict mode by default).
+ * Story cards and the ticker are static HTML from build.py; this script
+ * only enhances them. Each feature checks its elements exist first, and
+ * every page works without JavaScript.
+ *
+ *   1. Section filter + search (front pages)
+ *   2. Ticker pause control (front pages)
+ *   3. Newsletter form mailto fallback (all pages)
  */
-(function () {
-  "use strict";
 
-  /* ---------- section filter + search (front pages only) ---------- */
-  var grid = document.getElementById("cardGrid");
-  var searchInput = document.getElementById("q");
-  var countLabel = document.getElementById("countLabel");
-  var lead = document.getElementById("leadSection");
+/* ---------- 1. Section filter + search ---------- */
+function initFilter() {
+  const grid = document.getElementById("cardGrid");
+  const search = document.getElementById("q");
+  const countLabel = document.getElementById("countLabel");
+  if (!grid || !search || !countLabel) return;
 
-  if (grid && searchInput && countLabel) {
-    var currentFilter = "all";
-    var updated = countLabel.getAttribute("data-updated") || "";
+  const lead = document.getElementById("leadSection");
+  const buttons = [...document.querySelectorAll(".fbtn")];
+  const cards = [...grid.querySelectorAll(".card")];
+  const emptyState = grid.querySelector(".noresults");
+  const updated = countLabel.dataset.updated || "";
+  let filter = "all";
 
-    function applyFilter() {
-      var q = searchInput.value.trim().toLowerCase();
-      var visible = 0;
-      var cards = grid.querySelectorAll(".card");
-      cards.forEach(function (c) {
-        var okCat = currentFilter === "all" || c.dataset.cat === currentFilter;
-        var okQ = !q || c.dataset.search.indexOf(q) !== -1;
-        var show = okCat && okQ;
-        c.classList.toggle("hidden", !show);
-        if (show) visible++;
-      });
-      if (lead) {
-        var leadSearch = (lead.getAttribute("data-search") || "").toLowerCase();
-        var leadOk = (currentFilter === "all" || currentFilter === "ai") &&
-          (!q || leadSearch.indexOf(q) !== -1);
-        lead.style.display = leadOk ? "" : "none";
-        if (leadOk) visible++;
-      }
-      var old = grid.querySelector(".noresults");
-      if (old) old.remove();
-      if (visible === 0) {
-        var div = document.createElement("div");
-        div.className = "noresults";
-        div.textContent = "Nothing in today’s edition matches that — try another section or search.";
-        grid.appendChild(div);
-      }
-      countLabel.textContent = visible + (visible === 1 ? " STORY" : " STORIES") +
-        " · UPDATED " + updated;
+  const matches = (el, query) =>
+    (filter === "all" || el.dataset.cat === filter) &&
+    (!query || (el.dataset.search || "").includes(query));
+
+  function apply() {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    for (const el of lead ? [lead, ...cards] : cards) {
+      const show = matches(el, query);
+      el.hidden = !show;
+      if (show) visible++;
     }
-
-    document.querySelectorAll(".fbtn").forEach(function (b) {
-      b.addEventListener("click", function () {
-        document.querySelectorAll(".fbtn").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
-        b.setAttribute("aria-pressed", "true");
-        currentFilter = b.dataset.filter;
-        applyFilter();
-      });
-    });
-    searchInput.addEventListener("input", applyFilter);
+    if (emptyState) emptyState.hidden = visible > 0;
+    countLabel.textContent =
+      `${visible} ${visible === 1 ? "story" : "stories"} · Updated ${updated}`;
   }
 
-  /* ---------- subscribe via mailto (no fake signup) ---------- */
-  var subForm = document.getElementById("subForm");
-  if (subForm) {
-    subForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var email = document.getElementById("subEmail").value.trim();
-      if (!email) return;
-      var subject = encodeURIComponent("Sign me up for Wire Willow daily edition");
-      var body = encodeURIComponent("Hi — please add this email to the Wire Willow daily edition list:\n\n" + email + "\n\nThanks!");
-      var listOwner = ["davidmeislv", "gmail.com"].join("@");
-      window.location.href = "mailto:" + listOwner + "?subject=" + subject + "&body=" + body;
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      for (const b of buttons) b.setAttribute("aria-pressed", String(b === button));
+      filter = button.dataset.filter;
+      apply();
     });
   }
-})();
+  search.addEventListener("input", apply);
+}
+
+/* ---------- 2. Ticker pause control (WCAG 2.2.2) ---------- */
+function initTicker() {
+  const ticker = document.querySelector(".ticker");
+  const toggle = ticker && ticker.querySelector(".ticker-toggle");
+  if (!toggle) return;
+  toggle.hidden = false;
+  toggle.addEventListener("click", () => {
+    const paused = ticker.classList.toggle("is-paused");
+    toggle.setAttribute("aria-pressed", String(paused));
+    toggle.textContent = paused ? "Play" : "Pause";
+  });
+}
+
+/* ---------- 3. Newsletter form ----------
+ * When site.newsletter.action is set in the manifest the form posts to the
+ * newsletter provider and this does nothing. Otherwise it opens a
+ * pre-filled signup email the reader sends themselves. */
+function initSubscribe() {
+  const form = document.getElementById("subForm");
+  if (!form || form.getAttribute("action")) return;
+  const { mailtoUser, mailtoDomain } = form.dataset;
+  if (!mailtoUser || !mailtoDomain) return;
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const email = form.elements.email.value.trim();
+    if (!email) return;
+    const subject = encodeURIComponent("Sign me up for Wire Willow daily edition");
+    const body = encodeURIComponent(
+      `Hi — please add this email to the Wire Willow daily edition list:\n\n${email}\n\nThanks!`
+    );
+    window.location.href = `mailto:${mailtoUser}@${mailtoDomain}?subject=${subject}&body=${body}`;
+  });
+}
+
+initFilter();
+initTicker();
+initSubscribe();
