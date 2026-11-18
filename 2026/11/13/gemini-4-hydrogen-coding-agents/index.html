@@ -99,217 +99,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-<style>
-  :root{
-    color-scheme: light;
-    --bg:#ffffff; --ink:#0c0c14; --ink2:#3d3d47; --ink3:#76767f;
-    --line:#e5e5ea; --line-soft:#efeff2;
-    --accent:#3730cf; --accent-dark:#2a24a8; --accent-tint:#edebfc;
-    --navy:#0a1526; --navy2:#12233d;
-    --cream:#f5f2ec; --muted-bg:#f7f7f9;
-    --sans:"Archivo",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
-    --serif:Georgia,"Times New Roman",serif;
-  }
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
-  button,[role="button"],select,summary,input:not([type="checkbox"],[type="radio"]){min-height:2.25rem}
-  a{color:var(--accent)}
-  img{max-width:100%;display:block}
-  .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
-
-  /* ---------- top bar (Mashable-style slim nav) ---------- */
-  .topbar{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--ink)}
-  .topbar-in{display:flex;align-items:center;gap:26px;min-height:58px;flex-wrap:wrap;padding:6px 0}
-  .wordmark{font-weight:900;font-size:23px;letter-spacing:-.03em;color:var(--ink);text-decoration:none;white-space:nowrap;line-height:1}
-  .wordmark .ai{color:var(--accent)}
-  .wordmark .tick{display:inline-block;width:9px;height:9px;background:var(--accent);margin-left:5px;clip-path:polygon(0 0,100% 0,100% 100%)}
-  .sectionnav{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
-  .fbtn{font-family:var(--sans);font-weight:700;font-size:14.5px;border:none;background:transparent;color:var(--ink);padding:8px 10px;cursor:pointer;min-height:38px;border-radius:0}
-  .fbtn:hover{color:var(--accent)}
-  .fbtn[aria-pressed="true"]{color:var(--accent)}
-  .searchbox{margin-left:auto;display:flex;align-items:center;gap:7px;color:var(--ink2)}
-  .searchbox svg{flex:none}
-  .searchbox input{font-family:var(--sans);font-size:14.5px;border:none;border-bottom:1.5px solid transparent;background:transparent;color:var(--ink);padding:7px 2px;width:150px;min-height:38px}
-  .searchbox input::placeholder{color:var(--ink2);font-weight:600}
-  .searchbox input:focus{outline:none;border-bottom-color:var(--accent)}
-
-  /* ---------- ticker strip ---------- */
-  .ticker{background:var(--navy);color:#fff;overflow:hidden}
-  .ticker-inner{display:flex;align-items:stretch;max-width:1240px;margin:0 auto;padding:0 20px}
-  .ticker-label{font-size:11px;font-weight:800;letter-spacing:.13em;background:var(--accent);color:#fff;padding:8px 12px;display:flex;align-items:center;white-space:nowrap;text-transform:uppercase}
-  .ticker-track{overflow:hidden;flex:1;display:flex;align-items:center}
-  .ticker-items{display:flex;gap:34px;padding:8px 16px;font-size:12.5px;font-weight:600;white-space:nowrap;animation:tick 46s linear infinite}
-  .ticker-items b{font-weight:800}
-  .down{color:#ff9d8f}.up{color:#7fe0ae}
-  @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-  @media (prefers-reduced-motion: reduce){.ticker-items{animation:none;flex-wrap:wrap;white-space:normal}}
-
-  /* ---------- eyebrows / section heads ---------- */
-  .eyebrow{font-size:11.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--ink2)}
-  .eyebrow.accent{color:var(--accent)}
-  .sechead{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin:0 0 20px}
-  .sechead h2{font-weight:800;font-size:clamp(26px,3.6vw,36px);letter-spacing:-.02em;line-height:1.05;margin:0}
-  .sechead .more{font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);white-space:nowrap;padding-bottom:5px}
-  .datestrip{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12.5px;font-weight:600;color:var(--ink3);text-transform:uppercase;letter-spacing:.08em;margin:16px 0 0}
-
-  /* ---------- hero (Mashable overlapping headline card) ---------- */
-  .hero{padding:18px 0 6px}
-  .hero figure{margin:0}
-  .hero figure img{width:100%;aspect-ratio:16/8.2;object-fit:cover}
-  .hero-card{position:relative;background:#fff;margin:-72px 56px 0;padding:28px 34px 30px;box-shadow:0 14px 40px rgba(10,15,40,.14)}
-  .hero-card::before{content:"";position:absolute;left:-13px;top:38px;width:26px;height:64px;background:var(--accent);clip-path:polygon(55% 0,100% 0,45% 100%,0 100%)}
-  .hero-card::after{content:"";position:absolute;right:0;bottom:0;width:30px;height:30px;background:var(--bg);clip-path:polygon(100% 0,100% 100%,0 100%)}
-  .hero-card h2{font-weight:800;font-size:clamp(28px,4.4vw,44px);line-height:1.08;letter-spacing:-.02em;margin:9px 0 12px;max-width:22ch}
-  .hero-card .dek{font-size:clamp(15.5px,2vw,18.5px);line-height:1.5;color:var(--ink2);margin:0 0 14px;max-width:68ch}
-  .byline{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
-  .byline b{color:var(--ink)}
-  .readbtn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--accent);color:#fff;border:none;font-family:var(--sans);font-weight:800;font-size:14.5px;letter-spacing:.02em;padding:13px 22px;cursor:pointer;min-height:48px;clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
-  .readbtn:hover{background:var(--accent-dark)}
-  figcaption{font-size:12.5px;color:var(--ink3);margin-top:9px;line-height:1.45}
-
-  /* ---------- factbox / trending-cream panel ---------- */
-  .factbox{position:relative;background:var(--cream);padding:22px 26px 14px;margin-top:28px;overflow:hidden}
-  .factbox::before{content:"";position:absolute;left:0;top:0;width:34px;height:52px;background:var(--accent);clip-path:polygon(0 0,100% 0,38% 100%,0 100%)}
-  .factbox h3{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 14px 14px;color:var(--ink)}
-  .factbox ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 34px}
-  .factbox li{font-size:15px;line-height:1.5;padding:9px 0;border-top:2px solid #fff}
-  .factbox li strong{font-weight:800}
-
-  /* ---------- story grid (borderless Mashable cards) ---------- */
-  .front{padding:38px 0 6px}
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px 26px}
-  .card{background:none;border:none;display:flex;flex-direction:column;cursor:pointer;text-align:left;padding:0;font:inherit;color:inherit;width:100%}
-  .card .thumb{aspect-ratio:16/9;object-fit:cover;width:100%}
-  .card .thumb-fallback{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:var(--accent-tint);font-size:52px}
-  .card-body{padding:13px 0 0;display:flex;flex-direction:column;gap:7px;flex:1}
-  .card h3{font-weight:800;font-size:20.5px;line-height:1.18;letter-spacing:-.015em;margin:0}
-  .card:hover h3{color:var(--accent)}
-  .card p{margin:0;font-size:14.5px;color:var(--ink2);line-height:1.5;flex:1}
-  .card .meta{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line-soft);padding-top:9px}
-  .hidden{display:none !important}
-  .noresults{grid-column:1/-1;text-align:center;padding:36px 10px;font-size:19px;font-weight:700;color:var(--ink2)}
-
-  /* ---------- dark numbers band ---------- */
-  .band{background:var(--navy);color:#fff;margin:44px 0 0;padding:34px 0 38px}
-  .band .sechead h2{color:#fff}
-  .band .sechead .more{color:#a5a0f5}
-  .numbers{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
-  .stat{border-top:3px solid var(--accent);padding-top:13px}
-  .stat .big{font-weight:900;font-size:clamp(30px,4vw,42px);line-height:1;letter-spacing:-.02em}
-  .stat .lbl{font-size:13.5px;color:#c3cbdb;margin-top:8px;line-height:1.45}
-
-  /* ---------- briefs + workflow ---------- */
-  .cols{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;margin:44px 0 8px}
-  .brief{padding:13px 0 15px}
-  .brief::before{content:"";display:block;width:44px;height:3px;background:var(--accent);margin-bottom:11px}
-  .brief h3{font-weight:800;font-size:18.5px;margin:0 0 4px;line-height:1.25;letter-spacing:-.01em}
-  .brief p{margin:0;font-size:14.5px;color:var(--ink2);line-height:1.55}
-  .brief .src{font-size:12px;font-weight:600;margin-top:6px}
-  .panel{background:var(--muted-bg);padding:24px 26px}
-  .panel h2{font-weight:800;font-size:25px;letter-spacing:-.02em;margin:6px 0 8px;line-height:1.12}
-  .steps{list-style:none;margin:8px 0 0;padding:0;counter-reset:step}
-  .steps li{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
-  .steps li:last-child{border-bottom:none}
-  .steps .n{counter-increment:step;flex:none;width:32px;height:32px;background:var(--accent);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;clip-path:polygon(0 0,100% 0,100% calc(100% - 9px),calc(100% - 9px) 100%,0 100%)}
-  .steps .n::before{content:counter(step)}
-  .steps h3{margin:0;font-size:15.5px;font-weight:800}
-  .steps p{margin:2px 0 0;font-size:14px;color:var(--ink2);line-height:1.5}
-  .watchbox{margin-top:18px;border-top:3px solid var(--ink);padding-top:14px}
-  .watchbox h3{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 9px}
-  .watchbox ul{margin:0;padding-left:18px;font-size:14.5px;line-height:1.55}
-  .watchbox li{margin-bottom:5px}
-
-  /* ---------- subscribe ---------- */
-  .subscribe{margin:40px 0 0;background:var(--accent);color:#fff;padding:32px 30px;display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center;clip-path:polygon(0 0,100% 0,100% calc(100% - 26px),calc(100% - 26px) 100%,0 100%)}
-  .subscribe h2{font-weight:800;font-size:clamp(24px,3.4vw,32px);letter-spacing:-.02em;margin:0 0 8px;line-height:1.12}
-  .subscribe p{margin:0;color:#d9d5ff;font-size:15px;line-height:1.5}
-  .subscribe form{display:flex;gap:9px;flex-wrap:wrap}
-  .subscribe input{flex:1;min-width:200px;font-size:15px;padding:12px 15px;border:2px solid #fff;background:#fff;color:var(--ink);min-height:48px;font-family:var(--sans)}
-  .subscribe input::placeholder{color:var(--ink3)}
-  .subscribe button{background:var(--ink);color:#fff;border:none;font-weight:800;font-size:15px;padding:12px 22px;cursor:pointer;min-height:48px;font-family:var(--sans)}
-  .subscribe button:hover{background:#000}
-  .subnote{font-size:12.5px !important;margin-top:10px !important;color:#c9c4ff !important}
-
-  /* ---------- footer ---------- */
-  footer{background:var(--navy);color:#c3cbdb;margin-top:48px;padding:34px 0 40px;font-size:14px}
-  footer .cols2{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-  footer .flogo{font-weight:900;font-size:26px;letter-spacing:-.03em;color:#fff;line-height:1}
-  footer .flogo .ai{color:#a5a0f5}
-  footer p{margin:8px 0 6px;max-width:58ch;line-height:1.55}
-  footer .fine{font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#7e8aa3}
-  footer strong{color:#fff}
-
-  /* ---------- reader overlay ---------- */
-  .reader{position:fixed;inset:0;background:rgba(8,10,24,.66);z-index:80;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:26px 12px}
-  .reader.open{display:flex}
-  .sheet{background:#fff;color:var(--ink);max-width:780px;width:100%;padding:36px 38px 28px;position:relative;margin:auto 0;box-shadow:0 24px 70px rgba(0,0,0,.35)}
-  .sheet img{width:100%;height:auto;margin:16px 0 4px}
-  .sheet h2{font-weight:800;font-size:clamp(27px,5vw,40px);line-height:1.1;letter-spacing:-.02em;margin:10px 0 12px}
-  .sheet .dek{font-size:18.5px;color:var(--ink2);line-height:1.5;margin:0 0 14px;font-weight:500}
-  .sheet .body{margin-top:16px}
-  .sheet .body p{font-family:var(--serif);font-size:17.5px;line-height:1.68;margin:0 0 15px;color:#1c1c22}
-  .sheet .sources{border-top:1px solid var(--line);margin-top:20px;padding-top:14px;font-size:14px}
-  .sheet .sources h3{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px;color:var(--ink3)}
-  .sheet .sources li{margin-bottom:5px}
-  .closebtn{position:absolute;top:14px;right:14px;width:42px;height:42px;border:none;background:var(--ink);color:#fff;font-size:17px;cursor:pointer;line-height:1}
-  .closebtn:hover{background:var(--accent)}
-  .sheetnav{display:flex;justify-content:space-between;gap:10px;margin-top:24px}
-  .sheetnav button{font-family:var(--sans);font-weight:800;font-size:14px;border:2px solid var(--ink);background:transparent;color:var(--ink);padding:10px 18px;cursor:pointer;min-height:46px}
-  .sheetnav button:hover{border-color:var(--accent);color:var(--accent)}
-
-  @media (max-width:900px){
-    .grid{grid-template-columns:repeat(2,1fr)}
-    .cols{grid-template-columns:1fr}
-    .numbers{grid-template-columns:repeat(2,1fr)}
-    .subscribe{grid-template-columns:1fr}
-    .hero-card{margin:-52px 18px 0;padding:24px 22px 26px}
-    .factbox ul{grid-template-columns:1fr}
-    .searchbox{margin-left:0}
-  }
-  @media (max-width:560px){
-    .grid{grid-template-columns:1fr}
-    .sheet{padding:26px 19px 22px}
-    .topbar-in{gap:12px}
-    .searchbox{width:100%}
-    .searchbox input{flex:1;width:auto}
-    .hero figure img{aspect-ratio:4/3}
-    .hero-card{margin:-40px 10px 0}
-  }
-  @media print{.topbar,.ticker,.subscribe,.readbtn,.sheetnav{display:none}}
-
-/* --- v2 additions: headings, link cards, story pages --- */
-.topbar h1.wordmark-wrap{margin:0;font:inherit;line-height:1}
-a.card{display:block;text-align:left;text-decoration:none;color:inherit;cursor:pointer}
-a.card h3{color:var(--ink)}
-.crumbs{font-size:12.5px;font-weight:600;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;margin:18px 0 0}
-.crumbs a{color:var(--accent);text-decoration:none}
-.story{max-width:780px;margin:0 auto;padding:8px 0 30px}
-.story h1{font-weight:800;font-size:clamp(30px,4.6vw,46px);line-height:1.08;letter-spacing:-.02em;margin:10px 0 14px}
-.story .dek{font-size:clamp(16px,2vw,19px);line-height:1.55;color:var(--ink2);margin:0 0 14px}
-.story figure{margin:22px 0}
-.story figure img{width:100%;aspect-ratio:16/9;object-fit:cover}
-.story figcaption{font-size:12.5px;color:var(--ink3);margin-top:8px}
-.story .body p{font-size:17.5px;line-height:1.7;margin:0 0 18px}
-.story .body h2{font-size:22px;margin:26px 0 10px}
-.story .sources{border-top:1px solid var(--line);margin-top:26px;padding-top:16px}
-.story .sources h2{font-size:18px;margin:0 0 10px}
-.story .sources li{margin:0 0 6px}
-.related{border:1px solid var(--line);background:var(--muted-bg);padding:20px 22px;margin:28px 0}
-.related h2{font-size:16px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}
-.related ul{margin:0;padding-left:20px}
-.related li{margin:0 0 8px}
-.storynav{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:26px 0 0}
-.storynav a{font-weight:700;text-decoration:none}
-.topnav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-left:auto}
-.topnav a{font-weight:700;font-size:14.5px;color:var(--ink);text-decoration:none;padding:8px 2px}
-.topnav a:hover{color:var(--accent)}
-.archivelist{list-style:none;margin:0;padding:0}
-.archivelist li{border-bottom:1px solid var(--line);padding:20px 0}
-.archivelist h2{font-size:22px;margin:4px 0 8px}
-</style>
+<link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
+
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="ai">Willow</span><span class="tick" aria-hidden="true"></span></a>
@@ -336,13 +129,11 @@ a.card h3{color:var(--ink)}
       <p>The pitch leans on speed and price. Google lists Gemini 4 Hydrogen at $1.50 per million input tokens and $7.50 per million output tokens, across a 1 million-token window — a window large enough to hold substantial code and context in a single run.</p>
       <p>One caution belongs right next to the headline numbers. The performance and speed claims in the announcement — including Google’s claim that Hydrogen beats Argon on an intelligence index — are Google’s own claims in its announcement. They have not been independently verified, and this story reports them as the company’s claims, not as settled results.</p>
       <p>What to watch is adoption: whether developers actually route everyday coding and agent work to Hydrogen at those listed prices, and whether outside testing backs up the company’s account of its speed and capability.</p>
-      
     </div>
     <div class="sources">
       <h2>Sources &mdash; read the originals</h2>
       <ul>
         <li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Introducing Gemini 4 Hydrogen — Google</a></li>
-        
       </ul>
     </div>
     <div class="related">
@@ -360,18 +151,18 @@ a.card h3{color:var(--ink)}
   </div>
 </main>
 <section class="subscribe" aria-label="Get the daily edition by email">
-    <div>
-      <h2>Wire Willow, in your inbox by 9 a.m.</h2>
-      <p>One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
-    </div>
-    <div>
-      <form id="subForm">
-        <input type="email" id="subEmail" placeholder="you@example.com" required aria-label="Email address" />
-        <button type="submit">Get the edition</button>
-      </form>
-      <p class="subnote">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
-    </div>
-  </section>
+  <div>
+    <h2>Wire Willow, in your inbox by 9 a.m.</h2>
+    <p>One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
+  </div>
+  <div>
+    <form id="subForm">
+      <input type="email" id="subEmail" placeholder="you@example.com" required aria-label="Email address" />
+      <button type="submit">Get the edition</button>
+    </form>
+    <p class="subnote">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
+  </div>
+</section>
 <footer>
   <div class="wrap">
     <div class="cols2">
@@ -388,17 +179,7 @@ a.card h3{color:var(--ink)}
     </div>
   </div>
 </footer>
-<script>
-/* subscribe via mailto (no fake signup) */
-document.getElementById("subForm").addEventListener("submit", function(e){
-  e.preventDefault();
-  var email = document.getElementById("subEmail").value.trim();
-  if(!email) return;
-  var subject = encodeURIComponent("Sign me up for Wire Willow daily edition");
-  var body = encodeURIComponent("Hi — please add this email to the Wire Willow daily edition list:\n\n" + email + "\n\nThanks!");
-  var listOwner = ["davidmeislv", "gmail.com"].join("@");
-  window.location.href = "mailto:" + listOwner + "?subject=" + subject + "&body=" + body;
-});
-</script>
+
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
