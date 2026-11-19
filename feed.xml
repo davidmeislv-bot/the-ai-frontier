@@ -5,8 +5,32 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 -0800</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 11:30:00 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>The U.S. closed the last big loophole in its AI chip ban — by going after the landlords</title>
+    <link>https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/</guid>
+    <description>A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries.</description>
+    <pubDate>Thu, 19 Nov 2026 11:30:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Jensen Huang wants his job back. The board — and the betting markets — say not so fast</title>
+    <link>https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/</guid>
+    <description>Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10.</description>
+    <pubDate>Thu, 19 Nov 2026 11:30:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO</title>
+    <link>https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/</guid>
+    <description>The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for.</description>
+    <pubDate>Thu, 19 Nov 2026 11:30:00 -0800</pubDate>
+    <category>Fintech</category>
+  </item>
   <item>
     <title>The drone war arrived before America was ready for it</title>
     <link>https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/</link>

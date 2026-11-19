@@ -432,6 +432,199 @@
       "og_image_alt": "Editorial illustration of industrial robot arms on a factory floor divided by a barrier gate, with shipping containers and a large globe behind them",
       "read_short": "3 MIN",
       "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+    },
+    {
+      "id": "bis-chip-curbs",
+      "slug": "us-bans-remote-access-ai-chips-five-countries",
+      "edition": "2026-11-19",
+      "url": "/2026/11/19/us-bans-remote-access-ai-chips-five-countries/",
+      "title": "The U.S. closed the last big loophole in its AI chip ban — by going after the landlords",
+      "dek": "A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-19",
+      "date_short": "Nov 19, 2026",
+      "published": "2026-11-19T11:30:00-08:00",
+      "modified": "2026-11-19T11:30:00-08:00",
+      "read_time": "4 min read",
+      "image": "/images/us-remote-access-ai-chips.webp",
+      "image_alt": "Editorial illustration of a data center hall with glowing GPU server racks, a world map highlighting countries in Southeast Asia and South America, and a padlock over the racks",
+      "og_image": "https://wirewillow.com/images/og-us-bans-remote-access-ai-chips-five-countries.jpg",
+      "caption": "Illustration: Wire Willow. The rule follows the compute, not just the chips.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The rule:",
+            " Published Nov 19 and effective immediately — an interim final rule from the Commerce Department's Bureau of Industry and Security."
+          ],
+          [
+            "Two controls:",
+            " A worldwide remote-access control keyed to 12 million aggregate TPP, and a license requirement for most advanced-GPU transfers to or within Indonesia, Malaysia, Singapore, Thailand and Brazil."
+          ],
+          [
+            "Who's excepted:",
+            " U.S.-headquartered companies can use the five-country exception only by filing monthly reports with BIS."
+          ],
+          [
+            "What's not covered:",
+            " Infrastructure used only for commercial recommender systems is exempt; the rule also rescinds most of the Biden-era AI Diffusion Framework."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "U.S. extends chip sale restrictions to more Asian countries — The Register",
+          "https://www.theregister.com/off-prem/2026/11/17/us-extends-chip-sale-restrictions-to-more-asian-countries-to-reduce-risk-of-diversion-to-china/5310307"
+        ],
+        [
+          "New Export Controls on Advanced Chips Close Remote Compute Access 'Loopholes' — Sidley Austin",
+          "https://www.sidley.com/en/insights/newsupdates/2026/11/new-export-controls-on-advanced-chips-close-remote-compute-access-loopholes-five-key-takeaways"
+        ],
+        [
+          "US rule on remote access to AI chips in overseas data centers — venture-block.com",
+          "https://venture-block.com/us-rule-remote-access-ai-chips-overseas-data-centers/"
+        ]
+      ],
+      "body_file": "content/articles/us-bans-remote-access-ai-chips-five-countries.html",
+      "head_title": "The U.S. Closed the Last Big Loophole in Its AI Chip Ban | Wire Willow",
+      "head_description": "A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries.",
+      "canonical": "https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a data center hall with glowing GPU server racks, a world map highlighting countries in Southeast Asia and South America, and a padlock over the racks",
+      "read_short": "4 MIN",
+      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+    },
+    {
+      "id": "huang-return-odds",
+      "slug": "jensen-huang-nvidia-return-odds",
+      "edition": "2026-11-19",
+      "url": "/2026/11/19/jensen-huang-nvidia-return-odds/",
+      "title": "Jensen Huang wants his job back. The board — and the betting markets — say not so fast",
+      "dek": "Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-19",
+      "date_short": "Nov 19, 2026",
+      "published": "2026-11-19T11:30:00-08:00",
+      "modified": "2026-11-19T11:30:00-08:00",
+      "read_time": "4 min read",
+      "image": "/images/jensen-huang-nvidia-return.webp",
+      "image_alt": "Editorial illustration of an empty leather executive chair at the head of a boardroom table at dusk, with a city skyline through floor-to-ceiling windows",
+      "og_image": "https://wirewillow.com/images/og-jensen-huang-nvidia-return-odds.jpg",
+      "caption": "Illustration: Wire Willow. The chair is empty, and the board says it intends to keep it that way.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The offer:",
+            " On Nov 17 Huang said he would be 'honored' to return as CEO if the board decides it is in the company's best interest."
+          ],
+          [
+            "The answer:",
+            " Hours later, board chair Harvey Jones said the board 'does not intend to reinstate Jensen as CEO.'"
+          ],
+          [
+            "The odds:",
+            " Kalshi gives him about a 9% chance of the CEO job, with Rene Haas leading at about 29%; Polymarket gives him about 30% of holding any formal Nvidia role by the end of 2027."
+          ],
+          [
+            "What's next:",
+            " Huang testifies behind closed doors before House committees on Dec 1 about chip smuggling and export control evasion; general counsel Tim Teter follows on Dec 2."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Nvidia rules out Jensen Huang's return as CEO — CNN",
+          "https://www.cnn.com/2026/11/17/tech/nvidia-earnings-jensen-huang-exit"
+        ],
+        [
+          "Jensen Huang breaks silence, says he would return as Nvidia CEO — USA Today",
+          "https://www.usatoday.com/story/tech/2026/11/17/former-nvidia-ceo-jensen-huang-speaks-out-after-resignation/92826990007/"
+        ],
+        [
+          "Next CEO of NVIDIA odds: Polymarket & Kalshi — Action Network",
+          "https://www.actionnetwork.com/news/nvidia-news-today-next-ceo-of-nvidia-odds-polymarket-ceo-kalshi-ceo-prediction-markets"
+        ],
+        [
+          "Will Jensen Huang rejoin NVIDIA? Odds by deadline — ThatsGonna",
+          "https://www.thatsgonna.com/markets/will-jensen-huang-rejoin-nvidia-by-deadline/"
+        ]
+      ],
+      "body_file": "content/articles/jensen-huang-nvidia-return-odds.html",
+      "head_title": "Jensen Huang Wants His Job Back. The Board — and the Markets — Say No | Wire Willow",
+      "head_description": "Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10.",
+      "canonical": "https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of an empty leather executive chair at the head of a boardroom table at dusk, with a city skyline through floor-to-ceiling windows",
+      "read_short": "4 MIN",
+      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+    },
+    {
+      "id": "anthropic-ipo",
+      "slug": "anthropic-ipo-83-dollars-record",
+      "edition": "2026-11-19",
+      "url": "/2026/11/19/anthropic-ipo-83-dollars-record/",
+      "title": "Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO",
+      "dek": "The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for.",
+      "category": "fintech",
+      "cat_label": "Fintech",
+      "section": "Fintech",
+      "date": "2026-11-19",
+      "date_short": "Nov 19, 2026",
+      "published": "2026-11-19T11:30:00-08:00",
+      "modified": "2026-11-19T11:30:00-08:00",
+      "read_time": "3 min read",
+      "image": "/images/anthropic-ipo.webp",
+      "image_alt": "Editorial illustration of a stock exchange trading floor with a rising chart on a large screen, confetti in the air, and a data center behind glass walls",
+      "og_image": "https://wirewillow.com/images/og-anthropic-ipo-83-dollars-1-5-trillion.jpg",
+      "caption": "Illustration: Wire Willow. The biggest IPO in history — and a $900 billion compute bill behind it.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The price:",
+            " $83 a share, above the $70–$78 marketed range."
+          ],
+          [
+            "The raise:",
+            " 980 million shares sold for $81.3 billion — the largest initial IPO raise on record. SpaceX's total later reached $86.2 billion after its overallotment."
+          ],
+          [
+            "The valuation:",
+            " Roughly $1.4 trillion to $1.5 trillion fully diluted, trading on Nasdaq under the ticker ANT — and about $2 trillion at Thursday's open."
+          ],
+          [
+            "The catch:",
+            " About $900 billion in future compute commitments, and a $104 billion net loss in the first nine months — mostly an accounting charge on convertible notes, not cash."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Anthropic's Wall Street debut marks a new chapter for AI — CNN",
+          "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-wall-street-ai"
+        ],
+        [
+          "Anthropic Officially Prices Its IPO At $83 A Share In $81.3B Debut — TradingView",
+          "https://www.tradingview.com/news/stocktwits:e864a6379094b:0-anthropic-officially-prices-its-ipo-at-83-a-share-in-81-3b-debut-shattering-ipo-records/"
+        ],
+        [
+          "Can Anthropic stock hold its $1.5 trillion valuation after the Nasdaq debut? — FXStreet",
+          "https://www.fxstreet.com/news/can-anthropic-stock-hold-its-15-trillion-valuation-after-the-nasdaq-debut-202611190923"
+        ]
+      ],
+      "body_file": "content/articles/anthropic-ipo-83-dollars-record.html",
+      "head_title": "Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO | Wire Willow",
+      "head_description": "The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for.",
+      "canonical": "https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a stock exchange trading floor with a rising chart on a large screen, confetti in the air, and a data center behind glass walls",
+      "read_short": "3 MIN",
+      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
     }
   ],
   "brief_sets": {
@@ -744,10 +937,110 @@
       "archive_summary": "4 stories + 3 briefs: the drone war America wasn't ready for, GPT-6.2's cheaper models, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB robotics deal.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-18"
+    },
+    {
+      "id": "2026-11-19",
+      "kind": "edition",
+      "label": "Edition No. 005",
+      "number": "No. 005",
+      "date": "2026-11-19",
+      "date_long": "Thursday, November 19, 2026",
+      "date_short": "Nov 19, 2026",
+      "date_upper": "NOV 19, 2026",
+      "url": "/2026/11/19/",
+      "head": {
+        "title": "Tech News: Nov 19, 2026 — Chip Ban Loophole, Huang's Return Odds & Anthropic's $1.5T IPO | Wire Willow",
+        "description": "Edition No. 005: Washington closes the remote-compute loophole in its AI chip ban, Nvidia's board says no to Jensen Huang's return while traders price the odds, and Anthropic goes public at $83 a share. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/19/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 005 — Nov 19, 2026",
+      "lead_slug": "us-bans-remote-access-ai-chips-five-countries",
+      "article_slugs": [
+        "us-bans-remote-access-ai-chips-five-countries",
+        "jensen-huang-nvidia-return-odds",
+        "anthropic-ipo-83-dollars-record"
+      ],
+      "briefs": "2026-11-18",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 19 Headlines",
+      "ticker_aria": "Top headlines, Thursday November 19, 2026",
+      "ticker": [
+        [
+          "POLICY",
+          "The U.S. closed the last big loophole in its AI chip ban",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Jensen Huang wants his job back. The board — and the betting markets — say not so fast",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "UFORCE raises $700M to build Ukraine's drone arsenal at scale",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Microsoft's Ignite brings specialist AI models for coding, security, and small decisions",
+          "",
+          ""
+        ],
+        [
+          "POLICY",
+          "After a week of outages, a bipartisan bill would create a board to investigate AI and cyber failures",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "12M",
+          "aggregate TPP threshold for the new remote-access control — roughly the output of 300 of the most advanced commercial GPUs"
+        ],
+        [
+          "~9%",
+          "Kalshi's odds that Jensen Huang becomes Nvidia's next permanent CEO, down from 12% before the board said no"
+        ],
+        [
+          "~30%",
+          "Polymarket's odds that Huang holds any formal Nvidia role by the end of 2027 — a different question from the CEO job"
+        ],
+        [
+          "$81.3B",
+          "raised by Anthropic's IPO — the largest initial raise on record — at $83 a share and a roughly $1.4 trillion to $1.5 trillion valuation"
+        ]
+      ],
+      "watchbox": [
+        "Whether data centers in the five countries win licenses — or shut their doors to Chinese customers — during the 90-day grace period",
+        "Whether Nvidia's board budges on Huang before his closed-door House testimony on Dec 1",
+        "Whether Anthropic's shares hold above the $83 IPO price once public trading begins",
+        "Whether the new chip rule slows the data-center boom across Southeast Asia and Brazil"
+      ],
+      "footer_edition": "Edition No. 005 — Thursday, November 19, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Thursday, November 19, 2026 · Edition No. 005",
+      "archive_headline": "The U.S. closed the last big loophole in its AI chip ban — by going after the landlords",
+      "archive_summary": "3 stories + 3 briefs: Washington closes the remote-compute loophole, Nvidia's board says no to Huang's return while traders price the odds, and Anthropic's record-setting $81.3 billion debut.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-19"
     }
   ],
   "homepage": {
-    "edition": "2026-11-18",
+    "edition": "2026-11-19",
     "briefs": "2026-11-18",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -759,7 +1052,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-18",
+    "lastmod": "2026-11-19",
     "changefreq": "daily"
   },
   "pages": {
@@ -804,7 +1097,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "changefreq": "daily"
     },
     {
@@ -816,8 +1109,12 @@
       "lastmod": "2026-11-18"
     },
     {
+      "url": "https://wirewillow.com/2026/11/19/",
+      "lastmod": "2026-11-19"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "changefreq": "daily"
     },
     {
@@ -855,6 +1152,18 @@
     {
       "url": "https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
       "lastmod": "2026-11-18"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/",
+      "lastmod": "2026-11-19"
     }
   ]
 }
