@@ -5,8 +5,40 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Sat, 21 Nov 2026 17:30:00 -0800</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 12:14:39 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>Routine database maintenance took down three-quarters of ChatGPT</title>
+    <link>https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/</guid>
+    <description>Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>An AI coding agent leaked the keys — and a security experiment caught it</title>
+    <link>https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/</guid>
+    <description>An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The stablecoin banks are lining up — Payoneer gets the OCC's conditional yes</title>
+    <link>https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/</guid>
+    <description>The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>Fintech</category>
+  </item>
+  <item>
+    <title>Washington opens its first federal review of humanoid robot safety</title>
+    <link>https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/</guid>
+    <description>NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>Robotics</category>
+  </item>
   <item>
     <title>An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.</title>
     <link>https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/</link>
@@ -37,6 +69,38 @@
     <guid isPermaLink="true">https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/</guid>
     <description>Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.</description>
     <pubDate>Sat, 21 Nov 2026 17:30:00 -0800</pubDate>
+    <category>Robotics</category>
+  </item>
+  <item>
+    <title>California subpoenas Nvidia — and the company closes its last legal door to China</title>
+    <link>https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/</guid>
+    <description>Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Google's $3 model sets off a price war the frontier labs can't ignore</title>
+    <link>https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/</guid>
+    <description>Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>The FCC just gave drones a nationwide control network — 3–0</title>
+    <link>https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/</guid>
+    <description>The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
+    <category>Drones</category>
+  </item>
+  <item>
+    <title>Korea's three giants just split the humanoid race three ways</title>
+    <link>https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/</guid>
+    <description>LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines.</description>
+    <pubDate>Sun, 22 Nov 2026 12:14:39 -0800</pubDate>
     <category>Robotics</category>
   </item>
   <item>

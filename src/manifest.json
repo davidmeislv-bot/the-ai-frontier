@@ -845,6 +845,474 @@
       "og_image_alt": "Editorial illustration of a driverless robotaxi on a highway approaching a closed construction zone barrier, with a police officer directing traffic",
       "read_short": "1 MIN",
       "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+    },
+    {
+      "id": "california-subpoenas-nvidia",
+      "slug": "california-subpoenas-nvidia-hopper-halt",
+      "edition": "2026-11-20",
+      "url": "/2026/11/20/california-subpoenas-nvidia-hopper-halt/",
+      "title": "California subpoenas Nvidia — and the company closes its last legal door to China",
+      "dek": "Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-20",
+      "date_short": "Nov 20, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/california-subpoenas-nvidia-hopper-halt.webp",
+      "image_alt": "Editorial illustration of a computer chip on a courtroom witness stand beside the scales of justice",
+      "og_image": "https://wirewillow.com/images/og-california-subpoenas-nvidia-hopper-halt.jpg",
+      "caption": "Illustration: Wire Willow. California's subpoena opens a state probe into Nvidia's China ties.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The subpoena:",
+            " California Attorney General Rob Bonta served Nvidia an investigative subpoena on Thursday evening, November 19, asking whether its advanced chips or confidential information reached China and whether the company misled investors."
+          ],
+          [
+            "The halt:",
+            " Interim CEO Colette Kress told analysts Nvidia is “no longer shipping licensed Hopper data center products to China,” and its forecast assumes no China data center compute revenue."
+          ],
+          [
+            "The caveat:",
+            " The subpoena opens an investigation, not a charge. No authority has accused Nvidia or Huang of sending chips to China; the criminal investigation is into Megaspeed, not Huang."
+          ],
+          [
+            "The stakes:",
+            " Licensed Hopper products brought in $2.4 billion from China in the quarter that ended October 25 — about 2 percent of Nvidia's $115.8 billion in quarterly revenue."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 20",
+          "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/"
+        ],
+        [
+          "Wall Street Journal, Nov 20",
+          "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e"
+        ]
+      ],
+      "body_file": "content/articles/california-subpoenas-nvidia-hopper-halt.html",
+      "head_title": "California Subpoenas Nvidia — and the Company Closes Its Last Legal Door to China | Wire Willow",
+      "head_description": "Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk.",
+      "canonical": "https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a computer chip on a courtroom witness stand beside the scales of justice",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "gemini-4-neon-price-war",
+      "slug": "gemini-4-neon-price-war",
+      "edition": "2026-11-20",
+      "url": "/2026/11/20/gemini-4-neon-price-war/",
+      "title": "Google's $3 model sets off a price war the frontier labs can't ignore",
+      "dek": "Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-20",
+      "date_short": "Nov 20, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/gemini-4-neon-price-war.webp",
+      "image_alt": "Editorial illustration of glowing AI tokens racing down a track with price tags falling behind them",
+      "og_image": "https://wirewillow.com/images/og-gemini-4-neon-price-war.jpg",
+      "caption": "Illustration: Wire Willow. Neon costs $3 per million input tokens — less than half the frontier price.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The price:",
+            " Gemini 4 Neon costs $3 per million input tokens and $15 per million output tokens — less than half the $8 input price of OpenAI's and Anthropic's top models."
+          ],
+          [
+            "The benchmarks:",
+            " Neon ranks first on the Artificial Analysis Coding Agent Index at 58.6, but third on the overall Intelligence Index at 61, behind Claude Fable 5.2 at 65 and GPT-6.2 Astra at 62."
+          ],
+          [
+            "The week:",
+            " Alibaba cut average cost per task by roughly 60 percent with Qwen4-Max; Tencent's Hy4 Flash costs $0.07 per million input tokens."
+          ],
+          [
+            "The caveat:",
+            " Benchmark rankings mix company claims and independent indices, and the test sets differ. Alibaba's and Tencent's figures are the companies' own."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "PYMNTS, Nov 19",
+          "https://www.pymnts.com/news/artificial-intelligence/2026/openai-unlocks-cyber-power-as-google-slashes-ai-costs/"
+        ],
+        [
+          "Google blog, Nov 18",
+          "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        ]
+      ],
+      "body_file": "content/articles/gemini-4-neon-price-war.html",
+      "head_title": "Google's $3 Model Sets Off a Price War the Frontier Labs Can't Ignore | Wire Willow",
+      "head_description": "Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices.",
+      "canonical": "https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of glowing AI tokens racing down a track with price tags falling behind them",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "fcc-drone-spectrum-order",
+      "slug": "fcc-drone-spectrum-order-450-mhz",
+      "edition": "2026-11-20",
+      "url": "/2026/11/20/fcc-drone-spectrum-order-450-mhz/",
+      "title": "The FCC just gave drones a nationwide control network — 3–0",
+      "dek": "The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them.",
+      "category": "drones",
+      "cat_label": "Drones",
+      "section": "Drones",
+      "date": "2026-11-20",
+      "date_short": "Nov 20, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/fcc-drone-spectrum-order-450-mhz.webp",
+      "image_alt": "Editorial illustration of a delivery drone flying over a city skyline with radio signal waves radiating from a tower",
+      "og_image": "https://wirewillow.com/images/og-fcc-drone-spectrum-order-450-mhz.jpg",
+      "caption": "Illustration: Wire Willow. The FCC opened 450 MHz to drone command-and-control links.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The order:",
+            " Report and Order FCC 26-81, adopted Thursday, November 19, 3–0, opens the 450 MHz band to drone command-and-control links and lets ground-based radar track drones in the 24.45 to 24.65 GHz band."
+          ],
+          [
+            "The license:",
+            " AURA Network Systems converts its 54 site-based licenses into one nationwide license, with a choice of two build-out tracks — high- or medium-altitude coverage, or low-altitude coverage at 400 feet."
+          ],
+          [
+            "The caveat:",
+            " The 800 MHz clarification is Commissioner Trusty's statement only; the final text's exact wording on drone use in that band is not confirmed by the sources read."
+          ],
+          [
+            "The timing:",
+            " Most rules take effect 30 days after Federal Register publication."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "FCC ID, Nov 20",
+          "https://fccid.io/news/fcc-report-order-drone-connectivity-detection-inflight-broadband-fcc-26-81"
+        ],
+        [
+          "The Robotics Media, Nov 22",
+          "https://theroboticsmedia.com/article/fcc-450-mhz-drone-spectrum-order-aura-network"
+        ]
+      ],
+      "body_file": "content/articles/fcc-drone-spectrum-order-450-mhz.html",
+      "head_title": "The FCC Just Gave Drones a Nationwide Control Network — 3–0 | Wire Willow",
+      "head_description": "The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them.",
+      "canonical": "https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a delivery drone flying over a city skyline with radio signal waves radiating from a tower",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "korea-humanoid-split",
+      "slug": "korea-humanoid-split-lg-hyundai-samsung",
+      "edition": "2026-11-20",
+      "url": "/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/",
+      "title": "Korea's three giants just split the humanoid race three ways",
+      "dek": "LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines.",
+      "category": "robotics",
+      "cat_label": "Robotics",
+      "section": "Robotics",
+      "date": "2026-11-20",
+      "date_short": "Nov 20, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/korea-humanoid-split-lg-hyundai-samsung.webp",
+      "image_alt": "Editorial illustration of three distinct humanoid robots working on a factory floor",
+      "og_image": "https://wirewillow.com/images/og-korea-humanoid-split-lg-hyundai-samsung.jpg",
+      "caption": "Illustration: Wire Willow. LG, Hyundai and Samsung split the humanoid race three ways.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "LG:",
+            " Revamped its robotics leadership on November 19, creating a humanoid task force; raised its training-data target fivefold to 500,000 hours; plans a bipedal unveil in the first quarter of 2027."
+          ],
+          [
+            "Hyundai:",
+            " Plans to mass-produce 30,000 humanoid units a year by 2028 through its U.S. subsidiary, Robotics America, per group investor presentations."
+          ],
+          [
+            "Samsung:",
+            " Holds a 35 percent equity stake in Rainbow Robotics and is working on mechanical hands delicate enough for microelectronics."
+          ],
+          [
+            "The caveat:",
+            " Single secondary source for the Korean moves; the 30,000-unit figure is a production target per investor presentations, not a confirmed order book."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "East Asia Brief, Nov 19",
+          "https://eastasiabrief.com/robotics/lg-electronics-creates-humanoid-robot-team-expand-ai-training-1587"
+        ]
+      ],
+      "body_file": "content/articles/korea-humanoid-split-lg-hyundai-samsung.html",
+      "head_title": "Korea's Three Giants Just Split the Humanoid Race Three Ways | Wire Willow",
+      "head_description": "LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines.",
+      "canonical": "https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of three distinct humanoid robots working on a factory floor",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "openai-outage-postgres",
+      "slug": "openai-outage-postgres-replicas-75-percent",
+      "edition": "2026-11-22",
+      "url": "/2026/11/22/openai-outage-postgres-replicas-75-percent/",
+      "title": "Routine database maintenance took down three-quarters of ChatGPT",
+      "dek": "Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/openai-outage-postgres-replicas-75-percent.webp",
+      "image_alt": "Editorial illustration of a server room with blinking red warning lights and a cracked database icon",
+      "og_image": "https://wirewillow.com/images/og-openai-outage-postgres-replicas-75-percent.jpg",
+      "caption": "Illustration: Wire Willow. Routine maintenance on one database service reached every product.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The outage:",
+            " Requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent between 1:48 and 5:21 p.m. PT on Saturday, November 21 — 211 minutes, hitting paid and free users alike."
+          ],
+          [
+            "The cause:",
+            " Scheduled maintenance on a PostgresDB service used by OpenAI's Primary API service caused both read replicas to fail at the same time, cutting off authentication across the stack."
+          ],
+          [
+            "The fix:",
+            " Engineers brought two new replicas online in the same region; OpenAI has placed a moratorium on similar maintenance and shipped a feature flag to shift traffic off replicas."
+          ],
+          [
+            "The caveat:",
+            " All figures are OpenAI's own account of its own incident; no independent measure of the failure rate was available."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "AI Weekly, Nov 22",
+          "https://aiweekly.co/alerts/openai-postgres-replica-failure-peaked-api-chatgpt-errors-at-75"
+        ],
+        [
+          "Lexx, Nov 22",
+          "https://blog.lexx.in/news/chatgpt-outage-75-percent-requests-failed-nov-2026/"
+        ],
+        [
+          "Linkbaits, Nov 22",
+          "https://www.linkbaits.com/news/openai-outage-chatgpt-75-percent-nov-21"
+        ]
+      ],
+      "body_file": "content/articles/openai-outage-postgres-replicas-75-percent.html",
+      "head_title": "Routine Database Maintenance Took Down Three-Quarters of ChatGPT | Wire Willow",
+      "head_description": "Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time.",
+      "canonical": "https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a server room with blinking red warning lights and a cracked database icon",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "together-ai-prompt-leak",
+      "slug": "together-ai-prompt-leak-coding-agent",
+      "edition": "2026-11-22",
+      "url": "/2026/11/22/together-ai-prompt-leak-coding-agent/",
+      "title": "An AI coding agent leaked the keys — and a security experiment caught it",
+      "dek": "An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/together-ai-prompt-leak-coding-agent.webp",
+      "image_alt": "Editorial illustration of a robot hand typing code on a laptop with a glowing key slipping out of the screen",
+      "og_image": "https://wirewillow.com/images/og-together-ai-prompt-leak-coding-agent.jpg",
+      "caption": "Illustration: Wire Willow. An agent put the credential in the public repo — no human pasted it there.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The leak:",
+            " An AI coding agent committed a credential to Together AI's public GitHub repository, xorl, giving access to a private Hugging Face repository of stored prompt samples from June and July 2026."
+          ],
+          [
+            "The catch:",
+            " The party that downloaded the samples tested credentials found inside them; five turned out to be canaries planted by Dragos in a security experiment."
+          ],
+          [
+            "The fallout:",
+            " On November 22, OpenRouter removed Phala, Together AI, and Novita, and removed 125 endpoints from Zero Data Retention eligibility."
+          ],
+          [
+            "The caveat:",
+            " The number of affected prompts and customers is not disclosed; whether real credentials were found is still under review."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Together AI security notice, Nov 21",
+          "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+        ],
+        [
+          "TSN, Nov 21–22",
+          "https://tsnmedia.org/inference-prompt-leakage/"
+        ]
+      ],
+      "body_file": "content/articles/together-ai-prompt-leak-coding-agent.html",
+      "head_title": "An AI Coding Agent Leaked the Keys — and a Security Experiment Caught It | Wire Willow",
+      "head_description": "An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside.",
+      "canonical": "https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a robot hand typing code on a laptop with a glowing key slipping out of the screen",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "payoneer-stablecoin-bank",
+      "slug": "payoneer-stablecoin-bank-occ-approval",
+      "edition": "2026-11-22",
+      "url": "/2026/11/22/payoneer-stablecoin-bank-occ-approval/",
+      "title": "The stablecoin banks are lining up — Payoneer gets the OCC's conditional yes",
+      "dek": "The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date.",
+      "category": "fintech",
+      "cat_label": "Fintech",
+      "section": "Fintech",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/payoneer-stablecoin-bank-occ-approval.webp",
+      "image_alt": "Editorial illustration of a classical bank building merged with a large digital coin bearing a dollar symbol",
+      "og_image": "https://wirewillow.com/images/og-payoneer-stablecoin-bank-occ-approval.jpg",
+      "caption": "Illustration: Wire Willow. Payoneer's PAYO Digital Bank would issue the closed-loop PAYO-USD stablecoin.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The approval:",
+            " Corporate Decision No. 1395, November 20: preliminary conditional approval to form PAYO Digital Bank, N.A., wholly owned by Payoneer Global Inc., to issue the fully reserved dollar stablecoin PAYO-USD."
+          ],
+          [
+            "The conditions:",
+            " At least $8 million in Tier 1 capital for the first three years, capital raised within 12 months, open within 18 months, and liquidity covering 180 days of operating expenses."
+          ],
+          [
+            "The queue:",
+            " MoonPay applied November 17 for MoonPay National Trust Bank; Circle got final approval in July, Ripple in October, Coinbase's charter became effective this month."
+          ],
+          [
+            "The caveat:",
+            " Preliminary conditional approval is not a license to operate — final authorization is still required; no launch date or PAYO-USD supply target was disclosed."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "OCC Corporate Decision No. 1395, Nov 20",
+          "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1395.pdf"
+        ]
+      ],
+      "body_file": "content/articles/payoneer-stablecoin-bank-occ-approval.html",
+      "head_title": "The Stablecoin Banks Are Lining Up — Payoneer Gets the OCC's Conditional Yes | Wire Willow",
+      "head_description": "The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date.",
+      "canonical": "https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a classical bank building merged with a large digital coin bearing a dollar symbol",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "niosh-humanoid-safety",
+      "slug": "niosh-humanoid-robot-safety-review",
+      "edition": "2026-11-22",
+      "url": "/2026/11/22/niosh-humanoid-robot-safety-review/",
+      "title": "Washington opens its first federal review of humanoid robot safety",
+      "dek": "NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job.",
+      "category": "robotics",
+      "cat_label": "Robotics",
+      "section": "Robotics",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T12:14:39-08:00",
+      "modified": "2026-11-22T12:14:39-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/niosh-humanoid-robot-safety-review.webp",
+      "image_alt": "Editorial illustration of a humanoid robot and a factory worker in safety gear sharing a workspace divided by a yellow safety barrier",
+      "og_image": "https://wirewillow.com/images/og-niosh-humanoid-robot-safety-review.jpg",
+      "caption": "Illustration: Wire Willow. Cutting power to a humanoid can make it fall on workers — the safe move for a stationary arm.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The request:",
+            " Federal Register Document 2026-23799, Dockets CDC-2026-1882 and NIOSH-366: a 90-day public comment window closing February 21, 2027 (one other outlet reports February 22)."
+          ],
+          [
+            "The scope:",
+            " Eight research priorities, from which tasks suit humanoid execution to how to log near-misses and what sensor hardware keeps people safe in shared space."
+          ],
+          [
+            "The hazard:",
+            " Cutting power to a humanoid robot can cause it to fall on nearby workers. OSHA has no standalone standard for humanoid robots."
+          ],
+          [
+            "The caveat:",
+            " The request is for information-gathering only — it proposes no new regulations. The GM, BMW, and Mercedes-Benz pilot detail comes from The Robotics Media, not NIOSH."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The Robotics Media, Nov 21",
+          "https://theroboticsmedia.com/article/niosh-rfi-humanoid-robot-workplace-safety"
+        ],
+        [
+          "Alston & Bird, Nov 20",
+          "https://www.alston.com/en/insights/publications/2026/11/health-care-week-in-review-november-20-2026"
+        ]
+      ],
+      "body_file": "content/articles/niosh-humanoid-robot-safety-review.html",
+      "head_title": "Washington Opens Its First Federal Review of Humanoid Robot Safety | Wire Willow",
+      "head_description": "NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job.",
+      "canonical": "https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a humanoid robot and a factory worker in safety gear sharing a workspace divided by a yellow safety barrier",
+      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
     }
   ],
   "brief_sets": {
@@ -978,6 +1446,104 @@
             [
               "AP, Nov 21",
               "https://www.whro.org/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-20": {
+      "briefs": [
+        {
+          "eyebrow": "AI · Fintech",
+          "title": "Anthropic's first day as a public company: up 34 percent",
+          "body": "Anthropic's shares opened on the Nasdaq on Thursday at $111.50, about 34 percent above the $83 IPO price set on Wednesday — the market's first verdict on the biggest initial public offering in history. The offering closed on Friday with the underwriters exercising their full option for 147 million additional shares, bringing gross proceeds to about $93.5 billion, with about $91.6 billion going to the company. The separate $26 billion private placement to AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC also closed.",
+          "sources": [
+            [
+              "Anthropic, Nov 20",
+              "https://www.anthropic.com/news/ipo-close"
+            ],
+            [
+              "The Tech Hacker, Nov 20",
+              "https://thetechhacker.com/news/anthropic-stock-ant-falls-day-two-ai-selloff/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Fintech",
+          "title": "Payhawk's $280M, Dave's bank charter, and the World Bank's stablecoin test",
+          "body": "Payhawk raised a $280 million Series C at a $2 billion valuation, led by Growth Equity at Goldman Sachs Alternatives — the day's biggest fintech round. Dave, the mobile banking app, filed with the OCC and the FDIC for a national bank charter to form Dave Bank, N.A., and crypto payments company MoonPay filed for a charter of its own, for a stablecoin-issuing arm. And the World Bank Group said it will test USDC disbursements with Citi and Circle, while DBS opened direct USDC minting and redemption to institutional clients through a Circle partnership.",
+          "sources": [
+            [
+              "Builders in Fintech, Nov 19",
+              "https://newsletter.buildersinfintech.ai/p/builders-in-fintech-daily-bd2"
+            ],
+            [
+              "Law360, Nov 19",
+              "https://www.law360.co.uk/banking/articles/2552455/latest-occ-charter-bids-are-from-crypto-co-banking-app"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Robotics",
+          "title": "151 humanoid robots danced in Shenzhen — and set a world record",
+          "body": "One hundred and fifty-one humanoid robots performed a synchronized dance routine in Shenzhen on November 17, setting a Guinness World Record for the most humanoid robots dancing simultaneously within one hour. The event beat its initial target of 110 robots, and adjudicator Xiong Wen confirmed all 151 machines completed the performance. Twenty of ENGINEAI's full-size T800 humanoids — 1.73 meters tall, about 75 kilograms — demonstrated the company's swarm-control capabilities, joined by groups of Unitree G1 and AGIBOT X2 robots. The Shenzhen Longgang District Artificial Intelligence (Robotics) Bureau organized the event ahead of the APEC Economic Leaders' Meeting on November 18–19. It was a choreographed showcase, not a capability test — but coordinating 151 bipedal machines to move in step is itself the hard part of the humanoid problem.",
+          "sources": [
+            [
+              "Interesting Engineering, Nov 19",
+              "https://interestingengineering.com/ai-robotics/guinness-record-151-humanoid-robots-dance"
+            ],
+            [
+              "RobotToday, Nov 19",
+              "https://robottoday.com/industry-briefing/151-humanoid-robots-set-guinness-world-record-in-synchronized-shenzhen-dance/18487"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-22": {
+      "briefs": [
+        {
+          "eyebrow": "AI · Fintech",
+          "title": "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "body": "Anthropic's record IPO met reality on its second day of trading. Shares closed Friday, November 20, at $88.91, down 8.5 percent, after trading as low as $83.05 — five cents above the $83 IPO price — shedding about $109 billion in market value in a day, according to The Wall Street Journal. The slide came as the Nasdaq fell about 5.3 percent on Friday in a broad AI sell-off the Journal says sealed a $4 trillion wipeout of market value in the Nasdaq that week. Retail buyers who chased Thursday's open at $111.50 were sitting on losses of roughly 20 percent by Friday's close, and the Journal reports the offering allocated less than 20 percent of shares to retail investors. Anthropic closed its first session Thursday at $97.17, up 17 percent. The IPO itself closed Friday with the underwriters exercising their full option for 147 million additional shares, bringing gross proceeds to about $93.5 billion. On December 15, another roughly 300 million shares become available to trade, which could pressure the stock further.",
+          "sources": [
+            [
+              "Wall Street Journal, Nov 20",
+              "https://www.wsj.com/finance/stocks/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-280a34b1"
+            ],
+            [
+              "The Tech Hacker, Nov 20",
+              "https://thetechhacker.com/news/anthropic-stock-ant-falls-day-two-ai-selloff/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "AI",
+          "title": "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "body": "Google made its interactive world model Genie 4 available to developers through the Gemini API and Google AI Studio on November 19, a day after it opened in Project Genie for eligible Google AI Ultra subscribers. Starting from a text prompt, a reference image, or both, developers can generate continuous 720p worlds at 24 frames per second with synchronized native audio — ambient soundscapes, sound effects, and character dialogue — and steer them with keyboard controls and new text prompts as they unfold. Every output carries an imperceptible SynthID watermark. Sessions are capped at 120 seconds, and Google's own documentation warns that object permanence is strongest in roughly the first 45 to 90 seconds — turn away and a building may have moved when you turn back. Access is paid only: a third-party breakdown of Google's pricing page puts the cost at roughly $0.10 per second, about $6.05 a minute.",
+          "sources": [
+            [
+              "Google blog, Nov 19",
+              "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+            ],
+            [
+              "CoderLegion, Nov 20",
+              "http://coderlegion.com/35417/googles-genie-4-reaches-the-api-what-developers-should-know-about-interactive-worlds"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Drones",
+          "title": "Amazon's Atlanta drone deliveries started without a public filing",
+          "body": "Amazon's Prime Air began drone deliveries from Gwinnett County, metro Atlanta, the weekend of November 14–15, using its MK30 drone to deliver items under 5 pounds within 7.5 miles in under an hour, for fees of $2.99 to $4.99, creating about 30 local jobs. But unlike Wing, the Alphabet-owned drone delivery company that also serves the Atlanta area, Amazon's launch left no public environmental review document on the FAA's drone index for Georgia. Wing went through a site-specific environmental assessment with a public comment period that drew zero comments during its July-to-August review window. Amazon, by contrast, relied on a national environmental finding the FAA signed in 2025 covering its Part 135 drone delivery operations broadly — a blanket approval that lets individual city launches proceed through internal FAA review without triggering a new public notice. Amazon has issued no official newsroom post announcing the Atlanta launch; it was first reported by local Atlanta outlets.",
+          "sources": [
+            [
+              "The Robotics Media, Nov 18",
+              "https://theroboticsmedia.com/article/amazon-prime-air-atlanta-drone-delivery-no-public-filing"
+            ],
+            [
+              "DroneXL, Nov 18",
+              "https://dronexl.co/2026/11/18/amazon-prime-air-atlanta-gwinnett-drone-delivery-launch/"
             ]
           ]
         }
@@ -1405,11 +1971,225 @@
       "archive_summary": "4 stories + 3 briefs: a claimed proof of the Riemann Hypothesis built with Claude, Signal's screenshot block against AI agents, Meta's net-zero rethink, and Waymo's robotaxi recalls.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-21"
+    },
+    {
+      "id": "2026-11-20",
+      "kind": "edition",
+      "label": "Edition No. 007",
+      "number": "No. 007",
+      "date": "2026-11-20",
+      "date_long": "Friday, November 20, 2026",
+      "date_short": "Nov 20, 2026",
+      "date_upper": "NOV 20, 2026",
+      "url": "/2026/11/20/",
+      "head": {
+        "title": "Tech News: Nov 20, 2026 — California Subpoenas Nvidia, Gemini 4 Neon & the FCC Drone Order | Wire Willow",
+        "description": "Edition No. 007: California subpoenas Nvidia over its China ties as the company halts licensed Hopper sales, Google's $3 Gemini 4 Neon sets off a price war, the FCC opens 450 MHz to drones, and Korea's giants split the humanoid race three ways. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/20/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 007 — Nov 20, 2026",
+      "lead_slug": "california-subpoenas-nvidia-hopper-halt",
+      "article_slugs": [
+        "california-subpoenas-nvidia-hopper-halt",
+        "gemini-4-neon-price-war",
+        "fcc-drone-spectrum-order-450-mhz",
+        "korea-humanoid-split-lg-hyundai-samsung"
+      ],
+      "briefs": "2026-11-20",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 20 Headlines",
+      "ticker_aria": "Top headlines, Friday November 20, 2026",
+      "ticker": [
+        [
+          "AI",
+          "California subpoenas Nvidia — and the company closes its last legal door to China",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google's $3 model sets off a price war the frontier labs can't ignore",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "The FCC just gave drones a nationwide control network — 3–0",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Korea's three giants just split the humanoid race three ways",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's first day as a public company: up 34 percent",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "Payhawk's $280M, Dave's bank charter, and the World Bank's stablecoin test",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "151 humanoid robots danced in Shenzhen — and set a world record",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "$2.4B",
+          "in licensed Hopper sales from China last quarter — about 2 percent of Nvidia's $115.8 billion in quarterly revenue"
+        ],
+        [
+          "$3",
+          "per million input tokens for Google's Gemini 4 Neon — less than half the $8 top frontier models charge"
+        ],
+        [
+          "450 MHz",
+          "the band the FCC opened to nationwide drone command-and-control links, with a single nationwide license for AURA"
+        ],
+        [
+          "30,000",
+          "humanoid units a year Hyundai plans to mass-produce by 2028 through its U.S. subsidiary, Robotics America"
+        ]
+      ],
+      "watchbox": [
+        "Whether California's subpoena turns into a lawsuit — and what Nvidia turns over",
+        "How far the AI price war goes — and which labs can afford to keep cutting",
+        "Whether the FCC's drone network gets built out on the 400-foot track or the high-altitude one",
+        "Whether LG's software-first humanoid can do factory work when it appears in early 2027"
+      ],
+      "footer_edition": "Edition No. 007 — Friday, November 20, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Friday, November 20, 2026 · Edition No. 007",
+      "archive_headline": "California subpoenas Nvidia — and the company closes its last legal door to China",
+      "archive_summary": "4 stories + 3 briefs: California's Nvidia subpoena and the Hopper halt, Google's $3 Gemini 4 Neon price war, the FCC's drone spectrum order, and Korea's humanoid split.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "id": "2026-11-22",
+      "kind": "edition",
+      "label": "Edition No. 008",
+      "number": "No. 008",
+      "date": "2026-11-22",
+      "date_long": "Sunday, November 22, 2026",
+      "date_short": "Nov 22, 2026",
+      "date_upper": "NOV 22, 2026",
+      "url": "/2026/11/22/",
+      "head": {
+        "title": "Tech News: Nov 22, 2026 — OpenAI's 75% Outage, the Together AI Leak & Payoneer's Bank | Wire Willow",
+        "description": "Edition No. 008: routine database maintenance took down three-quarters of ChatGPT, an AI coding agent leaked Together AI's customer prompts, Payoneer gets the OCC's conditional yes for a stablecoin bank, and Washington opens its first humanoid safety review. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/22/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 008 — Nov 22, 2026",
+      "lead_slug": "openai-outage-postgres-replicas-75-percent",
+      "article_slugs": [
+        "openai-outage-postgres-replicas-75-percent",
+        "together-ai-prompt-leak-coding-agent",
+        "payoneer-stablecoin-bank-occ-approval",
+        "niosh-humanoid-robot-safety-review"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 22 Headlines",
+      "ticker_aria": "Top headlines, Sunday November 22, 2026",
+      "ticker": [
+        [
+          "AI",
+          "Routine database maintenance took down three-quarters of ChatGPT",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "An AI coding agent leaked the keys — and a security experiment caught it",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "The stablecoin banks are lining up — Payoneer gets the OCC's conditional yes",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Washington opens its first federal review of humanoid robot safety",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon's Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "75%",
+          "peak failure rate for ChatGPT and OpenAI API requests during the 211-minute outage on November 21"
+        ],
+        [
+          "$109B",
+          "in market value Anthropic shed on its second day of trading, closing at $88.91, down 8.5 percent"
+        ],
+        [
+          "$8M",
+          "in Tier 1 capital the OCC requires Payoneer's proposed PAYO Digital Bank to hold in its first three years"
+        ],
+        [
+          "Feb 21, 2027",
+          "when the comment window closes on NIOSH's first federal review of humanoid robot workplace safety"
+        ]
+      ],
+      "watchbox": [
+        "Whether OpenAI's maintenance moratorium and replica fixes hold — and what its next postmortem says",
+        "Whether Together AI's review finds real credentials among the leaked prompt samples",
+        "Whether the OCC's stablecoin-bank queue keeps growing ahead of the GENIUS Act's January 18 effective date",
+        "What NIOSH's comment docket says about how humanoid robots should share space with workers"
+      ],
+      "footer_edition": "Edition No. 008 — Sunday, November 22, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Sunday, November 22, 2026 · Edition No. 008",
+      "archive_headline": "Routine database maintenance took down three-quarters of ChatGPT",
+      "archive_summary": "4 stories + 3 briefs: the OpenAI outage, the Together AI prompt leak, Payoneer's stablecoin bank approval, and NIOSH's humanoid safety review.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-22"
     }
   ],
   "homepage": {
-    "edition": "2026-11-21",
-    "briefs": "2026-11-21",
+    "edition": "2026-11-22",
+    "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
     "head": {
@@ -1420,7 +2200,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-21",
+    "lastmod": "2026-11-22",
     "changefreq": "daily"
   },
   "pages": {
@@ -1447,7 +2227,7 @@
         "og_image": "https://wirewillow.com/images/og-home.jpg",
         "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
       },
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-22",
       "changefreq": "daily"
     },
     "notfound": {
@@ -1465,7 +2245,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-21",
+      "lastmod": "2026-11-22",
       "changefreq": "daily"
     },
     {
@@ -1481,12 +2261,20 @@
       "lastmod": "2026-11-19"
     },
     {
+      "url": "https://wirewillow.com/2026/11/20/",
+      "lastmod": "2026-11-20"
+    },
+    {
       "url": "https://wirewillow.com/2026/11/21/",
       "lastmod": "2026-11-21"
     },
     {
+      "url": "https://wirewillow.com/2026/11/22/",
+      "lastmod": "2026-11-22"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-21",
+      "lastmod": "2026-11-22",
       "changefreq": "daily"
     },
     {
@@ -1552,6 +2340,38 @@
     {
       "url": "https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
       "lastmod": "2026-11-21"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/",
+      "lastmod": "2026-11-22"
     }
   ]
 }
