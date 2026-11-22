@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://wirewillow.com/</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://wirewillow.com/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://wirewillow.com/2026/11/13/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/18/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/19/</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://wirewillow.com/archive/</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://wirewillow.com/2026/11/21/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://wirewillow.com/archive/</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://wirewillow.com/about/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/</loc><lastmod>2026-11-13</lastmod></url>
@@ -17,4 +18,8 @@
   <url><loc>https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/</loc><lastmod>2026-11-21</lastmod></url>
 </urlset>

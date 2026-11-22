@@ -5,8 +5,40 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Thu, 19 Nov 2026 11:30:00 -0800</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 17:30:00 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.</title>
+    <link>https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/</guid>
+    <description>Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet.</description>
+    <pubDate>Sat, 21 Nov 2026 17:30:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Signal is blocking screenshots on your phone, because your operating system's AI can read them</title>
+    <link>https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/</guid>
+    <description>The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete.</description>
+    <pubDate>Sat, 21 Nov 2026 17:30:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta is "re-evaluating" its 2030 net-zero goal as AI data centers push its emissions up nearly 40%</title>
+    <link>https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/</guid>
+    <description>The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant.</description>
+    <pubDate>Sat, 21 Nov 2026 17:30:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Waymo is updating 3,871 robotaxis after highway incidents and a California freeway ban</title>
+    <link>https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/</guid>
+    <description>Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.</description>
+    <pubDate>Sat, 21 Nov 2026 17:30:00 -0800</pubDate>
+    <category>Robotics</category>
+  </item>
   <item>
     <title>The U.S. closed the last big loophole in its AI chip ban — by going after the landlords</title>
     <link>https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/</link>

@@ -625,6 +625,226 @@
       "og_image_alt": "Editorial illustration of a stock exchange trading floor with a rising chart on a large screen, confetti in the air, and a data center behind glass walls",
       "read_short": "3 MIN",
       "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+    },
+    {
+      "id": "riemann-claude-proof",
+      "slug": "riemann-hypothesis-claude-proof",
+      "edition": "2026-11-21",
+      "url": "/2026/11/21/riemann-hypothesis-claude-proof/",
+      "title": "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.",
+      "dek": "Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-21",
+      "date_short": "Nov 21, 2026",
+      "published": "2026-11-21T17:30:00-08:00",
+      "modified": "2026-11-21T17:30:00-08:00",
+      "read_time": "1 min read",
+      "image": "/images/riemann-hypothesis-claude-proof.webp",
+      "image_alt": "Editorial illustration of a chalkboard covered in prime number spirals and equations, a glowing AI chat window, and a towering stack of paper",
+      "og_image": "https://wirewillow.com/images/og-riemann-hypothesis-claude-proof.jpg",
+      "caption": "Illustration: Wire Willow. A 250,000-page proof, written with an AI's help.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The claim:",
+            " Anthropic mathematician Levent Alpöge says he worked with Claude for six weeks to build a proof of the Riemann Hypothesis, written up in Lean and running to more than 250,000 pages."
+          ],
+          [
+            "The prize:",
+            " The Clay Mathematics Institute offers $1 million for the first correct solution of the 167-year-old problem, proposed by Bernhard Riemann in 1859."
+          ],
+          [
+            "The caveat:",
+            " The proof has not been verified, and checking it will take time. Oxford mathematician James Maynard says he is '98 or 99 percent certain' it is accurate — his assessment, not a confirmation."
+          ],
+          [
+            "The question:",
+            " It is unclear whether Claude was essential to the breakthrough, or a powerful tool in a mathematician's hands."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Anthropic employee claims to have proven the most famous math problem using Claude — Engadget",
+          "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/"
+        ]
+      ],
+      "body_file": "content/articles/riemann-hypothesis-claude-proof.html",
+      "head_title": "An Anthropic Mathematician Says Claude Helped Him Prove the Riemann Hypothesis. The Proof Is 250,000 Pages Long | Wire Willow",
+      "head_description": "Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet.",
+      "canonical": "https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a chalkboard covered in prime number spirals and equations, a glowing AI chat window, and a towering stack of paper",
+      "read_short": "1 MIN",
+      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+    },
+    {
+      "id": "signal-screenshot-block",
+      "slug": "signal-blocks-screenshots-ai-surveillance",
+      "edition": "2026-11-21",
+      "url": "/2026/11/21/signal-blocks-screenshots-ai-surveillance/",
+      "title": "Signal is blocking screenshots on your phone, because your operating system's AI can read them",
+      "dek": "The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-21",
+      "date_short": "Nov 21, 2026",
+      "published": "2026-11-21T17:30:00-08:00",
+      "modified": "2026-11-21T17:30:00-08:00",
+      "read_time": "1 min read",
+      "image": "/images/signal-blocks-screenshots-ai-surveillance.webp",
+      "image_alt": "Editorial illustration of a smartphone with a private messaging conversation, a padlock over the screen, and an AI eye blocked by a shield",
+      "og_image": "https://wirewillow.com/images/og-signal-blocks-screenshots-ai-surveillance.jpg",
+      "caption": "Illustration: Wire Willow. Signal can lock its own app — but not the operating system around it.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The change:",
+            " Signal is blocking screenshots in its Android and iOS apps, after already doing so on Windows, because OS-level AI agents can scan what is on screen."
+          ],
+          [
+            "The reason:",
+            " President Meredith Whittaker calls operating systems that integrate agentic AI an 'existential threat' to private messaging."
+          ],
+          [
+            "The limit:",
+            " Users can turn the block off, which Whittaker says would 'break our privacy guarantees.'"
+          ],
+          [
+            "The gap:",
+            " Whittaker admits the block is 'incomplete' — it does not stop sneakier ways AI agents could reach app data."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Signal restricts mobile screenshots as it confronts 'existential threat' of AI surveillance — TechCrunch",
+          "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+        ]
+      ],
+      "body_file": "content/articles/signal-blocks-screenshots-ai-surveillance.html",
+      "head_title": "Signal Is Blocking Screenshots on Your Phone Because Your Operating System's AI Can Read Them | Wire Willow",
+      "head_description": "The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete.",
+      "canonical": "https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a smartphone with a private messaging conversation, a padlock over the screen, and an AI eye blocked by a shield",
+      "read_short": "1 MIN",
+      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+    },
+    {
+      "id": "meta-net-zero-rethink",
+      "slug": "meta-reconsiders-net-zero-ai-emissions",
+      "edition": "2026-11-21",
+      "url": "/2026/11/21/meta-reconsiders-net-zero-ai-emissions/",
+      "title": "Meta is \"re-evaluating\" its 2030 net-zero goal as AI data centers push its emissions up nearly 40%",
+      "dek": "The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-21",
+      "date_short": "Nov 21, 2026",
+      "published": "2026-11-21T17:30:00-08:00",
+      "modified": "2026-11-21T17:30:00-08:00",
+      "read_time": "1 min read",
+      "image": "/images/meta-reconsiders-net-zero-ai-emissions.webp",
+      "image_alt": "Editorial illustration of a data center with glowing server halls and smoking cooling towers, a tipping net-zero gauge, and a rising emissions chart",
+      "og_image": "https://wirewillow.com/images/og-meta-reconsiders-net-zero-ai-emissions.jpg",
+      "caption": "Illustration: Wire Willow. The AI buildout is pushing Meta's emissions up, not down.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The rethink:",
+            " Meta's 2026 sustainability report, published Nov 19, says the company is 're-evaluating' its 2030 net-zero goal and near-term targets."
+          ],
+          [
+            "The numbers:",
+            " Total emissions rose from 15.6 million to more than 21.7 million metric tonnes in a year — nearly 40% — and net emissions rose 45%, to more than 11.8 million tonnes."
+          ],
+          [
+            "The comparison:",
+            " Microsoft's footprint rose 25%, Google's 18% and Amazon's 16%; all three have stuck by their original goals so far."
+          ],
+          [
+            "The water:",
+            " Facility water use fell to 790 million gallons, but use in water-stressed areas rose to 246 million, and power-generation water use topped 26 billion gallons."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers — Ars Technica",
+          "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+        ]
+      ],
+      "body_file": "content/articles/meta-reconsiders-net-zero-ai-emissions.html",
+      "head_title": "Meta Is 'Re-Evaluating' Its 2030 Net-Zero Goal as AI Data Centers Push Emissions Up Nearly 40% | Wire Willow",
+      "head_description": "The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant.",
+      "canonical": "https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a data center with glowing server halls and smoking cooling towers, a tipping net-zero gauge, and a rising emissions chart",
+      "read_short": "1 MIN",
+      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+    },
+    {
+      "id": "waymo-recalls",
+      "slug": "waymo-recalls-robotaxis-highway-problems",
+      "edition": "2026-11-21",
+      "url": "/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
+      "title": "Waymo is updating 3,871 robotaxis after highway incidents and a California freeway ban",
+      "dek": "Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.",
+      "category": "robotics",
+      "cat_label": "Robotics",
+      "section": "Robotics",
+      "date": "2026-11-21",
+      "date_short": "Nov 21, 2026",
+      "published": "2026-11-21T17:30:00-08:00",
+      "modified": "2026-11-21T17:30:00-08:00",
+      "read_time": "1 min read",
+      "image": "/images/waymo-recalls-robotaxis-highway-problems.webp",
+      "image_alt": "Editorial illustration of a driverless robotaxi on a highway approaching a closed construction zone barrier, with a police officer directing traffic",
+      "og_image": "https://wirewillow.com/images/og-waymo-recalls-robotaxis-highway-problems.jpg",
+      "caption": "Illustration: Wire Willow. A software fix, delivered to the whole fleet at once.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The recalls:",
+            " Two software recalls across Waymo's fleet of 3,871 robotaxis."
+          ],
+          [
+            "The fixes:",
+            " The cars will stop entering closed highway construction zones and respond better to police and emergency crews directing traffic."
+          ],
+          [
+            "The trigger:",
+            " Several incidents involving construction breaches and ignored officer signals."
+          ],
+          [
+            "The consequence:",
+            " California banned Waymo from freeways, forcing a nationwide pause on highway operations."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Waymo issues recalls to fix its highway problems — The Verge",
+          "https://www.theverge.com/transportation/1039153/waymo-issues-recalls-to-fix-its-highway-problems"
+        ]
+      ],
+      "body_file": "content/articles/waymo-recalls-robotaxis-highway-problems.html",
+      "head_title": "Waymo Is Updating 3,871 Robotaxis After Highway Incidents and a California Freeway Ban | Wire Willow",
+      "head_description": "Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.",
+      "canonical": "https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a driverless robotaxi on a highway approaching a closed construction zone barrier, with a police officer directing traffic",
+      "read_short": "1 MIN",
+      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
     }
   ],
   "brief_sets": {
@@ -717,6 +937,47 @@
             [
               "Nextgov/FCW, Nov 18",
               "https://www.nextgov.com/policy/2026/11/bipartisan-bill-would-create-cyber-and-ai-review-board-amid-series-tech-outages/417299/"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-21": {
+      "briefs": [
+        {
+          "eyebrow": "AI · Gossip",
+          "title": "WIRED: the Nvidia board's problem with Huang was his 'lack of candor'",
+          "body": "WIRED reports, citing sources, that the Nvidia board's main issue ahead of Jensen Huang's resignation was the former chief executive's 'lack of candor' — amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset. The board said on November 17 it 'does not intend' to reinstate Huang as CEO.",
+          "sources": [
+            [
+              "WIRED, Nov 20",
+              "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "AI · Fintech",
+          "title": "An AI debt-collection service exposed 6.6 million accounts and 315,000 call recordings",
+          "body": "Two serious vulnerabilities in CreditNirvana, an AI debt-collection platform, would have let attackers access 6.6 million accounts and 315,000 call recordings — along with emails, texts and credit reports. The bugs were patched in June and disclosed in October.",
+          "sources": [
+            [
+              "WIRED, Nov 18",
+              "https://www.wired.com/story/ai-debt-collection-service-exposed-66-million-accounts-and-315000-call-recordings/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Robotics · Policy",
+          "title": "After a week of talks, the UN agrees to two more years of talking about 'killer robots'",
+          "body": "After a week of negotiations in Geneva that ran until 4:30 a.m. on Saturday, 128 countries agreed to spend two years 'elaborating' on a possible accord on lethal autonomous weapons — not 'negotiating' one, a word several countries rejected. About 100 countries had pushed for swift, legally binding rules; the United States, Russia and Israel opposed them. The International Committee of the Red Cross, which wanted binding rules within a year, said it regretted the outcome, and the Stop Killer Robots coalition called the mandate 'watered down.'",
+          "sources": [
+            [
+              "Reuters, Nov 21",
+              "https://dukecountry.fm/2026/11/20/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028/"
+            ],
+            [
+              "AP, Nov 21",
+              "https://www.whro.org/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules"
             ]
           ]
         }
@@ -1037,11 +1298,118 @@
       "archive_summary": "3 stories + 3 briefs: Washington closes the remote-compute loophole, Nvidia's board says no to Huang's return while traders price the odds, and Anthropic's record-setting $81.3 billion debut.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-19"
+    },
+    {
+      "id": "2026-11-21",
+      "kind": "edition",
+      "label": "Edition No. 006",
+      "number": "No. 006",
+      "date": "2026-11-21",
+      "date_long": "Saturday, November 21, 2026",
+      "date_short": "Nov 21, 2026",
+      "date_upper": "NOV 21, 2026",
+      "url": "/2026/11/21/",
+      "head": {
+        "title": "Tech News: Nov 21, 2026 — Riemann Proof Claim, Signal vs. AI Agents & Meta's Net-Zero Rethink | Wire Willow",
+        "description": "Edition No. 006: an Anthropic mathematician says Claude helped him prove the Riemann Hypothesis, Signal blocks screenshots against OS-level AI agents, Meta rethinks its 2030 net-zero goal, and Waymo recalls its robotaxis. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/21/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 006 — Nov 21, 2026",
+      "lead_slug": "riemann-hypothesis-claude-proof",
+      "article_slugs": [
+        "riemann-hypothesis-claude-proof",
+        "signal-blocks-screenshots-ai-surveillance",
+        "meta-reconsiders-net-zero-ai-emissions",
+        "waymo-recalls-robotaxis-highway-problems"
+      ],
+      "briefs": "2026-11-21",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 21 Headlines",
+      "ticker_aria": "Top headlines, Saturday November 21, 2026",
+      "ticker": [
+        [
+          "AI",
+          "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Signal is blocking screenshots on your phone, because your operating system's AI can read them",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Meta is 're-evaluating' its 2030 net-zero goal as AI data centers push emissions up nearly 40%",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Waymo is updating 3,871 robotaxis after highway incidents and a California freeway ban",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "WIRED: the Nvidia board's problem with Huang was his 'lack of candor'",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "An AI debt-collection service exposed 6.6 million accounts and 315,000 call recordings",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "After a week of talks, the UN agrees to two more years of talking about 'killer robots'",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "250,000+",
+          "pages in Alpöge's Riemann Hypothesis proof, built with Claude over six weeks — and not yet verified"
+        ],
+        [
+          "3,871",
+          "robotaxis in Waymo's two software recalls, after highway incidents and a California freeway ban"
+        ],
+        [
+          "21.7M",
+          "metric tonnes of CO2 in Meta's 2025 footprint, up from 15.6 million — a nearly 40% rise in a year"
+        ],
+        [
+          "6.6M",
+          "accounts exposed by two vulnerabilities in the CreditNirvana AI debt-collection platform"
+        ]
+      ],
+      "watchbox": [
+        "Whether Alpöge's Riemann proof survives verification — and who gets the credit",
+        "Whether other apps follow Signal in blocking screenshots from OS-level AI agents",
+        "Whether Meta's net-zero rethink spreads to Amazon, Google and Microsoft",
+        "Whether Waymo gets back on California freeways"
+      ],
+      "footer_edition": "Edition No. 006 — Saturday, November 21, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Saturday, November 21, 2026 · Edition No. 006",
+      "archive_headline": "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.",
+      "archive_summary": "4 stories + 3 briefs: a claimed proof of the Riemann Hypothesis built with Claude, Signal's screenshot block against AI agents, Meta's net-zero rethink, and Waymo's robotaxi recalls.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-21"
     }
   ],
   "homepage": {
-    "edition": "2026-11-19",
-    "briefs": "2026-11-18",
+    "edition": "2026-11-21",
+    "briefs": "2026-11-21",
     "briefs_label": "Three more things",
     "briefs_links": false,
     "head": {
@@ -1052,7 +1420,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-19",
+    "lastmod": "2026-11-21",
     "changefreq": "daily"
   },
   "pages": {
@@ -1097,7 +1465,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-21",
       "changefreq": "daily"
     },
     {
@@ -1113,8 +1481,12 @@
       "lastmod": "2026-11-19"
     },
     {
+      "url": "https://wirewillow.com/2026/11/21/",
+      "lastmod": "2026-11-21"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-21",
       "changefreq": "daily"
     },
     {
@@ -1164,6 +1536,22 @@
     {
       "url": "https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/",
       "lastmod": "2026-11-19"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/",
+      "lastmod": "2026-11-21"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/",
+      "lastmod": "2026-11-21"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/",
+      "lastmod": "2026-11-21"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
+      "lastmod": "2026-11-21"
     }
   ]
 }
