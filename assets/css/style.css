@@ -238,7 +238,8 @@ button, input { font: inherit; }
 .ticker-items {
   display: flex;
   width: max-content;
-  animation: ticker 46s linear infinite;
+  /* 120s loop so the ticker is slow enough to read (was 46s — too fast to read). */
+  animation: ticker 120s linear infinite;
 }
 .ticker.is-paused .ticker-items,
 .ticker-track:hover .ticker-items { animation-play-state: paused; }
