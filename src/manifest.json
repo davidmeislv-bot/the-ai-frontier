@@ -1313,6 +1313,663 @@
       "og_type": "article",
       "og_image_alt": "Editorial illustration of a humanoid robot and a factory worker in safety gear sharing a workspace divided by a yellow safety barrier",
       "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+    },
+    {
+      "id": "outages-washington-microsoft",
+      "slug": "outages-washington-microsoft-more-coming",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/outages-washington-microsoft-more-coming/",
+      "title": "After a week of failures, Washington and Microsoft say the outages aren't over",
+      "dek": "A national flight halt, a days-long email blackout, and a bank lockout in one week — and the officials watching the systems say more breakdowns are coming.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/outages-washington-microsoft-more-coming.webp",
+      "image_alt": "Editorial illustration of a dark city skyline under red warning lights, with a grounded airplane, a cracked monitor showing a warning sign, and a columned bank building",
+      "og_image": "https://wirewillow.com/images/og-outages-washington-microsoft-more-coming.jpg",
+      "caption": "Illustration: Wire Willow. A week of failures hit flights, email, and banking — and officials say more are coming.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The week:",
+            " The FAA halted departures nationwide, Microsoft's Outlook stayed dark for days, and JPMorgan customers were locked out of their accounts — all within about a week."
+          ],
+          [
+            "The warning:",
+            " Director of National Intelligence Jay Clayton told CNN the public should be prepared for more investment in cybersecurity and more bumps as technology changes; Microsoft president Brad Smith told CBS to expect months of disruption."
+          ],
+          [
+            "The cause:",
+            " The week's failures were believed to be cyberattacks, and Smith said AI has made it easier to find weaknesses in software."
+          ],
+          [
+            "The pattern:",
+            " Attacks on government and commercial systems have picked up, with the Agriculture Department, JPMorgan, and supermarket chains among the targets."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The Verge (via mirror), Nov 22",
+          "https://techiemag.co.uk/we-havent-seen-the-last-of-the-major-tech-outages/"
+        ]
+      ],
+      "body_file": "content/articles/outages-washington-microsoft-more-coming.html",
+      "head_title": "After a Week of Failures, Washington and Microsoft Say the Outages Aren't Over | Wire Willow",
+      "head_description": "A national flight halt, a days-long email blackout, and a bank lockout in one week — and the officials watching the systems say more breakdowns are coming.",
+      "canonical": "https://wirewillow.com/2026/11/22/outages-washington-microsoft-more-coming/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a dark city skyline under red warning lights, with a grounded airplane, a cracked monitor showing a warning sign, and a columned bank building",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "pachocki-perplexity",
+      "slug": "openai-pachocki-perplexity-speed-limit",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/openai-pachocki-perplexity-speed-limit/",
+      "title": "OpenAI's top scientist proposes a speed limit for AI — measured in a single number",
+      "dek": "Jakub Pachocki argues that perplexity, a long-stable gauge of how well models predict the next token, could let rival labs agree on how fast to push frontier AI — and when to stop.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/openai-pachocki-perplexity-speed-limit.webp",
+      "image_alt": "Editorial illustration of a large speedometer gauge with a rising jagged line and a hand turning a dial",
+      "og_image": "https://wirewillow.com/images/og-openai-pachocki-perplexity-speed-limit.jpg",
+      "caption": "Illustration: Wire Willow. A single number could serve as a speedometer for AI progress.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The idea:",
+            " OpenAI chief scientist Jakub Pachocki proposes measuring AI progress by log-perplexity — a gauge of how well a model predicts the next token — and slowing development when it crosses agreed thresholds."
+          ],
+          [
+            "The numbers:",
+            " GPT-4 measured about 0.91 in log-perplexity; Pachocki puts current models below 0.8, and floats a first threshold window around 0.68 to 0.7."
+          ],
+          [
+            "The reaction:",
+            " Sam Altman called the post the most important thing OpenAI has published in a while, and Elon Musk seemingly endorsed it."
+          ],
+          [
+            "The caveat:",
+            " Pachocki is proposing a measurement and a mechanism, not a law; no regulator or lab has adopted the thresholds."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 22",
+          "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        ],
+        [
+          "Reuters, Nov 22",
+          "https://www.reuters.com/business/openai-scientist-proposes-industry-ai-limits-tied-model-intelligence-metric-2026-11-22/"
+        ]
+      ],
+      "body_file": "content/articles/openai-pachocki-perplexity-speed-limit.html",
+      "head_title": "OpenAI's Top Scientist Proposes a Speed Limit for AI — Measured in a Single Number | Wire Willow",
+      "head_description": "Jakub Pachocki argues that perplexity, a long-stable gauge of how well models predict the next token, could let rival labs agree on how fast to push frontier AI — and when to stop.",
+      "canonical": "https://wirewillow.com/2026/11/22/openai-pachocki-perplexity-speed-limit/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a large speedometer gauge with a rising jagged line and a hand turning a dial",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "banks-ai-agents",
+      "slug": "banks-ai-agents-at-your-own-risk",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/banks-ai-agents-at-your-own-risk/",
+      "title": "Your AI agent's mistakes are now your problem, America's biggest banks say",
+      "dek": "Wells Fargo's new customer terms, effective Tuesday, say agent use is \"AT YOUR OWN RISK.\" JPMorgan Chase, Bank of America, Citi and PNC have all moved the same way — while building their own AI tools.",
+      "category": "fintech",
+      "cat_label": "Fintech",
+      "section": "Fintech",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/banks-ai-agents-at-your-own-risk.webp",
+      "image_alt": "Editorial illustration of a small robot on treads stopped at a velvet rope outside a columned bank building while a man checks his phone",
+      "og_image": "https://wirewillow.com/images/og-banks-ai-agents-at-your-own-risk.jpg",
+      "caption": "Illustration: Wire Willow. A robot is stopped at the rope outside the bank — your agent's mistakes are your problem.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The change:",
+            " Wells Fargo's new customer terms, effective Tuesday, November 24, say customers who let an AI agent into their account do so \"AT YOUR OWN RISK.\""
+          ],
+          [
+            "The company:",
+            " JPMorgan Chase, Bank of America, Citi, and PNC moved the same way in recent weeks, while building their own AI tools."
+          ],
+          [
+            "The risk:",
+            " Banks say they cannot verify that an instruction came from the customer rather than from text an agent read, and an agent that misreads a prompt can move real money."
+          ],
+          [
+            "The pushback:",
+            " Agent builders say the crackdown protects banks' own products; some are building approval screens that ask the customer to confirm before any transaction."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Wired, Nov 22",
+          "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+        ]
+      ],
+      "body_file": "content/articles/banks-ai-agents-at-your-own-risk.html",
+      "head_title": "Your AI Agent's Mistakes Are Now Your Problem, America's Biggest Banks Say | Wire Willow",
+      "head_description": "Wells Fargo's new customer terms, effective Tuesday, say agent use is \"AT YOUR OWN RISK.\" JPMorgan Chase, Bank of America, Citi and PNC have all moved the same way — while building their own AI tools.",
+      "canonical": "https://wirewillow.com/2026/11/22/banks-ai-agents-at-your-own-risk/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a small robot on treads stopped at a velvet rope outside a columned bank building while a man checks his phone",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "hyperscale-marx",
+      "slug": "data-center-backlash-hyperscale-paris-marx",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/data-center-backlash-hyperscale-paris-marx/",
+      "title": "The backlash against Big Tech has a new front line: the data center next door",
+      "dek": "In a new book, journalist Paris Marx argues the giant server farms powering generative AI have turned abstract anger at tech companies into something communities can see, hear, and pay for.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "3 min read",
+      "read_short": "3 MIN",
+      "image": "/images/data-center-backlash-hyperscale-paris-marx.webp",
+      "image_alt": "Editorial illustration of a massive windowless data center looming over a street of small houses, with residents looking up at it",
+      "og_image": "https://wirewillow.com/images/og-data-center-backlash-hyperscale-paris-marx.jpg",
+      "caption": "Illustration: Wire Willow. A data center the size of a factory looms over the houses next door.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The book:",
+            " Journalist Paris Marx's \"Hyperscale\" traces how the server farms behind generative AI became the most visible target of the backlash against Big Tech."
+          ],
+          [
+            "The scale:",
+            " Marx says data centers use more than 20 percent of Ireland's electricity and a Google facility used 29 percent of The Dalles, Oregon's water in 2021."
+          ],
+          [
+            "The politics:",
+            " Marx credits data-center opposition with helping defeat a 2022 ballot measure in The Dalles and says it has drawn opposition from Ron DeSantis on the right and Bernie Sanders on the left."
+          ],
+          [
+            "The caveat:",
+            " The book is a single-source argument; the figures and episodes are Marx's account, attributed to him throughout."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 22",
+          "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+        ]
+      ],
+      "body_file": "content/articles/data-center-backlash-hyperscale-paris-marx.html",
+      "head_title": "The Backlash Against Big Tech Has a New Front Line: the Data Center Next Door | Wire Willow",
+      "head_description": "In a new book, journalist Paris Marx argues the giant server farms powering generative AI have turned abstract anger at tech companies into something communities can see, hear, and pay for.",
+      "canonical": "https://wirewillow.com/2026/11/22/data-center-backlash-hyperscale-paris-marx/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a massive windowless data center looming over a street of small houses, with residents looking up at it",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "isaac-ai-music",
+      "slug": "binding-of-isaac-ai-music-removed",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/binding-of-isaac-ai-music-removed/",
+      "title": "Players caught AI-generated songs hiding in a hit game's update — its creator says he never knew",
+      "dek": "The Binding of Isaac's new expansion included music made with an AI tool, with no disclosure on Steam. The files gave it away, the reviews tanked, and the studio pulled the tracks within days.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/binding-of-isaac-ai-music-removed.webp",
+      "image_alt": "Editorial illustration of a hooded child crying in a ruined stone dungeon as musical notes dissolve into pixels",
+      "og_image": "https://wirewillow.com/images/og-binding-of-isaac-ai-music-removed.jpg",
+      "caption": "Illustration: Wire Willow. Music notes dissolve into pixels over a dungeon where a child sits crying.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The discovery:",
+            " Players found AI-generated songs in The Binding of Isaac's Repentance+ console expansion, launched November 19; the files carried Suno metadata and no disclosure."
+          ],
+          [
+            "The creator:",
+            " Edmund McMillen said he had no idea the music was generated and that he was looking into how it happened and getting it removed."
+          ],
+          [
+            "The fix:",
+            " Publisher Nicalis pushed a patch listing the \"removal of generated music files\" first; it is live on PC and has been sent to Microsoft, Nintendo, and Sony."
+          ],
+          [
+            "The fallout:",
+            " The expansion's recent Steam reviews fell to \"Overwhelmingly Negative,\" with about 8 percent positive."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The Verge, Nov 22",
+          "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+        ],
+        [
+          "GamesHub, Nov 22",
+          "https://www.gameshub.com/news/article/binding-of-isaac-ai-music-removed-2932137/"
+        ],
+        [
+          "IGN (via Steam), Nov 22",
+          "https://store.steampowered.com/news/group/9869/view/705537268888110002"
+        ],
+        [
+          "Dexerto, Nov 22",
+          "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/"
+        ]
+      ],
+      "body_file": "content/articles/binding-of-isaac-ai-music-removed.html",
+      "head_title": "Players Caught AI-Generated Songs Hiding in a Hit Game's Update — Its Creator Says He Never Knew | Wire Willow",
+      "head_description": "The Binding of Isaac's new expansion included music made with an AI tool, with no disclosure on Steam. The files gave it away, the reviews tanked, and the studio pulled the tracks within days.",
+      "canonical": "https://wirewillow.com/2026/11/22/binding-of-isaac-ai-music-removed/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a hooded child crying in a ruined stone dungeon as musical notes dissolve into pixels",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "delta-alis",
+      "slug": "delta-alis-weight-balance-failure",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/delta-alis-weight-balance-failure/",
+      "title": "Delta did its takeoff math by hand on Sunday after its weight system failed",
+      "dek": "An automation failure at the airline's Atlanta hub forced manual weight-and-balance calculations, delaying more than half of Delta's flights days before Thanksgiving.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/delta-alis-weight-balance-failure.webp",
+      "image_alt": "Editorial illustration of ramp workers weighing a suitcase by hand beside a parked airplane while a long queue of passengers waits",
+      "og_image": "https://wirewillow.com/images/og-delta-alis-weight-balance-failure.jpg",
+      "caption": "Illustration: Wire Willow. With the weight system down, crews did the takeoff math by hand while passengers waited.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The failure:",
+            " Delta's ALIS weight-and-balance system failed on Sunday, forcing crews to calculate takeoff weights by hand from the Atlanta operations center."
+          ],
+          [
+            "The scale:",
+            " About 5,000 flights were affected; more than half were delayed and 6 percent canceled by 9:30 p.m. ET, per FlightAware, with more than 1,100 delays in Atlanta alone."
+          ],
+          [
+            "The response:",
+            " The FAA briefly stopped Delta flights bound for Atlanta; automation was back by about 3:30 p.m., and 70 percent of the day's schedule changes came from the automation failure."
+          ],
+          [
+            "The context:",
+            " Delta expects more than 4 million passengers through Atlanta between November 19 and December 1, its busiest Thanksgiving stretch."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "CNN, Nov 22",
+          "https://www.cnn.com/2026/11/22/us/delta-airlines-ground-delay?cid=external-feeds_iluminar_meta"
+        ],
+        [
+          "Reuters, Nov 22",
+          "https://www.reuters.com/business/aerospace-defense/delta-flights-faced-brief-delays-at-atlanta-airport-over-automated-system-issue-2026-11-22/"
+        ],
+        [
+          "AP (via WCIA), Nov 22",
+          "https://www.wcia.com/news/national/automation-system-problem-at-delta-causes-flight-delays-as-americans-travel-for-thanksgiving/"
+        ],
+        [
+          "USA Today, Nov 22",
+          "https://www.usatoday.com/story/travel/airline-news/2026/11/22/glitch-delays-delta-flights-atlanta/92913206007/"
+        ]
+      ],
+      "body_file": "content/articles/delta-alis-weight-balance-failure.html",
+      "head_title": "Delta Did Its Takeoff Math by Hand on Sunday After Its Weight System Failed | Wire Willow",
+      "head_description": "An automation failure at the airline's Atlanta hub forced manual weight-and-balance calculations, delaying more than half of Delta's flights days before Thanksgiving.",
+      "canonical": "https://wirewillow.com/2026/11/22/delta-alis-weight-balance-failure/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of ramp workers weighing a suitcase by hand beside a parked airplane while a long queue of passengers waits",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "starlink-pricing",
+      "slug": "starlink-pricing-2020-vs-2026",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/starlink-pricing-2020-vs-2026/",
+      "title": "Starlink's cheapest plan is $44 a month less than at launch — even after two price changes this year",
+      "dek": "SpaceX's satellite internet now starts at $55 a month in the US, down from $99 when the public beta opened in 2020, though the company raised prices in May and reshuffled them by location in October, and what you actually pay depends on where you live.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/starlink-pricing-2020-vs-2026.webp",
+      "image_alt": "Editorial illustration of a rural house with a satellite dish under a train of satellites, ringed by price tags",
+      "og_image": "https://wirewillow.com/images/og-starlink-pricing-2020-vs-2026.jpg",
+      "caption": "Illustration: Wire Willow. A satellite train crosses the sky over a rural house — and the price tags keep changing.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The price now:",
+            " Starlink's cheapest US plan is $55 a month, down from $99 when the public beta began in October 2020 — $44 less, after two price changes this year."
+          ],
+          [
+            "The history:",
+            " The kit cost $499 and the first year $1,687; the rate rose to $110 in March 2022, then split to $90 and $120 by location."
+          ],
+          [
+            "This year:",
+            " Prices rose $5, $5, and $10 across the tiers in May 2026, then were reshuffled by location in October — some Max bills reaching $156, others falling."
+          ],
+          [
+            "The catch:",
+            " A 50%-off hardware promotion runs through November 30, 2026, and a $10-a-month rental option arrived in June 2026."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Engadget, Nov 22",
+          "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/"
+        ]
+      ],
+      "body_file": "content/articles/starlink-pricing-2020-vs-2026.html",
+      "head_title": "Starlink's Cheapest Plan Is $44 a Month Less Than at Launch — Even After Two Price Changes This Year | Wire Willow",
+      "head_description": "SpaceX's satellite internet now starts at $55 a month in the US, down from $99 when the public beta opened in 2020, though the company raised prices in May and reshuffled them by location in October, and what you actually pay depends on where you live.",
+      "canonical": "https://wirewillow.com/2026/11/22/starlink-pricing-2020-vs-2026/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a rural house with a satellite dish under a train of satellites, ringed by price tags",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "crowdstrike-zscaler",
+      "slug": "crowdstrike-zscaler-talks",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/crowdstrike-zscaler-talks/",
+      "title": "CrowdStrike is in talks to buy Zscaler in a deal that would create a $265 billion security giant",
+      "dek": "Zscaler's shares jumped 17% on the news. CrowdStrike's fell 8% — a split verdict on the biggest cybersecurity merger in years.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/crowdstrike-zscaler-talks.webp",
+      "image_alt": "Editorial illustration of a shield-shaped glass tower joined to a network-wrapped tower above a jagged stock chart",
+      "og_image": "https://wirewillow.com/images/og-crowdstrike-zscaler-talks.jpg",
+      "caption": "Illustration: Wire Willow. A shield-shaped tower joins a network-wrapped one as the market renders its verdict.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The talks:",
+            " CrowdStrike has opened talks to acquire Zscaler in a deal that would combine companies worth about $32 billion and $235 billion — a roughly $265 billion security giant."
+          ],
+          [
+            "The market:",
+            " Zscaler shares jumped 17% in after-hours trading on Friday; CrowdStrike fell 8%."
+          ],
+          [
+            "The stakes:",
+            " A deal at that scale would rank among the largest cybersecurity transactions ever, alongside Google's $32 billion Wiz purchase."
+          ],
+          [
+            "The caveat:",
+            " Neither company has confirmed the talks, and a deal could still fall apart."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Reuters (via LA Post), Nov 20",
+          "https://www.lapost.com/content/crowdstrike-in-talks-to-acquire-zscaler-sources-say"
+        ],
+        [
+          "Bloomberg (via Bloomberg Law), Nov 20",
+          "https://news.bloombergtax.com/us-law-week/crowdstrike-is-said-in-talks-to-buy-cybersecurity-firm-zscaler"
+        ],
+        [
+          "Dealroom, Nov 20",
+          "https://dealroom.co/news/174733-crowdstrike-in-talks-to-buy-zscaler-in-what-would-be-one-of-the-largest-/"
+        ]
+      ],
+      "body_file": "content/articles/crowdstrike-zscaler-talks.html",
+      "head_title": "CrowdStrike Is in Talks to Buy Zscaler in a Deal That Would Create a $265 Billion Security Giant | Wire Willow",
+      "head_description": "Zscaler's shares jumped 17% on the news. CrowdStrike's fell 8% — a split verdict on the biggest cybersecurity merger in years.",
+      "canonical": "https://wirewillow.com/2026/11/22/crowdstrike-zscaler-talks/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a shield-shaped glass tower joined to a network-wrapped tower above a jagged stock chart",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "amazon-decart",
+      "slug": "amazon-decart-7-5-billion",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/amazon-decart-7-5-billion/",
+      "title": "Amazon is closing in on a $7.5 billion deal for AI startup Decart",
+      "dek": "The Israeli startup's software squeezes more work out of AI chips — and Amazon wants it to loosen Nvidia's grip on its cloud.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/amazon-decart-7-5-billion.webp",
+      "image_alt": "Editorial illustration of a small cluttered startup office breaking through a wall into a vast warehouse of server racks",
+      "og_image": "https://wirewillow.com/images/og-amazon-decart-7-5-billion.jpg",
+      "caption": "Illustration: Wire Willow. A small startup office breaks through the wall into a warehouse of servers.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The deal:",
+            " Amazon is in final stages to buy Decart, an Israeli AI startup founded in September 2023, for more than $7 billion in cash, stock, and deferred payments, with earnouts taking it to about $7.5 billion."
+          ],
+          [
+            "The technology:",
+            " Decart's software makes AI models run more cheaply and lets developers move work between chip types — useful for Amazon's Trainium chips."
+          ],
+          [
+            "The people:",
+            " Founders Dean Leitersdorf, 28, Orian Leitersdorf, 23, and Moshe Shalev would stay for five years under the deal."
+          ],
+          [
+            "The caveat:",
+            " The deal is in final stages and could be announced next week, but it could still collapse."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Financial Times (via PYMNTS), Nov 21",
+          "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/"
+        ],
+        [
+          "Calcalist, Nov 18",
+          "https://www.calcalistech.com/ctechnews/article/uckadwd7r"
+        ],
+        [
+          "Globes, Nov 19",
+          "https://en.globes.co.il/en/article.aspx?did=1001564112"
+        ]
+      ],
+      "body_file": "content/articles/amazon-decart-7-5-billion.html",
+      "head_title": "Amazon Is Closing in on a $7.5 Billion Deal for AI Startup Decart | Wire Willow",
+      "head_description": "The Israeli startup's software squeezes more work out of AI chips — and Amazon wants it to loosen Nvidia's grip on its cloud.",
+      "canonical": "https://wirewillow.com/2026/11/22/amazon-decart-7-5-billion/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a small cluttered startup office breaking through a wall into a vast warehouse of server racks",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "ant-simplexity",
+      "slug": "ant-group-simplexity-100-million",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/ant-group-simplexity-100-million/",
+      "title": "Ant Group just put $100 million behind a 16-month-old humanoid startup worth $1.6 billion",
+      "dek": "Simplexity Robotics has never shipped a robot the public has seen — but Ant Group, Alibaba and Tencent are all backing the former Li Auto team's bet on embodied AI.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/ant-group-simplexity-100-million.webp",
+      "image_alt": "Editorial illustration of a humanoid robot standing in a factory watched by three workers in hard hats beneath a rising bar chart",
+      "og_image": "https://wirewillow.com/images/og-ant-group-simplexity-100-million.jpg",
+      "caption": "Illustration: Wire Willow. A humanoid stands on the factory floor while workers and a rising chart look on.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The round:",
+            " Ant Group led a $100 million pre-Series A investment in Simplexity Robotics, a Chinese humanoid-robot startup founded in July 2025, at a $1.6 billion valuation."
+          ],
+          [
+            "The people:",
+            " Simplexity was founded in Hangzhou by three former Li Auto executives; Wang Kai, the former Li Auto chief technology officer, is chairman."
+          ],
+          [
+            "The backers:",
+            " Alibaba, Tencent, HongShan, and Lanchi Ventures all invested again; Ant has now backed 12 humanoid companies since the start of 2025."
+          ],
+          [
+            "The caveat:",
+            " All figures trace to Bloomberg's reporting and the chairman's confirmation; Simplexity has not shipped a robot, though it has unveiled a wheeled humanoid, iX."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Bloomberg (via Bloomberg Law), Nov 22",
+          "https://news.bloomberglaw.com/capital-markets/ant-group-bets-on-simplexity-to-thrive-in-chinas-humanoid-race"
+        ],
+        [
+          "AI Weekly, Nov 22",
+          "https://aiweekly.co/alerts/ant-group-leads-100m-pre-a-for-simplexity-at-16b-valuation"
+        ],
+        [
+          "Tech in Asia, Nov 22",
+          "https://www.techinasia.com/news/ant-group-leads-100m-chinese-humanoid-robot-maker"
+        ]
+      ],
+      "body_file": "content/articles/ant-group-simplexity-100-million.html",
+      "head_title": "Ant Group Just Put $100 Million Behind a 16-Month-Old Humanoid Startup Worth $1.6 Billion | Wire Willow",
+      "head_description": "Simplexity Robotics has never shipped a robot the public has seen — but Ant Group, Alibaba and Tencent are all backing the former Li Auto team's bet on embodied AI.",
+      "canonical": "https://wirewillow.com/2026/11/22/ant-group-simplexity-100-million/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a humanoid robot standing in a factory watched by three workers in hard hats beneath a rising bar chart",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "anthropic-investors",
+      "slug": "anthropic-early-investors-paper-fortune",
+      "edition": "2026-11-23",
+      "url": "/2026/11/22/anthropic-early-investors-paper-fortune/",
+      "title": "The early believers who turned Anthropic into a paper fortune",
+      "dek": "Notable Capital, Singapore's GIC, and Baillie Gifford piled into the AI lab at valuations that once looked absurd — and the IPO made them look prescient.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-22",
+      "date_short": "Nov 22, 2026",
+      "published": "2026-11-22T21:30:33-08:00",
+      "modified": "2026-11-22T21:30:33-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/anthropic-early-investors-paper-fortune.webp",
+      "image_alt": "Editorial illustration of three suited men watching a soaring stock chart as dollar bills rain down around them",
+      "og_image": "https://wirewillow.com/images/og-anthropic-early-investors-paper-fortune.jpg",
+      "caption": "Illustration: Wire Willow. Three investors watch a soaring chart as dollar bills rain down.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The bet:",
+            " Notable Capital put about 10 percent of the US portion of its $1 billion-plus fund into Anthropic's Series E at a $61.5 billion valuation."
+          ],
+          [
+            "The payoff:",
+            " Anthropic's IPO priced at $83 a share, raising $81.3 billion at a valuation of about $1.5 trillion fully diluted; Notable's stake is up about 15 times on paper."
+          ],
+          [
+            "The others:",
+            " Singapore's GIC put in more than $4.5 billion across three rounds for about a 1 percent stake; Baillie Gifford put in $1.5 billion across three rounds."
+          ],
+          [
+            "The caveat:",
+            " The gains are paper gains on an illiquid stake; the figures come from TechCrunch's named interviews and an unnamed person familiar with GIC's finances."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 22",
+          "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+        ]
+      ],
+      "body_file": "content/articles/anthropic-early-investors-paper-fortune.html",
+      "head_title": "The Early Believers Who Turned Anthropic Into a Paper Fortune | Wire Willow",
+      "head_description": "Notable Capital, Singapore's GIC, and Baillie Gifford piled into the AI lab at valuations that once looked absurd — and the IPO made them look prescient.",
+      "canonical": "https://wirewillow.com/2026/11/22/anthropic-early-investors-paper-fortune/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of three suited men watching a soaring stock chart as dollar bills rain down around them",
+      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
     }
   ],
   "brief_sets": {
@@ -2185,10 +2842,166 @@
       "archive_summary": "4 stories + 3 briefs: the OpenAI outage, the Together AI prompt leak, Payoneer's stablecoin bank approval, and NIOSH's humanoid safety review.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-22"
+    },
+    {
+      "id": "2026-11-23",
+      "kind": "edition",
+      "label": "Edition No. 009",
+      "number": "No. 009",
+      "date": "2026-11-23",
+      "date_long": "Monday, November 23, 2026",
+      "date_short": "Nov 23, 2026",
+      "date_upper": "NOV 23, 2026",
+      "url": "/2026/11/23/",
+      "head": {
+        "title": "Tech News: Nov 23, 2026 — The Outages Aren't Over, an AI Speed Limit & CrowdStrike's Zscaler Talks | Wire Willow",
+        "description": "Edition No. 009: a week of failures hits flights, email, and banking — and Washington and Microsoft say the outages aren't over; OpenAI's chief scientist proposes a speed limit for AI; the biggest banks say your AI agent's mistakes are your problem; and Tech Finance debuts with CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/23/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 009 — Nov 23, 2026",
+      "lead_slug": "outages-washington-microsoft-more-coming",
+      "article_slugs": [
+        "outages-washington-microsoft-more-coming",
+        "openai-pachocki-perplexity-speed-limit",
+        "banks-ai-agents-at-your-own-risk",
+        "data-center-backlash-hyperscale-paris-marx",
+        "binding-of-isaac-ai-music-removed",
+        "delta-alis-weight-balance-failure",
+        "starlink-pricing-2020-vs-2026",
+        "crowdstrike-zscaler-talks",
+        "amazon-decart-7-5-billion",
+        "ant-group-simplexity-100-million",
+        "anthropic-early-investors-paper-fortune"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 23 Headlines",
+      "ticker_aria": "Top headlines, Monday November 23, 2026",
+      "ticker": [
+        [
+          "AI",
+          "After a week of failures, Washington and Microsoft say the outages aren't over",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "OpenAI's top scientist proposes a speed limit for AI — measured in a single number",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "Your AI agent's mistakes are now your problem, America's biggest banks say",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "The backlash against Big Tech has a new front line: the data center next door",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Players caught AI-generated songs hiding in a hit game's update — its creator says he never knew",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Delta did its takeoff math by hand on Sunday after its weight system failed",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Starlink's cheapest plan is $44 a month less than at launch — even after two price changes this year",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "CrowdStrike is in talks to buy Zscaler in a deal that would create a $265 billion security giant",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Amazon is closing in on a $7.5 billion deal for AI startup Decart",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Ant Group just put $100 million behind a 16-month-old humanoid startup worth $1.6 billion",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "The early believers who turned Anthropic into a paper fortune",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon's Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "$265B",
+          "the combined value of the security giant CrowdStrike wants to build by acquiring Zscaler"
+        ],
+        [
+          "5,000",
+          "flights affected when Delta's weight-and-balance system failed on Sunday"
+        ],
+        [
+          "$44",
+          "a month less than at launch for Starlink's cheapest plan — now $55, down from $99"
+        ],
+        [
+          "15x",
+          "the paper gain on Notable Capital's Anthropic stake after the $81.3 billion IPO"
+        ]
+      ],
+      "watchbox": [
+        "Whether the CrowdStrike–Zscaler talks become a deal — neither company has confirmed them",
+        "Whether Amazon's Decart deal closes, and whether it is announced at re:Invent on November 30",
+        "Wells Fargo's new agent terms take effect Tuesday, November 24 — and whether other banks follow",
+        "Whether the outages keep coming — Clayton and Smith both say the upgrades will take months"
+      ],
+      "footer_edition": "Edition No. 009 — Monday, November 23, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Monday, November 23, 2026 · Edition No. 009",
+      "archive_headline": "After a week of failures, Washington and Microsoft say the outages aren't over",
+      "archive_summary": "11 stories + 3 briefs: the week's outages, OpenAI's AI speed limit, the banks vs AI agents, the data-center backlash, and the debut of Tech Finance — CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-23"
     }
   ],
   "homepage": {
-    "edition": "2026-11-22",
+    "edition": "2026-11-23",
     "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -2200,7 +3013,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-22",
+    "lastmod": "2026-11-23",
     "changefreq": "daily"
   },
   "pages": {
@@ -2227,7 +3040,7 @@
         "og_image": "https://wirewillow.com/images/og-home.jpg",
         "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
       },
-      "lastmod": "2026-11-22",
+      "lastmod": "2026-11-23",
       "changefreq": "daily"
     },
     "notfound": {
@@ -2245,7 +3058,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-22",
+      "lastmod": "2026-11-23",
       "changefreq": "daily"
     },
     {
@@ -2273,8 +3086,12 @@
       "lastmod": "2026-11-22"
     },
     {
+      "url": "https://wirewillow.com/2026/11/23/",
+      "lastmod": "2026-11-23"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-22",
+      "lastmod": "2026-11-23",
       "changefreq": "daily"
     },
     {
@@ -2371,6 +3188,50 @@
     },
     {
       "url": "https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/outages-washington-microsoft-more-coming/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/openai-pachocki-perplexity-speed-limit/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/banks-ai-agents-at-your-own-risk/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/data-center-backlash-hyperscale-paris-marx/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/binding-of-isaac-ai-music-removed/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/delta-alis-weight-balance-failure/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/starlink-pricing-2020-vs-2026/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/crowdstrike-zscaler-talks/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/amazon-decart-7-5-billion/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/ant-group-simplexity-100-million/",
+      "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/22/anthropic-early-investors-paper-fortune/",
       "lastmod": "2026-11-22"
     }
   ]
