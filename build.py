@@ -216,7 +216,7 @@ def search_text(title, dek, cat_label):
 # Desks in display order: filter value -> button label.
 DESKS = [("ai", "AI"), ("robotics", "Robotics"), ("drones", "Drones"),
          ("fintech", "Fintech"), ("gossip", "The Gossip"),
-         ("finance", "Tech Finance")]
+         ("finance", "Tech Finance"), ("industry", "Tech Industry")]
 
 
 # ---------------------------------------------------------------- images

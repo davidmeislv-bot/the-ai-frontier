@@ -5,8 +5,88 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Sun, 22 Nov 2026 12:14:39 -0800</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 09:35:01 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>Nvidia brings Jensen Huang back as CEO, 11 days after he resigned</title>
+    <link>https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/</guid>
+    <description>The board voted unanimously to reinstate its founder, reversing a decision it had just defended on the earnings call — and the stock jumped more than 30%.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Tesla’s new self-driving software rebuilds the view from the driver’s seat</title>
+    <link>https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/</guid>
+    <description>Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Meta’s Muse will do your Black Friday shopping at Walmart</title>
+    <link>https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/</guid>
+    <description>Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Two states sue SpaceX, saying Grok’s safety failures were a feature, not a bug</title>
+    <link>https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/</guid>
+    <description>Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A laptop-sized AI can now design analog chips as well as the giants</title>
+    <link>https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/</guid>
+    <description>MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Uber will now let you book a ride that’s recorded by default</title>
+    <link>https://wirewillow.com/2026/11/23/uber-recorded-rides/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/uber-recorded-rides/</guid>
+    <description>A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Amazon is putting protest stickers on your packages to fight a New York delivery law</title>
+    <link>https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/</guid>
+    <description>The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>Tech Industry</category>
+  </item>
+  <item>
+    <title>Sierra doubles to a $30 billion valuation six months after its last round</title>
+    <link>https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/</guid>
+    <description>Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>Tech Finance</category>
+  </item>
+  <item>
+    <title>Firmus wants $1.5 billion in bonds to buy Nvidia chips for an Indonesian data center</title>
+    <link>https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/</guid>
+    <description>The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>Tech Finance</category>
+  </item>
+  <item>
+    <title>Anthropic’s IPO is now $93.5 billion — the greenshoe took it past the record</title>
+    <link>https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/</guid>
+    <description>Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion.</description>
+    <pubDate>Mon, 23 Nov 2026 09:35:01 -0800</pubDate>
+    <category>Tech Finance</category>
+  </item>
   <item>
     <title>Routine database maintenance took down three-quarters of ChatGPT</title>
     <link>https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/</link>

@@ -1970,6 +1970,592 @@
       "og_type": "article",
       "og_image_alt": "Editorial illustration of three suited men watching a soaring stock chart as dollar bills rain down around them",
       "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+    },
+    {
+      "id": "nvidia-reinstates-huang",
+      "slug": "nvidia-reinstates-jensen-huang",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/nvidia-reinstates-jensen-huang/",
+      "title": "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
+      "dek": "The board voted unanimously to reinstate its founder, reversing a decision it had just defended on the earnings call — and the stock jumped more than 30%.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/nvidia-reinstates-jensen-huang.webp",
+      "image_alt": "Editorial illustration of a businessman with a briefcase walking into a sunlit modern glass office building with green-lit conference rooms and a city skyline",
+      "og_image": "https://wirewillow.com/images/og-nvidia-reinstates-jensen-huang.jpg",
+      "caption": "Illustration: Wire Willow. Nvidia’s board reinstated Jensen Huang as chief executive, eleven days after he resigned.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The return:",
+            " Nvidia’s board voted unanimously to reinstate Jensen Huang as chief executive, eleven days after his November 12 resignation. The return took effect immediately, before Monday’s market open."
+          ],
+          [
+            "The reversal:",
+            " Days earlier, board chair Harvey Jones said on the earnings call that the board had “unanimously accepted” the resignation and “does not intend to reinstate Jensen as CEO.”"
+          ],
+          [
+            "The market:",
+            " Shares jumped about 28% in premarket trading and opened 33% higher, at $167.04, erasing most of a slide that had taken the stock about a third lower in two weeks."
+          ],
+          [
+            "What’s next:",
+            " Huang testifies before Congress on December 1, and has agreed to testify publicly before the Senate Banking Committee, with December 3 requested. The board’s committee is still investigating reports of a foreign intelligence effort."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        ],
+        [
+          "Nvidia press release, Nov 23",
+          "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+        ]
+      ],
+      "body_file": "content/articles/nvidia-reinstates-jensen-huang.html",
+      "head_title": "Nvidia Brings Jensen Huang Back as CEO, 11 Days After He Resigned | Wire Willow",
+      "head_description": "The board voted unanimously to reinstate its founder, reversing a decision it had just defended on the earnings call — and the stock jumped more than 30%.",
+      "canonical": "https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a businessman with a briefcase walking into a sunlit modern glass office building with green-lit conference rooms and a city skyline",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "tesla-fsd-v15",
+      "slug": "tesla-fsd-v15-reality-view",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/tesla-fsd-v15-reality-view/",
+      "title": "Tesla’s new self-driving software rebuilds the view from the driver’s seat",
+      "dek": "Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/tesla-fsd-v15-reality-view.webp",
+      "image_alt": "Editorial illustration of a red electric car on a city street at dusk, with a glowing holographic overhead map of a colorful neighborhood and a blue route floating above it",
+      "og_image": "https://wirewillow.com/images/og-tesla-fsd-v15-reality-view.jpg",
+      "caption": "Illustration: Wire Willow. Tesla’s Full Self-Driving v15 adds a photorealistic overhead view called Reality View.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The update:",
+            " Full Self-Driving v15 (build 2026.38.6.11) rebuilds the end-to-end driving network and began rolling out to early-access owners on November 21."
+          ],
+          [
+            "Reality View:",
+            " A real-time, AI-generated overhead visualization that renders buildings, sidewalks, people, and the car’s planned path from a virtual camera above the vehicle."
+          ],
+          [
+            "The claim:",
+            " Tesla says the update delivers a 25-fold improvement in handling safety-critical cases. That figure is Tesla’s claim and has not been independently verified."
+          ],
+          [
+            "The catch:",
+            " Version 15 is limited to cars with the newer AI4 hardware; HW3 cars will not receive it. The system is still supervised, costs $99 a month, and the NHTSA is investigating about 2.9 million FSD-equipped vehicles."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TheTechHacker, Nov 23",
+          "https://thetechhacker.com/news/tesla-fsd-v15-rollout-whats-new/"
+        ],
+        [
+          "Redfire, Nov 21",
+          "https://theredfire.com/tesla-fsd-supervised-v15-rollout-begins/"
+        ]
+      ],
+      "body_file": "content/articles/tesla-fsd-v15-reality-view.html",
+      "head_title": "Tesla’s New Self-Driving Software Rebuilds the View From the Driver’s Seat | Wire Willow",
+      "head_description": "Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching.",
+      "canonical": "https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a red electric car on a city street at dusk, with a glowing holographic overhead map of a colorful neighborhood and a blue route floating above it",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "meta-muse-walmart",
+      "slug": "meta-muse-walmart-black-friday",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/meta-muse-walmart-black-friday/",
+      "title": "Meta’s Muse will do your Black Friday shopping at Walmart",
+      "dek": "Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/meta-muse-walmart-black-friday.webp",
+      "image_alt": "Editorial illustration of a smiling woman in a red coat with a shopping cart full of colorful items beside a friendly white-and-blue robot in a festive store decorated with red and blue bunting",
+      "og_image": "https://wirewillow.com/images/og-meta-muse-walmart-black-friday.jpg",
+      "caption": "Illustration: Wire Willow. Walmart’s Agent Gateway lets Meta’s Muse shop, fill a basket, and check out — with spending limits you set.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The launch:",
+            " Walmart’s Agent Gateway goes live Tuesday, November 24, with Meta’s Muse as the first agent. Black Friday sales run through November 29."
+          ],
+          [
+            "How it works:",
+            " Muse finds products, builds a basket, and checks out on Walmart.com and Sam’s Club through a direct Model Context Protocol connection, using dedicated Agent Profiles with spending limits."
+          ],
+          [
+            "The terms:",
+            " Checkout uses a card saved in the Walmart account, at the same prices as Walmart.com, under Walmart’s normal return policy — without sharing the shopper’s purchase history."
+          ],
+          [
+            "The contrast:",
+            " Amazon and eBay block AI agents from buying on their platforms, and Amazon has blocked Meta’s Muse from purchasing on its marketplace."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The Verge (via mirror), Nov 23",
+          "https://newslink360.online/meta-muse-can-now-do-your-black-friday-shopping-at-walmart/"
+        ],
+        [
+          "AI Affairs, Nov 23",
+          "https://www.aiaffairs.com/corporate/walmart-agent-gateway-meta-muse-black-friday/"
+        ]
+      ],
+      "body_file": "content/articles/meta-muse-walmart-black-friday.html",
+      "head_title": "Meta’s Muse Will Do Your Black Friday Shopping at Walmart | Wire Willow",
+      "head_description": "Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself.",
+      "canonical": "https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a smiling woman in a red coat with a shopping cart full of colorful items beside a friendly white-and-blue robot in a festive store decorated with red and blue bunting",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "states-sue-spacex-grok",
+      "slug": "states-sue-spacex-grok-deepfakes",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/states-sue-spacex-grok-deepfakes/",
+      "title": "Two states sue SpaceX, saying Grok’s safety failures were a feature, not a bug",
+      "dek": "Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/states-sue-spacex-grok-deepfakes.webp",
+      "image_alt": "Editorial illustration of a classical courthouse with columns, a golden scales of justice, and a large smartphone with glowing blue chat bubbles on a green lawn",
+      "og_image": "https://wirewillow.com/images/og-states-sue-spacex-grok-deepfakes.jpg",
+      "caption": "Illustration: Wire Willow. Oregon and Virginia sued SpaceX and X Corp. over Grok, alleging the companies lied about safeguards against sexualized images.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The suits:",
+            " Oregon and Virginia filed separate consumer-protection lawsuits against SpaceX and X Corp. over Grok, alleging the companies lied about its safety and about efforts to stop child sexual abuse material and nonconsensual intimate imagery."
+          ],
+          [
+            "The allegation:",
+            " The suits say Grok’s creators deliberately shipped weak safeguards and saw “a market opportunity for more profits” in sexualized images — a lack of safety measures Rayfield called “a feature, not a bug.”"
+          ],
+          [
+            "The mechanics:",
+            " Virginia’s complaint says Grok’s prompts told it to “assume good intent,” that reports to the missing-children tip line lacked key information 90% of the time, and that investigators found its safeguards “inconsistent and ineffective.”"
+          ],
+          [
+            "What’s sought:",
+            " Civil penalties, attorneys’ fees, and injunctions, plus consumer restitution in Virginia. SpaceX did not immediately respond to a request for comment."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Wired, Nov 23",
+          "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+        ],
+        [
+          "Wired (via mirror), Nov 23",
+          "https://dailyfoxnews.com/news/5297/states-sue-spacex-over-grok-deepfakes"
+        ]
+      ],
+      "body_file": "content/articles/states-sue-spacex-grok-deepfakes.html",
+      "head_title": "Two States Sue SpaceX, Saying Grok’s Safety Failures Were a Feature, Not a Bug | Wire Willow",
+      "head_description": "Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure.",
+      "canonical": "https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a classical courthouse with columns, a golden scales of justice, and a large smartphone with glowing blue chat bubbles on a green lawn",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "mit-slic-analog-chips",
+      "slug": "mit-slic-analog-chip-design",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/mit-slic-analog-chip-design/",
+      "title": "A laptop-sized AI can now design analog chips as well as the giants",
+      "dek": "MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/mit-slic-analog-chip-design.webp",
+      "image_alt": "Editorial illustration of a laboratory bench with a laptop showing a glowing circuit diagram, colorful light streams flowing to a chip on a circuit board, beakers, a microscope, and chip diagrams on the wall",
+      "og_image": "https://wirewillow.com/images/og-mit-slic-analog-chip-design.jpg",
+      "caption": "Illustration: Wire Willow. MIT’s SLIC trains a small, laptop-sized AI model to design analog chips as well as frontier systems.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The technique:",
+            " Small LM Iterating on Circuits (SLIC) trains a language model of roughly 4 billion parameters to design analog chips — work that previously called for systems using trillions of parameters."
+          ],
+          [
+            "The results:",
+            " On familiar circuit structures, the small model met every specification in 87.1% of attempts within eight simulator turns, beating a 763-billion-parameter cloud model by 48.5 percentage points."
+          ],
+          [
+            "The advantage:",
+            " The model runs on a laptop, so a company can train it on its own confidential circuit and foundry data without sending that data to an outside cloud provider."
+          ],
+          [
+            "The paper:",
+            " Lead author Yan Xu and senior author Ruonan Han of MIT; on arXiv, submitted November 10, 2026, to be presented at NeurIPS 2026."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "MIT News, Nov 23",
+          "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+        ],
+        [
+          "Paper: arXiv:2611.13452 (submitted Nov 10, 2026; accepted at NeurIPS 2026)",
+          "https://arxiv.org/abs/2611.13452"
+        ]
+      ],
+      "body_file": "content/articles/mit-slic-analog-chip-design.html",
+      "head_title": "A Laptop-Sized AI Can Now Design Analog Chips as Well as the Giants | Wire Willow",
+      "head_description": "MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines.",
+      "canonical": "https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a laboratory bench with a laptop showing a glowing circuit diagram, colorful light streams flowing to a chip on a circuit board, beakers, a microscope, and chip diagrams on the wall",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "uber-recorded-rides",
+      "slug": "uber-recorded-rides",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/uber-recorded-rides/",
+      "title": "Uber will now let you book a ride that’s recorded by default",
+      "dek": "A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens.",
+      "category": "industry",
+      "cat_label": "Tech Industry",
+      "section": "Tech Industry",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/uber-recorded-rides.webp",
+      "image_alt": "Editorial illustration of a rainy neon-lit city street at night, seen from inside a car, with a phone mounted on the dashboard showing a red recording light and colorful neon reflections on the wet pavement",
+      "og_image": "https://wirewillow.com/images/og-uber-recorded-rides.jpg",
+      "caption": "Illustration: Wire Willow. Uber is piloting Recorded Rides, which film the trip by default, in four U.S. cities.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The feature:",
+            " Record My Ride uses the front camera of the driver’s phone to record the entire trip, and shows up in the app as “Recorded Rides.”"
+          ],
+          [
+            "The pilot:",
+            " Running in Baltimore, Raleigh, Indianapolis, and St. Louis, aimed at trips booked late at night and rides involving teenagers."
+          ],
+          [
+            "The context:",
+            " Uber already introduced live video streaming for rides booked for teenagers and tested audio recording for late-night trips, and is testing recording that switches on if a ride goes off course or the vehicle may have been in an accident."
+          ],
+          [
+            "The opt-out:",
+            " Recording is not mandatory for either side — drivers can opt out in Settings, and riders can decline permission through an in-app notification."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/"
+        ]
+      ],
+      "body_file": "content/articles/uber-recorded-rides.html",
+      "head_title": "Uber Will Now Let You Book a Ride That’s Recorded by Default | Wire Willow",
+      "head_description": "A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens.",
+      "canonical": "https://wirewillow.com/2026/11/23/uber-recorded-rides/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a rainy neon-lit city street at night, seen from inside a car, with a phone mounted on the dashboard showing a red recording light and colorful neon reflections on the wet pavement",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "amazon-package-stickers",
+      "slug": "amazon-package-stickers-nyc-delivery-law",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
+      "title": "Amazon is putting protest stickers on your packages to fight a New York delivery law",
+      "dek": "The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees.",
+      "category": "industry",
+      "cat_label": "Tech Industry",
+      "section": "Tech Industry",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/amazon-package-stickers-nyc-delivery-law.webp",
+      "image_alt": "Editorial illustration of a large cardboard box with a red raised-fist sticker in front of a colorful New York City skyline",
+      "og_image": "https://wirewillow.com/images/og-amazon-package-stickers-nyc-delivery-law.jpg",
+      "caption": "Illustration: Wire Willow. Amazon is putting protest stickers on packages to fight a New York City delivery bill.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The stickers:",
+            " Amazon is putting stickers on packages warning that changes to last-mile deliveries could add “up to $5 per order,” with a QR code to contact a representative to protest."
+          ],
+          [
+            "The bill:",
+            " The Delivery Protection Act (Intro 518) would create new licensing rules for last-mile operations and require delivery workers to be company employees rather than contractors."
+          ],
+          [
+            "The backing:",
+            " New York City mayor Zohran Mamdani announced his backing for the act in August. The Teamsters union and other supporters say it would hold companies responsible and give workers better pay and benefits."
+          ],
+          [
+            "The threat:",
+            " Amazon says the bill would lead to higher costs and slower deliveries, and has threatened to move its distribution centers out of New York City to avoid the regulation."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Engadget, Nov 23",
+          "https://www.engadget.com/2324629/amazon-resorts-to-package-stickers-in-its-fight-against-nyc-proposed-delivery-law/"
+        ]
+      ],
+      "body_file": "content/articles/amazon-package-stickers-nyc-delivery-law.html",
+      "head_title": "Amazon Is Putting Protest Stickers on Your Packages to Fight a New York Delivery Law | Wire Willow",
+      "head_description": "The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees.",
+      "canonical": "https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a large cardboard box with a red raised-fist sticker in front of a colorful New York City skyline",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "sierra-30-billion",
+      "slug": "sierra-30-billion-series-f",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/sierra-30-billion-series-f/",
+      "title": "Sierra doubles to a $30 billion valuation six months after its last round",
+      "dek": "Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/sierra-30-billion-series-f.webp",
+      "image_alt": "Editorial illustration of a colorful customer-service office where smiling agents with headsets work alongside friendly white robots at computers with bright wave graphics",
+      "og_image": "https://wirewillow.com/images/og-sierra-30-billion-series-f.jpg",
+      "caption": "Illustration: Wire Willow. Sierra raised $1.75 billion at a $30 billion valuation, doubling in six months.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The round:",
+            " Sierra raised $1.75 billion in a Series F, doubling its valuation to $30 billion — six months after a round that valued it at $15 billion."
+          ],
+          [
+            "The backers:",
+            " Led by Greenoaks and Lightspeed Venture Partners, with Benchmark, Sequoia, GV, and Tiger Global participating."
+          ],
+          [
+            "The business:",
+            " Sierra says it serves almost half of the Fortune 50 and doubled run-rate revenue to $400 million within five months on outcome-based pricing."
+          ],
+          [
+            "The field:",
+            " ElevenLabs is now valued at $22 billion, Decagon at $4.5 billion, Wonderful at $5 billion, and Parloa at $3 billion."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+        ]
+      ],
+      "body_file": "content/articles/sierra-30-billion-series-f.html",
+      "head_title": "Sierra Doubles to a $30 Billion Valuation Six Months After Its Last Round | Wire Willow",
+      "head_description": "Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business.",
+      "canonical": "https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a colorful customer-service office where smiling agents with headsets work alongside friendly white robots at computers with bright wave graphics",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "firmus-bond-nvidia-chips",
+      "slug": "firmus-1-5-billion-bond-nvidia-chips",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
+      "title": "Firmus wants $1.5 billion in bonds to buy Nvidia chips for an Indonesian data center",
+      "dek": "The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/firmus-1-5-billion-bond-nvidia-chips.webp",
+      "image_alt": "Editorial illustration of an open-air tropical data center with rows of glowing blue, green, and orange server racks among palm trees and mountains, with a circuit board of glowing chips in the foreground",
+      "og_image": "https://wirewillow.com/images/og-firmus-1-5-billion-bond-nvidia-chips.jpg",
+      "caption": "Illustration: Wire Willow. Firmus is lining up debt to buy Nvidia chips for a data-center campus in Batam, Indonesia.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The debt:",
+            " Firmus is reportedly seeking about $1.5 billion in a bond offering, part of a debt package that could reach up to $4 billion, led by Morgan Stanley."
+          ],
+          [
+            "The terms:",
+            " Both the bond and a separate bank loan would run for 69 months; the bond is expected to yield around 8%, and the loan margin about 325 basis points over the secured overnight financing rate."
+          ],
+          [
+            "The project:",
+            " The money would go mainly toward Nvidia’s GB300 chips for a Batam, Indonesia data-center campus with DayOne Data Centers, designed for up to 170,000 GPUs and $25–30 billion in offtake revenue over six years."
+          ],
+          [
+            "The caution:",
+            " The deal rests on a single source — Bloomberg’s reporting — and nothing is final. Terms and timing could still change."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Bloomberg (via DatacenterDynamics), Nov 23",
+          "https://www.datacenterdynamics.com/en/news/firmus-seeks-15bn-bond-offering-report/"
+        ],
+        [
+          "Bloomberg (via Crypto Briefing), Nov 23",
+          "https://cryptobriefing.com/firmus-weighs-bond-sale-ai-funding/"
+        ]
+      ],
+      "body_file": "content/articles/firmus-1-5-billion-bond-nvidia-chips.html",
+      "head_title": "Firmus Wants $1.5 Billion in Bonds to Buy Nvidia Chips for an Indonesian Data Center | Wire Willow",
+      "head_description": "The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing.",
+      "canonical": "https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of an open-air tropical data center with rows of glowing blue, green, and orange server racks among palm trees and mountains, with a circuit board of glowing chips in the foreground",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "anthropic-ipo-closes",
+      "slug": "anthropic-ipo-closes-93-5-billion",
+      "edition": "2026-11-24",
+      "url": "/2026/11/23/anthropic-ipo-closes-93-5-billion/",
+      "title": "Anthropic’s IPO is now $93.5 billion — the greenshoe took it past the record",
+      "dek": "Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T09:35:01-08:00",
+      "modified": "2026-11-23T09:35:01-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/anthropic-ipo-closes-93-5-billion.webp",
+      "image_alt": "Editorial illustration of a cheering crowd on a trading floor with colorful confetti and green stock charts rising on screens",
+      "og_image": "https://wirewillow.com/images/og-anthropic-ipo-closes-93-5-billion.jpg",
+      "caption": "Illustration: Wire Willow. Anthropic’s IPO closed at $93.5 billion after underwriters exercised the full greenshoe.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The close:",
+            " Anthropic closed its IPO on Friday after underwriters fully exercised their option for extra shares, lifting gross proceeds from $81.3 billion to $93.5 billion."
+          ],
+          [
+            "The shares:",
+            " The offering sold 1.127 billion Class A shares at $83 apiece — 980 million in the base offering plus 147 million through the overallotment. The extra shares added about $12.2 billion."
+          ],
+          [
+            "The placement:",
+            " A concurrent $26 billion private placement of Class N shares went to AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC — bringing the total raised to $119.5 billion, the largest IPO on record by cash raised."
+          ],
+          [
+            "The stock:",
+            " Shares opened at $111.50, closed the first session at $97.17 (up 17%), then fell 8.5% on Friday to $88.91 amid a broader technology sell-off."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "CNBC (via AI Weekly), Nov 20",
+          "https://aiweekly.co/alerts/anthropic-ipo-closes-at-935b-after-greenshoe-exercised"
+        ],
+        [
+          "Silicon Report, Nov 20",
+          "https://www.siliconreport.com/anthropic-underwriters-exercise-greenshoe-lifting-ipo-to-93-5b"
+        ],
+        [
+          "StockAnalysis, Nov 20",
+          "https://stockanalysis.com/news/anthropic-ipo-93-billion/"
+        ],
+        [
+          "The Boston Report, Nov 20",
+          "https://thebostonreport.com/2026/11/20/anthropic-ipo-closes-93-5-billion-shares-fall/"
+        ]
+      ],
+      "body_file": "content/articles/anthropic-ipo-closes-93-5-billion.html",
+      "head_title": "Anthropic’s IPO Is Now $93.5 Billion — the Greenshoe Took It Past the Record | Wire Willow",
+      "head_description": "Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion.",
+      "canonical": "https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a cheering crowd on a trading floor with colorful confetti and green stock charts rising on screens",
+      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
     }
   ],
   "brief_sets": {
@@ -2998,10 +3584,159 @@
       "archive_summary": "11 stories + 3 briefs: the week's outages, OpenAI's AI speed limit, the banks vs AI agents, the data-center backlash, and the debut of Tech Finance — CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-23"
+    },
+    {
+      "id": "2026-11-24",
+      "kind": "edition",
+      "label": "Edition No. 010",
+      "number": "No. 010",
+      "date": "2026-11-24",
+      "date_long": "Tuesday, November 24, 2026",
+      "date_short": "Nov 24, 2026",
+      "date_upper": "NOV 24, 2026",
+      "url": "/2026/11/24/",
+      "head": {
+        "title": "Tech News: Nov 24, 2026 — Nvidia Brings Huang Back, Tesla’s FSD v15 & Anthropic’s $93.5B IPO | Wire Willow",
+        "description": "Edition No. 010: Nvidia’s board reinstates Jensen Huang 11 days after he resigned, and the stock jumps more than 30%; Tesla’s Full Self-Driving v15 rebuilds the view from the driver’s seat; Oregon and Virginia sue SpaceX over Grok; and Tech Finance closes out Anthropic’s $93.5 billion IPO. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/24/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 010 — Nov 24, 2026",
+      "lead_slug": "nvidia-reinstates-jensen-huang",
+      "article_slugs": [
+        "nvidia-reinstates-jensen-huang",
+        "tesla-fsd-v15-reality-view",
+        "meta-muse-walmart-black-friday",
+        "states-sue-spacex-grok-deepfakes",
+        "mit-slic-analog-chip-design",
+        "uber-recorded-rides",
+        "amazon-package-stickers-nyc-delivery-law",
+        "sierra-30-billion-series-f",
+        "firmus-1-5-billion-bond-nvidia-chips",
+        "anthropic-ipo-closes-93-5-billion"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 24 Headlines",
+      "ticker_aria": "Top headlines, Tuesday November 24, 2026",
+      "ticker": [
+        [
+          "AI",
+          "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Tesla’s new self-driving software rebuilds the view from the driver’s seat",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Meta’s Muse will do your Black Friday shopping at Walmart",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Two states sue SpaceX, saying Grok’s safety failures were a feature, not a bug",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "A laptop-sized AI can now design analog chips as well as the giants",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "Uber will now let you book a ride that’s recorded by default",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "Amazon is putting protest stickers on your packages to fight a New York delivery law",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Sierra doubles to a $30 billion valuation six months after its last round",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Firmus wants $1.5 billion in bonds to buy Nvidia chips for an Indonesian data center",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Anthropic’s IPO is now $93.5 billion — the greenshoe took it past the record",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic’s day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon’s Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "33%",
+          "Nvidia’s opening gain on Monday after the board reinstated Jensen Huang as chief executive"
+        ],
+        [
+          "$93.5B",
+          "Anthropic’s IPO after underwriters exercised the full greenshoe — the largest IPO on record by cash raised"
+        ],
+        [
+          "$30B",
+          "Sierra’s new valuation, doubled in six months on a $1.75 billion Series F"
+        ],
+        [
+          "170,000",
+          "GPUs planned for Firmus’s data-center campus in Batam, Indonesia"
+        ]
+      ],
+      "watchbox": [
+        "Whether Huang’s December 1 testimony — and the Senate Banking Committee date — changes the story again",
+        "Whether Tesla’s FSD v15 wide release in December reaches more models, and what the NHTSA investigation finds",
+        "Whether the Grok suits force SpaceX to change the chatbot’s safeguards — or settle",
+        "Whether Firmus’s $1.5 billion bond lands before year-end, and whether Sierra’s $30 billion valuation holds"
+      ],
+      "footer_edition": "Edition No. 010 — Tuesday, November 24, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Tuesday, November 24, 2026 · Edition No. 010",
+      "archive_headline": "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
+      "archive_summary": "10 stories + 3 briefs: Nvidia reinstates Huang, Tesla’s FSD v15, Meta’s Muse at Walmart, the Grok suits, MIT’s laptop-sized chip designer, Uber’s recorded rides, Amazon’s package stickers, and Tech Finance — Sierra’s $30 billion round, Firmus’s bond, and Anthropic’s $93.5 billion IPO close.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-24"
     }
   ],
   "homepage": {
-    "edition": "2026-11-23",
+    "edition": "2026-11-24",
     "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -3013,7 +3748,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-23",
+    "lastmod": "2026-11-24",
     "changefreq": "daily"
   },
   "pages": {
@@ -3058,7 +3793,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-23",
+      "lastmod": "2026-11-24",
       "changefreq": "daily"
     },
     {
@@ -3090,8 +3825,12 @@
       "lastmod": "2026-11-23"
     },
     {
+      "url": "https://wirewillow.com/2026/11/24/",
+      "lastmod": "2026-11-24"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-23",
+      "lastmod": "2026-11-24",
       "changefreq": "daily"
     },
     {
@@ -3233,6 +3972,46 @@
     {
       "url": "https://wirewillow.com/2026/11/22/anthropic-early-investors-paper-fortune/",
       "lastmod": "2026-11-22"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/uber-recorded-rides/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/",
+      "lastmod": "2026-11-23"
     }
   ]
 }
