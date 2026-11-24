@@ -2556,6 +2556,494 @@
       "og_type": "article",
       "og_image_alt": "Editorial illustration of a cheering crowd on a trading floor with colorful confetti and green stock charts rising on screens",
       "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+    },
+    {
+      "id": "nvidia-huang-senate-hearing",
+      "slug": "nvidia-huang-senate-hearing-dec-3",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
+      "title": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
+      "dek": "The Senate Banking Committee set a public hearing on export controls, while lawmakers from both parties questioned the board’s decision.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "3 min read",
+      "read_short": "3 MIN",
+      "image": "/images/nvidia-huang-senate-hearing-dec-3.webp",
+      "image_alt": "Editorial illustration of the United States Capitol building at golden hour, its white marble dome glowing against a vivid sunset sky",
+      "og_image": "https://wirewillow.com/images/og-nvidia-huang-senate-hearing-dec-3.jpg",
+      "caption": "Illustration: Wire Willow. The Senate Banking Committee will question Jensen Huang in public on December 3.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The hearing:",
+            " The Senate Banking Committee will question Jensen Huang in public on December 3, focused on oversight of U.S. export controls. Closed-door testimony before three House committees is already set for December 1."
+          ],
+          [
+            "The reaction:",
+            " Lawmakers from both parties criticized the reinstatement, calling it “outrageous” and “reckless,” while a few defended the board’s decision."
+          ],
+          [
+            "The market:",
+            " Nvidia shares closed up 31.5% at $165.05 on Monday, after losing about a third of their value over the previous two weeks."
+          ],
+          [
+            "What’s next:",
+            " Congress is weighing three bills to tighten chip export controls, with talks underway to fold them into the annual defense package."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Engadget, Nov 23",
+          "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/"
+        ],
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/"
+        ]
+      ],
+      "body_file": "content/articles/nvidia-huang-senate-hearing-dec-3.html",
+      "head_title": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers | Wire Willow",
+      "head_description": "The Senate Banking Committee set a public hearing on export controls, while lawmakers from both parties questioned the board’s decision.",
+      "canonical": "https://wirewillow.com/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of the United States Capitol building at golden hour, its white marble dome glowing against a vivid sunset sky",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "amazon-decart-agreed",
+      "slug": "amazon-decart-agreed-7-5-billion",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/amazon-decart-agreed-7-5-billion/",
+      "title": "Amazon is buying an AI startup’s tech for $7.5 billion to take on Nvidia’s chips",
+      "dek": "Decart’s software squeezes more work out of every chip — and Amazon wants it to help sell its own Trainium processors to customers.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/amazon-decart-agreed-7-5-billion.webp",
+      "image_alt": "Editorial illustration of a futuristic AI data center interior with rows of glowing servers",
+      "og_image": "https://wirewillow.com/images/og-amazon-decart-agreed-7-5-billion.jpg",
+      "caption": "Illustration: Wire Willow. Amazon agreed to acquire Decart’s technology for $7.5 billion, according to Bloomberg.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The deal:",
+            " Amazon agreed to acquire the technology of Israeli startup Decart for $7.5 billion, according to Bloomberg, along with its founding team and AI researchers."
+          ],
+          [
+            "The prize:",
+            " Decart’s Optimization Stack software helps AI models run efficiently on Nvidia, Amazon, and Google hardware."
+          ],
+          [
+            "The motive:",
+            " Amazon has used its Trainium chips only in its own data centers; it is now preparing to sell them to customers as a rival to Nvidia."
+          ],
+          [
+            "The voice:",
+            " “Every leap forward in AI starts with getting more out of every chip,” said Amazon’s Peter DeSantis."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+        ]
+      ],
+      "body_file": "content/articles/amazon-decart-agreed-7-5-billion.html",
+      "head_title": "Amazon is buying an AI startup’s tech for $7.5 billion to take on Nvidia’s chips | Wire Willow",
+      "head_description": "Decart’s software squeezes more work out of every chip — and Amazon wants it to help sell its own Trainium processors to customers.",
+      "canonical": "https://wirewillow.com/2026/11/23/amazon-decart-agreed-7-5-billion/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a futuristic AI data center interior with rows of glowing servers",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "riemann-proof-certified",
+      "slug": "riemann-hypothesis-proof-certified",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/riemann-hypothesis-proof-certified/",
+      "title": "A Claude-assisted proof of the Riemann hypothesis just passed machine verification — but nobody has read it",
+      "dek": "Independent checkers confirmed a 17-million-line proof is correct. There is still no version a human can read, and the $1 million prize is not yet decided.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/riemann-hypothesis-proof-certified.webp",
+      "image_alt": "Editorial illustration of a luminous golden curve sweeping across a deep blue sky filled with glowing dots",
+      "og_image": "https://wirewillow.com/images/og-riemann-hypothesis-proof-certified.jpg",
+      "caption": "Illustration: Wire Willow. A 17-million-line proof of the Riemann Hypothesis was certified by machine checkers, but no human-readable version exists yet.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The proof:",
+            " A 17-million-line library by Anthropic mathematician Levent Alpöge, written in Lean, was certified on November 21 as correctly proving the Riemann Hypothesis."
+          ],
+          [
+            "The catch:",
+            " No person has read it — a written-out version would run past 250,000 pages, and Alpöge plans a shorter human-readable account."
+          ],
+          [
+            "The check:",
+            " Dozens of people compiled the library with no errors; MIT’s Andrew Sutherland independently compiled all 175,187 modules with zero errors."
+          ],
+          [
+            "The prize:",
+            " The Clay Mathematics Institute offers $1 million, but its rules require publication and a waiting period."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Technology.org, Nov 23",
+          "https://www.technology.org/2026/11/23/riemann-hypothesis-proof-lean-certified-alpoge-claude/"
+        ]
+      ],
+      "body_file": "content/articles/riemann-hypothesis-proof-certified.html",
+      "head_title": "A Claude-assisted proof of the Riemann hypothesis just passed machine verification — but nobody has read it | Wire Willow",
+      "head_description": "Independent checkers confirmed a 17-million-line proof is correct. There is still no version a human can read, and the $1 million prize is not yet decided.",
+      "canonical": "https://wirewillow.com/2026/11/23/riemann-hypothesis-proof-certified/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a luminous golden curve sweeping across a deep blue sky filled with glowing dots",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "meta-drops-net-zero",
+      "slug": "meta-drops-net-zero-2030",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/meta-drops-net-zero-2030/",
+      "title": "Meta drops its 2030 net-zero deadline as AI data centers push emissions up",
+      "dek": "The company’s new sustainability report says the goal is under review with no new date — after emissions more than doubled in four years.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/meta-drops-net-zero-2030.webp",
+      "image_alt": "Editorial illustration of a giant modern data center at dusk with glowing buildings and wind turbines",
+      "og_image": "https://wirewillow.com/images/og-meta-drops-net-zero-2030.jpg",
+      "caption": "Illustration: Wire Willow. Meta is re-evaluating its 2030 net-zero goal as AI data centers push its emissions up.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The move:",
+            " Meta’s 2026 sustainability report says it is re-evaluating its 2030 net-zero target, set in 2020, and has offered no new date."
+          ],
+          [
+            "The numbers:",
+            " Emissions have more than doubled in four years; data-center emissions rose more than 12 times between 2024 and 2025."
+          ],
+          [
+            "The driver:",
+            " A multibillion-dollar bet on natural gas at the Hyperion data center in Louisiana, which is not yet online."
+          ],
+          [
+            "The contrast:",
+            " Amazon, Google, and Microsoft have so far kept their own published sustainability targets."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/"
+        ],
+        [
+          "TechDefused, Nov 23",
+          "https://techdefused.com/a/aeV46z5/meta-drops-firm-2030-net-zero-deadline"
+        ]
+      ],
+      "body_file": "content/articles/meta-drops-net-zero-2030.html",
+      "head_title": "Meta drops its 2030 net-zero deadline as AI data centers push emissions up | Wire Willow",
+      "head_description": "The company’s new sustainability report says the goal is under review with no new date — after emissions more than doubled in four years.",
+      "canonical": "https://wirewillow.com/2026/11/23/meta-drops-net-zero-2030/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a giant modern data center at dusk with glowing buildings and wind turbines",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "google-ai-mode-wallet",
+      "slug": "google-ai-mode-wallet-drive-gemini",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/google-ai-mode-wallet-drive-gemini/",
+      "title": "Google Search’s AI Mode can now read your wallet, with Drive and Gemini chats to follow — if you let it",
+      "dek": "Wallet connections start rolling out today, with Drive and the Gemini app to follow. Google says the wallet access is read-only — but the announcement says nothing about advertising.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/google-ai-mode-wallet-drive-gemini.webp",
+      "image_alt": "Editorial illustration of a glowing smartphone on a desk surrounded by colorful shapes and documents",
+      "og_image": "https://wirewillow.com/images/og-google-ai-mode-wallet-drive-gemini.jpg",
+      "caption": "Illustration: Wire Willow. Google’s AI Mode can now connect to Wallet, with Drive and the Gemini app to follow.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "What’s new:",
+            " Users can opt in to connect Google Wallet to Personal Intelligence in AI Mode from today; Drive and the Gemini app follow in the coming weeks."
+          ],
+          [
+            "The limit:",
+            " Wallet access is read-only — AI Mode “can only read information from your accounts; it can’t move, manage, or invest your money.”"
+          ],
+          [
+            "The context:",
+            " Wallet joins Gmail, Calendar, and Photos, which could already be connected to AI Mode."
+          ],
+          [
+            "The open question:",
+            " The announcement says nothing about advertising, or whether the new data will shape ads beside AI Mode answers."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Google blog, Nov 23",
+          "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        ],
+        [
+          "9to5Google, Nov 23",
+          "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/"
+        ]
+      ],
+      "body_file": "content/articles/google-ai-mode-wallet-drive-gemini.html",
+      "head_title": "Google Search’s AI Mode can now read your wallet, with Drive and Gemini chats to follow — if you let it | Wire Willow",
+      "head_description": "Wallet connections start rolling out today, with Drive and the Gemini app to follow. Google says the wallet access is read-only — but the announcement says nothing about advertising.",
+      "canonical": "https://wirewillow.com/2026/11/23/google-ai-mode-wallet-drive-gemini/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a glowing smartphone on a desk surrounded by colorful shapes and documents",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "gemini-training-opt-out",
+      "slug": "gemini-training-opt-out",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/gemini-training-opt-out/",
+      "title": "Gemini will finally let you keep your chats without training Google’s AI on them",
+      "dek": "New separate settings split chat history from model training — but turning history off still keeps your chats for about two months.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/gemini-training-opt-out.webp",
+      "image_alt": "Editorial illustration of a smartphone with a glowing toggle switch and a protective shield",
+      "og_image": "https://wirewillow.com/images/og-gemini-training-opt-out.jpg",
+      "caption": "Illustration: Wire Willow. New Gemini settings separate chat history from AI model training.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The change:",
+            " Google is replacing the single Keep Activity setting with two: History, and a separate AI model training toggle."
+          ],
+          [
+            "The choice:",
+            " Training is opt-out — users find the toggle under Activity in Gemini settings, or under Data and Privacy in their Google account."
+          ],
+          [
+            "The catch:",
+            " Turning History off does not delete chats at once; Google keeps future chats for around two months for service, feedback, and safety."
+          ],
+          [
+            "The timing:",
+            " Announced November 16; the rollout reached users this week."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Google blog, Nov 16",
+          "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/"
+        ],
+        [
+          "9to5Google, Nov 16",
+          "https://9to5google.com/2026/11/16/gemini-history-ai-training/"
+        ],
+        [
+          "Ars Technica summary, Nov 23",
+          "https://progression.news/article/156102"
+        ]
+      ],
+      "body_file": "content/articles/gemini-training-opt-out.html",
+      "head_title": "Gemini will finally let you keep your chats without training Google’s AI on them | Wire Willow",
+      "head_description": "New separate settings split chat history from model training — but turning history off still keeps your chats for about two months.",
+      "canonical": "https://wirewillow.com/2026/11/23/gemini-training-opt-out/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a smartphone with a glowing toggle switch and a protective shield",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "crowdstrike-buys-zscaler",
+      "slug": "crowdstrike-buys-zscaler-43-9-billion",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
+      "title": "CrowdStrike is buying Zscaler for $43.9 billion in the biggest cybersecurity deal ever",
+      "dek": "The all-stock deal unites endpoint protection with zero-trust network security — and CrowdStrike’s own shares fell on the news.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/crowdstrike-buys-zscaler-43-9-billion.webp",
+      "image_alt": "Editorial illustration of two giant glowing digital shields merging over a city skyline at night",
+      "og_image": "https://wirewillow.com/images/og-crowdstrike-buys-zscaler-43-9-billion.jpg",
+      "caption": "Illustration: Wire Willow. CrowdStrike agreed to buy Zscaler in a $43.9 billion all-stock deal.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The deal:",
+            " CrowdStrike agreed to buy Zscaler in a $43.9 billion all-stock deal, the largest cybersecurity acquisition on record."
+          ],
+          [
+            "The terms:",
+            " Zscaler shareholders get 1.135 CrowdStrike shares per share, about $260.41 each, a 34% premium; CrowdStrike holders keep about 84%."
+          ],
+          [
+            "The close:",
+            " Expected in the second half of CrowdStrike’s fiscal 2028 (August 2027 to January 2028), pending shareholder and regulator approval."
+          ],
+          [
+            "The reaction:",
+            " CrowdStrike shares fell more than 8% in premarket trading; Zscaler’s rose more than 17%, according to Investopedia."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+        ],
+        [
+          "Reuters, Nov 23",
+          "https://www.reuters.com/legal/transactional/crowdstrike-buy-zscaler-439-billion-2026-11-23/"
+        ],
+        [
+          "WSJ, Nov 23",
+          "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031"
+        ],
+        [
+          "BusinessWire, Nov 23",
+          "https://www.businesswire.com/news/home/20261123522174/en/CrowdStrike-to-Acquire-Zscaler-Bringing-Network-Security-and-Zero-Trust-to-the-Falcon-Platform"
+        ],
+        [
+          "Investopedia, Nov 23",
+          "https://www.investopedia.com/5-things-to-know-stock-market-november-23-2026-12274106"
+        ],
+        [
+          "Reuters, Nov 23",
+          "https://www.reuters.com/legal/litigation/symantec-zscaler-biggest-cybersecurity-acquisitions-2026-11-23/"
+        ]
+      ],
+      "body_file": "content/articles/crowdstrike-buys-zscaler-43-9-billion.html",
+      "head_title": "CrowdStrike is buying Zscaler for $43.9 billion in the biggest cybersecurity deal ever | Wire Willow",
+      "head_description": "The all-stock deal unites endpoint protection with zero-trust network security — and CrowdStrike’s own shares fell on the news.",
+      "canonical": "https://wirewillow.com/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of two giant glowing digital shields merging over a city skyline at night",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "marlowe-277-million-seed",
+      "slug": "marlowe-277-million-seed",
+      "edition": "2026-11-25",
+      "url": "/2026/11/23/marlowe-277-million-seed/",
+      "title": "A six-month-old startup just raised $277 million to run AI on anything but Nvidia",
+      "dek": "Marlowe, founded by two former Microsoft executives, is building data centers tuned for AMD and Etched chips — and investors valued it at $1.15 billion before its first site opens.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T14:05:00-08:00",
+      "modified": "2026-11-23T14:05:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/marlowe-277-million-seed.webp",
+      "image_alt": "Editorial illustration of a modern data center building with rows of glowing computer chips at sunrise",
+      "og_image": "https://wirewillow.com/images/og-marlowe-277-million-seed.jpg",
+      "caption": "Illustration: Wire Willow. Marlowe raised $277 million to build data centers for AI chips other than Nvidia’s.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The round:",
+            " A $277 million seed round led by Accel values Marlowe at $1.15 billion, six months after it was founded in May."
+          ],
+          [
+            "The bet:",
+            " Data centers tuned for AMD and Etched chips for AI inference, claiming two to three times more output per watt and per dollar."
+          ],
+          [
+            "The sites:",
+            " A first site built on Etched chips goes live in December; a larger AMD Helios site is on track for the second quarter of 2027."
+          ],
+          [
+            "The backers:",
+            " Eclipse, Bessemer, Altimeter, Atreides, Journey, and Valor, plus Henry Kravis, Dara Khosrowshahi, and Aaron Levie."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "GeekWire, Nov 23",
+          "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
+        ],
+        [
+          "Bloomberg, Nov 23",
+          "https://www.investing.com/news/stock-market-news/marlowe-raises-277-million-for-nvidia-chip-alternatives--bloomberg-93CH-5045596"
+        ],
+        [
+          "Silicon Report, Nov 23",
+          "https://www.siliconreport.com/marlowe-raises-277m-for-data-centers-running-non-nvidia-ai-chips"
+        ]
+      ],
+      "body_file": "content/articles/marlowe-277-million-seed.html",
+      "head_title": "A six-month-old startup just raised $277 million to run AI on anything but Nvidia | Wire Willow",
+      "head_description": "Marlowe, founded by two former Microsoft executives, is building data centers tuned for AMD and Etched chips — and investors valued it at $1.15 billion before its first site opens.",
+      "canonical": "https://wirewillow.com/2026/11/23/marlowe-277-million-seed/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a modern data center building with rows of glowing computer chips at sunrise",
+      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
     }
   ],
   "brief_sets": {
@@ -3733,10 +4221,145 @@
       "archive_summary": "10 stories + 3 briefs: Nvidia reinstates Huang, Tesla’s FSD v15, Meta’s Muse at Walmart, the Grok suits, MIT’s laptop-sized chip designer, Uber’s recorded rides, Amazon’s package stickers, and Tech Finance — Sierra’s $30 billion round, Firmus’s bond, and Anthropic’s $93.5 billion IPO close.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-24"
+    },
+    {
+      "id": "2026-11-25",
+      "kind": "edition",
+      "label": "Edition No. 011",
+      "number": "No. 011",
+      "date": "2026-11-25",
+      "date_long": "Tuesday, November 25, 2026",
+      "date_short": "Nov 25, 2026",
+      "date_upper": "NOV 25, 2026",
+      "url": "/2026/11/25/",
+      "head": {
+        "title": "Tech News: Nov 25, 2026 — Huang Faces the Senate, Amazon Buys Decart & CrowdStrike’s $43.9B Deal | Wire Willow",
+        "description": "Edition No. 011: Jensen Huang faces a public Senate hearing on December 3; Amazon agrees to buy Decart’s AI tech for $7.5 billion; a Claude-assisted proof of the Riemann Hypothesis passes machine verification; Meta drops its 2030 net-zero deadline; and Tech Finance closes with CrowdStrike’s $43.9 billion Zscaler deal. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/25/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 011 — Nov 25, 2026",
+      "lead_slug": "nvidia-huang-senate-hearing-dec-3",
+      "article_slugs": [
+        "nvidia-huang-senate-hearing-dec-3",
+        "amazon-decart-agreed-7-5-billion",
+        "riemann-hypothesis-proof-certified",
+        "meta-drops-net-zero-2030",
+        "google-ai-mode-wallet-drive-gemini",
+        "gemini-training-opt-out",
+        "crowdstrike-buys-zscaler-43-9-billion",
+        "marlowe-277-million-seed"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 25 Headlines",
+      "ticker_aria": "Top headlines, Tuesday November 25, 2026",
+      "ticker": [
+        [
+          "AI",
+          "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Amazon is buying an AI startup’s tech for $7.5 billion to take on Nvidia’s chips",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "A Claude-assisted proof of the Riemann hypothesis just passed machine verification — but nobody has read it",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Meta drops its 2030 net-zero deadline as AI data centers push emissions up",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google Search’s AI Mode can now read your wallet, with Drive and Gemini chats to follow — if you let it",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Gemini will finally let you keep your chats without training Google’s AI on them",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "CrowdStrike is buying Zscaler for $43.9 billion in the biggest cybersecurity deal ever",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "A six-month-old startup just raised $277 million to run AI on anything but Nvidia",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon's Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "31.5%",
+          "Nvidia’s closing gain on Monday after the board reinstated Jensen Huang as chief executive"
+        ],
+        [
+          "$43.9B",
+          "CrowdStrike’s all-stock deal for Zscaler — the largest cybersecurity acquisition on record"
+        ],
+        [
+          "$7.5B",
+          "What Amazon agreed to pay for Decart’s AI optimization technology"
+        ],
+        [
+          "17M",
+          "Lines in the Lean library that machine checkers certified as a proof of the Riemann Hypothesis"
+        ]
+      ],
+      "watchbox": [
+        "Whether Huang’s December 3 public Senate hearing changes the export-controls story again",
+        "Whether mathematicians can turn the machine-checked Riemann proof into one a human can read",
+        "Whether Meta’s net-zero retreat pressures Amazon, Google, and Microsoft to follow",
+        "Whether regulators clear CrowdStrike’s $43.9 billion Zscaler deal before its late-2027 close"
+      ],
+      "footer_edition": "Edition No. 011 — Tuesday, November 25, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Tuesday, November 25, 2026 · Edition No. 011",
+      "archive_headline": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
+      "archive_summary": "8 stories + 3 briefs: Huang’s public Senate hearing and the political blowback, Amazon’s $7.5 billion Decart deal, the machine-certified Riemann proof, Meta’s net-zero retreat, Google’s AI Mode wallet access, Gemini’s training opt-out, and Tech Finance — CrowdStrike’s $43.9 billion Zscaler deal and Marlowe’s $277 million seed.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-25"
     }
   ],
   "homepage": {
-    "edition": "2026-11-24",
+    "edition": "2026-11-25",
     "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -3748,7 +4371,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-24",
+    "lastmod": "2026-11-25",
     "changefreq": "daily"
   },
   "pages": {
@@ -3793,7 +4416,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-24",
+      "lastmod": "2026-11-25",
       "changefreq": "daily"
     },
     {
@@ -3829,8 +4452,12 @@
       "lastmod": "2026-11-24"
     },
     {
+      "url": "https://wirewillow.com/2026/11/25/",
+      "lastmod": "2026-11-25"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-24",
+      "lastmod": "2026-11-25",
       "changefreq": "daily"
     },
     {
@@ -4011,6 +4638,38 @@
     },
     {
       "url": "https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/amazon-decart-agreed-7-5-billion/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/riemann-hypothesis-proof-certified/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/meta-drops-net-zero-2030/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/google-ai-mode-wallet-drive-gemini/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/gemini-training-opt-out/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/marlowe-277-million-seed/",
       "lastmod": "2026-11-23"
     }
   ]
