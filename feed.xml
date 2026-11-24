@@ -5,8 +5,56 @@
   <link>https://wirewillow.com/</link>
   <description>Daily tech news: AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved.</description>
   <language>en-US</language>
-  <lastBuildDate>Mon, 23 Nov 2026 09:35:01 -0800</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 09:16:00 -0800</lastBuildDate>
   <atom:link href="https://wirewillow.com/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back</title>
+    <link>https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/</guid>
+    <description>A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>AI agents found and broke into a server in 11 minutes — with almost no human help</title>
+    <link>https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/</guid>
+    <description>Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people</title>
+    <link>https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/</guid>
+    <description>Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel</title>
+    <link>https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/</guid>
+    <description>The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>Robotics</category>
+  </item>
+  <item>
+    <title>Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size</title>
+    <link>https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/</guid>
+    <description>GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Two open databases left 3.5 billion records exposed — and no one knows who owned them</title>
+    <link>https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/</guid>
+    <description>One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner.</description>
+    <pubDate>Tue, 24 Nov 2026 09:16:00 -0800</pubDate>
+    <category>Tech Industry</category>
+  </item>
   <item>
     <title>Nvidia brings Jensen Huang back as CEO, 11 days after he resigned</title>
     <link>https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/</link>

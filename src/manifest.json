@@ -3363,6 +3363,368 @@
       "og_type": "article",
       "og_image_alt": "Editorial illustration of a massive modern data center hall with rows of glowing server racks stretching into the distance, under dramatic blue and orange lighting",
       "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+    },
+    {
+      "id": "trump-huang-return",
+      "slug": "trump-silicon-valley-huang-return",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/trump-silicon-valley-huang-return/",
+      "title": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back",
+      "dek": "A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "3 min read",
+      "read_short": "3 MIN",
+      "image": "/images/trump-silicon-valley-huang-return.webp",
+      "image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors",
+      "og_image": "https://wirewillow.com/images/og-trump-silicon-valley-huang-return.jpg",
+      "caption": "Illustration: Wire Willow. Huang walked into Nvidia’s Santa Clara headquarters on Monday morning to applause from employees.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The return:",
+            " Jensen Huang got his job back after President Trump spoke to Nvidia’s board personally and Silicon Valley investors ran a pressure campaign."
+          ],
+          [
+            "The war room:",
+            " Allies formed a war room within hours of his November 12 resignation, and investors published an open letter within 24 hours."
+          ],
+          [
+            "The White House:",
+            " Vice President JD Vance had a 45-minute call with Huang; Treasury Secretary Scott Bessent softened his stance on Sunday."
+          ],
+          [
+            "The questions:",
+            " The board is stacked with longtime Huang allies and had no formal succession plan; FBI and SEC probes and congressional investigations continue."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Financial Times via Ars Technica, Nov 24",
+          "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+        ]
+      ],
+      "body_file": "content/articles/trump-silicon-valley-huang-return.html",
+      "head_title": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back | Wire Willow",
+      "head_description": "A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks.",
+      "canonical": "https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+    },
+    {
+      "id": "cairn-zero-day",
+      "slug": "amazon-cairn-ai-agents-zero-day",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/amazon-cairn-ai-agents-zero-day/",
+      "title": "AI agents found and broke into a server in 11 minutes — with almost no human help",
+      "dek": "Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/amazon-cairn-ai-agents-zero-day.webp",
+      "image_alt": "Editorial illustration of a dark server room with glowing computer racks and a small autonomous robot agent made of light moving between them",
+      "og_image": "https://wirewillow.com/images/og-amazon-cairn-ai-agents-zero-day.jpg",
+      "caption": "Illustration: Wire Willow. In about 11 minutes, the AI agents went from mapping a server’s programming interfaces to writing files anywhere on it.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The hack:",
+            " AI agents running on the open-source Cairn framework found and exploited a path-traversal flaw in about 11 minutes, then opened a reverse shell running as root."
+          ],
+          [
+            "The flaw:",
+            " The bug has since been identified as CVE-2026-133968 in MONAI Label, an open-source medical-imaging tool."
+          ],
+          [
+            "The limits:",
+            " The same agents spent 16+ hours failing against a Redis server and 6+ hours failing against a GPU server."
+          ],
+          [
+            "The pattern:",
+            " Palo Alto Networks counted 25 autonomous Cairn operations against at least 19 organizations, with at least 10 breached."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Ars Technica, Nov 24",
+          "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        ]
+      ],
+      "body_file": "content/articles/amazon-cairn-ai-agents-zero-day.html",
+      "head_title": "AI agents found and broke into a server in 11 minutes — with almost no human help | Wire Willow",
+      "head_description": "Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest.",
+      "canonical": "https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a dark server room with glowing computer racks and a small autonomous robot agent made of light moving between them",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+    },
+    {
+      "id": "alfozan-recorder",
+      "slug": "openai-alfozan-recorder-saudi",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/openai-alfozan-recorder-saudi/",
+      "title": "Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people",
+      "dek": "Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/openai-alfozan-recorder-saudi.webp",
+      "image_alt": "Editorial illustration of a sleek corporate conference room at night, with a small black recording device hidden behind a flat-screen television on the wall",
+      "og_image": "https://wirewillow.com/images/og-openai-alfozan-recorder-saudi.jpg",
+      "caption": "Illustration: Wire Willow. A recording device was found behind a television in an executive conference room at OpenAI’s headquarters.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The charge:",
+            " Former OpenAI employee Abdulrahman Alfozan is accused of hiding a recording device behind a TV in an executive conference room."
+          ],
+          [
+            "The allegation:",
+            " Prosecutors say he was “in frequent communication with various people affiliated with the Saudi government” and want him denied bail."
+          ],
+          [
+            "The evidence:",
+            " Investigators found hundreds of audio files, including dozens of September 2026 meeting recordings, plus AI-generated transcripts and Dropbox uploads."
+          ],
+          [
+            "His position:",
+            " Alfozan denies stealing trade secrets for Saudi Arabia and is asking for a $1 million bond; the court hears his request today."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Engadget, Nov 24",
+          "https://www.engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government/"
+        ]
+      ],
+      "body_file": "content/articles/openai-alfozan-recorder-saudi.html",
+      "head_title": "Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people | Wire Willow",
+      "head_description": "Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today.",
+      "canonical": "https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a sleek corporate conference room at night, with a small black recording device hidden behind a flat-screen television on the wall",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+    },
+    {
+      "id": "uber-lucid-robotaxi",
+      "slug": "uber-lucid-nuro-robotaxi",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/uber-lucid-nuro-robotaxi/",
+      "title": "Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel",
+      "dek": "The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027.",
+      "category": "robotics",
+      "cat_label": "Robotics",
+      "section": "Robotics",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/uber-lucid-nuro-robotaxi.webp",
+      "image_alt": "Editorial illustration of a sleek white futuristic electric SUV with sensor pods driving itself down a sunny California boulevard lined with palm trees at golden hour",
+      "og_image": "https://wirewillow.com/images/og-uber-lucid-nuro-robotaxi.jpg",
+      "caption": "Illustration: Wire Willow. Uber, Lucid, and Nuro have started fully driverless testing of their robotaxis on public roads in the San Francisco Bay Area.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The milestone:",
+            " Uber, Lucid, and Nuro have started fully driverless testing of their robotaxis on public roads in the San Francisco Bay Area."
+          ],
+          [
+            "The vehicles:",
+            " Modified Lucid Gravity SUVs with cameras, LIDAR, and radar, running Nuro’s Driver autonomous driving system."
+          ],
+          [
+            "The rollout:",
+            " Testing starts in Palo Alto, Mountain View, Los Altos, and Sunnyvale, with employee rides soon and a public launch planned for Q1 2027."
+          ],
+          [
+            "The scale:",
+            " Uber has committed to buying 35,000 of the robotaxis; the fleet already numbers 100 vehicles."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Engadget, Nov 24",
+          "https://www.engadget.com/2326365/uber-and-lucid-start-testing-fully-driverless-rides-for-their-robotaxis-in-san-francisco/"
+        ]
+      ],
+      "body_file": "content/articles/uber-lucid-nuro-robotaxi.html",
+      "head_title": "Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel | Wire Willow",
+      "head_description": "The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027.",
+      "canonical": "https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a sleek white futuristic electric SUV with sensor pods driving itself down a sunny California boulevard lined with palm trees at golden hour",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+    },
+    {
+      "id": "zai-glm-5-4",
+      "slug": "zai-glm-5-4-loop-transformer",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/zai-glm-5-4-loop-transformer/",
+      "title": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size",
+      "dek": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/zai-glm-5-4-loop-transformer.webp",
+      "image_alt": "Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold",
+      "og_image": "https://wirewillow.com/images/og-zai-glm-5-4-loop-transformer.jpg",
+      "caption": "Illustration: Wire Willow. GLM-5.4 runs its 28 loop layers twice for every token, producing 106 layer passes from 78 stored layers.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The design:",
+            " GLM-5.4 has 78 stored layers — a 26-layer prelude, a 28-layer loop, and a 24-layer coda — and the loop runs twice per token, for 106 layer passes."
+          ],
+          [
+            "The claim:",
+            " Z.ai says the roughly 750-billion-parameter model reasons like a model with two to three trillion parameters."
+          ],
+          [
+            "The caveat:",
+            " Z.ai published no model card or benchmark scores; the one independent outing ranked it 7th overall and 1st among open models on KingBench 4."
+          ],
+          [
+            "The price:",
+            " Access is limited to Z.ai products and GLM Coding Plan subscribers at $18, $80, or $168 a month."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Dealroom, Nov 24",
+          "https://dealroom.co/news/175167-z-ai-s-glm-5-4-loops-layers-to-rival-2-3t-models-at-750b-parameters/"
+        ],
+        [
+          "TechTimes, Nov 24",
+          "https://www.techtimes.com/articles/331387/20261124/zai-unveils-glm-54-ai-model-rerunning-28-layers-saves-memory-not-compute-china-law-applies.htm"
+        ],
+        [
+          "DataCamp, Nov 24",
+          "https://www.datacamp.com/blog/glm-5-4"
+        ],
+        [
+          "Decrypt, Nov 24",
+          "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size?amp=1"
+        ],
+        [
+          "TechRepublic, Nov 24",
+          "https://www.techrepublic.com/article/news-zai-glm-5-4-loop-transformer/"
+        ]
+      ],
+      "body_file": "content/articles/zai-glm-5-4-loop-transformer.html",
+      "head_title": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size | Wire Willow",
+      "head_description": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.",
+      "canonical": "https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+    },
+    {
+      "id": "two-databases-3-5-billion",
+      "slug": "two-databases-3-5-billion-records-exposed",
+      "edition": "2026-11-24-morning",
+      "url": "/2026/11/24/two-databases-3-5-billion-records-exposed/",
+      "title": "Two open databases left 3.5 billion records exposed — and no one knows who owned them",
+      "dek": "One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner.",
+      "category": "industry",
+      "cat_label": "Tech Industry",
+      "section": "Tech Industry",
+      "date": "2026-11-24",
+      "date_short": "Nov 24, 2026",
+      "published": "2026-11-24T09:16:00-08:00",
+      "modified": "2026-11-24T09:16:00-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/two-databases-3-5-billion-records-exposed.webp",
+      "image_alt": "Editorial illustration of two open database vaults spilling streams of glowing identity cards, passports and password keys into the night sky above a city",
+      "og_image": "https://wirewillow.com/images/og-two-databases-3-5-billion-records-exposed.jpg",
+      "caption": "Illustration: Wire Willow. Two unrelated databases left more than 3.5 billion records exposed on the open internet, and neither researcher could find an owner.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The find:",
+            " Two researchers found two unrelated open databases exposing more than 3.5 billion records — and neither could identify an owner."
+          ],
+          [
+            "The first trove:",
+            " UpGuard’s Greg Pollock found 1.64 billion documents, mostly on Chinese individuals and businesses, including at least 840 million national ID numbers."
+          ],
+          [
+            "The second trove:",
+            " Jeremiah Fowler found about two billion stolen login credentials, including tens of millions of .gov, .edu, and .org addresses."
+          ],
+          [
+            "The catch:",
+            " 3.5 billion is a count of records, not people — duplicates were not fully counted, and no single company was breached."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Wired, Nov 24",
+          "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online/"
+        ],
+        [
+          "AI Weekly, Nov 24",
+          "https://aiweekly.co/alerts/upguard-black-hills-find-35b-records-on-two-open-databases"
+        ],
+        [
+          "Technologist, Nov 24",
+          "https://technologistmag.com/database-leaks-expose-3-5-billion-usernames-passwords-and-documents/"
+        ],
+        [
+          "Startup Fortune, Nov 24",
+          "https://startupfortune.com/wired-reports-two-open-databases-exposed-more-than-35-billion-records/"
+        ],
+        [
+          "Byte.eco, Nov 24",
+          "https://www.byte.eco/post/researchers-find-two-unsecured-databases-exposing-3-5-billion-records"
+        ]
+      ],
+      "body_file": "content/articles/two-databases-3-5-billion-records-exposed.html",
+      "head_title": "Two open databases left 3.5 billion records exposed — and no one knows who owned them | Wire Willow",
+      "head_description": "One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner.",
+      "canonical": "https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of two open database vaults spilling streams of glowing identity cards, passports and password keys into the night sky above a city",
+      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
     }
   ],
   "brief_sets": {
@@ -3706,7 +4068,8 @@
       "archive_headline": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
       "archive_summary": "4 stories + 3 briefs: SpaceX's AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, the STRIKER drone partnership, and a UNLV window-washing drone.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-13",
+      "seq": 2
     },
     {
       "id": "2026-11-18",
@@ -3813,7 +4176,8 @@
       "archive_headline": "The drone war arrived before America was ready for it",
       "archive_summary": "4 stories + 3 briefs: the drone war America wasn't ready for, GPT-6.2's cheaper models, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB robotics deal.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-18",
+      "seq": 4
     },
     {
       "id": "2026-11-19",
@@ -3913,7 +4277,8 @@
       "archive_headline": "The U.S. closed the last big loophole in its AI chip ban — by going after the landlords",
       "archive_summary": "3 stories + 3 briefs: Washington closes the remote-compute loophole, Nvidia's board says no to Huang's return while traders price the odds, and Anthropic's record-setting $81.3 billion debut.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-19",
+      "seq": 5
     },
     {
       "id": "2026-11-21",
@@ -4020,7 +4385,8 @@
       "archive_headline": "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.",
       "archive_summary": "4 stories + 3 briefs: a claimed proof of the Riemann Hypothesis built with Claude, Signal's screenshot block against AI agents, Meta's net-zero rethink, and Waymo's robotaxi recalls.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-21"
+      "lastmod": "2026-11-21",
+      "seq": 6
     },
     {
       "id": "2026-11-20",
@@ -4127,7 +4493,8 @@
       "archive_headline": "California subpoenas Nvidia — and the company closes its last legal door to China",
       "archive_summary": "4 stories + 3 briefs: California's Nvidia subpoena and the Hopper halt, Google's $3 Gemini 4 Neon price war, the FCC's drone spectrum order, and Korea's humanoid split.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-20",
+      "seq": 7
     },
     {
       "id": "2026-11-22",
@@ -4234,7 +4601,8 @@
       "archive_headline": "Routine database maintenance took down three-quarters of ChatGPT",
       "archive_summary": "4 stories + 3 briefs: the OpenAI outage, the Together AI prompt leak, Payoneer's stablecoin bank approval, and NIOSH's humanoid safety review.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-22"
+      "lastmod": "2026-11-22",
+      "seq": 8
     },
     {
       "id": "2026-11-23",
@@ -4390,7 +4758,8 @@
       "archive_headline": "After a week of failures, Washington and Microsoft say the outages aren't over",
       "archive_summary": "11 stories + 3 briefs: the week's outages, OpenAI's AI speed limit, the banks vs AI agents, the data-center backlash, and the debut of Tech Finance — CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-23",
+      "seq": 9
     },
     {
       "id": "2026-11-24",
@@ -4539,7 +4908,8 @@
       "archive_headline": "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
       "archive_summary": "10 stories + 3 briefs: Nvidia reinstates Huang, Tesla’s FSD v15, Meta’s Muse at Walmart, the Grok suits, MIT’s laptop-sized chip designer, Uber’s recorded rides, Amazon’s package stickers, and Tech Finance — Sierra’s $30 billion round, Firmus’s bond, and Anthropic’s $93.5 billion IPO close.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-24",
+      "seq": 10
     },
     {
       "id": "2026-11-25",
@@ -4674,7 +5044,8 @@
       "archive_headline": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
       "archive_summary": "8 stories + 3 briefs: Huang’s public Senate hearing and the political blowback, Amazon’s $7.5 billion Decart deal, the machine-certified Riemann proof, Meta’s net-zero retreat, Google’s AI Mode wallet access, Gemini’s training opt-out, and Tech Finance — CrowdStrike’s $43.9 billion Zscaler deal and Marlowe’s $277 million seed.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-25",
+      "seq": 11
     },
     {
       "id": "2026-11-26",
@@ -4788,11 +5159,129 @@
       "archive_headline": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
       "archive_summary": "5 stories + 3 briefs: the US blacklists Megaspeed hours after Huang’s return, Anthropic launches Claude Ship, Nothing’s Ear (note) records your meetings and calls, and Tech Finance — Supertake’s $20 million seed and Anthropic’s $900 billion compute bill facing a junk-debt rating.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-26",
+      "seq": 12
+    },
+    {
+      "id": "2026-11-24-morning",
+      "kind": "edition",
+      "label": "Edition No. 013",
+      "number": "No. 013",
+      "date": "2026-11-24",
+      "date_long": "Tuesday, November 24, 2026",
+      "date_short": "Nov 24, 2026",
+      "date_upper": "NOV 24, 2026",
+      "url": "/2026/11/24-morning/",
+      "head": {
+        "title": "Wire Willow — Edition No. 013 — Tuesday, November 24, 2026",
+        "description": "Edition No. 013: a Financial Times reconstruction of how President Trump and Silicon Valley investors forced Nvidia to take Jensen Huang back — plus AI agents breaking into a server in 11 minutes, the OpenAI recorder case, Uber’s driverless robotaxis, Z.ai’s GLM-5.4, and 3.5 billion exposed records.",
+        "canonical": "https://wirewillow.com/2026/11/24-morning/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-trump-silicon-valley-huang-return.jpg",
+        "og_image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors"
+      },
+      "breadcrumb_name": "Edition No. 013",
+      "lead_slug": "trump-silicon-valley-huang-return",
+      "article_slugs": [
+        "trump-silicon-valley-huang-return",
+        "amazon-cairn-ai-agents-zero-day",
+        "openai-alfozan-recorder-saudi",
+        "uber-lucid-nuro-robotaxi",
+        "zai-glm-5-4-loop-transformer",
+        "two-databases-3-5-billion-records-exposed"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 24 Headlines",
+      "ticker_aria": "Top headlines, Tuesday November 24, 2026",
+      "ticker": [
+        [
+          "AI",
+          "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "AI agents found and broke into a server in 11 minutes — with almost no human help",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "Two open databases left 3.5 billion records exposed — and no one knows who owned them",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon's Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "11 minutes",
+          "How long AI agents took to go from mapping a server’s programming interfaces to writing files anywhere on it"
+        ],
+        [
+          "3.5 billion",
+          "Records left exposed across two unrelated open databases — a count of records, not people"
+        ],
+        [
+          "35,000",
+          "Lucid-Nuro robotaxis Uber has committed to buying for its global robotaxi program"
+        ]
+      ],
+      "watchbox": [
+        "Whether the December 3 Senate hearing brings new details on Huang’s return — and what the board knew",
+        "Whether Uber’s driverless robotaxis reach their public launch in the first quarter of 2027",
+        "Whether the court grants Alfozan bail at today’s bond hearing in San Francisco"
+      ],
+      "footer_edition": "Edition No. 013 — Tuesday, November 24, 2026. Stories are original summaries of the day’s technology reporting, written for this site; source links appear on each article page.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Tuesday, November 24, 2026 · Edition No. 013",
+      "archive_headline": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back",
+      "archive_summary": "6 stories and 3 briefs: the Nvidia return reconstruction, AI agents breaking into a server, the OpenAI recorder case, Uber’s driverless Lucid robotaxis, Z.ai’s GLM-5.4, and two databases exposing 3.5 billion records.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-24",
+      "seq": 13
     }
   ],
   "homepage": {
-    "edition": "2026-11-26",
+    "edition": "2026-11-24-morning",
     "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -4804,7 +5293,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-26",
+    "lastmod": "2026-11-24",
     "changefreq": "daily"
   },
   "pages": {
@@ -4831,7 +5320,7 @@
         "og_image": "https://wirewillow.com/images/og-home.jpg",
         "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
       },
-      "lastmod": "2026-11-23",
+      "lastmod": "2026-11-24",
       "changefreq": "daily"
     },
     "notfound": {
@@ -4849,7 +5338,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-26",
+      "lastmod": "2026-11-24",
       "changefreq": "daily"
     },
     {
@@ -4893,8 +5382,12 @@
       "lastmod": "2026-11-26"
     },
     {
+      "url": "https://wirewillow.com/2026/11/24-morning/",
+      "lastmod": "2026-11-24"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-26",
+      "lastmod": "2026-11-24",
       "changefreq": "daily"
     },
     {
@@ -5128,6 +5621,30 @@
     {
       "url": "https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/",
+      "lastmod": "2026-11-24"
     }
   ]
 }

@@ -101,7 +101,20 @@ def validate_manifest(m):
             if not label or not url.startswith("http"):
                 fail(f"manifest: article {a['slug']} has a bad source entry: {label!r} {url!r}")
     editions = {e["id"]: e for e in m["editions"]}
+    # Editions are ordered by seq (the edition number), NOT by date.
+    # The site publishes up to 3 editions a day, all dated the real
+    # publish day, so several editions can share one date and the date
+    # can be earlier than an older edition's date. Ordering by date
+    # would pick a stale edition as "newest" and run the cover date
+    # ahead of the calendar. seq always increases (No. 001 = 1, ...).
+    seen_seq = {}
     for e in m["editions"]:
+        if not isinstance(e.get("seq"), int):
+            fail(f"manifest: edition {e['id']} is missing an integer seq")
+            continue
+        if e["seq"] in seen_seq:
+            fail(f"manifest: editions {seen_seq[e['seq']]} and {e['id']} share seq {e['seq']}")
+        seen_seq[e["seq"]] = e["id"]
         if e["briefs"] not in m["brief_sets"]:
             fail(f"manifest: edition {e['id']} references unknown brief set {e['briefs']}")
         for slug in e.get("article_slugs", []):
@@ -118,13 +131,14 @@ def validate_manifest(m):
     if m["homepage"]["briefs"] not in m["brief_sets"]:
         fail("manifest: homepage references an unknown brief set")
     # The homepage must always show the newest content, never a stale edition.
+    # Newest means highest seq, not latest date (see the seq note above).
     full = [e for e in m["editions"] if e["kind"] == "edition"]
     if full:
-        newest = max(full, key=lambda e: e["date"])
+        newest = max(full, key=lambda e: e["seq"])
         if m["homepage"]["edition"] != newest["id"]:
             fail(f"manifest: homepage shows edition {m['homepage']['edition']}, "
                  f"but the newest edition is {newest['id']}")
-    newest_briefs = max(m["editions"], key=lambda e: e["date"])["briefs"]
+    newest_briefs = max(m["editions"], key=lambda e: e["seq"])["briefs"]
     if m["homepage"]["briefs"] != newest_briefs:
         fail(f"manifest: homepage shows brief set {m['homepage']['briefs']}, "
              f"but the newest is {newest_briefs}")
@@ -601,8 +615,8 @@ class Builder:
 
     def build_briefs_page(self, edition):
         earlier = sorted(
-            (e for e in self.m["editions"] if e["date"] < edition["date"]),
-            key=lambda e: e["date"])
+            (e for e in self.m["editions"] if e["seq"] < edition["seq"]),
+            key=lambda e: e["seq"])
         prev_ed = earlier[-1] if earlier else None
         briefs = self.m["brief_sets"][edition["briefs"]]["briefs"]
         body = render(load_template("briefs.html").rstrip("\n"), {
@@ -634,7 +648,7 @@ class Builder:
     def build_archive(self):
         cfg = self.m["pages"]["archive"]
         entries = []
-        for edition in sorted(self.m["editions"], key=lambda e: e["date"], reverse=True):
+        for edition in sorted(self.m["editions"], key=lambda e: e["seq"], reverse=True):
             lines = ["      <li>",
                      '        <p class="eyebrow accent">%s</p>' % esc(edition["archive_eyebrow"]),
                      '        <h2><a class="archive-headline" href="%s">%s</a></h2>'

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light" />
+<title>Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size | Wire Willow</title>
+<meta name="description" content="GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim." />
+<link rel="canonical" href="https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Wire Willow" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size | Wire Willow" />
+<meta property="og:description" content="GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim." />
+<meta property="og:url" content="https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/" />
+<meta property="og:image" content="https://wirewillow.com/images/og-zai-glm-5-4-loop-transformer.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold" />
+<meta property="article:published_time" content="2026-11-24T09:16:00-08:00" />
+<meta property="article:modified_time" content="2026-11-24T09:16:00-08:00" />
+<meta property="article:section" content="AI" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size | Wire Willow" />
+<meta name="twitter:description" content="GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim." />
+<meta name="twitter:image" content="https://wirewillow.com/images/og-zai-glm-5-4-loop-transformer.jpg" />
+<meta name="twitter:image:alt" content="Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "@id": "https://wirewillow.com/#organization",
+  "name": "Wire Willow",
+  "url": "https://wirewillow.com/",
+  "logo": "https://wirewillow.com/images/wire-willow-logo.png",
+  "description": "A daily tech newspaper covering AI, robotics, drones, fintech and Silicon Valley gossip. Original stories, human-approved before publishing.",
+  "foundingDate": "2026-11-13",
+  "areaServed": "Worldwide"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size",
+  "description": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.",
+  "image": [
+    "https://wirewillow.com/images/zai-glm-5-4-loop-transformer.webp"
+  ],
+  "datePublished": "2026-11-24T09:16:00-08:00",
+  "dateModified": "2026-11-24T09:16:00-08:00",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://wirewillow.com/#organization",
+    "name": "Wire Willow"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://wirewillow.com/#organization",
+    "name": "Wire Willow",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://wirewillow.com/images/wire-willow-logo.png"
+    }
+  },
+  "mainEntityOfPage": "https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/",
+  "articleSection": "AI",
+  "inLanguage": "en-US"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://wirewillow.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Edition No. 013",
+      "item": "https://wirewillow.com/2026/11/24-morning/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size"
+    }
+  ]
+}
+</script>
+<link rel="alternate" type="application/rss+xml" title="Wire Willow" href="https://wirewillow.com/feed.xml" />
+<link rel="preload" href="/assets/fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="/assets/css/style.css?v=f4a0253734" />
+<script type="module" src="/assets/js/main.js?v=846c67f404"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="wordmark" href="/" aria-label="Wire Willow — home">Wire <span class="wordmark-accent">Willow</span><span class="wordmark-tick" aria-hidden="true"></span></a>
+    <nav class="topnav" aria-label="Site">
+      <a href="/">Latest edition</a>
+      <a href="/archive/">Archive</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <article class="story">
+    <p class="crumbs"><a href="/">Home</a> &middot; <a href="/2026/11/24-morning/">Edition No. 013</a> &middot; AI</p>
+    <p class="eyebrow accent story-kicker">AI &middot; Nov 24, 2026</p>
+    <h1>Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size</h1>
+    <p class="dek">GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.</p>
+    <p class="byline">By <b>Wire Willow Staff</b> &middot; <time datetime="2026-11-24">Nov 24, 2026</time> &middot; 1 min read</p>
+    <figure class="story-figure">
+      <img src="/images/zai-glm-5-4-loop-transformer-1024.webp" srcset="/images/zai-glm-5-4-loop-transformer-640.webp 640w, /images/zai-glm-5-4-loop-transformer-1024.webp 1024w, /images/zai-glm-5-4-loop-transformer-1600.webp 1600w, /images/zai-glm-5-4-loop-transformer.webp 1920w" sizes="(min-width: 820px) 780px, calc(100vw - 40px)" alt="Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold" width="1920" height="1280" fetchpriority="high" />
+      <figcaption class="caption">Illustration: Wire Willow. GLM-5.4 runs its 28 loop layers twice for every token, producing 106 layer passes from 78 stored layers.</figcaption>
+    </figure>
+    <aside class="factbox">
+      <h2>The story in 30 seconds</h2>
+      <ul>
+        <li><strong>The design:</strong> GLM-5.4 has 78 stored layers — a 26-layer prelude, a 28-layer loop, and a 24-layer coda — and the loop runs twice per token, for 106 layer passes.</li>
+        <li><strong>The claim:</strong> Z.ai says the roughly 750-billion-parameter model reasons like a model with two to three trillion parameters.</li>
+        <li><strong>The caveat:</strong> Z.ai published no model card or benchmark scores; the one independent outing ranked it 7th overall and 1st among open models on KingBench 4.</li>
+        <li><strong>The price:</strong> Access is limited to Z.ai products and GLM Coding Plan subscribers at $18, $80, or $168 a month.</li>
+      </ul>
+    </aside>
+    <div class="story-body">
+      <p>Chinese lab Z.ai released a new flagship model on Monday that takes an unusual approach to getting smarter: instead of adding more parameters, it runs the same layers twice.</p>
+      <p>GLM-5.4 is built on what Z.ai calls a Loop Transformer. According to The Decoder’s account of the design, the model has 78 stored layers — a 26-layer prelude, a 28-layer loop, and a 24-layer coda — and the 28 loop layers run twice for every token, producing 106 layer passes without adding 28 more layers of unique weights. The model is built on the roughly 750-billion-parameter GLM-5 base, a mixture-of-experts design; TechTimes reports 744 billion total parameters with 40 billion active per token. Z.ai says the design delivers reasoning comparable to models with two to three trillion parameters.</p>
+      <p>The model adds vision, taking video, image, text, and file input, with a one-million-token context window and up to 128,000 tokens of output. Z.ai says throughput reaches up to 200 tokens per second off-peak and holds at 70 to 80 tokens per second under load. Those figures are the company’s claims.</p>
+      <p>Access is limited at launch to Z.ai’s products and GLM Coding Plan subscribers — $18 a month for Lite, $80 for Pro, $168 for Max — through ZCode and Z.ai Chat. API access will follow a safety evaluation, and open weights are promised after safety hardening, with no date for either.</p>
+      <p>The 2–3 trillion equivalence claim has not been independently verified. Z.ai published no model card and no benchmark scores for GLM-5.4, and as of November 23 there was no Hugging Face repository or entry in the developer documentation. The model has had one independent outing: review site AICodeKing ranked it 7th overall and 1st among open models on its KingBench 4 coding suite, though it took 431 minutes to finish against Gemini 4 Neon’s 109. Its strongest published evidence is an ablation study on a separate 30-billion-parameter model, not the 750-billion-parameter flagship, and Z.ai says benchmark scores will come later. The company itself discloses one drawback: the model can get caught in overly long reasoning loops, though it says the extra self-correction still lifts accuracy.</p>
+    </div>
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">Sources &mdash; read the originals</h2>
+      <ul>
+        <li><a href="https://dealroom.co/news/175167-z-ai-s-glm-5-4-loops-layers-to-rival-2-3t-models-at-750b-parameters/" target="_blank" rel="noopener">Dealroom, Nov 24</a></li>
+        <li><a href="https://www.techtimes.com/articles/331387/20261124/zai-unveils-glm-54-ai-model-rerunning-28-layers-saves-memory-not-compute-china-law-applies.htm" target="_blank" rel="noopener">TechTimes, Nov 24</a></li>
+        <li><a href="https://www.datacamp.com/blog/glm-5-4" target="_blank" rel="noopener">DataCamp, Nov 24</a></li>
+        <li><a href="https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size?amp=1" target="_blank" rel="noopener">Decrypt, Nov 24</a></li>
+        <li><a href="https://www.techrepublic.com/article/news-zai-glm-5-4-loop-transformer/" target="_blank" rel="noopener">TechRepublic, Nov 24</a></li>
+      </ul>
+    </section>
+    <nav class="related" aria-labelledby="related-title">
+      <h2 id="related-title">More from Edition No. 013</h2>
+      <ul>
+        <li><a href="/2026/11/24/trump-silicon-valley-huang-return/">Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back</a></li>
+        <li><a href="/2026/11/24/amazon-cairn-ai-agents-zero-day/">AI agents found and broke into a server in 11 minutes — with almost no human help</a></li>
+        <li><a href="/2026/11/24/openai-alfozan-recorder-saudi/">Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people</a></li>
+        <li><a href="/2026/11/24/uber-lucid-nuro-robotaxi/">Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel</a></li>
+        <li><a href="/2026/11/24/two-databases-3-5-billion-records-exposed/">Two open databases left 3.5 billion records exposed — and no one knows who owned them</a></li>
+        <li><a href="/2026/11/24-morning/">Full Edition No. 013 — Tuesday, November 24, 2026</a></li>
+      </ul>
+    </nav>
+    <nav class="storynav" aria-label="Previous and next story">
+      <span><a href="/2026/11/24/uber-lucid-nuro-robotaxi/">&larr; Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel</a></span><span><a href="/2026/11/24/two-databases-3-5-billion-records-exposed/">Two open databases left 3.5 billion records exposed — and no one knows who owned them &rarr;</a></span>
+    </nav>
+  </article>
+</main>
+<section class="subscribe notched" aria-labelledby="subscribe-title">
+  <div>
+    <h2 id="subscribe-title">Wire Willow, in your inbox by 9 a.m.</h2>
+    <p class="subscribe-copy">One email a day: the morning’s top stories across AI, robots, drones, money and gossip. No spam, no list-selling — just the edition.</p>
+  </div>
+  <div>
+    <form class="subscribe-form" id="subForm" data-mailto-user="davidmeislv" data-mailto-domain="gmail.com">
+      <label class="visually-hidden" for="subEmail">Email address</label>
+      <input type="email" id="subEmail" name="email" autocomplete="email" placeholder="you@example.com" required />
+      <button type="submit">Get the edition</button>
+    </form>
+    <p class="subscribe-note">Opens your email app with a ready-to-send signup note — you stay in control of sending it.</p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap footer-cols">
+    <div>
+      <p class="footer-logo">Wire <span class="wordmark-accent">Willow</span></p>
+      <p>A daily tech newspaper covering artificial intelligence, robotics, drones, fintech and Silicon Valley gossip. Edition No. 013 — Tuesday, November 24, 2026. Stories are original summaries of the day’s technology reporting, written for this site; source links appear on each article page.</p>
+      <p class="footer-fine">Illustrations: original editorial artwork created for this edition</p>
+    </div>
+    <div>
+      <p><strong>Desks</strong><br />AI · Robotics · Drones · Fintech · The Gossip</p>
+      <p><strong>Find us at</strong><br /><a href="https://wirewillow.com/">wirewillow.com</a></p>
+      <p><strong>More</strong><br /><a href="/archive/">Archive</a> &middot; <a href="/about/">About</a> &middot; <a href="/feed.xml">RSS</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
