@@ -3044,6 +3044,325 @@
       "og_type": "article",
       "og_image_alt": "Editorial illustration of a modern data center building with rows of glowing computer chips at sunrise",
       "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+    },
+    {
+      "id": "megaspeed-entity-list",
+      "slug": "megaspeed-added-us-entity-list",
+      "edition": "2026-11-26",
+      "url": "/2026/11/23/megaspeed-added-us-entity-list/",
+      "title": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
+      "dek": "The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T21:15:00-08:00",
+      "modified": "2026-11-23T21:15:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/megaspeed-added-us-entity-list.webp",
+      "image_alt": "Editorial illustration of a giant computer chip being loaded onto a cargo ship at a busy container port at golden hour, with cranes and stacked shipping containers under a vivid sunset sky",
+      "og_image": "https://wirewillow.com/images/og-megaspeed-added-us-entity-list.jpg",
+      "caption": "Illustration: Wire Willow. The Commerce Department added Megaspeed International and six other entities to its Entity List on Monday.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The listing:",
+            " The Commerce Department added Megaspeed International and six other entities to its Entity List on Monday, cutting off their access to US-made semiconductors without a special license."
+          ],
+          [
+            "The scandal:",
+            " Megaspeed is at the center of the scandal that briefly cost Jensen Huang his job; its former executive Alice Huang is suspected by US officials of working for Chinese intelligence, an allegation Reuters said it could not independently verify."
+          ],
+          [
+            "The timing:",
+            " The blacklisting landed hours after Nvidia’s board voted to reinstate Huang as chief executive, following pressure from President Trump and other administration officials."
+          ],
+          [
+            "What’s next:",
+            " The Justice Department has taken the lead on a criminal investigation, and the two departments said they would pursue “the full extent of the law” against the company."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+        ],
+        [
+          "Reuters, Nov 23",
+          "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/"
+        ],
+        [
+          "WSJ, Nov 23",
+          "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/commerce-department-adds-megaspeed-to-trade-blacklist-l3cSRd4wx7KRnEhCKIIL"
+        ],
+        [
+          "NY Post, Nov 23",
+          "https://nypost.com/2026/11/23/us-news/commerce-department-blacklists-megaspeed-after-nvidia-reinstates-jensen-huang-as-ceo/"
+        ],
+        [
+          "Bloomberg Law, Nov 23",
+          "https://news.bloomberglaw.com/artificial-intelligence/us-to-blacklist-megaspeed-the-firm-at-center-of-nvidia-scandal"
+        ]
+      ],
+      "body_file": "content/articles/megaspeed-added-us-entity-list.html",
+      "head_title": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return | Wire Willow",
+      "head_description": "The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license.",
+      "canonical": "https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a giant computer chip being loaded onto a cargo ship at a busy container port at golden hour, with cranes and stacked shipping containers under a vivid sunset sky",
+      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+    },
+    {
+      "id": "anthropic-claude-ship",
+      "slug": "anthropic-claude-ship",
+      "edition": "2026-11-26",
+      "url": "/2026/11/23/anthropic-claude-ship/",
+      "title": "Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it",
+      "dek": "The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T21:15:00-08:00",
+      "modified": "2026-11-23T21:15:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/anthropic-claude-ship.webp",
+      "image_alt": "Editorial illustration of a friendly sleek robot holding a large magnifying glass over a glowing circuit board, with colorful electronic components",
+      "og_image": "https://wirewillow.com/images/og-anthropic-claude-ship.jpg",
+      "caption": "Illustration: Wire Willow. Claude Ship’s three agents review pull requests, fix failing checks, and approve routine changes.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The suite:",
+            " Code Review is generally available; PR Steward and Claude Approvals are new and in beta. PR Steward is designed not to approve or merge anything itself."
+          ],
+          [
+            "The decision:",
+            " Claude Approvals applies a plain-language policy file the team writes, and can approve routine changes on its own or send riskier ones to a person. Anthropic recommends observe-only mode first."
+          ],
+          [
+            "The offer:",
+            " Eligible Enterprise organizations can claim at least $10,000 in Claude Ship credits, to use within 30 days of claiming, by January 15, 2027."
+          ],
+          [
+            "The limits:",
+            " It is not available to organizations with Zero Data Retention, the HIPAA configuration, or customer-managed encryption keys."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+        ],
+        [
+          "Anthropic, Nov 23",
+          "https://claude.com/resources/articles/introducing-claude-ship"
+        ],
+        [
+          "Reuters, Nov 23",
+          "https://www.reuters.com/business/anthropic-launches-claude-ship-help-developers-ship-code-faster-2026-11-23/"
+        ]
+      ],
+      "body_file": "content/articles/anthropic-claude-ship.html",
+      "head_title": "Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it | Wire Willow",
+      "head_description": "The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first.",
+      "canonical": "https://wirewillow.com/2026/11/23/anthropic-claude-ship/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a friendly sleek robot holding a large magnifying glass over a glowing circuit board, with colorful electronic components",
+      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+    },
+    {
+      "id": "nothing-ear-note",
+      "slug": "nothing-ear-note-ai-recorder",
+      "edition": "2026-11-26",
+      "url": "/2026/11/23/nothing-ear-note-ai-recorder/",
+      "title": "Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls",
+      "dek": "The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced.",
+      "category": "ai",
+      "cat_label": "AI",
+      "section": "AI",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T21:15:00-08:00",
+      "modified": "2026-11-23T21:15:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/nothing-ear-note-ai-recorder.webp",
+      "image_alt": "Editorial illustration of a pair of sleek white wireless earbuds beside an open charging case on a vivid coral-red surface, with a colorful teal and orange gradient background",
+      "og_image": "https://wirewillow.com/images/og-nothing-ear-note-ai-recorder.jpg",
+      "caption": "Illustration: Wire Willow. The Ear (note) records meetings through its charging case and calls through the earbuds.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The product:",
+            " The Ear (note) is Nothing’s first AI gadget: wireless earbuds that record and transcribe conversations, fully unveiled on December 8."
+          ],
+          [
+            "The hardware:",
+            " The charging case has built-in microphones and a “Talk” button for in-person meetings; the earbuds record phone calls. A companion app handles transcriptions and AI summaries."
+          ],
+          [
+            "The caution:",
+            " Co-founder Carl Pei told Bloomberg he does not expect AI gadgets like this to succeed in the mass market anytime soon."
+          ],
+          [
+            "The price:",
+            " Pricing, specifications, and availability are expected at the December 8 event; none has been announced."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "Gizmodo, Nov 23",
+          "https://gizmodo.com/?p=2000844014"
+        ],
+        [
+          "9to5Google, Nov 23",
+          "https://9to5google.com/2026/11/23/nothing-ear-note-ai-recorder-teaser/"
+        ],
+        [
+          "Notebookcheck, Nov 23",
+          "https://www.notebookcheck.net/Nothing-unveils-Ear-note-earbuds-with-surprising-charging-case-days-ahead-of-launch.1458011.0.html"
+        ]
+      ],
+      "body_file": "content/articles/nothing-ear-note-ai-recorder.html",
+      "head_title": "Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls | Wire Willow",
+      "head_description": "The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced.",
+      "canonical": "https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a pair of sleek white wireless earbuds beside an open charging case on a vivid coral-red surface, with a colorful teal and orange gradient background",
+      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+    },
+    {
+      "id": "supertake-20-million",
+      "slug": "supertake-20-million-seed",
+      "edition": "2026-11-26",
+      "url": "/2026/11/23/supertake-20-million-seed/",
+      "title": "A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios",
+      "dek": "Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T21:15:00-08:00",
+      "modified": "2026-11-23T21:15:00-08:00",
+      "read_time": "2 min read",
+      "read_short": "2 MIN",
+      "image": "/images/supertake-20-million-seed.webp",
+      "image_alt": "Editorial illustration of a tall stack of golden coins beside a small green sprouting plant in a terracotta pot on a wooden desk, with warm sunlight and a soft-focus city skyline behind",
+      "og_image": "https://wirewillow.com/images/og-supertake-20-million-seed.jpg",
+      "caption": "Illustration: Wire Willow. Supertake turns a plain-English market view into an investable portfolio, managed with AI agents.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The round:",
+            " Supertake raised $20 million in seed funding led by Adjacent, with Coinbase Ventures and Union Square Ventures, following a $2 million pre-seed."
+          ],
+          [
+            "The product:",
+            " You describe a market view in plain language, and Supertake’s AI turns it into an investable portfolio of stocks, tracked on a public leaderboard."
+          ],
+          [
+            "The guardrails:",
+            " The AI cannot deposit or withdraw funds without explicit consent, cannot see brokerage credentials, and operates under drift limits, allow and deny lists, and trade-size caps."
+          ],
+          [
+            "The founders:",
+            " Mignano incubated Supertake at USV after selling Anchor to Spotify in 2019; Murr and Peterson ran AI product and engineering at Coinbase. All three put their own money in."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "TechCrunch, Nov 23",
+          "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+        ]
+      ],
+      "body_file": "content/articles/supertake-20-million-seed.html",
+      "head_title": "A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios | Wire Willow",
+      "head_description": "Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it.",
+      "canonical": "https://wirewillow.com/2026/11/23/supertake-20-million-seed/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a tall stack of golden coins beside a small green sprouting plant in a terracotta pot on a wooden desk, with warm sunlight and a soft-focus city skyline behind",
+      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+    },
+    {
+      "id": "anthropic-junk-debt",
+      "slug": "anthropic-900-billion-junk-debt",
+      "edition": "2026-11-26",
+      "url": "/2026/11/23/anthropic-900-billion-junk-debt/",
+      "title": "Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say",
+      "dek": "The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade.",
+      "category": "finance",
+      "cat_label": "Tech Finance",
+      "section": "Tech Finance",
+      "date": "2026-11-23",
+      "date_short": "Nov 23, 2026",
+      "published": "2026-11-23T21:15:00-08:00",
+      "modified": "2026-11-23T21:15:00-08:00",
+      "read_time": "1 min read",
+      "read_short": "1 MIN",
+      "image": "/images/anthropic-900-billion-junk-debt.webp",
+      "image_alt": "Editorial illustration of a massive modern data center hall with rows of glowing server racks stretching into the distance, under dramatic blue and orange lighting",
+      "og_image": "https://wirewillow.com/images/og-anthropic-900-billion-junk-debt.jpg",
+      "caption": "Illustration: Wire Willow. Anthropic has committed about $900 billion to computing power and data centers.",
+      "factbox": {
+        "heading": "The story in 30 seconds",
+        "items": [
+          [
+            "The bill:",
+            " Anthropic’s amended SEC filing puts aggregate purchase and lease commitments at $895.4 billion to $900.9 billion, almost all for computing power and infrastructure."
+          ],
+          [
+            "The rating:",
+            " Kroll already rates Anthropic BB+, and bond-fund managers expect Moody’s, S&P, and Fitch to place the debt in the BB range — one or two notches below investment grade."
+          ],
+          [
+            "The cash:",
+            " Anthropic held $95.6 billion in cash at September 30, before the IPO money arrived; post-IPO estimates range from about $200 billion to about $250 billion."
+          ],
+          [
+            "The shares:",
+            " Anthropic priced at $83 on November 18, opened at $111.50 on November 19, and fell 8.5 percent on Friday to $88.91, leaving its market value at about $1.18 trillion."
+          ]
+        ]
+      },
+      "sources": [
+        [
+          "The Apex Wire, Nov 23",
+          "https://theapexwire.com/tech/anthropic-900-billion-spend-junk-debt-rating/"
+        ],
+        [
+          "TheStreet, Nov 23",
+          "https://www.thestreet.com/investing/kevin-oleary-anthropic-ipo-warning"
+        ],
+        [
+          "Motley Fool, Nov 21",
+          "http://www.fool.com/investing/2026/11/21/here-s-how-much-cash-anthropic-has-after-its-ipo-and-why-it-could-be-the-most-important-number-for-investors-to-know/"
+        ],
+        [
+          "Wired, Nov 19",
+          "https://www.winzheng.com/en/article/anthropic-record-ipo-ai-safety-challenges"
+        ]
+      ],
+      "body_file": "content/articles/anthropic-900-billion-junk-debt.html",
+      "head_title": "Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say | Wire Willow",
+      "head_description": "The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade.",
+      "canonical": "https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/",
+      "og_type": "article",
+      "og_image_alt": "Editorial illustration of a massive modern data center hall with rows of glowing server racks stretching into the distance, under dramatic blue and orange lighting",
+      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
     }
   ],
   "brief_sets": {
@@ -4356,10 +4675,124 @@
       "archive_summary": "8 stories + 3 briefs: Huang’s public Senate hearing and the political blowback, Amazon’s $7.5 billion Decart deal, the machine-certified Riemann proof, Meta’s net-zero retreat, Google’s AI Mode wallet access, Gemini’s training opt-out, and Tech Finance — CrowdStrike’s $43.9 billion Zscaler deal and Marlowe’s $277 million seed.",
       "archive_read_text": "Read the full edition →",
       "lastmod": "2026-11-25"
+    },
+    {
+      "id": "2026-11-26",
+      "kind": "edition",
+      "label": "Edition No. 012",
+      "number": "No. 012",
+      "date": "2026-11-26",
+      "date_long": "Wednesday, November 26, 2026",
+      "date_short": "Nov 26, 2026",
+      "date_upper": "NOV 26, 2026",
+      "url": "/2026/11/26/",
+      "head": {
+        "title": "Tech News: Nov 26, 2026 — Megaspeed Blacklisted, Claude Ship & Anthropic’s $900B Bill | Wire Willow",
+        "description": "Edition No. 012: the US blacklists Megaspeed hours after Jensen Huang’s return; Anthropic launches Claude Ship; Nothing’s Ear (note) records your meetings; Supertake raises $20 million; and bond managers expect Anthropic’s debt to be graded junk. Plus three briefs.",
+        "canonical": "https://wirewillow.com/2026/11/26/",
+        "og_type": "website",
+        "og_image": "https://wirewillow.com/images/og-home.jpg",
+        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+      },
+      "breadcrumb_name": "Edition No. 012 — Nov 26, 2026",
+      "lead_slug": "megaspeed-added-us-entity-list",
+      "article_slugs": [
+        "megaspeed-added-us-entity-list",
+        "anthropic-claude-ship",
+        "nothing-ear-note-ai-recorder",
+        "supertake-20-million-seed",
+        "anthropic-900-billion-junk-debt"
+      ],
+      "briefs": "2026-11-22",
+      "briefs_label": "Three more things",
+      "briefs_links": false,
+      "ticker_label": "Nov 26 Headlines",
+      "ticker_aria": "Top headlines, Wednesday November 26, 2026",
+      "ticker": [
+        [
+          "AI",
+          "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic's day two: down 8.5 percent, and $109 billion gone",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Google puts Genie 4 on the Gemini API — a world you can walk through, at about 10 cents a second",
+          "",
+          ""
+        ],
+        [
+          "DRONES",
+          "Amazon's Atlanta drone deliveries started without a public filing",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "$900B",
+          "Anthropic’s committed spending on computing power and data centers — and the bill bond managers say could earn it a junk rating"
+        ],
+        [
+          "50,000",
+          "Advanced AI chips the New York Post reported went missing in a 2025 audit of Megaspeed’s supplies"
+        ],
+        [
+          "$20M",
+          "Supertake’s seed round to turn plain-English market views into AI-managed stock portfolios"
+        ],
+        [
+          "$10,000",
+          "Claude Ship credits eligible Enterprise organizations can claim, by January 15, 2027"
+        ]
+      ],
+      "watchbox": [
+        "Whether the Megaspeed blacklisting changes the export-controls story again ahead of Huang’s December 3 Senate hearing",
+        "Whether teams trust Claude Ship’s approval agent enough to let its sign-off count toward merging",
+        "Whether Nothing’s Ear (note) finds buyers when it launches December 8 — and whether the price lands",
+        "Whether the rating agencies follow Kroll and grade Anthropic’s debt below investment grade"
+      ],
+      "footer_edition": "Edition No. 012 — Wednesday, November 26, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_eyebrow": "Wednesday, November 26, 2026 · Edition No. 012",
+      "archive_headline": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
+      "archive_summary": "5 stories + 3 briefs: the US blacklists Megaspeed hours after Huang’s return, Anthropic launches Claude Ship, Nothing’s Ear (note) records your meetings and calls, and Tech Finance — Supertake’s $20 million seed and Anthropic’s $900 billion compute bill facing a junk-debt rating.",
+      "archive_read_text": "Read the full edition →",
+      "lastmod": "2026-11-26"
     }
   ],
   "homepage": {
-    "edition": "2026-11-25",
+    "edition": "2026-11-26",
     "briefs": "2026-11-22",
     "briefs_label": "Three more things",
     "briefs_links": false,
@@ -4371,7 +4804,7 @@
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
     },
-    "lastmod": "2026-11-25",
+    "lastmod": "2026-11-26",
     "changefreq": "daily"
   },
   "pages": {
@@ -4416,7 +4849,7 @@
   "sitemap": [
     {
       "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-25",
+      "lastmod": "2026-11-26",
       "changefreq": "daily"
     },
     {
@@ -4456,8 +4889,12 @@
       "lastmod": "2026-11-25"
     },
     {
+      "url": "https://wirewillow.com/2026/11/26/",
+      "lastmod": "2026-11-26"
+    },
+    {
       "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-25",
+      "lastmod": "2026-11-26",
       "changefreq": "daily"
     },
     {
@@ -4670,6 +5107,26 @@
     },
     {
       "url": "https://wirewillow.com/2026/11/23/marlowe-277-million-seed/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/anthropic-claude-ship/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/supertake-20-million-seed/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "url": "https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/",
       "lastmod": "2026-11-23"
     }
   ]

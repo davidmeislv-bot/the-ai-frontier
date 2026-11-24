@@ -152,6 +152,46 @@
     <category>Tech Finance</category>
   </item>
   <item>
+    <title>The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return</title>
+    <link>https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/</guid>
+    <description>The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license.</description>
+    <pubDate>Mon, 23 Nov 2026 21:15:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it</title>
+    <link>https://wirewillow.com/2026/11/23/anthropic-claude-ship/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/anthropic-claude-ship/</guid>
+    <description>The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first.</description>
+    <pubDate>Mon, 23 Nov 2026 21:15:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls</title>
+    <link>https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/</guid>
+    <description>The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced.</description>
+    <pubDate>Mon, 23 Nov 2026 21:15:00 -0800</pubDate>
+    <category>AI</category>
+  </item>
+  <item>
+    <title>A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios</title>
+    <link>https://wirewillow.com/2026/11/23/supertake-20-million-seed/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/supertake-20-million-seed/</guid>
+    <description>Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it.</description>
+    <pubDate>Mon, 23 Nov 2026 21:15:00 -0800</pubDate>
+    <category>Tech Finance</category>
+  </item>
+  <item>
+    <title>Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say</title>
+    <link>https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/</link>
+    <guid isPermaLink="true">https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/</guid>
+    <description>The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade.</description>
+    <pubDate>Mon, 23 Nov 2026 21:15:00 -0800</pubDate>
+    <category>Tech Finance</category>
+  </item>
+  <item>
     <title>Routine database maintenance took down three-quarters of ChatGPT</title>
     <link>https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/</link>
     <guid isPermaLink="true">https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/</guid>
