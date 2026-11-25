@@ -3240,10 +3240,10 @@
       "category": "ai",
       "date": "2026-11-24",
       "published": "2026-11-24T13:46:41-08:00",
-      "modified": "2026-11-24T13:46:41-08:00",
+      "modified": "2026-11-24T17:08:33-08:00",
       "read_time": "3 min read",
-      "image": "/images/nvidia-reinstates-jensen-huang.webp",
-      "image_alt": "Jensen Huang, co-founder and CEO of Nvidia, speaking at Stanford University in April 2026",
+      "image": "/images/huang-all-hands-therapy-trump.webp",
+      "image_alt": "Jensen Huang in a black leather jacket speaking at Stanford University in April 2026",
       "og_image": "https://wirewillow.com/images/og-huang-all-hands-therapy-trump.jpg",
       "caption": "Huang addressed Nvidia employees at his first all-hands meeting since returning as chief executive.",
       "factbox": {
@@ -3298,7 +3298,8 @@
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "changes": "cropped",
-        "label": "File photo"
+        "label": "File photo",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_007.jpg"
       }
     },
     {
