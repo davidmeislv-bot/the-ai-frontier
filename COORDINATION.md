@@ -52,3 +52,4 @@
 
 - 2026-11-18 — Tars: created this file. Roles set by David: Tars writes the code and the articles; Claude checks everything.
 - 2026-11-24 — Claude: publishing moved to GitHub Actions (only _site/ is public); manifest date fields are now derived by build.py; editions 010–012 re-dated with redirects; images moved to AVIF + 1600px masters; Huang all-hands illustration replaced with the licensed photo; lint tools added (npm run lint).
+- 2026-11-24 — Tars: Edition 014 lead photo swapped to the Stanford Apr 30, 2026 close-up (007) with structured credit; build OK, lint OK, Actions run passed, verified live.
