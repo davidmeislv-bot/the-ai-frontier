@@ -24,7 +24,7 @@
 
 /* 1. Fonts — Archivo variable, self-hosted (SIL OFL, see assets/fonts/OFL.txt) */
 @font-face {
-  font-family: "Archivo";
+  font-family: Archivo;
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -33,8 +33,9 @@
     U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+
 @font-face {
-  font-family: "Archivo";
+  font-family: Archivo;
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -48,7 +49,7 @@
 :root {
   color-scheme: light;
 
-  --bg: #ffffff;
+  --bg: #fff;
   --ink: #0c0c14;
   --ink-2: #3d3d47;
   --ink-3: #696972;          /* ≥ 4.5:1 on --bg and --muted-bg */
@@ -62,9 +63,7 @@
   --muted-bg: #f7f7f9;
   --on-dark: #c3cbdb;
   --on-dark-2: #8e9ab2;
-
-  --sans: "Archivo", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-
+  --sans: "Archivo", -apple-system, "Segoe UI", helvetica, arial, sans-serif;
   --wrap: 1240px;
   --gutter: 20px;
   --notch: 12px;             /* size of the cut corner on buttons and panels */
@@ -74,7 +73,7 @@
 /* 3. Base + utilities */
 *, *::before, *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; text-size-adjust: 100%; }
 
 body {
   margin: 0;
@@ -87,6 +86,7 @@ body {
 }
 
 img { display: block; max-width: 100%; height: auto; }
+picture { display: block; }
 
 a { color: var(--accent); }
 a:hover { color: var(--accent-dark); }
@@ -95,10 +95,11 @@ a:hover { color: var(--accent-dark); }
 
 button, input { font: inherit; }
 
-[hidden] { display: none !important; } /* beats component display rules */
+/* stylelint-disable-next-line declaration-no-important -- must beat component display rules */
+[hidden] { display: none !important; }
 
 .visually-hidden {
-  position: absolute !important;
+  position: absolute;
   width: 1px; height: 1px;
   margin: -1px; padding: 0;
   overflow: hidden;
@@ -127,6 +128,7 @@ button, input { font: inherit; }
   background: var(--bg);
   border-bottom: 1px solid var(--ink);
 }
+
 .topbar-in {
   display: flex;
   flex-wrap: wrap;
@@ -135,6 +137,7 @@ button, input { font: inherit; }
   min-height: 58px;
   padding-block: 8px;
 }
+
 .wordmark {
   font-weight: 900;
   font-size: 23px;
@@ -146,6 +149,7 @@ button, input { font: inherit; }
 }
 .wordmark:hover { color: var(--ink); }
 .wordmark-accent { color: var(--accent); }
+
 .wordmark-tick {
   display: inline-block;
   width: 9px; height: 9px;
@@ -165,6 +169,12 @@ button, input { font: inherit; }
   margin-inline: -10px;
 }
 .sectionnav::-webkit-scrollbar { display: none; }
+
+/* Fade the right edge while more filters are off-screen (class set by main.js) */
+.sectionnav.has-more {
+  mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent);
+}
+
 .fbtn {
   flex: none;
   min-height: 40px;
@@ -189,6 +199,7 @@ button, input { font: inherit; }
   color: var(--ink-2);
 }
 .searchbox svg { flex: none; }
+
 .searchbox input {
   width: 120px;
   min-height: 40px;
@@ -204,6 +215,7 @@ button, input { font: inherit; }
 .searchbox input:focus-visible { outline: none; border-bottom-color: var(--accent); box-shadow: 0 2px 0 var(--accent); }
 
 .topnav { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-left: auto; }
+
 .topnav a {
   padding: 8px 2px;
   color: var(--ink);
@@ -215,6 +227,7 @@ button, input { font: inherit; }
 
 /* 5. Ticker */
 .ticker { background: var(--navy); color: #fff; overflow: hidden; }
+
 .ticker-inner {
   display: flex;
   align-items: stretch;
@@ -222,6 +235,7 @@ button, input { font: inherit; }
   margin-inline: auto;
   padding-inline: var(--gutter);
 }
+
 .ticker-label {
   display: flex;
   align-items: center;
@@ -235,14 +249,18 @@ button, input { font: inherit; }
   white-space: nowrap;
 }
 .ticker-track { flex: 1; display: flex; align-items: center; overflow: hidden; }
+
 .ticker-items {
   display: flex;
   width: max-content;
+
   /* 120s loop so the ticker is slow enough to read (was 46s — too fast to read). */
   animation: ticker 120s linear infinite;
 }
+
 .ticker.is-paused .ticker-items,
 .ticker-track:hover .ticker-items { animation-play-state: paused; }
+
 .ticker-set {
   display: flex;
   gap: 34px;
@@ -256,12 +274,13 @@ button, input { font: inherit; }
 .ticker-set b { font-weight: 800; }
 .ticker-set .up { color: #7fe0ae; }
 .ticker-set .down { color: #ff9d8f; }
+
 .ticker-toggle {
   flex: none;
   min-height: 36px;
   padding: 0 12px;
   border: 0;
-  border-left: 1px solid rgb(255 255 255 / 0.15);
+  border-left: 1px solid rgb(255 255 255 / 15%);
   background: transparent;
   color: #fff;
   font-size: 11px;
@@ -271,6 +290,7 @@ button, input { font: inherit; }
   cursor: pointer;
 }
 .ticker-toggle:focus-visible { outline-color: #fff; outline-offset: -4px; }
+
 @keyframes ticker { to { transform: translateX(-50%); } }
 
 /* 6. Shared type */
@@ -292,6 +312,7 @@ button, input { font: inherit; }
   gap: 6px 14px;
   margin: 0 0 20px;
 }
+
 .sechead h2 {
   margin: 0;
   font-size: clamp(26px, 3.6vw, 36px);
@@ -299,6 +320,7 @@ button, input { font: inherit; }
   letter-spacing: -0.02em;
   line-height: 1.05;
 }
+
 .sechead-more {
   margin: 0;
   padding-bottom: 5px;
@@ -341,13 +363,15 @@ button, input { font: inherit; }
 .hero { padding: 18px 0 6px; }
 .hero-media { margin: 0; }
 .hero-media img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+
 .hero-card {
   position: relative;
   margin: -40px 10px 0;
   padding: 22px 20px 24px;
   background: #fff;
-  box-shadow: 0 14px 40px rgb(10 15 40 / 0.14);
+  box-shadow: 0 14px 40px rgb(10 15 40 / 14%);
 }
+
 .hero-card::before {
   content: "";
   position: absolute;
@@ -356,6 +380,7 @@ button, input { font: inherit; }
   background: var(--accent);
   clip-path: polygon(55% 0, 100% 0, 45% 100%, 0 100%);
 }
+
 .hero-card h1 {
   max-width: 22ch;
   margin: 9px 0 12px;
@@ -364,6 +389,7 @@ button, input { font: inherit; }
   letter-spacing: -0.02em;
   line-height: 1.08;
 }
+
 .hero-card .dek {
   max-width: 68ch;
   margin: 0 0 14px;
@@ -387,6 +413,7 @@ button, input { font: inherit; }
   text-decoration: none;
 }
 .readbtn:hover { background: var(--accent-dark); color: #fff; }
+
 /* The notch clips outside outlines, so draw focus inside the button */
 .readbtn:focus-visible { outline: 3px solid #fff; outline-offset: -7px; }
 
@@ -398,6 +425,7 @@ button, input { font: inherit; }
   background: var(--cream);
   overflow: hidden;
 }
+
 .factbox::before {
   content: "";
   position: absolute;
@@ -406,6 +434,7 @@ button, input { font: inherit; }
   background: var(--accent);
   clip-path: polygon(0 0, 100% 0, 38% 100%, 0 100%);
 }
+
 .factbox h2 {
   margin: 0 0 14px 14px;
   font-size: 12px;
@@ -413,6 +442,7 @@ button, input { font: inherit; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
+
 .factbox ul {
   display: grid;
   gap: 4px 34px;
@@ -427,8 +457,12 @@ button, input { font: inherit; }
 .front { padding: 38px 0 6px; }
 .grid { display: grid; gap: 30px 26px; }
 .card { position: relative; display: flex; flex-direction: column; }
+
+/* A lone card on the last row spans the row as a wide card (see breakpoints).
+   build.py adds .is-last-odd / .is-last-third to the last card when needed. */
 .card-thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .card-body { display: flex; flex: 1; flex-direction: column; gap: 7px; padding-top: 13px; }
+
 .card-title {
   margin: 0;
   font-size: 20.5px;
@@ -442,6 +476,7 @@ button, input { font: inherit; }
 .card-link:focus-visible { outline: none; }
 .card-link:focus-visible::after { outline: var(--focus); outline-offset: 4px; }
 .card-dek { flex: 1; margin: 0; color: var(--ink-2); font-size: 14.5px; line-height: 1.5; }
+
 .card-meta {
   display: flex;
   justify-content: space-between;
@@ -456,6 +491,7 @@ button, input { font: inherit; }
   text-transform: uppercase;
 }
 .card-cta { color: var(--accent); font-weight: 800; }
+
 .noresults {
   grid-column: 1 / -1;
   margin: 0;
@@ -471,6 +507,7 @@ button, input { font: inherit; }
 .band .sechead-more { color: var(--accent-soft); }
 .numbers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
 .stat { padding-top: 13px; border-top: 3px solid var(--accent); }
+
 .stat-big {
   font-size: clamp(30px, 4vw, 42px);
   font-weight: 900;
@@ -482,6 +519,7 @@ button, input { font: inherit; }
 /* 11. Briefs + panel */
 .cols { display: grid; gap: 44px; margin: 44px 0 8px; }
 .brief { padding: 13px 0 15px; }
+
 .brief::before {
   content: "";
   display: block;
@@ -489,6 +527,7 @@ button, input { font: inherit; }
   margin-bottom: 11px;
   background: var(--accent);
 }
+
 .brief h2, .brief h3 {
   margin: 0 0 4px;
   font-size: 18.5px;
@@ -502,6 +541,7 @@ button, input { font: inherit; }
 .briefs-links { margin: 4px 0 0; font-size: 13px; font-weight: 600; }
 
 .panel { padding: 24px 22px; background: var(--muted-bg); }
+
 .panel h2 {
   margin: 6px 0 8px;
   font-size: 25px;
@@ -512,6 +552,7 @@ button, input { font: inherit; }
 .steps { margin: 8px 0 0; padding: 0; list-style: none; counter-reset: step; }
 .steps li { display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .steps li:last-child { border-bottom: 0; }
+
 .steps li::before {
   counter-increment: step;
   content: counter(step);
@@ -529,6 +570,7 @@ button, input { font: inherit; }
 .steps h3 { margin: 0; font-size: 15.5px; font-weight: 800; }
 .steps p { margin: 2px 0 0; color: var(--ink-2); font-size: 14px; line-height: 1.5; }
 .watchbox { margin-top: 18px; padding-top: 14px; border-top: 3px solid var(--ink); }
+
 .watchbox h3 {
   margin: 0 0 9px;
   font-size: 12px;
@@ -542,6 +584,7 @@ button, input { font: inherit; }
 /* 12. Subscribe */
 .subscribe {
   --notch: 26px;
+
   display: grid;
   gap: 24px;
   align-items: center;
@@ -550,6 +593,7 @@ button, input { font: inherit; }
   background: var(--accent);
   color: #fff;
 }
+
 .subscribe h2 {
   margin: 0 0 8px;
   font-size: clamp(24px, 3.4vw, 32px);
@@ -559,6 +603,7 @@ button, input { font: inherit; }
 }
 .subscribe-copy { margin: 0; color: #d9d5ff; font-size: 15px; line-height: 1.5; }
 .subscribe-form { display: flex; flex-wrap: wrap; gap: 9px; }
+
 .subscribe-form input {
   flex: 1;
   min-width: 200px;
@@ -570,6 +615,7 @@ button, input { font: inherit; }
   font-size: 15px;
 }
 .subscribe-form input::placeholder { color: var(--ink-3); }
+
 .subscribe-form button {
   min-height: 48px;
   padding: 12px 22px;
@@ -586,6 +632,7 @@ button, input { font: inherit; }
 
 /* 13. Story, briefs, about, archive pages */
 .story { max-width: 780px; margin: 0 auto; padding: 8px 0 30px; }
+
 .crumbs {
   margin: 18px 0 0;
   color: var(--ink-3);
@@ -597,6 +644,7 @@ button, input { font: inherit; }
 .crumbs a { text-decoration: underline; text-underline-offset: 3px; }
 .crumbs a:hover { color: var(--accent-dark); }
 .story-kicker { margin-top: 14px; }
+
 .story h1 {
   margin: 10px 0 14px;
   font-size: clamp(30px, 4.6vw, 46px);
@@ -638,6 +686,7 @@ button, input { font: inherit; }
 .footer-logo .wordmark-accent { color: var(--accent-soft); }
 .site-footer p { max-width: 58ch; margin: 8px 0 6px; line-height: 1.55; }
 .site-footer strong { color: #fff; }
+
 .footer-fine {
   color: var(--on-dark-2);
   font-size: 11.5px;
@@ -647,8 +696,17 @@ button, input { font: inherit; }
 }
 
 /* 15. Breakpoints */
-@media (min-width: 560px) {
+@media (width >= 560px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
+
+  .card.is-last-odd {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 26px;
+    align-items: start;
+  }
+  .card.is-last-odd .card-body { padding-top: 0; }
   .hero-card { margin: -52px 18px 0; padding: 24px 22px 26px; }
   .factbox { padding: 22px 26px 14px; }
   .searchbox input { width: 150px; }
@@ -656,7 +714,7 @@ button, input { font: inherit; }
   .panel { padding: 24px 26px; }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .topbar { position: sticky; top: 0; z-index: 50; }
   .topbar-in { flex-wrap: nowrap; gap: 26px; }
   .sectionnav { order: 0; width: auto; margin: 0; overflow: visible; flex-wrap: wrap; }
@@ -665,6 +723,18 @@ button, input { font: inherit; }
   .hero-card { margin: -72px 56px 0; padding: 28px 34px 30px; }
   .factbox ul { grid-template-columns: 1fr 1fr; }
   .grid { grid-template-columns: repeat(3, 1fr); }
+  .card.is-last-odd { display: flex; grid-column: auto; }
+  .card.is-last-odd .card-body { padding-top: 13px; }
+
+  .card.is-last-third {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 26px;
+    align-items: start;
+  }
+  .card.is-last-third .card-body { padding-top: 0; }
+  .card.is-last-third .card-title { font-size: 24px; }
   .numbers { grid-template-columns: repeat(4, 1fr); }
   .cols { grid-template-columns: 1.15fr 0.85fr; }
   .subscribe { grid-template-columns: 1.15fr 0.85fr; }

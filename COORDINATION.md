@@ -32,18 +32,23 @@
 
 - Original wording only; cite sources; label proposals, betas, planned services, and allegations as such — never present plans as finished facts.
 - Edition numbering: No. 003 is reserved for the unpublished Nov 14 draft; No. 004 published Nov 18 (drone lead, GPT-6.2, California v. OpenAI, SoftBank-ABB). The next new edition is No. 005 unless 003 publishes first.
-- Build: the site is built from src/ templates plus a manifest via build.py; shared stylesheet at assets/css/style.css and shared script; sitemap, feed, and archive are auto-generated; run the build checks before publishing.
+- Build: the site is built from src/ templates plus a manifest via build.py into _site/ (git-ignored). GitHub Actions builds, checks and publishes on every push to main; nothing publishes if a check fails. Never commit generated files (index.html, 2026/, sitemap.xml, feed.xml) at the repo root — the build refuses them. See README "What the manifest holds" before editing the manifest.
+- Dates: type each date once. Editions: `date` = the real publish day, `seq` = edition number. Labels, formatted dates, ticker labels, footer lines, canonicals, sitemap and feed dates are derived; typing them fails the build. Same-day editions after the first use /YYYY/MM/DD-morning|midday|afternoon|evening|night/. No future dates.
+- Images: masters ≤1600px WebP; run tools/make_images.py for the AVIF sizes and share card. Share cards 1200×630, unique, ≤300 KB.
+- Real people: never a realistic generated likeness of a real person. Use a real licensed photo with a `credit` (license link + changes), or an illustration that doesn't depict the person.
 - The dead reader-overlay CSS (.reader/.sheet rules) was removed Nov 18 — do not re-add it.
-- Site is light-only, Mashable-style; story-card images 1200×630, unique per story.
+- Site is light-only.
 - Newsletter: mailto fallback is live; David chose to retry Substack later (no Buttondown, no self-sign-in).
 - David signs into GitHub with Google. No card numbers in chat.
 
-## Current state (Nov 18, 2026)
+## Current state (Nov 24, 2026)
 
-- Live: Edition No. 004 at https://wirewillow.com.
+- Live: Edition No. 014 at https://wirewillow.com.
+- Editions 010–012 were re-dated to Nov 23 (their real publish day); old /2026/11/24/, /25/, /26/ URLs redirect to /2026/11/23-morning/, -evening/, -night/.
 - Pending: Edition No. 003 (Nov 14 draft) awaiting David's approve/edit/cut; Substack retry later; Wire Willow X/LinkedIn accounts unconfirmed.
 - Draft scan runs every other day ~8:30 a.m. PT; drafts go to David for approve/edit/cut.
 
 ## Handoff log
 
 - 2026-11-18 — Tars: created this file. Roles set by David: Tars writes the code and the articles; Claude checks everything.
+- 2026-11-24 — Claude: publishing moved to GitHub Actions (only _site/ is public); manifest date fields are now derived by build.py; editions 010–012 re-dated with redirects; images moved to AVIF + 1600px masters; Huang all-hands illustration replaced with the licensed photo; lint tools added (npm run lint).

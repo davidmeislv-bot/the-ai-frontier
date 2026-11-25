@@ -8,6 +8,7 @@
  *   1. Section filter + search (front pages)
  *   2. Ticker pause control (front pages)
  *   3. Newsletter form mailto fallback (all pages)
+ *   4. Scroll hint on the filter row (front pages, phones)
  */
 
 /* ---------- 1. Section filter + search ---------- */
@@ -86,6 +87,23 @@ function initSubscribe() {
   });
 }
 
+/* ---------- 4. Scroll hint on the filter row ----------
+ * On phones the filter buttons sit in one scrollable row. Fade its right
+ * edge while more buttons are hidden off-screen, so the row reads as
+ * scrollable; the fade goes away at the end of the row. */
+function initNavHint() {
+  const nav = document.querySelector(".sectionnav");
+  if (!nav) return;
+  const update = () => {
+    const more = nav.scrollWidth - nav.clientWidth - nav.scrollLeft > 4;
+    nav.classList.toggle("has-more", more);
+  };
+  nav.addEventListener("scroll", update, { passive: true });
+  new ResizeObserver(update).observe(nav);
+  update();
+}
+
 initFilter();
 initTicker();
 initSubscribe();
+initNavHint();

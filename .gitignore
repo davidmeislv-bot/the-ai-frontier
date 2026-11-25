@@ -1,0 +1,5 @@
+# Build output (python3 build.py). Published by GitHub Actions, never committed.
+_site/
+__pycache__/
+.DS_Store
+node_modules
