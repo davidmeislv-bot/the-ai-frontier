@@ -41,10 +41,10 @@
 - Newsletter: mailto fallback is live; David chose to retry Substack later (no Buttondown, no self-sign-in).
 - David signs into GitHub with Google. No card numbers in chat.
 
-## Current state (Nov 24, 2026)
+## Current state (Nov 25, 2026)
 
-- Live: Edition No. 014 at https://wirewillow.com.
-- Editions 010–012 were re-dated to Nov 23 (their real publish day); old /2026/11/24/, /25/, /26/ URLs redirect to /2026/11/23-morning/, -evening/, -night/.
+- Live: Edition No. 015 at https://wirewillow.com.
+- Editions 010–012 were re-dated to Nov 23 (their real publish day); old /2026/11/24/ and /2026/11/26/ URLs redirect to /2026/11/23-morning/ and -night/. The /2026/11/25/ redirect (Edition 011's old address) was removed when Edition 015 took its real publish-day URL /2026/11/25/.
 - Pending: Edition No. 003 (Nov 14 draft) awaiting David's approve/edit/cut; Substack retry later; Wire Willow X/LinkedIn accounts unconfirmed.
 - Draft scan runs every other day ~8:30 a.m. PT; drafts go to David for approve/edit/cut.
 
@@ -53,3 +53,4 @@
 - 2026-11-18 — Tars: created this file. Roles set by David: Tars writes the code and the articles; Claude checks everything.
 - 2026-11-24 — Claude: publishing moved to GitHub Actions (only _site/ is public); manifest date fields are now derived by build.py; editions 010–012 re-dated with redirects; images moved to AVIF + 1600px masters; Huang all-hands illustration replaced with the licensed photo; lint tools added (npm run lint).
 - 2026-11-24 — Tars: Edition 014 lead photo swapped to the Stanford Apr 30, 2026 close-up (007) with structured credit; build OK, lint OK, Actions run passed, verified live.
+- 2026-11-25 — Tars: Edition No. 015 published (9 stories + 2 briefs; lead: Microsoft Code Red Outlook outage). Briefs are text-only in this system — no brief images. The /2026/11/25/ re-dating redirect was removed so Edition 015 could take its real publish-day URL. Build OK, lint OK, Actions run #8 passed, verified live.
