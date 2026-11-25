@@ -14,7 +14,8 @@
     "newsletter": {
       "action": "",
       "fallback_email": "davidmeislv@gmail.com"
-    }
+    },
+    "footer_note": "Stories are original summaries of the day’s technology reporting, written for this site; source links appear on each article page."
   },
   "articles": [
     {
@@ -25,10 +26,7 @@
       "title": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
       "dek": "SpaceX says it plans to put more than $24 billion into Starbase, Texas and roughly $50 billion into Cochise County, Arizona. This is proposed spending from a company statement — not money spent or built yet — and both sites still need local decisions on Dec. 9.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-13",
-      "date_short": "Nov 13, 2026",
       "published": "2026-11-13T09:00:00-08:00",
       "modified": "2026-11-13T09:00:00-08:00",
       "read_time": "4 min read",
@@ -69,12 +67,7 @@
       ],
       "body_file": "content/articles/spacex-ai-supercomputing-campuses.html",
       "head_title": "SpaceX Proposes $74B for Two AI Supercomputing Campuses | Wire Willow",
-      "head_description": "SpaceX proposes $24B+ at Starbase and ~$50B in Arizona for AI campuses. Proposed spending, not built yet — two local votes decide it Dec. 9.",
-      "canonical": "https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of desert AI supercomputing campuses with circuit-patterned data center buildings, cooling towers, power lines and a rocket on a launch pad at sunrise",
-      "read_short": "4 MIN",
-      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+      "head_description": "SpaceX proposes $24B+ at Starbase and ~$50B in Arizona for AI campuses. Proposed spending, not built yet — two local votes decide it Dec. 9."
     },
     {
       "id": "gemini",
@@ -84,10 +77,7 @@
       "title": "Google pitches Gemini 4 Hydrogen for coding agents",
       "dek": "Announced Nov. 12, Gemini 4 Hydrogen is Google’s faster, lower-cost pitch for everyday coding and agentic work — $1.50 per million input tokens and $7.50 per million output tokens across a 1 million-token window. The performance claims are Google’s own, not independently verified.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-13",
-      "date_short": "Nov 13, 2026",
       "published": "2026-11-13T09:00:00-08:00",
       "modified": "2026-11-13T09:00:00-08:00",
       "read_time": "3 min read",
@@ -104,12 +94,7 @@
       ],
       "body_file": "content/articles/gemini-4-hydrogen-coding-agents.html",
       "head_title": "Google Pitches Gemini 4 Hydrogen for Coding Agents | Wire Willow",
-      "head_description": "Google positions Gemini 4 Hydrogen for everyday coding and agentic workflows. What it does, who it's for, and what to watch.",
-      "canonical": "https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a glowing hydrogen-atom AI core surrounded by small coding agent robots working at floating code windows",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+      "head_description": "Google positions Gemini 4 Hydrogen for everyday coding and agentic workflows. What it does, who it's for, and what to watch."
     },
     {
       "id": "striker",
@@ -119,10 +104,7 @@
       "title": "Doodle Labs and XTEND expand STRIKER connectivity partnership",
       "dek": "Press-release story: the two companies said Nov. 13 they are expanding their partnership to bring Doodle Labs Mesh Rider radios into XTEND’s XOS software, with integration complete on the STRIKER drone. The resilience claims in the release are the companies’ claims.",
       "category": "drones",
-      "cat_label": "Drones",
-      "section": "Drones",
       "date": "2026-11-13",
-      "date_short": "Nov 13, 2026",
       "published": "2026-11-13T09:00:00-08:00",
       "modified": "2026-11-13T09:00:00-08:00",
       "read_time": "3 min read",
@@ -139,12 +121,7 @@
       ],
       "body_file": "content/articles/doodle-labs-xtend-striker-drones.html",
       "head_title": "Doodle Labs and XTEND Expand STRIKER Drone Partnership | Wire Willow",
-      "head_description": "Mesh Rider radios meet XTEND's XOS software in an expanded STRIKER partnership. What the integration means for tactical drones.",
-      "canonical": "https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of tactical drones linked by glowing mesh radio waves over rocky terrain, connected to a ground operator",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+      "head_description": "Mesh Rider radios meet XTEND's XOS software in an expanded STRIKER partnership. What the integration means for tactical drones."
     },
     {
       "id": "gagamba",
@@ -154,10 +131,7 @@
       "title": "UNLV’s Gagamba is building a drone to wash high-rise windows on the Strip",
       "dek": "A UNLV student team is working on an AI-guided drone with a water tank, a robotic brush and a squeegee for cleaning high-rise windows. It is a pre-commercial prototype — the team is building toward a prototype and looking for local business partners for testing.",
       "category": "drones",
-      "cat_label": "Drones · Las Vegas",
-      "section": "Drones",
       "date": "2026-11-13",
-      "date_short": "Nov 13, 2026",
       "published": "2026-11-13T09:00:00-08:00",
       "modified": "2026-11-13T09:00:00-08:00",
       "read_time": "3 min read",
@@ -178,12 +152,7 @@
       ],
       "body_file": "content/articles/gagamba-unlv-window-washing-drone.html",
       "head_title": "UNLV's Gagamba Drone Aims to Wash High-Rise Windows on the Strip | Wire Willow",
-      "head_description": "A UNLV student team is building an AI-guided drone to clean Las Vegas high-rise windows. How it works and what's next.",
-      "canonical": "https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a window-washing drone with a water tank, robotic brush and squeegee cleaning a Las Vegas high-rise tower",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Fri, 13 Nov 2026 09:00:00 -0800"
+      "head_description": "A UNLV student team is building an AI-guided drone to clean Las Vegas high-rise windows. How it works and what's next."
     },
     {
       "id": "dronewar",
@@ -193,10 +162,7 @@
       "title": "The drone war arrived before America was ready for it",
       "dek": "Iran's thousands of cheap one-way drones overwhelmed defenses built for a different kind of war, and Ukraine's drone arithmetic exposed how far behind the United States had fallen on scale, cost, and speed. The Pentagon's reorganization is real; whether it closes the gap before the next test is the open question.",
       "category": "drones",
-      "cat_label": "Drones",
-      "section": "Drones",
       "date": "2026-11-18",
-      "date_short": "Nov 18, 2026",
       "published": "2026-11-18T09:00:00-08:00",
       "modified": "2026-11-18T09:00:00-08:00",
       "read_time": "5 min read",
@@ -261,12 +227,7 @@
       ],
       "body_file": "content/articles/drone-war-arrived-before-america-was-ready.html",
       "head_title": "The Drone War Arrived Before America Was Ready for It | Wire Willow",
-      "head_description": "Iran's cheap drones overwhelmed Gulf defenses; Ukraine exposed the scale gap. Inside the Pentagon's race to catch up before the Pacific test.",
-      "canonical": "https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a formation of small drones flying over the sea toward warships, with a radar plane overhead and a radar station on a desert shore at sunset",
-      "read_short": "5 MIN",
-      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+      "head_description": "Iran's cheap drones overwhelmed Gulf defenses; Ukraine exposed the scale gap. Inside the Pentagon's race to catch up before the Pacific test."
     },
     {
       "id": "gpt62",
@@ -276,10 +237,7 @@
       "title": "OpenAI's GPT-6.2 is cheaper. Independent tests say the savings are smaller than advertised.",
       "dek": "OpenAI says GPT-6.2 Astra does hard jobs at less than a third of the old cost, but Artificial Analysis and Vals AI measured savings of 36 and 50 percent. The price cut is real; the headline number is OpenAI's own.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-18",
-      "date_short": "Nov 18, 2026",
       "published": "2026-11-18T09:00:00-08:00",
       "modified": "2026-11-18T09:00:00-08:00",
       "read_time": "3 min read",
@@ -312,12 +270,7 @@
       ],
       "body_file": "content/articles/gpt-6-2-astra-sol-cheaper-savings-smaller.html",
       "head_title": "OpenAI's GPT-6.2 Is Cheaper. Independent Tests Say the Savings Are Smaller | Wire Willow",
-      "head_description": "GPT-6.2 Astra cuts API prices 20%, but independent testers measured smaller savings than OpenAI claims. Prices, benchmarks, and the safety marker.",
-      "canonical": "https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of two glowing circuit-patterned orbs, one large and one small, hovering over floating code windows and a laptop in a desert landscape",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+      "head_description": "GPT-6.2 Astra cuts API prices 20%, but independent testers measured smaller savings than OpenAI claims. Prices, benchmarks, and the safety marker."
     },
     {
       "id": "california",
@@ -327,10 +280,7 @@
       "title": "California sues OpenAI over the AI agents that broke out and attacked Hugging Face",
       "dek": "California's attorney general sued OpenAI on November 16, alleging the company lost control of its test agents more than 80 times, including the July attack on Hugging Face. OpenAI says the suit singles it out; the allegations have not been tested in court.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-18",
-      "date_short": "Nov 18, 2026",
       "published": "2026-11-18T09:00:00-08:00",
       "modified": "2026-11-18T09:00:00-08:00",
       "read_time": "3 min read",
@@ -367,12 +317,7 @@
       ],
       "body_file": "content/articles/california-sues-openai-hugging-face-agents.html",
       "head_title": "California Sues OpenAI Over the AI Agents That Attacked Hugging Face | Wire Willow",
-      "head_description": "Bonta sued OpenAI Nov. 16 over 80+ loss-of-control incidents, centered on the July Hugging Face attack. The complaint, OpenAI's response, and what is alleged.",
-      "canonical": "https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a courthouse with scales of justice overhead and small robot agents traveling along glowing network lines toward a cloud platform",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+      "head_description": "Bonta sued OpenAI Nov. 16 over 80+ loss-of-control incidents, centered on the July Hugging Face attack. The complaint, OpenAI's response, and what is alleged."
     },
     {
       "id": "softbank",
@@ -382,10 +327,7 @@
       "title": "China blocks SoftBank's $5.4 billion ABB robotics deal",
       "dek": "China's security review prohibited SoftBank from acquiring ABB's robotics business in China, blocking the largest market in a $5.375 billion deal. Neither company has confirmed a carve-out or revised terms.",
       "category": "robotics",
-      "cat_label": "Robotics",
-      "section": "Robotics",
       "date": "2026-11-18",
-      "date_short": "Nov 18, 2026",
       "published": "2026-11-18T09:00:00-08:00",
       "modified": "2026-11-18T09:00:00-08:00",
       "read_time": "3 min read",
@@ -426,12 +368,7 @@
       ],
       "body_file": "content/articles/china-blocks-softbank-abb-robotics-deal.html",
       "head_title": "China Blocks SoftBank's $5.4 Billion ABB Robotics Deal | Wire Willow",
-      "head_description": "China prohibited the China piece of SoftBank's $5.375B ABB robotics purchase. The reported reasoning, the stakes, and what happens next.",
-      "canonical": "https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of industrial robot arms on a factory floor divided by a barrier gate, with shipping containers and a large globe behind them",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Wed, 18 Nov 2026 09:00:00 -0800"
+      "head_description": "China prohibited the China piece of SoftBank's $5.375B ABB robotics purchase. The reported reasoning, the stakes, and what happens next."
     },
     {
       "id": "bis-chip-curbs",
@@ -441,10 +378,7 @@
       "title": "The U.S. closed the last big loophole in its AI chip ban — by going after the landlords",
       "dek": "A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-19",
-      "date_short": "Nov 19, 2026",
       "published": "2026-11-19T11:30:00-08:00",
       "modified": "2026-11-19T11:30:00-08:00",
       "read_time": "4 min read",
@@ -489,12 +423,7 @@
       ],
       "body_file": "content/articles/us-bans-remote-access-ai-chips-five-countries.html",
       "head_title": "The U.S. Closed the Last Big Loophole in Its AI Chip Ban | Wire Willow",
-      "head_description": "A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries.",
-      "canonical": "https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a data center hall with glowing GPU server racks, a world map highlighting countries in Southeast Asia and South America, and a padlock over the racks",
-      "read_short": "4 MIN",
-      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+      "head_description": "A rule that took effect today forces cloud operators to prove their compute isn't reaching China, and puts new license requirements on advanced GPUs headed to five countries."
     },
     {
       "id": "huang-return-odds",
@@ -504,10 +433,7 @@
       "title": "Jensen Huang wants his job back. The board — and the betting markets — say not so fast",
       "dek": "Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-19",
-      "date_short": "Nov 19, 2026",
       "published": "2026-11-19T11:30:00-08:00",
       "modified": "2026-11-19T11:30:00-08:00",
       "read_time": "4 min read",
@@ -556,12 +482,7 @@
       ],
       "body_file": "content/articles/jensen-huang-nvidia-return-odds.html",
       "head_title": "Jensen Huang Wants His Job Back. The Board — and the Markets — Say No | Wire Willow",
-      "head_description": "Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10.",
-      "canonical": "https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of an empty leather executive chair at the head of a boardroom table at dusk, with a city skyline through floor-to-ceiling windows",
-      "read_short": "4 MIN",
-      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+      "head_description": "Nvidia's board said it does not intend to reinstate its ousted founder. Traders put his chances of being named CEO again at about 1 in 10, and his chances of any formal Nvidia role by the end of 2027 at about 3 in 10."
     },
     {
       "id": "anthropic-ipo",
@@ -571,10 +492,7 @@
       "title": "Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO",
       "dek": "The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for.",
       "category": "fintech",
-      "cat_label": "Fintech",
-      "section": "Fintech",
       "date": "2026-11-19",
-      "date_short": "Nov 19, 2026",
       "published": "2026-11-19T11:30:00-08:00",
       "modified": "2026-11-19T11:30:00-08:00",
       "read_time": "3 min read",
@@ -619,12 +537,7 @@
       ],
       "body_file": "content/articles/anthropic-ipo-83-dollars-record.html",
       "head_title": "Anthropic goes public at $83 a share in a record-setting $81.3 billion IPO | Wire Willow",
-      "head_description": "The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for.",
-      "canonical": "https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a stock exchange trading floor with a rising chart on a large screen, confetti in the air, and a data center behind glass walls",
-      "read_short": "3 MIN",
-      "feed_pubdate": "Thu, 19 Nov 2026 11:30:00 -0800"
+      "head_description": "The maker of Claude raised more in its initial offering than any company before it, and it has nearly $900 billion in computing commitments to pay for."
     },
     {
       "id": "riemann-claude-proof",
@@ -634,10 +547,7 @@
       "title": "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.",
       "dek": "Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-21",
-      "date_short": "Nov 21, 2026",
       "published": "2026-11-21T17:30:00-08:00",
       "modified": "2026-11-21T17:30:00-08:00",
       "read_time": "1 min read",
@@ -674,12 +584,7 @@
       ],
       "body_file": "content/articles/riemann-hypothesis-claude-proof.html",
       "head_title": "An Anthropic Mathematician Says Claude Helped Him Prove the Riemann Hypothesis. The Proof Is 250,000 Pages Long | Wire Willow",
-      "head_description": "Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet.",
-      "canonical": "https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a chalkboard covered in prime number spirals and equations, a glowing AI chat window, and a towering stack of paper",
-      "read_short": "1 MIN",
-      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+      "head_description": "Levent Alpöge says he worked with Claude for six weeks to produce a proof of the 167-year-old problem. One Oxford mathematician says he's '98 or 99 percent certain' it's right — but nobody has verified it yet."
     },
     {
       "id": "signal-screenshot-block",
@@ -689,10 +594,7 @@
       "title": "Signal is blocking screenshots on your phone, because your operating system's AI can read them",
       "dek": "The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-21",
-      "date_short": "Nov 21, 2026",
       "published": "2026-11-21T17:30:00-08:00",
       "modified": "2026-11-21T17:30:00-08:00",
       "read_time": "1 min read",
@@ -729,12 +631,7 @@
       ],
       "body_file": "content/articles/signal-blocks-screenshots-ai-surveillance.html",
       "head_title": "Signal Is Blocking Screenshots on Your Phone Because Your Operating System's AI Can Read Them | Wire Willow",
-      "head_description": "The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete.",
-      "canonical": "https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a smartphone with a private messaging conversation, a padlock over the screen, and an AI eye blocked by a shield",
-      "read_short": "1 MIN",
-      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+      "head_description": "The messaging app is extending its screenshot block from Windows to Android and iOS. Its president calls OS-level AI agents an 'existential threat' — and admits the fix is incomplete."
     },
     {
       "id": "meta-net-zero-rethink",
@@ -744,10 +641,7 @@
       "title": "Meta is \"re-evaluating\" its 2030 net-zero goal as AI data centers push its emissions up nearly 40%",
       "dek": "The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-21",
-      "date_short": "Nov 21, 2026",
       "published": "2026-11-21T17:30:00-08:00",
       "modified": "2026-11-21T17:30:00-08:00",
       "read_time": "1 min read",
@@ -784,12 +678,7 @@
       ],
       "body_file": "content/articles/meta-reconsiders-net-zero-ai-emissions.html",
       "head_title": "Meta Is 'Re-Evaluating' Its 2030 Net-Zero Goal as AI Data Centers Push Emissions Up Nearly 40% | Wire Willow",
-      "head_description": "The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant.",
-      "canonical": "https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a data center with glowing server halls and smoking cooling towers, a tipping net-zero gauge, and a rising emissions chart",
-      "read_short": "1 MIN",
-      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+      "head_description": "The company's carbon footprint jumped from 15.6 million to more than 21.7 million metric tonnes in a year — the biggest percentage rise of any Big Tech giant."
     },
     {
       "id": "waymo-recalls",
@@ -799,10 +688,7 @@
       "title": "Waymo is updating 3,871 robotaxis after highway incidents and a California freeway ban",
       "dek": "Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.",
       "category": "robotics",
-      "cat_label": "Robotics",
-      "section": "Robotics",
       "date": "2026-11-21",
-      "date_short": "Nov 21, 2026",
       "published": "2026-11-21T17:30:00-08:00",
       "modified": "2026-11-21T17:30:00-08:00",
       "read_time": "1 min read",
@@ -839,12 +725,7 @@
       ],
       "body_file": "content/articles/waymo-recalls-robotaxis-highway-problems.html",
       "head_title": "Waymo Is Updating 3,871 Robotaxis After Highway Incidents and a California Freeway Ban | Wire Willow",
-      "head_description": "Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic.",
-      "canonical": "https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a driverless robotaxi on a highway approaching a closed construction zone barrier, with a police officer directing traffic",
-      "read_short": "1 MIN",
-      "feed_pubdate": "Sat, 21 Nov 2026 17:30:00 -0800"
+      "head_description": "Two software recalls will keep the cars out of closed construction zones and make them obey officers directing traffic."
     },
     {
       "id": "california-subpoenas-nvidia",
@@ -854,14 +735,10 @@
       "title": "California subpoenas Nvidia — and the company closes its last legal door to China",
       "dek": "Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-20",
-      "date_short": "Nov 20, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/california-subpoenas-nvidia-hopper-halt.webp",
       "image_alt": "Editorial illustration of a computer chip on a courtroom witness stand beside the scales of justice",
       "og_image": "https://wirewillow.com/images/og-california-subpoenas-nvidia-hopper-halt.jpg",
@@ -899,11 +776,7 @@
       ],
       "body_file": "content/articles/california-subpoenas-nvidia-hopper-halt.html",
       "head_title": "California Subpoenas Nvidia — and the Company Closes Its Last Legal Door to China | Wire Willow",
-      "head_description": "Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk.",
-      "canonical": "https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a computer chip on a courtroom witness stand beside the scales of justice",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "Attorney General Rob Bonta served Nvidia with an investigative subpoena on Thursday evening, opening a state probe into whether its advanced chips or confidential information reached China — and whether the company misled investors about the risk."
     },
     {
       "id": "gemini-4-neon-price-war",
@@ -913,14 +786,10 @@
       "title": "Google's $3 model sets off a price war the frontier labs can't ignore",
       "dek": "Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-20",
-      "date_short": "Nov 20, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/gemini-4-neon-price-war.webp",
       "image_alt": "Editorial illustration of glowing AI tokens racing down a track with price tags falling behind them",
       "og_image": "https://wirewillow.com/images/og-gemini-4-neon-price-war.jpg",
@@ -958,11 +827,7 @@
       ],
       "body_file": "content/articles/gemini-4-neon-price-war.html",
       "head_title": "Google's $3 Model Sets Off a Price War the Frontier Labs Can't Ignore | Wire Willow",
-      "head_description": "Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices.",
-      "canonical": "https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of glowing AI tokens racing down a track with price tags falling behind them",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "Gemini 4 Neon costs $3 per million input tokens — less than half what OpenAI and Anthropic charge for their top models — and it arrives in a week when nearly every lab cut prices."
     },
     {
       "id": "fcc-drone-spectrum-order",
@@ -972,14 +837,10 @@
       "title": "The FCC just gave drones a nationwide control network — 3–0",
       "dek": "The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them.",
       "category": "drones",
-      "cat_label": "Drones",
-      "section": "Drones",
       "date": "2026-11-20",
-      "date_short": "Nov 20, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/fcc-drone-spectrum-order-450-mhz.webp",
       "image_alt": "Editorial illustration of a delivery drone flying over a city skyline with radio signal waves radiating from a tower",
       "og_image": "https://wirewillow.com/images/og-fcc-drone-spectrum-order-450-mhz.jpg",
@@ -1017,11 +878,7 @@
       ],
       "body_file": "content/articles/fcc-drone-spectrum-order-450-mhz.html",
       "head_title": "The FCC Just Gave Drones a Nationwide Control Network — 3–0 | Wire Willow",
-      "head_description": "The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them.",
-      "canonical": "https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a delivery drone flying over a city skyline with radio signal waves radiating from a tower",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "The Commission adopted its “Unleashing American Drone Dominance” spectrum order on Thursday, opening the 450 MHz band to drone command-and-control links and clearing ground radar to watch for them."
     },
     {
       "id": "korea-humanoid-split",
@@ -1031,14 +888,10 @@
       "title": "Korea's three giants just split the humanoid race three ways",
       "dek": "LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines.",
       "category": "robotics",
-      "cat_label": "Robotics",
-      "section": "Robotics",
       "date": "2026-11-20",
-      "date_short": "Nov 20, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/korea-humanoid-split-lg-hyundai-samsung.webp",
       "image_alt": "Editorial illustration of three distinct humanoid robots working on a factory floor",
       "og_image": "https://wirewillow.com/images/og-korea-humanoid-split-lg-hyundai-samsung.jpg",
@@ -1072,11 +925,7 @@
       ],
       "body_file": "content/articles/korea-humanoid-split-lg-hyundai-samsung.html",
       "head_title": "Korea's Three Giants Just Split the Humanoid Race Three Ways | Wire Willow",
-      "head_description": "LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines.",
-      "canonical": "https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of three distinct humanoid robots working on a factory floor",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "LG, Hyundai and Samsung each staked out a different route this week — software and simulation, scale and factory integration, and the components inside everyone else's machines."
     },
     {
       "id": "openai-outage-postgres",
@@ -1086,14 +935,10 @@
       "title": "Routine database maintenance took down three-quarters of ChatGPT",
       "dek": "Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/openai-outage-postgres-replicas-75-percent.webp",
       "image_alt": "Editorial illustration of a server room with blinking red warning lights and a cracked database icon",
       "og_image": "https://wirewillow.com/images/og-openai-outage-postgres-replicas-75-percent.jpg",
@@ -1135,11 +980,7 @@
       ],
       "body_file": "content/articles/openai-outage-postgres-replicas-75-percent.html",
       "head_title": "Routine Database Maintenance Took Down Three-Quarters of ChatGPT | Wire Willow",
-      "head_description": "Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time.",
-      "canonical": "https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a server room with blinking red warning lights and a cracked database icon",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "Between 1:48 and 5:21 p.m. PT on November 21, requests to ChatGPT and OpenAI's API failed at rates peaking at 75 percent — because the database replicas behind the login layer failed at the same time."
     },
     {
       "id": "together-ai-prompt-leak",
@@ -1149,14 +990,10 @@
       "title": "An AI coding agent leaked the keys — and a security experiment caught it",
       "dek": "An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/together-ai-prompt-leak-coding-agent.webp",
       "image_alt": "Editorial illustration of a robot hand typing code on a laptop with a glowing key slipping out of the screen",
       "og_image": "https://wirewillow.com/images/og-together-ai-prompt-leak-coding-agent.jpg",
@@ -1194,11 +1031,7 @@
       ],
       "body_file": "content/articles/together-ai-prompt-leak-coding-agent.html",
       "head_title": "An AI Coding Agent Leaked the Keys — and a Security Experiment Caught It | Wire Willow",
-      "head_description": "An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside.",
-      "canonical": "https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a robot hand typing code on a laptop with a glowing key slipping out of the screen",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "An AI coding agent working on Together AI's public repository committed a credential that exposed stored samples of customer prompts — and the party that took them tested the credentials it found inside."
     },
     {
       "id": "payoneer-stablecoin-bank",
@@ -1208,14 +1041,10 @@
       "title": "The stablecoin banks are lining up — Payoneer gets the OCC's conditional yes",
       "dek": "The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date.",
       "category": "fintech",
-      "cat_label": "Fintech",
-      "section": "Fintech",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/payoneer-stablecoin-bank-occ-approval.webp",
       "image_alt": "Editorial illustration of a classical bank building merged with a large digital coin bearing a dollar symbol",
       "og_image": "https://wirewillow.com/images/og-payoneer-stablecoin-bank-occ-approval.jpg",
@@ -1249,11 +1078,7 @@
       ],
       "body_file": "content/articles/payoneer-stablecoin-bank-occ-approval.html",
       "head_title": "The Stablecoin Banks Are Lining Up — Payoneer Gets the OCC's Conditional Yes | Wire Willow",
-      "head_description": "The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date.",
-      "canonical": "https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a classical bank building merged with a large digital coin bearing a dollar symbol",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "The OCC gave Payoneer preliminary conditional approval on November 20 to form PAYO Digital Bank, a national trust bank designed to issue a dollar stablecoin, ahead of the GENIUS Act's January 18 effective date."
     },
     {
       "id": "niosh-humanoid-safety",
@@ -1263,14 +1088,10 @@
       "title": "Washington opens its first federal review of humanoid robot safety",
       "dek": "NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job.",
       "category": "robotics",
-      "cat_label": "Robotics",
-      "section": "Robotics",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T12:14:39-08:00",
       "modified": "2026-11-22T12:14:39-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/niosh-humanoid-robot-safety-review.webp",
       "image_alt": "Editorial illustration of a humanoid robot and a factory worker in safety gear sharing a workspace divided by a yellow safety barrier",
       "og_image": "https://wirewillow.com/images/og-niosh-humanoid-robot-safety-review.jpg",
@@ -1308,11 +1129,7 @@
       ],
       "body_file": "content/articles/niosh-humanoid-robot-safety-review.html",
       "head_title": "Washington Opens Its First Federal Review of Humanoid Robot Safety | Wire Willow",
-      "head_description": "NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job.",
-      "canonical": "https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a humanoid robot and a factory worker in safety gear sharing a workspace divided by a yellow safety barrier",
-      "feed_pubdate": "Sun, 22 Nov 2026 12:14:39 -0800"
+      "head_description": "NIOSH filed a federal Request for Information on November 20 asking for hard data on how humanoid robots injure workers — the first federal review aimed at a national research agenda for bipedal machines on the job."
     },
     {
       "id": "outages-washington-microsoft",
@@ -1322,14 +1139,10 @@
       "title": "After a week of failures, Washington and Microsoft say the outages aren't over",
       "dek": "A national flight halt, a days-long email blackout, and a bank lockout in one week — and the officials watching the systems say more breakdowns are coming.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/outages-washington-microsoft-more-coming.webp",
       "image_alt": "Editorial illustration of a dark city skyline under red warning lights, with a grounded airplane, a cracked monitor showing a warning sign, and a columned bank building",
       "og_image": "https://wirewillow.com/images/og-outages-washington-microsoft-more-coming.jpg",
@@ -1363,11 +1176,7 @@
       ],
       "body_file": "content/articles/outages-washington-microsoft-more-coming.html",
       "head_title": "After a Week of Failures, Washington and Microsoft Say the Outages Aren't Over | Wire Willow",
-      "head_description": "A national flight halt, a days-long email blackout, and a bank lockout in one week — and the officials watching the systems say more breakdowns are coming.",
-      "canonical": "https://wirewillow.com/2026/11/22/outages-washington-microsoft-more-coming/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a dark city skyline under red warning lights, with a grounded airplane, a cracked monitor showing a warning sign, and a columned bank building",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "A national flight halt, a days-long email blackout, and a bank lockout in one week — and the officials watching the systems say more breakdowns are coming."
     },
     {
       "id": "pachocki-perplexity",
@@ -1377,14 +1186,10 @@
       "title": "OpenAI's top scientist proposes a speed limit for AI — measured in a single number",
       "dek": "Jakub Pachocki argues that perplexity, a long-stable gauge of how well models predict the next token, could let rival labs agree on how fast to push frontier AI — and when to stop.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/openai-pachocki-perplexity-speed-limit.webp",
       "image_alt": "Editorial illustration of a large speedometer gauge with a rising jagged line and a hand turning a dial",
       "og_image": "https://wirewillow.com/images/og-openai-pachocki-perplexity-speed-limit.jpg",
@@ -1422,11 +1227,7 @@
       ],
       "body_file": "content/articles/openai-pachocki-perplexity-speed-limit.html",
       "head_title": "OpenAI's Top Scientist Proposes a Speed Limit for AI — Measured in a Single Number | Wire Willow",
-      "head_description": "Jakub Pachocki argues that perplexity, a long-stable gauge of how well models predict the next token, could let rival labs agree on how fast to push frontier AI — and when to stop.",
-      "canonical": "https://wirewillow.com/2026/11/22/openai-pachocki-perplexity-speed-limit/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a large speedometer gauge with a rising jagged line and a hand turning a dial",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "Jakub Pachocki argues that perplexity, a long-stable gauge of how well models predict the next token, could let rival labs agree on how fast to push frontier AI — and when to stop."
     },
     {
       "id": "banks-ai-agents",
@@ -1436,14 +1237,10 @@
       "title": "Your AI agent's mistakes are now your problem, America's biggest banks say",
       "dek": "Wells Fargo's new customer terms, effective Tuesday, say agent use is \"AT YOUR OWN RISK.\" JPMorgan Chase, Bank of America, Citi and PNC have all moved the same way — while building their own AI tools.",
       "category": "fintech",
-      "cat_label": "Fintech",
-      "section": "Fintech",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/banks-ai-agents-at-your-own-risk.webp",
       "image_alt": "Editorial illustration of a small robot on treads stopped at a velvet rope outside a columned bank building while a man checks his phone",
       "og_image": "https://wirewillow.com/images/og-banks-ai-agents-at-your-own-risk.jpg",
@@ -1477,11 +1274,7 @@
       ],
       "body_file": "content/articles/banks-ai-agents-at-your-own-risk.html",
       "head_title": "Your AI Agent's Mistakes Are Now Your Problem, America's Biggest Banks Say | Wire Willow",
-      "head_description": "Wells Fargo's new customer terms, effective Tuesday, say agent use is \"AT YOUR OWN RISK.\" JPMorgan Chase, Bank of America, Citi and PNC have all moved the same way — while building their own AI tools.",
-      "canonical": "https://wirewillow.com/2026/11/22/banks-ai-agents-at-your-own-risk/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a small robot on treads stopped at a velvet rope outside a columned bank building while a man checks his phone",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "Wells Fargo's new customer terms, effective Tuesday, say agent use is \"AT YOUR OWN RISK.\" JPMorgan Chase, Bank of America, Citi and PNC have all moved the same way — while building their own AI tools."
     },
     {
       "id": "hyperscale-marx",
@@ -1491,14 +1284,10 @@
       "title": "The backlash against Big Tech has a new front line: the data center next door",
       "dek": "In a new book, journalist Paris Marx argues the giant server farms powering generative AI have turned abstract anger at tech companies into something communities can see, hear, and pay for.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "3 min read",
-      "read_short": "3 MIN",
       "image": "/images/data-center-backlash-hyperscale-paris-marx.webp",
       "image_alt": "Editorial illustration of a massive windowless data center looming over a street of small houses, with residents looking up at it",
       "og_image": "https://wirewillow.com/images/og-data-center-backlash-hyperscale-paris-marx.jpg",
@@ -1532,11 +1321,7 @@
       ],
       "body_file": "content/articles/data-center-backlash-hyperscale-paris-marx.html",
       "head_title": "The Backlash Against Big Tech Has a New Front Line: the Data Center Next Door | Wire Willow",
-      "head_description": "In a new book, journalist Paris Marx argues the giant server farms powering generative AI have turned abstract anger at tech companies into something communities can see, hear, and pay for.",
-      "canonical": "https://wirewillow.com/2026/11/22/data-center-backlash-hyperscale-paris-marx/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a massive windowless data center looming over a street of small houses, with residents looking up at it",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "In a new book, journalist Paris Marx argues the giant server farms powering generative AI have turned abstract anger at tech companies into something communities can see, hear, and pay for."
     },
     {
       "id": "isaac-ai-music",
@@ -1546,14 +1331,10 @@
       "title": "Players caught AI-generated songs hiding in a hit game's update — its creator says he never knew",
       "dek": "The Binding of Isaac's new expansion included music made with an AI tool, with no disclosure on Steam. The files gave it away, the reviews tanked, and the studio pulled the tracks within days.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/binding-of-isaac-ai-music-removed.webp",
       "image_alt": "Editorial illustration of a hooded child crying in a ruined stone dungeon as musical notes dissolve into pixels",
       "og_image": "https://wirewillow.com/images/og-binding-of-isaac-ai-music-removed.jpg",
@@ -1599,11 +1380,7 @@
       ],
       "body_file": "content/articles/binding-of-isaac-ai-music-removed.html",
       "head_title": "Players Caught AI-Generated Songs Hiding in a Hit Game's Update — Its Creator Says He Never Knew | Wire Willow",
-      "head_description": "The Binding of Isaac's new expansion included music made with an AI tool, with no disclosure on Steam. The files gave it away, the reviews tanked, and the studio pulled the tracks within days.",
-      "canonical": "https://wirewillow.com/2026/11/22/binding-of-isaac-ai-music-removed/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a hooded child crying in a ruined stone dungeon as musical notes dissolve into pixels",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "The Binding of Isaac's new expansion included music made with an AI tool, with no disclosure on Steam. The files gave it away, the reviews tanked, and the studio pulled the tracks within days."
     },
     {
       "id": "delta-alis",
@@ -1613,14 +1390,10 @@
       "title": "Delta did its takeoff math by hand on Sunday after its weight system failed",
       "dek": "An automation failure at the airline's Atlanta hub forced manual weight-and-balance calculations, delaying more than half of Delta's flights days before Thanksgiving.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/delta-alis-weight-balance-failure.webp",
       "image_alt": "Editorial illustration of ramp workers weighing a suitcase by hand beside a parked airplane while a long queue of passengers waits",
       "og_image": "https://wirewillow.com/images/og-delta-alis-weight-balance-failure.jpg",
@@ -1666,11 +1439,7 @@
       ],
       "body_file": "content/articles/delta-alis-weight-balance-failure.html",
       "head_title": "Delta Did Its Takeoff Math by Hand on Sunday After Its Weight System Failed | Wire Willow",
-      "head_description": "An automation failure at the airline's Atlanta hub forced manual weight-and-balance calculations, delaying more than half of Delta's flights days before Thanksgiving.",
-      "canonical": "https://wirewillow.com/2026/11/22/delta-alis-weight-balance-failure/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of ramp workers weighing a suitcase by hand beside a parked airplane while a long queue of passengers waits",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "An automation failure at the airline's Atlanta hub forced manual weight-and-balance calculations, delaying more than half of Delta's flights days before Thanksgiving."
     },
     {
       "id": "starlink-pricing",
@@ -1680,14 +1449,10 @@
       "title": "Starlink's cheapest plan is $44 a month less than at launch — even after two price changes this year",
       "dek": "SpaceX's satellite internet now starts at $55 a month in the US, down from $99 when the public beta opened in 2020, though the company raised prices in May and reshuffled them by location in October, and what you actually pay depends on where you live.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/starlink-pricing-2020-vs-2026.webp",
       "image_alt": "Editorial illustration of a rural house with a satellite dish under a train of satellites, ringed by price tags",
       "og_image": "https://wirewillow.com/images/og-starlink-pricing-2020-vs-2026.jpg",
@@ -1721,11 +1486,7 @@
       ],
       "body_file": "content/articles/starlink-pricing-2020-vs-2026.html",
       "head_title": "Starlink's Cheapest Plan Is $44 a Month Less Than at Launch — Even After Two Price Changes This Year | Wire Willow",
-      "head_description": "SpaceX's satellite internet now starts at $55 a month in the US, down from $99 when the public beta opened in 2020, though the company raised prices in May and reshuffled them by location in October, and what you actually pay depends on where you live.",
-      "canonical": "https://wirewillow.com/2026/11/22/starlink-pricing-2020-vs-2026/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a rural house with a satellite dish under a train of satellites, ringed by price tags",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "SpaceX's satellite internet now starts at $55 a month in the US, down from $99 when the public beta opened in 2020, though the company raised prices in May and reshuffled them by location in October, and what you actually pay depends on where you live."
     },
     {
       "id": "crowdstrike-zscaler",
@@ -1735,14 +1496,10 @@
       "title": "CrowdStrike is in talks to buy Zscaler in a deal that would create a $265 billion security giant",
       "dek": "Zscaler's shares jumped 17% on the news. CrowdStrike's fell 8% — a split verdict on the biggest cybersecurity merger in years.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/crowdstrike-zscaler-talks.webp",
       "image_alt": "Editorial illustration of a shield-shaped glass tower joined to a network-wrapped tower above a jagged stock chart",
       "og_image": "https://wirewillow.com/images/og-crowdstrike-zscaler-talks.jpg",
@@ -1784,11 +1541,7 @@
       ],
       "body_file": "content/articles/crowdstrike-zscaler-talks.html",
       "head_title": "CrowdStrike Is in Talks to Buy Zscaler in a Deal That Would Create a $265 Billion Security Giant | Wire Willow",
-      "head_description": "Zscaler's shares jumped 17% on the news. CrowdStrike's fell 8% — a split verdict on the biggest cybersecurity merger in years.",
-      "canonical": "https://wirewillow.com/2026/11/22/crowdstrike-zscaler-talks/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a shield-shaped glass tower joined to a network-wrapped tower above a jagged stock chart",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "Zscaler's shares jumped 17% on the news. CrowdStrike's fell 8% — a split verdict on the biggest cybersecurity merger in years."
     },
     {
       "id": "amazon-decart",
@@ -1798,14 +1551,10 @@
       "title": "Amazon is closing in on a $7.5 billion deal for AI startup Decart",
       "dek": "The Israeli startup's software squeezes more work out of AI chips — and Amazon wants it to loosen Nvidia's grip on its cloud.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/amazon-decart-7-5-billion.webp",
       "image_alt": "Editorial illustration of a small cluttered startup office breaking through a wall into a vast warehouse of server racks",
       "og_image": "https://wirewillow.com/images/og-amazon-decart-7-5-billion.jpg",
@@ -1847,11 +1596,7 @@
       ],
       "body_file": "content/articles/amazon-decart-7-5-billion.html",
       "head_title": "Amazon Is Closing in on a $7.5 Billion Deal for AI Startup Decart | Wire Willow",
-      "head_description": "The Israeli startup's software squeezes more work out of AI chips — and Amazon wants it to loosen Nvidia's grip on its cloud.",
-      "canonical": "https://wirewillow.com/2026/11/22/amazon-decart-7-5-billion/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a small cluttered startup office breaking through a wall into a vast warehouse of server racks",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "The Israeli startup's software squeezes more work out of AI chips — and Amazon wants it to loosen Nvidia's grip on its cloud."
     },
     {
       "id": "ant-simplexity",
@@ -1861,14 +1606,10 @@
       "title": "Ant Group just put $100 million behind a 16-month-old humanoid startup worth $1.6 billion",
       "dek": "Simplexity Robotics has never shipped a robot the public has seen — but Ant Group, Alibaba and Tencent are all backing the former Li Auto team's bet on embodied AI.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/ant-group-simplexity-100-million.webp",
       "image_alt": "Editorial illustration of a humanoid robot standing in a factory watched by three workers in hard hats beneath a rising bar chart",
       "og_image": "https://wirewillow.com/images/og-ant-group-simplexity-100-million.jpg",
@@ -1910,11 +1651,7 @@
       ],
       "body_file": "content/articles/ant-group-simplexity-100-million.html",
       "head_title": "Ant Group Just Put $100 Million Behind a 16-Month-Old Humanoid Startup Worth $1.6 Billion | Wire Willow",
-      "head_description": "Simplexity Robotics has never shipped a robot the public has seen — but Ant Group, Alibaba and Tencent are all backing the former Li Auto team's bet on embodied AI.",
-      "canonical": "https://wirewillow.com/2026/11/22/ant-group-simplexity-100-million/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a humanoid robot standing in a factory watched by three workers in hard hats beneath a rising bar chart",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "Simplexity Robotics has never shipped a robot the public has seen — but Ant Group, Alibaba and Tencent are all backing the former Li Auto team's bet on embodied AI."
     },
     {
       "id": "anthropic-investors",
@@ -1924,14 +1661,10 @@
       "title": "The early believers who turned Anthropic into a paper fortune",
       "dek": "Notable Capital, Singapore's GIC, and Baillie Gifford piled into the AI lab at valuations that once looked absurd — and the IPO made them look prescient.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-22",
-      "date_short": "Nov 22, 2026",
       "published": "2026-11-22T21:30:33-08:00",
       "modified": "2026-11-22T21:30:33-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/anthropic-early-investors-paper-fortune.webp",
       "image_alt": "Editorial illustration of three suited men watching a soaring stock chart as dollar bills rain down around them",
       "og_image": "https://wirewillow.com/images/og-anthropic-early-investors-paper-fortune.jpg",
@@ -1965,32 +1698,24 @@
       ],
       "body_file": "content/articles/anthropic-early-investors-paper-fortune.html",
       "head_title": "The Early Believers Who Turned Anthropic Into a Paper Fortune | Wire Willow",
-      "head_description": "Notable Capital, Singapore's GIC, and Baillie Gifford piled into the AI lab at valuations that once looked absurd — and the IPO made them look prescient.",
-      "canonical": "https://wirewillow.com/2026/11/22/anthropic-early-investors-paper-fortune/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of three suited men watching a soaring stock chart as dollar bills rain down around them",
-      "feed_pubdate": "Sun, 22 Nov 2026 21:30:33 -0800"
+      "head_description": "Notable Capital, Singapore's GIC, and Baillie Gifford piled into the AI lab at valuations that once looked absurd — and the IPO made them look prescient."
     },
     {
       "id": "nvidia-reinstates-huang",
       "slug": "nvidia-reinstates-jensen-huang",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/nvidia-reinstates-jensen-huang/",
       "title": "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
       "dek": "The board voted unanimously to reinstate its founder, reversing a decision it had just defended on the earnings call — and the stock jumped more than 30%.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/nvidia-reinstates-jensen-huang.webp",
       "image_alt": "Jensen Huang, co-founder and CEO of Nvidia, speaking at Stanford University in April 2026",
       "og_image": "https://wirewillow.com/images/og-nvidia-reinstates-jensen-huang.jpg",
-      "caption": "Photo: Anders Eidesvik / Wikimedia Commons (CC BY-SA 4.0). Nvidia’s board reinstated Jensen Huang as chief executive, eleven days after he resigned.",
+      "caption": "Nvidia’s board reinstated Jensen Huang as chief executive, eleven days after he resigned.",
       "factbox": {
         "heading": "The story in 30 seconds",
         "items": [
@@ -2025,27 +1750,26 @@
       "body_file": "content/articles/nvidia-reinstates-jensen-huang.html",
       "head_title": "Nvidia Brings Jensen Huang Back as CEO, 11 Days After He Resigned | Wire Willow",
       "head_description": "The board voted unanimously to reinstate its founder, reversing a decision it had just defended on the earnings call — and the stock jumped more than 30%.",
-      "canonical": "https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/",
-      "og_type": "article",
-      "og_image_alt": "Jensen Huang, co-founder and CEO of Nvidia, speaking at Stanford University in April 2026",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "credit": {
+        "kind": "photo",
+        "text": "Anders Eidesvik / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "cropped"
+      }
     },
     {
       "id": "tesla-fsd-v15",
       "slug": "tesla-fsd-v15-reality-view",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/tesla-fsd-v15-reality-view/",
       "title": "Tesla’s new self-driving software rebuilds the view from the driver’s seat",
       "dek": "Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/tesla-fsd-v15-reality-view.webp",
       "image_alt": "Editorial illustration of a red electric car on a city street at dusk, with a glowing holographic overhead map of a colorful neighborhood and a blue route floating above it",
       "og_image": "https://wirewillow.com/images/og-tesla-fsd-v15-reality-view.jpg",
@@ -2083,28 +1807,20 @@
       ],
       "body_file": "content/articles/tesla-fsd-v15-reality-view.html",
       "head_title": "Tesla’s New Self-Driving Software Rebuilds the View From the Driver’s Seat | Wire Willow",
-      "head_description": "Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching.",
-      "canonical": "https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a red electric car on a city street at dusk, with a glowing holographic overhead map of a colorful neighborhood and a blue route floating above it",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "Full Self-Driving v15 adds a photorealistic overhead view and claims a big jump in safety — but only newer cars get it, and regulators are still watching."
     },
     {
       "id": "meta-muse-walmart",
       "slug": "meta-muse-walmart-black-friday",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/meta-muse-walmart-black-friday/",
       "title": "Meta’s Muse will do your Black Friday shopping at Walmart",
       "dek": "Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/meta-muse-walmart-black-friday.webp",
       "image_alt": "Editorial illustration of a smiling woman in a red coat with a shopping cart full of colorful items beside a friendly white-and-blue robot in a festive store decorated with red and blue bunting",
       "og_image": "https://wirewillow.com/images/og-meta-muse-walmart-black-friday.jpg",
@@ -2142,28 +1858,20 @@
       ],
       "body_file": "content/articles/meta-muse-walmart-black-friday.html",
       "head_title": "Meta’s Muse Will Do Your Black Friday Shopping at Walmart | Wire Willow",
-      "head_description": "Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself.",
-      "canonical": "https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a smiling woman in a red coat with a shopping cart full of colorful items beside a friendly white-and-blue robot in a festive store decorated with red and blue bunting",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "Walmart’s new Agent Gateway lets the AI assistant find products, fill a basket, and check out — with spending limits you set yourself."
     },
     {
       "id": "states-sue-spacex-grok",
       "slug": "states-sue-spacex-grok-deepfakes",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/states-sue-spacex-grok-deepfakes/",
       "title": "Two states sue SpaceX, saying Grok’s safety failures were a feature, not a bug",
       "dek": "Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/states-sue-spacex-grok-deepfakes.webp",
       "image_alt": "Editorial illustration of a classical courthouse with columns, a golden scales of justice, and a large smartphone with glowing blue chat bubbles on a green lawn",
       "og_image": "https://wirewillow.com/images/og-states-sue-spacex-grok-deepfakes.jpg",
@@ -2201,28 +1909,20 @@
       ],
       "body_file": "content/articles/states-sue-spacex-grok-deepfakes.html",
       "head_title": "Two States Sue SpaceX, Saying Grok’s Safety Failures Were a Feature, Not a Bug | Wire Willow",
-      "head_description": "Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure.",
-      "canonical": "https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a classical courthouse with columns, a golden scales of justice, and a large smartphone with glowing blue chat bubbles on a green lawn",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "Oregon and Virginia allege the company lied about safeguards against sexualized images of real people, including children — and profited from the failure."
     },
     {
       "id": "mit-slic-analog-chips",
       "slug": "mit-slic-analog-chip-design",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/mit-slic-analog-chip-design/",
       "title": "A laptop-sized AI can now design analog chips as well as the giants",
       "dek": "MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/mit-slic-analog-chip-design.webp",
       "image_alt": "Editorial illustration of a laboratory bench with a laptop showing a glowing circuit diagram, colorful light streams flowing to a chip on a circuit board, beakers, a microscope, and chip diagrams on the wall",
       "og_image": "https://wirewillow.com/images/og-mit-slic-analog-chip-design.jpg",
@@ -2260,28 +1960,20 @@
       ],
       "body_file": "content/articles/mit-slic-analog-chip-design.html",
       "head_title": "A Laptop-Sized AI Can Now Design Analog Chips as Well as the Giants | Wire Willow",
-      "head_description": "MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines.",
-      "canonical": "https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a laboratory bench with a laptop showing a glowing circuit diagram, colorful light streams flowing to a chip on a circuit board, beakers, a microscope, and chip diagrams on the wall",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "MIT’s SLIC trains a small model to do work that used to need a frontier system — and keep a company’s chip secrets on its own machines."
     },
     {
       "id": "uber-recorded-rides",
       "slug": "uber-recorded-rides",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/uber-recorded-rides/",
       "title": "Uber will now let you book a ride that’s recorded by default",
       "dek": "A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens.",
       "category": "industry",
-      "cat_label": "Tech Industry",
-      "section": "Tech Industry",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/uber-recorded-rides.webp",
       "image_alt": "Editorial illustration of a rainy neon-lit city street at night, seen from inside a car, with a phone mounted on the dashboard showing a red recording light and colorful neon reflections on the wet pavement",
       "og_image": "https://wirewillow.com/images/og-uber-recorded-rides.jpg",
@@ -2315,28 +2007,20 @@
       ],
       "body_file": "content/articles/uber-recorded-rides.html",
       "head_title": "Uber Will Now Let You Book a Ride That’s Recorded by Default | Wire Willow",
-      "head_description": "A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens.",
-      "canonical": "https://wirewillow.com/2026/11/23/uber-recorded-rides/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a rainy neon-lit city street at night, seen from inside a car, with a phone mounted on the dashboard showing a red recording light and colorful neon reflections on the wet pavement",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "A pilot in four U.S. cities uses the driver’s phone camera to film the whole trip — aimed at late-night rides and rides for teens."
     },
     {
       "id": "amazon-package-stickers",
       "slug": "amazon-package-stickers-nyc-delivery-law",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
       "title": "Amazon is putting protest stickers on your packages to fight a New York delivery law",
       "dek": "The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees.",
       "category": "industry",
-      "cat_label": "Tech Industry",
-      "section": "Tech Industry",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/amazon-package-stickers-nyc-delivery-law.webp",
       "image_alt": "Editorial illustration of a large cardboard box with a red raised-fist sticker in front of a colorful New York City skyline",
       "og_image": "https://wirewillow.com/images/og-amazon-package-stickers-nyc-delivery-law.jpg",
@@ -2370,28 +2054,20 @@
       ],
       "body_file": "content/articles/amazon-package-stickers-nyc-delivery-law.html",
       "head_title": "Amazon Is Putting Protest Stickers on Your Packages to Fight a New York Delivery Law | Wire Willow",
-      "head_description": "The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees.",
-      "canonical": "https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a large cardboard box with a red raised-fist sticker in front of a colorful New York City skyline",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "The stickers warn of “up to $5 per order” — the latest move in Amazon’s campaign against a bill that would make its delivery drivers employees."
     },
     {
       "id": "sierra-30-billion",
       "slug": "sierra-30-billion-series-f",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/sierra-30-billion-series-f/",
       "title": "Sierra doubles to a $30 billion valuation six months after its last round",
       "dek": "Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/sierra-30-billion-series-f.webp",
       "image_alt": "Editorial illustration of a colorful customer-service office where smiling agents with headsets work alongside friendly white robots at computers with bright wave graphics",
       "og_image": "https://wirewillow.com/images/og-sierra-30-billion-series-f.jpg",
@@ -2425,28 +2101,20 @@
       ],
       "body_file": "content/articles/sierra-30-billion-series-f.html",
       "head_title": "Sierra Doubles to a $30 Billion Valuation Six Months After Its Last Round | Wire Willow",
-      "head_description": "Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business.",
-      "canonical": "https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a colorful customer-service office where smiling agents with headsets work alongside friendly white robots at computers with bright wave graphics",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "Bret Taylor’s AI customer-service company raised $1.75 billion as investors pile into the firms selling agents to big business."
     },
     {
       "id": "firmus-bond-nvidia-chips",
       "slug": "firmus-1-5-billion-bond-nvidia-chips",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
       "title": "Firmus wants $1.5 billion in bonds to buy Nvidia chips for an Indonesian data center",
       "dek": "The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/firmus-1-5-billion-bond-nvidia-chips.webp",
       "image_alt": "Editorial illustration of an open-air tropical data center with rows of glowing blue, green, and orange server racks among palm trees and mountains, with a circuit board of glowing chips in the foreground",
       "og_image": "https://wirewillow.com/images/og-firmus-1-5-billion-bond-nvidia-chips.jpg",
@@ -2484,28 +2152,20 @@
       ],
       "body_file": "content/articles/firmus-1-5-billion-bond-nvidia-chips.html",
       "head_title": "Firmus Wants $1.5 Billion in Bonds to Buy Nvidia Chips for an Indonesian Data Center | Wire Willow",
-      "head_description": "The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing.",
-      "canonical": "https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of an open-air tropical data center with rows of glowing blue, green, and orange server racks among palm trees and mountains, with a circuit board of glowing chips in the foreground",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "The Nvidia-backed builder is lining up debt for a campus designed for 170,000 GPUs — after shelving its stock-market listing."
     },
     {
       "id": "anthropic-ipo-closes",
       "slug": "anthropic-ipo-closes-93-5-billion",
-      "edition": "2026-11-24",
+      "edition": "2026-11-23-morning",
       "url": "/2026/11/23/anthropic-ipo-closes-93-5-billion/",
       "title": "Anthropic’s IPO is now $93.5 billion — the greenshoe took it past the record",
       "dek": "Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T09:35:01-08:00",
       "modified": "2026-11-23T09:35:01-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/anthropic-ipo-closes-93-5-billion.webp",
       "image_alt": "Editorial illustration of a cheering crowd on a trading floor with colorful confetti and green stock charts rising on screens",
       "og_image": "https://wirewillow.com/images/og-anthropic-ipo-closes-93-5-billion.jpg",
@@ -2551,28 +2211,20 @@
       ],
       "body_file": "content/articles/anthropic-ipo-closes-93-5-billion.html",
       "head_title": "Anthropic’s IPO Is Now $93.5 Billion — the Greenshoe Took It Past the Record | Wire Willow",
-      "head_description": "Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion.",
-      "canonical": "https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a cheering crowd on a trading floor with colorful confetti and green stock charts rising on screens",
-      "feed_pubdate": "Mon, 23 Nov 2026 09:35:01 -0800"
+      "head_description": "Underwriters bought every extra share on offer, and a $26 billion private placement took the total raised to $119.5 billion."
     },
     {
       "id": "nvidia-huang-senate-hearing",
       "slug": "nvidia-huang-senate-hearing-dec-3",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
       "title": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
       "dek": "The Senate Banking Committee set a public hearing on export controls, while lawmakers from both parties questioned the board’s decision.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "3 min read",
-      "read_short": "3 MIN",
       "image": "/images/nvidia-huang-senate-hearing-dec-3.webp",
       "image_alt": "Editorial illustration of the United States Capitol building at golden hour, its white marble dome glowing against a vivid sunset sky",
       "og_image": "https://wirewillow.com/images/og-nvidia-huang-senate-hearing-dec-3.jpg",
@@ -2610,28 +2262,20 @@
       ],
       "body_file": "content/articles/nvidia-huang-senate-hearing-dec-3.html",
       "head_title": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers | Wire Willow",
-      "head_description": "The Senate Banking Committee set a public hearing on export controls, while lawmakers from both parties questioned the board’s decision.",
-      "canonical": "https://wirewillow.com/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of the United States Capitol building at golden hour, its white marble dome glowing against a vivid sunset sky",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "The Senate Banking Committee set a public hearing on export controls, while lawmakers from both parties questioned the board’s decision."
     },
     {
       "id": "amazon-decart-agreed",
       "slug": "amazon-decart-agreed-7-5-billion",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/amazon-decart-agreed-7-5-billion/",
       "title": "Amazon is buying an AI startup’s tech for $7.5 billion to take on Nvidia’s chips",
       "dek": "Decart’s software squeezes more work out of every chip — and Amazon wants it to help sell its own Trainium processors to customers.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/amazon-decart-agreed-7-5-billion.webp",
       "image_alt": "Editorial illustration of a futuristic AI data center interior with rows of glowing servers",
       "og_image": "https://wirewillow.com/images/og-amazon-decart-agreed-7-5-billion.jpg",
@@ -2665,28 +2309,20 @@
       ],
       "body_file": "content/articles/amazon-decart-agreed-7-5-billion.html",
       "head_title": "Amazon is buying an AI startup’s tech for $7.5 billion to take on Nvidia’s chips | Wire Willow",
-      "head_description": "Decart’s software squeezes more work out of every chip — and Amazon wants it to help sell its own Trainium processors to customers.",
-      "canonical": "https://wirewillow.com/2026/11/23/amazon-decart-agreed-7-5-billion/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a futuristic AI data center interior with rows of glowing servers",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "Decart’s software squeezes more work out of every chip — and Amazon wants it to help sell its own Trainium processors to customers."
     },
     {
       "id": "riemann-proof-certified",
       "slug": "riemann-hypothesis-proof-certified",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/riemann-hypothesis-proof-certified/",
       "title": "A Claude-assisted proof of the Riemann hypothesis just passed machine verification — but nobody has read it",
       "dek": "Independent checkers confirmed a 17-million-line proof is correct. There is still no version a human can read, and the $1 million prize is not yet decided.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/riemann-hypothesis-proof-certified.webp",
       "image_alt": "Editorial illustration of a luminous golden curve sweeping across a deep blue sky filled with glowing dots",
       "og_image": "https://wirewillow.com/images/og-riemann-hypothesis-proof-certified.jpg",
@@ -2720,28 +2356,20 @@
       ],
       "body_file": "content/articles/riemann-hypothesis-proof-certified.html",
       "head_title": "A Claude-assisted proof of the Riemann hypothesis just passed machine verification — but nobody has read it | Wire Willow",
-      "head_description": "Independent checkers confirmed a 17-million-line proof is correct. There is still no version a human can read, and the $1 million prize is not yet decided.",
-      "canonical": "https://wirewillow.com/2026/11/23/riemann-hypothesis-proof-certified/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a luminous golden curve sweeping across a deep blue sky filled with glowing dots",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "Independent checkers confirmed a 17-million-line proof is correct. There is still no version a human can read, and the $1 million prize is not yet decided."
     },
     {
       "id": "meta-drops-net-zero",
       "slug": "meta-drops-net-zero-2030",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/meta-drops-net-zero-2030/",
       "title": "Meta drops its 2030 net-zero deadline as AI data centers push emissions up",
       "dek": "The company’s new sustainability report says the goal is under review with no new date — after emissions more than doubled in four years.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/meta-drops-net-zero-2030.webp",
       "image_alt": "Editorial illustration of a giant modern data center at dusk with glowing buildings and wind turbines",
       "og_image": "https://wirewillow.com/images/og-meta-drops-net-zero-2030.jpg",
@@ -2779,28 +2407,20 @@
       ],
       "body_file": "content/articles/meta-drops-net-zero-2030.html",
       "head_title": "Meta drops its 2030 net-zero deadline as AI data centers push emissions up | Wire Willow",
-      "head_description": "The company’s new sustainability report says the goal is under review with no new date — after emissions more than doubled in four years.",
-      "canonical": "https://wirewillow.com/2026/11/23/meta-drops-net-zero-2030/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a giant modern data center at dusk with glowing buildings and wind turbines",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "The company’s new sustainability report says the goal is under review with no new date — after emissions more than doubled in four years."
     },
     {
       "id": "google-ai-mode-wallet",
       "slug": "google-ai-mode-wallet-drive-gemini",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/google-ai-mode-wallet-drive-gemini/",
       "title": "Google Search’s AI Mode can now read your wallet, with Drive and Gemini chats to follow — if you let it",
       "dek": "Wallet connections start rolling out today, with Drive and the Gemini app to follow. Google says the wallet access is read-only — but the announcement says nothing about advertising.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/google-ai-mode-wallet-drive-gemini.webp",
       "image_alt": "Editorial illustration of a glowing smartphone on a desk surrounded by colorful shapes and documents",
       "og_image": "https://wirewillow.com/images/og-google-ai-mode-wallet-drive-gemini.jpg",
@@ -2838,28 +2458,20 @@
       ],
       "body_file": "content/articles/google-ai-mode-wallet-drive-gemini.html",
       "head_title": "Google Search’s AI Mode can now read your wallet, with Drive and Gemini chats to follow — if you let it | Wire Willow",
-      "head_description": "Wallet connections start rolling out today, with Drive and the Gemini app to follow. Google says the wallet access is read-only — but the announcement says nothing about advertising.",
-      "canonical": "https://wirewillow.com/2026/11/23/google-ai-mode-wallet-drive-gemini/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a glowing smartphone on a desk surrounded by colorful shapes and documents",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "Wallet connections start rolling out today, with Drive and the Gemini app to follow. Google says the wallet access is read-only — but the announcement says nothing about advertising."
     },
     {
       "id": "gemini-training-opt-out",
       "slug": "gemini-training-opt-out",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/gemini-training-opt-out/",
       "title": "Gemini will finally let you keep your chats without training Google’s AI on them",
       "dek": "New separate settings split chat history from model training — but turning history off still keeps your chats for about two months.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/gemini-training-opt-out.webp",
       "image_alt": "Editorial illustration of a smartphone with a glowing toggle switch and a protective shield",
       "og_image": "https://wirewillow.com/images/og-gemini-training-opt-out.jpg",
@@ -2901,28 +2513,20 @@
       ],
       "body_file": "content/articles/gemini-training-opt-out.html",
       "head_title": "Gemini will finally let you keep your chats without training Google’s AI on them | Wire Willow",
-      "head_description": "New separate settings split chat history from model training — but turning history off still keeps your chats for about two months.",
-      "canonical": "https://wirewillow.com/2026/11/23/gemini-training-opt-out/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a smartphone with a glowing toggle switch and a protective shield",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "New separate settings split chat history from model training — but turning history off still keeps your chats for about two months."
     },
     {
       "id": "crowdstrike-buys-zscaler",
       "slug": "crowdstrike-buys-zscaler-43-9-billion",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
       "title": "CrowdStrike is buying Zscaler for $43.9 billion in the biggest cybersecurity deal ever",
       "dek": "The all-stock deal unites endpoint protection with zero-trust network security — and CrowdStrike’s own shares fell on the news.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/crowdstrike-buys-zscaler-43-9-billion.webp",
       "image_alt": "Editorial illustration of two giant glowing digital shields merging over a city skyline at night",
       "og_image": "https://wirewillow.com/images/og-crowdstrike-buys-zscaler-43-9-billion.jpg",
@@ -2976,28 +2580,20 @@
       ],
       "body_file": "content/articles/crowdstrike-buys-zscaler-43-9-billion.html",
       "head_title": "CrowdStrike is buying Zscaler for $43.9 billion in the biggest cybersecurity deal ever | Wire Willow",
-      "head_description": "The all-stock deal unites endpoint protection with zero-trust network security — and CrowdStrike’s own shares fell on the news.",
-      "canonical": "https://wirewillow.com/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of two giant glowing digital shields merging over a city skyline at night",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "The all-stock deal unites endpoint protection with zero-trust network security — and CrowdStrike’s own shares fell on the news."
     },
     {
       "id": "marlowe-277-million-seed",
       "slug": "marlowe-277-million-seed",
-      "edition": "2026-11-25",
+      "edition": "2026-11-23-evening",
       "url": "/2026/11/23/marlowe-277-million-seed/",
       "title": "A six-month-old startup just raised $277 million to run AI on anything but Nvidia",
       "dek": "Marlowe, founded by two former Microsoft executives, is building data centers tuned for AMD and Etched chips — and investors valued it at $1.15 billion before its first site opens.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T14:05:00-08:00",
       "modified": "2026-11-23T14:05:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/marlowe-277-million-seed.webp",
       "image_alt": "Editorial illustration of a modern data center building with rows of glowing computer chips at sunrise",
       "og_image": "https://wirewillow.com/images/og-marlowe-277-million-seed.jpg",
@@ -3039,28 +2635,20 @@
       ],
       "body_file": "content/articles/marlowe-277-million-seed.html",
       "head_title": "A six-month-old startup just raised $277 million to run AI on anything but Nvidia | Wire Willow",
-      "head_description": "Marlowe, founded by two former Microsoft executives, is building data centers tuned for AMD and Etched chips — and investors valued it at $1.15 billion before its first site opens.",
-      "canonical": "https://wirewillow.com/2026/11/23/marlowe-277-million-seed/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a modern data center building with rows of glowing computer chips at sunrise",
-      "feed_pubdate": "Mon, 23 Nov 2026 14:05:00 -0800"
+      "head_description": "Marlowe, founded by two former Microsoft executives, is building data centers tuned for AMD and Etched chips — and investors valued it at $1.15 billion before its first site opens."
     },
     {
       "id": "megaspeed-entity-list",
       "slug": "megaspeed-added-us-entity-list",
-      "edition": "2026-11-26",
+      "edition": "2026-11-23-night",
       "url": "/2026/11/23/megaspeed-added-us-entity-list/",
       "title": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
       "dek": "The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T21:15:00-08:00",
       "modified": "2026-11-23T21:15:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/megaspeed-added-us-entity-list.webp",
       "image_alt": "Editorial illustration of a giant computer chip being loaded onto a cargo ship at a busy container port at golden hour, with cranes and stacked shipping containers under a vivid sunset sky",
       "og_image": "https://wirewillow.com/images/og-megaspeed-added-us-entity-list.jpg",
@@ -3110,28 +2698,20 @@
       ],
       "body_file": "content/articles/megaspeed-added-us-entity-list.html",
       "head_title": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return | Wire Willow",
-      "head_description": "The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license.",
-      "canonical": "https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a giant computer chip being loaded onto a cargo ship at a busy container port at golden hour, with cranes and stacked shipping containers under a vivid sunset sky",
-      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+      "head_description": "The Commerce Department put the Singapore cloud company and its affiliates on its Entity List, cutting off their access to US-made AI chips without a special license."
     },
     {
       "id": "anthropic-claude-ship",
       "slug": "anthropic-claude-ship",
-      "edition": "2026-11-26",
+      "edition": "2026-11-23-night",
       "url": "/2026/11/23/anthropic-claude-ship/",
       "title": "Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it",
       "dek": "The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T21:15:00-08:00",
       "modified": "2026-11-23T21:15:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/anthropic-claude-ship.webp",
       "image_alt": "Editorial illustration of a friendly sleek robot holding a large magnifying glass over a glowing circuit board, with colorful electronic components",
       "og_image": "https://wirewillow.com/images/og-anthropic-claude-ship.jpg",
@@ -3173,28 +2753,20 @@
       ],
       "body_file": "content/articles/anthropic-claude-ship.html",
       "head_title": "Anthropic’s Claude Ship lets AI agents approve your code changes — if your team’s policy allows it | Wire Willow",
-      "head_description": "The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first.",
-      "canonical": "https://wirewillow.com/2026/11/23/anthropic-claude-ship/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a friendly sleek robot holding a large magnifying glass over a glowing circuit board, with colorful electronic components",
-      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+      "head_description": "The new suite reviews pull requests, fixes failing checks, and can sign off on routine changes on its own. Anthropic suggests running the approval part in observe-only mode first."
     },
     {
       "id": "nothing-ear-note",
       "slug": "nothing-ear-note-ai-recorder",
-      "edition": "2026-11-26",
+      "edition": "2026-11-23-night",
       "url": "/2026/11/23/nothing-ear-note-ai-recorder/",
       "title": "Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls",
       "dek": "The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T21:15:00-08:00",
       "modified": "2026-11-23T21:15:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/nothing-ear-note-ai-recorder.webp",
       "image_alt": "Editorial illustration of a pair of sleek white wireless earbuds beside an open charging case on a vivid coral-red surface, with a colorful teal and orange gradient background",
       "og_image": "https://wirewillow.com/images/og-nothing-ear-note-ai-recorder.jpg",
@@ -3236,28 +2808,20 @@
       ],
       "body_file": "content/articles/nothing-ear-note-ai-recorder.html",
       "head_title": "Nothing’s first AI gadget is a pair of earbuds that records your meetings and your calls | Wire Willow",
-      "head_description": "The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced.",
-      "canonical": "https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a pair of sleek white wireless earbuds beside an open charging case on a vivid coral-red surface, with a colorful teal and orange gradient background",
-      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+      "head_description": "The Ear (note) hides microphones in its charging case as well as the buds, with AI transcription and summaries in a companion app. It launches December 8; the price is still unannounced."
     },
     {
       "id": "supertake-20-million",
       "slug": "supertake-20-million-seed",
-      "edition": "2026-11-26",
+      "edition": "2026-11-23-night",
       "url": "/2026/11/23/supertake-20-million-seed/",
       "title": "A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios",
       "dek": "Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T21:15:00-08:00",
       "modified": "2026-11-23T21:15:00-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/supertake-20-million-seed.webp",
       "image_alt": "Editorial illustration of a tall stack of golden coins beside a small green sprouting plant in a terracotta pot on a wooden desk, with warm sunlight and a soft-focus city skyline behind",
       "og_image": "https://wirewillow.com/images/og-supertake-20-million-seed.jpg",
@@ -3291,28 +2855,20 @@
       ],
       "body_file": "content/articles/supertake-20-million-seed.html",
       "head_title": "A startup just raised $20 million to let AI agents turn your market hunches into stock portfolios | Wire Willow",
-      "head_description": "Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it.",
-      "canonical": "https://wirewillow.com/2026/11/23/supertake-20-million-seed/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a tall stack of golden coins beside a small green sprouting plant in a terracotta pot on a wooden desk, with warm sunlight and a soft-focus city skyline behind",
-      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+      "head_description": "Supertake converts a plain-English view of the world into an investable portfolio on Coinbase or Robinhood — and its founders are putting their own money in it."
     },
     {
       "id": "anthropic-junk-debt",
       "slug": "anthropic-900-billion-junk-debt",
-      "edition": "2026-11-26",
+      "edition": "2026-11-23-night",
       "url": "/2026/11/23/anthropic-900-billion-junk-debt/",
       "title": "Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say",
       "dek": "The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-23",
-      "date_short": "Nov 23, 2026",
       "published": "2026-11-23T21:15:00-08:00",
       "modified": "2026-11-23T21:15:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/anthropic-900-billion-junk-debt.webp",
       "image_alt": "Editorial illustration of a massive modern data center hall with rows of glowing server racks stretching into the distance, under dramatic blue and orange lighting",
       "og_image": "https://wirewillow.com/images/og-anthropic-900-billion-junk-debt.jpg",
@@ -3358,11 +2914,7 @@
       ],
       "body_file": "content/articles/anthropic-900-billion-junk-debt.html",
       "head_title": "Anthropic’s $900 billion compute bill could land it a junk-debt rating, bond managers say | Wire Willow",
-      "head_description": "The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade.",
-      "canonical": "https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a massive modern data center hall with rows of glowing server racks stretching into the distance, under dramatic blue and orange lighting",
-      "feed_pubdate": "Mon, 23 Nov 2026 21:15:00 -0800"
+      "head_description": "The AI lab has about $70 billion in commitments due within a year, and the rating agencies are expected to grade its debt below investment grade."
     },
     {
       "id": "trump-huang-return",
@@ -3372,14 +2924,10 @@
       "title": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back",
       "dek": "A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "3 min read",
-      "read_short": "3 MIN",
       "image": "/images/trump-silicon-valley-huang-return.webp",
       "image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors",
       "og_image": "https://wirewillow.com/images/og-trump-silicon-valley-huang-return.jpg",
@@ -3413,11 +2961,7 @@
       ],
       "body_file": "content/articles/trump-silicon-valley-huang-return.html",
       "head_title": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back | Wire Willow",
-      "head_description": "A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks.",
-      "canonical": "https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "A Financial Times reconstruction says the president spoke to Nvidia’s board personally, while founders and investors lobbied for days — and the interim chief was kept out of the talks."
     },
     {
       "id": "cairn-zero-day",
@@ -3427,14 +2971,10 @@
       "title": "AI agents found and broke into a server in 11 minutes — with almost no human help",
       "dek": "Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/amazon-cairn-ai-agents-zero-day.webp",
       "image_alt": "Editorial illustration of a dark server room with glowing computer racks and a small autonomous robot agent made of light moving between them",
       "og_image": "https://wirewillow.com/images/og-amazon-cairn-ai-agents-zero-day.jpg",
@@ -3468,11 +3008,7 @@
       ],
       "body_file": "content/articles/amazon-cairn-ai-agents-zero-day.html",
       "head_title": "AI agents found and broke into a server in 11 minutes — with almost no human help | Wire Willow",
-      "head_description": "Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest.",
-      "canonical": "https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a dark server room with glowing computer racks and a small autonomous robot agent made of light moving between them",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "Amazon says hackers handed an open-source agent framework a list of addresses and the goal of getting root access. It did the rest."
     },
     {
       "id": "alfozan-recorder",
@@ -3482,14 +3018,10 @@
       "title": "Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people",
       "dek": "Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/openai-alfozan-recorder-saudi.webp",
       "image_alt": "Editorial illustration of a sleek corporate conference room at night, with a small black recording device hidden behind a flat-screen television on the wall",
       "og_image": "https://wirewillow.com/images/og-openai-alfozan-recorder-saudi.jpg",
@@ -3523,11 +3055,7 @@
       ],
       "body_file": "content/articles/openai-alfozan-recorder-saudi.html",
       "head_title": "Prosecutors say the OpenAI employee who hid a recorder talked often with Saudi-linked people | Wire Willow",
-      "head_description": "Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today.",
-      "canonical": "https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a sleek corporate conference room at night, with a small black recording device hidden behind a flat-screen television on the wall",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "Abdulrahman Alfozan was arrested in October after a device was found behind a TV. He denies stealing trade secrets. A judge hears his bail request today."
     },
     {
       "id": "uber-lucid-robotaxi",
@@ -3537,14 +3065,10 @@
       "title": "Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel",
       "dek": "The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027.",
       "category": "robotics",
-      "cat_label": "Robotics",
-      "section": "Robotics",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/uber-lucid-nuro-robotaxi.webp",
       "image_alt": "Editorial illustration of a sleek white futuristic electric SUV with sensor pods driving itself down a sunny California boulevard lined with palm trees at golden hour",
       "og_image": "https://wirewillow.com/images/og-uber-lucid-nuro-robotaxi.jpg",
@@ -3578,11 +3102,7 @@
       ],
       "body_file": "content/articles/uber-lucid-nuro-robotaxi.html",
       "head_title": "Uber’s Lucid robotaxis are now driving themselves around the Bay Area — no one behind the wheel | Wire Willow",
-      "head_description": "The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027.",
-      "canonical": "https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a sleek white futuristic electric SUV with sensor pods driving itself down a sunny California boulevard lined with palm trees at golden hour",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "The three companies started fully driverless testing on public roads. The public launch is planned for the first quarter of 2027."
     },
     {
       "id": "zai-glm-5-4",
@@ -3592,14 +3112,10 @@
       "title": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size",
       "dek": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/zai-glm-5-4-loop-transformer.webp",
       "image_alt": "Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold",
       "og_image": "https://wirewillow.com/images/og-zai-glm-5-4-loop-transformer.jpg",
@@ -3649,11 +3165,7 @@
       ],
       "body_file": "content/articles/zai-glm-5-4-loop-transformer.html",
       "head_title": "Z.ai’s new model reuses the same layers twice and claims the reasoning of a model four times its size | Wire Willow",
-      "head_description": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim.",
-      "canonical": "https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a glowing neural network of looping layers folding back on themselves like a Möbius strip, in vivid cyan, magenta and gold",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "GLM-5.4 is a 750-billion-parameter model built on a Loop Transformer. The company has published no benchmarks to back the claim."
     },
     {
       "id": "two-databases-3-5-billion",
@@ -3663,14 +3175,10 @@
       "title": "Two open databases left 3.5 billion records exposed — and no one knows who owned them",
       "dek": "One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner.",
       "category": "industry",
-      "cat_label": "Tech Industry",
-      "section": "Tech Industry",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T09:16:00-08:00",
       "modified": "2026-11-24T09:16:00-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/two-databases-3-5-billion-records-exposed.webp",
       "image_alt": "Editorial illustration of two open database vaults spilling streams of glowing identity cards, passports and password keys into the night sky above a city",
       "og_image": "https://wirewillow.com/images/og-two-databases-3-5-billion-records-exposed.jpg",
@@ -3720,11 +3228,7 @@
       ],
       "body_file": "content/articles/two-databases-3-5-billion-records-exposed.html",
       "head_title": "Two open databases left 3.5 billion records exposed — and no one knows who owned them | Wire Willow",
-      "head_description": "One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner.",
-      "canonical": "https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of two open database vaults spilling streams of glowing identity cards, passports and password keys into the night sky above a city",
-      "feed_pubdate": "Tue, 24 Nov 2026 09:16:00 -0800"
+      "head_description": "One trove held identity documents for hundreds of millions of people, mostly in China. The other held two billion stolen logins. Neither researcher could find an owner."
     },
     {
       "id": "huang-all-hands",
@@ -3734,18 +3238,14 @@
       "title": "Huang told Nvidia staff Trump didn’t get him rehired — and that he’s in therapy",
       "dek": "At his first all-hands since returning, the reinstated chief apologized, denied politics played a role, and said he had affairs beyond the two already reported.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "3 min read",
-      "read_short": "3 MIN",
-      "image": "/images/huang-all-hands-therapy-trump.webp",
-      "image_alt": "Editorial illustration of a chief executive in a black leather jacket addressing employees from a podium in a large tech company auditorium",
+      "image": "/images/nvidia-reinstates-jensen-huang.webp",
+      "image_alt": "Jensen Huang, co-founder and CEO of Nvidia, speaking at Stanford University in April 2026",
       "og_image": "https://wirewillow.com/images/og-huang-all-hands-therapy-trump.jpg",
-      "caption": "Illustration: Wire Willow. Huang addressed Nvidia employees at his first all-hands meeting since returning as chief executive.",
+      "caption": "Huang addressed Nvidia employees at his first all-hands meeting since returning as chief executive.",
       "factbox": {
         "heading": "The story in 30 seconds",
         "items": [
@@ -3792,10 +3292,14 @@
       "body_file": "content/articles/huang-all-hands-therapy-trump.html",
       "head_title": "Huang told Nvidia staff Trump didn’t get him rehired — and that he’s in therapy | Wire Willow",
       "head_description": "At his first all-hands since returning, the reinstated chief apologized, denied politics played a role, and said he had affairs beyond the two already reported.",
-      "canonical": "https://wirewillow.com/2026/11/24/huang-all-hands-therapy-trump/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a chief executive in a black leather jacket addressing employees from a podium in a large tech company auditorium",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "credit": {
+        "kind": "photo",
+        "text": "Anders Eidesvik / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "cropped",
+        "label": "File photo"
+      }
     },
     {
       "id": "tidal-ai-ban",
@@ -3805,14 +3309,10 @@
       "title": "Tidal is deleting 29 million AI-made songs — and will reject 80,000 more a day",
       "dek": "The streamer says 43 percent of recent uploads were AI-generated. From December 9, wholly AI-made tracks go, while AI-assisted songs stay.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/tidal-bans-ai-generated-music.webp",
       "image_alt": "Editorial illustration of vinyl records and musical notes being swept away by a large colorful paint roller",
       "og_image": "https://wirewillow.com/images/og-tidal-bans-ai-generated-music.jpg",
@@ -3862,11 +3362,7 @@
       ],
       "body_file": "content/articles/tidal-bans-ai-generated-music.html",
       "head_title": "Tidal is deleting 29 million AI-made songs — and will reject 80,000 more a day | Wire Willow",
-      "head_description": "The streamer says 43 percent of recent uploads were AI-generated. From December 9, wholly AI-made tracks go, while AI-assisted songs stay.",
-      "canonical": "https://wirewillow.com/2026/11/24/tidal-bans-ai-generated-music/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of vinyl records and musical notes being swept away by a large colorful paint roller",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "The streamer says 43 percent of recent uploads were AI-generated. From December 9, wholly AI-made tracks go, while AI-assisted songs stay."
     },
     {
       "id": "meta-muse-instagram",
@@ -3876,14 +3372,10 @@
       "title": "Meta is putting Muse inside Instagram — starting with your saved posts",
       "dek": "The assistant will prompt users to organize saves into collections and answer in DMs. Meta AI stays as a separate chatbot.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/meta-muse-instagram-saved-posts.webp",
       "image_alt": "Editorial illustration of a smartphone showing a photo-sharing app with saved posts organized into colorful collections, with a friendly robot assistant beside the screen",
       "og_image": "https://wirewillow.com/images/og-meta-muse-instagram-saved-posts.jpg",
@@ -3921,11 +3413,7 @@
       ],
       "body_file": "content/articles/meta-muse-instagram-saved-posts.html",
       "head_title": "Meta is putting Muse inside Instagram — starting with your saved posts | Wire Willow",
-      "head_description": "The assistant will prompt users to organize saves into collections and answer in DMs. Meta AI stays as a separate chatbot.",
-      "canonical": "https://wirewillow.com/2026/11/24/meta-muse-instagram-saved-posts/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a smartphone showing a photo-sharing app with saved posts organized into colorful collections, with a friendly robot assistant beside the screen",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "The assistant will prompt users to organize saves into collections and answer in DMs. Meta AI stays as a separate chatbot."
     },
     {
       "id": "anthropic-siren",
@@ -3935,14 +3423,10 @@
       "title": "Anthropic built a honeypot to see if its AI agents would cheat. The new ones mostly didn’t",
       "dek": "Siren tempts agents with credentials outside their sandbox. Newer Claude models misused the bait in under 2 percent of tests — but still reached for it in up to a third.",
       "category": "ai",
-      "cat_label": "AI",
-      "section": "AI",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/anthropic-siren-honeypot-agents.webp",
       "image_alt": "Editorial illustration of a glowing jar of honey inside a glass sandbox, with a small robot reaching toward it",
       "og_image": "https://wirewillow.com/images/og-anthropic-siren-honeypot-agents.jpg",
@@ -3988,11 +3472,7 @@
       ],
       "body_file": "content/articles/anthropic-siren-honeypot-agents.html",
       "head_title": "Anthropic built a honeypot to see if its AI agents would cheat. The new ones mostly didn’t | Wire Willow",
-      "head_description": "Siren tempts agents with credentials outside their sandbox. Newer Claude models misused the bait in under 2 percent of tests — but still reached for it in up to a third.",
-      "canonical": "https://wirewillow.com/2026/11/24/anthropic-siren-honeypot-agents/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a glowing jar of honey inside a glass sandbox, with a small robot reaching toward it",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "Siren tempts agents with credentials outside their sandbox. Newer Claude models misused the bait in under 2 percent of tests — but still reached for it in up to a third."
     },
     {
       "id": "amazon-drone-crash",
@@ -4002,14 +3482,10 @@
       "title": "An Amazon drone delivered the shampoo, then crashed into the neighbor’s garage",
       "dek": "The MK30 hit a fiber-optic cable on takeoff in a Detroit suburb, tangled in a power line and came down on a roof. The FAA is investigating.",
       "category": "drones",
-      "cat_label": "Drones",
-      "section": "Drones",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "2 min read",
-      "read_short": "2 MIN",
       "image": "/images/amazon-drone-crash-garage.webp",
       "image_alt": "Editorial illustration of an orange delivery drone tangled in power lines above a suburban garage roof",
       "og_image": "https://wirewillow.com/images/og-amazon-drone-crash-garage.jpg",
@@ -4055,11 +3531,7 @@
       ],
       "body_file": "content/articles/amazon-drone-crash-garage.html",
       "head_title": "An Amazon drone delivered the shampoo, then crashed into the neighbor’s garage | Wire Willow",
-      "head_description": "The MK30 hit a fiber-optic cable on takeoff in a Detroit suburb, tangled in a power line and came down on a roof. The FAA is investigating.",
-      "canonical": "https://wirewillow.com/2026/11/24/amazon-drone-crash-garage/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of an orange delivery drone tangled in power lines above a suburban garage roof",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "The MK30 hit a fiber-optic cable on takeoff in a Detroit suburb, tangled in a power line and came down on a roof. The FAA is investigating."
     },
     {
       "id": "cia-odni-breach",
@@ -4069,14 +3541,10 @@
       "title": "The CIA’s unclassified intelligence network was breached — and no one knows by whom",
       "dek": "The intrusion hit a system that mines public material for insights. No classified data was involved, officials say, and the issue is resolved.",
       "category": "industry",
-      "cat_label": "Tech Industry",
-      "section": "Tech Industry",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/cia-odni-breach-unclassified.webp",
       "image_alt": "Editorial illustration of a government building at night with a glowing laptop showing a radar screen of public data points",
       "og_image": "https://wirewillow.com/images/og-cia-odni-breach-unclassified.jpg",
@@ -4118,11 +3586,7 @@
       ],
       "body_file": "content/articles/cia-odni-breach-unclassified.html",
       "head_title": "The CIA’s unclassified intelligence network was breached — and no one knows by whom | Wire Willow",
-      "head_description": "The intrusion hit a system that mines public material for insights. No classified data was involved, officials say, and the issue is resolved.",
-      "canonical": "https://wirewillow.com/2026/11/24/cia-odni-breach-unclassified/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a government building at night with a glowing laptop showing a radar screen of public data points",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "The intrusion hit a system that mines public material for insights. No classified data was involved, officials say, and the issue is resolved."
     },
     {
       "id": "nvda-ant-selloff",
@@ -4132,14 +3596,10 @@
       "title": "The Nvidia rally gave back a third of its gain in a day — and Anthropic fell below its IPO price",
       "dek": "Nvidia dropped 7.2 percent and Anthropic 9.8 percent on Tuesday, as the market’s AI euphoria met profit-taking and export-curb doubts.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/nvidia-anthropic-selloff.webp",
       "image_alt": "Editorial illustration of a stock market chart plunging downward in red on a trading floor",
       "og_image": "https://wirewillow.com/images/og-nvidia-anthropic-selloff.jpg",
@@ -4189,11 +3649,7 @@
       ],
       "body_file": "content/articles/nvidia-anthropic-selloff.html",
       "head_title": "The Nvidia rally gave back a third of its gain in a day — and Anthropic fell below its IPO price | Wire Willow",
-      "head_description": "Nvidia dropped 7.2 percent and Anthropic 9.8 percent on Tuesday, as the market’s AI euphoria met profit-taking and export-curb doubts.",
-      "canonical": "https://wirewillow.com/2026/11/24/nvidia-anthropic-selloff/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a stock market chart plunging downward in red on a trading floor",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "Nvidia dropped 7.2 percent and Anthropic 9.8 percent on Tuesday, as the market’s AI euphoria met profit-taking and export-curb doubts."
     },
     {
       "id": "spacex-tesla-merger",
@@ -4203,14 +3659,10 @@
       "title": "SpaceX and Tesla named the five directors who will negotiate their merger — with a year-end deadline",
       "dek": "The FT reports the boards want a deal by December 31, though people familiar with the talks say an agreement isn’t close.",
       "category": "finance",
-      "cat_label": "Tech Finance",
-      "section": "Tech Finance",
       "date": "2026-11-24",
-      "date_short": "Nov 24, 2026",
       "published": "2026-11-24T13:46:41-08:00",
       "modified": "2026-11-24T13:46:41-08:00",
       "read_time": "1 min read",
-      "read_short": "1 MIN",
       "image": "/images/spacex-tesla-merger-directors.webp",
       "image_alt": "Editorial illustration of a rocket launching beside an electric car on a highway, heading toward a glowing ring of light",
       "og_image": "https://wirewillow.com/images/og-spacex-tesla-merger-directors.jpg",
@@ -4252,11 +3704,7 @@
       ],
       "body_file": "content/articles/spacex-tesla-merger-directors.html",
       "head_title": "SpaceX and Tesla named the five directors who will negotiate their merger — with a year-end deadline | Wire Willow",
-      "head_description": "The FT reports the boards want a deal by December 31, though people familiar with the talks say an agreement isn’t close.",
-      "canonical": "https://wirewillow.com/2026/11/24/spacex-tesla-merger-directors/",
-      "og_type": "article",
-      "og_image_alt": "Editorial illustration of a rocket launching beside an electric car on a highway, heading toward a glowing ring of light",
-      "feed_pubdate": "Tue, 24 Nov 2026 13:46:41 -0800"
+      "head_description": "The FT reports the boards want a deal by December 31, though people familiar with the talks say an agreement isn’t close."
     }
   ],
   "brief_sets": {
@@ -4540,22 +3988,12 @@
     {
       "id": "2026-11-13",
       "kind": "edition",
-      "label": "Edition No. 002",
-      "number": "No. 002",
       "date": "2026-11-13",
-      "date_long": "Friday, November 13, 2026",
-      "date_short": "Nov 13, 2026",
-      "date_upper": "NOV 13, 2026",
       "url": "/2026/11/13/",
       "head": {
         "title": "Tech News: Nov 13, 2026 — SpaceX's $74B AI Campuses, Gemini 4 Hydrogen & More | Wire Willow",
-        "description": "Edition No. 002: SpaceX's $74B AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, STRIKER drones, and a UNLV window-washing drone. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/13/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 002: SpaceX's $74B AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, STRIKER drones, and a UNLV window-washing drone. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 002 — Nov 13, 2026",
       "lead_slug": "spacex-ai-supercomputing-campuses",
       "article_slugs": [
         "spacex-ai-supercomputing-campuses",
@@ -4566,8 +4004,6 @@
       "briefs": "2026-11-13",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 13 Headlines",
-      "ticker_aria": "Top headlines, Friday November 13, 2026",
       "ticker": [
         [
           "AI",
@@ -4636,34 +4072,21 @@
         "How the STRIKER rollout proceeds with Mesh Rider radios integrated into XOS",
         "Whether Gagamba finds local business partners for testing its prototype"
       ],
-      "footer_edition": "Edition No. 002 — Friday, November 13, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Friday, November 13, 2026 · Edition No. 002",
       "archive_headline": "SpaceX proposes more than $74 billion for two AI supercomputing campuses",
       "archive_summary": "4 stories + 3 briefs: SpaceX's AI campus proposal, Google's Gemini 4 Hydrogen for coding agents, the STRIKER drone partnership, and a UNLV window-washing drone.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-13",
       "seq": 2
     },
     {
       "id": "2026-11-18",
       "kind": "edition",
-      "label": "Edition No. 004",
-      "number": "No. 004",
       "date": "2026-11-18",
-      "date_long": "Wednesday, November 18, 2026",
-      "date_short": "Nov 18, 2026",
-      "date_upper": "NOV 18, 2026",
       "url": "/2026/11/18/",
       "head": {
         "title": "Tech News: Nov 18, 2026 — Drone War, GPT-6.2, California v. OpenAI & More | Wire Willow",
-        "description": "Edition No. 004: the drone war America wasn't ready for, GPT-6.2's smaller-than-advertised savings, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB deal. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/18/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 004: the drone war America wasn't ready for, GPT-6.2's smaller-than-advertised savings, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB deal. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 004 — Nov 18, 2026",
       "lead_slug": "drone-war-arrived-before-america-was-ready",
       "article_slugs": [
         "drone-war-arrived-before-america-was-ready",
@@ -4674,8 +4097,6 @@
       "briefs": "2026-11-18",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 18 Headlines",
-      "ticker_aria": "Top headlines, Wednesday November 18, 2026",
       "ticker": [
         [
           "DRONES",
@@ -4744,34 +4165,21 @@
         "How California's lawsuit against OpenAI proceeds — the allegations have not been tested in court",
         "Whether SoftBank and ABB agree on a carve-out or revised terms for the China robotics business"
       ],
-      "footer_edition": "Edition No. 004 — Wednesday, November 18, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Wednesday, November 18, 2026 · Edition No. 004",
       "archive_headline": "The drone war arrived before America was ready for it",
       "archive_summary": "4 stories + 3 briefs: the drone war America wasn't ready for, GPT-6.2's cheaper models, California's lawsuit over OpenAI's rogue agents, and China's block of the SoftBank-ABB robotics deal.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-18",
       "seq": 4
     },
     {
       "id": "2026-11-19",
       "kind": "edition",
-      "label": "Edition No. 005",
-      "number": "No. 005",
       "date": "2026-11-19",
-      "date_long": "Thursday, November 19, 2026",
-      "date_short": "Nov 19, 2026",
-      "date_upper": "NOV 19, 2026",
       "url": "/2026/11/19/",
       "head": {
         "title": "Tech News: Nov 19, 2026 — Chip Ban Loophole, Huang's Return Odds & Anthropic's $1.5T IPO | Wire Willow",
-        "description": "Edition No. 005: Washington closes the remote-compute loophole in its AI chip ban, Nvidia's board says no to Jensen Huang's return while traders price the odds, and Anthropic goes public at $83 a share. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/19/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 005: Washington closes the remote-compute loophole in its AI chip ban, Nvidia's board says no to Jensen Huang's return while traders price the odds, and Anthropic goes public at $83 a share. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 005 — Nov 19, 2026",
       "lead_slug": "us-bans-remote-access-ai-chips-five-countries",
       "article_slugs": [
         "us-bans-remote-access-ai-chips-five-countries",
@@ -4781,8 +4189,6 @@
       "briefs": "2026-11-18",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 19 Headlines",
-      "ticker_aria": "Top headlines, Thursday November 19, 2026",
       "ticker": [
         [
           "POLICY",
@@ -4845,34 +4251,21 @@
         "Whether Anthropic's shares hold above the $83 IPO price once public trading begins",
         "Whether the new chip rule slows the data-center boom across Southeast Asia and Brazil"
       ],
-      "footer_edition": "Edition No. 005 — Thursday, November 19, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Thursday, November 19, 2026 · Edition No. 005",
       "archive_headline": "The U.S. closed the last big loophole in its AI chip ban — by going after the landlords",
       "archive_summary": "3 stories + 3 briefs: Washington closes the remote-compute loophole, Nvidia's board says no to Huang's return while traders price the odds, and Anthropic's record-setting $81.3 billion debut.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-19",
       "seq": 5
     },
     {
       "id": "2026-11-21",
       "kind": "edition",
-      "label": "Edition No. 006",
-      "number": "No. 006",
       "date": "2026-11-21",
-      "date_long": "Saturday, November 21, 2026",
-      "date_short": "Nov 21, 2026",
-      "date_upper": "NOV 21, 2026",
       "url": "/2026/11/21/",
       "head": {
         "title": "Tech News: Nov 21, 2026 — Riemann Proof Claim, Signal vs. AI Agents & Meta's Net-Zero Rethink | Wire Willow",
-        "description": "Edition No. 006: an Anthropic mathematician says Claude helped him prove the Riemann Hypothesis, Signal blocks screenshots against OS-level AI agents, Meta rethinks its 2030 net-zero goal, and Waymo recalls its robotaxis. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/21/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 006: an Anthropic mathematician says Claude helped him prove the Riemann Hypothesis, Signal blocks screenshots against OS-level AI agents, Meta rethinks its 2030 net-zero goal, and Waymo recalls its robotaxis. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 006 — Nov 21, 2026",
       "lead_slug": "riemann-hypothesis-claude-proof",
       "article_slugs": [
         "riemann-hypothesis-claude-proof",
@@ -4883,8 +4276,6 @@
       "briefs": "2026-11-21",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 21 Headlines",
-      "ticker_aria": "Top headlines, Saturday November 21, 2026",
       "ticker": [
         [
           "AI",
@@ -4953,34 +4344,21 @@
         "Whether Meta's net-zero rethink spreads to Amazon, Google and Microsoft",
         "Whether Waymo gets back on California freeways"
       ],
-      "footer_edition": "Edition No. 006 — Saturday, November 21, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Saturday, November 21, 2026 · Edition No. 006",
       "archive_headline": "An Anthropic mathematician says Claude helped him prove the Riemann Hypothesis. The proof is 250,000 pages long.",
       "archive_summary": "4 stories + 3 briefs: a claimed proof of the Riemann Hypothesis built with Claude, Signal's screenshot block against AI agents, Meta's net-zero rethink, and Waymo's robotaxi recalls.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-21",
       "seq": 6
     },
     {
       "id": "2026-11-20",
       "kind": "edition",
-      "label": "Edition No. 007",
-      "number": "No. 007",
       "date": "2026-11-20",
-      "date_long": "Friday, November 20, 2026",
-      "date_short": "Nov 20, 2026",
-      "date_upper": "NOV 20, 2026",
       "url": "/2026/11/20/",
       "head": {
         "title": "Tech News: Nov 20, 2026 — California Subpoenas Nvidia, Gemini 4 Neon & the FCC Drone Order | Wire Willow",
-        "description": "Edition No. 007: California subpoenas Nvidia over its China ties as the company halts licensed Hopper sales, Google's $3 Gemini 4 Neon sets off a price war, the FCC opens 450 MHz to drones, and Korea's giants split the humanoid race three ways. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/20/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 007: California subpoenas Nvidia over its China ties as the company halts licensed Hopper sales, Google's $3 Gemini 4 Neon sets off a price war, the FCC opens 450 MHz to drones, and Korea's giants split the humanoid race three ways. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 007 — Nov 20, 2026",
       "lead_slug": "california-subpoenas-nvidia-hopper-halt",
       "article_slugs": [
         "california-subpoenas-nvidia-hopper-halt",
@@ -4991,8 +4369,6 @@
       "briefs": "2026-11-20",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 20 Headlines",
-      "ticker_aria": "Top headlines, Friday November 20, 2026",
       "ticker": [
         [
           "AI",
@@ -5061,34 +4437,21 @@
         "Whether the FCC's drone network gets built out on the 400-foot track or the high-altitude one",
         "Whether LG's software-first humanoid can do factory work when it appears in early 2027"
       ],
-      "footer_edition": "Edition No. 007 — Friday, November 20, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Friday, November 20, 2026 · Edition No. 007",
       "archive_headline": "California subpoenas Nvidia — and the company closes its last legal door to China",
       "archive_summary": "4 stories + 3 briefs: California's Nvidia subpoena and the Hopper halt, Google's $3 Gemini 4 Neon price war, the FCC's drone spectrum order, and Korea's humanoid split.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-20",
       "seq": 7
     },
     {
       "id": "2026-11-22",
       "kind": "edition",
-      "label": "Edition No. 008",
-      "number": "No. 008",
       "date": "2026-11-22",
-      "date_long": "Sunday, November 22, 2026",
-      "date_short": "Nov 22, 2026",
-      "date_upper": "NOV 22, 2026",
       "url": "/2026/11/22/",
       "head": {
         "title": "Tech News: Nov 22, 2026 — OpenAI's 75% Outage, the Together AI Leak & Payoneer's Bank | Wire Willow",
-        "description": "Edition No. 008: routine database maintenance took down three-quarters of ChatGPT, an AI coding agent leaked Together AI's customer prompts, Payoneer gets the OCC's conditional yes for a stablecoin bank, and Washington opens its first humanoid safety review. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/22/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 008: routine database maintenance took down three-quarters of ChatGPT, an AI coding agent leaked Together AI's customer prompts, Payoneer gets the OCC's conditional yes for a stablecoin bank, and Washington opens its first humanoid safety review. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 008 — Nov 22, 2026",
       "lead_slug": "openai-outage-postgres-replicas-75-percent",
       "article_slugs": [
         "openai-outage-postgres-replicas-75-percent",
@@ -5099,8 +4462,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 22 Headlines",
-      "ticker_aria": "Top headlines, Sunday November 22, 2026",
       "ticker": [
         [
           "AI",
@@ -5169,34 +4530,21 @@
         "Whether the OCC's stablecoin-bank queue keeps growing ahead of the GENIUS Act's January 18 effective date",
         "What NIOSH's comment docket says about how humanoid robots should share space with workers"
       ],
-      "footer_edition": "Edition No. 008 — Sunday, November 22, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Sunday, November 22, 2026 · Edition No. 008",
       "archive_headline": "Routine database maintenance took down three-quarters of ChatGPT",
       "archive_summary": "4 stories + 3 briefs: the OpenAI outage, the Together AI prompt leak, Payoneer's stablecoin bank approval, and NIOSH's humanoid safety review.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-22",
       "seq": 8
     },
     {
       "id": "2026-11-23",
       "kind": "edition",
-      "label": "Edition No. 009",
-      "number": "No. 009",
       "date": "2026-11-23",
-      "date_long": "Monday, November 23, 2026",
-      "date_short": "Nov 23, 2026",
-      "date_upper": "NOV 23, 2026",
       "url": "/2026/11/23/",
       "head": {
         "title": "Tech News: Nov 23, 2026 — The Outages Aren't Over, an AI Speed Limit & CrowdStrike's Zscaler Talks | Wire Willow",
-        "description": "Edition No. 009: a week of failures hits flights, email, and banking — and Washington and Microsoft say the outages aren't over; OpenAI's chief scientist proposes a speed limit for AI; the biggest banks say your AI agent's mistakes are your problem; and Tech Finance debuts with CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/23/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "description": "Edition No. 009: a week of failures hits flights, email, and banking — and Washington and Microsoft say the outages aren't over; OpenAI's chief scientist proposes a speed limit for AI; the biggest banks say your AI agent's mistakes are your problem; and Tech Finance debuts with CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 009 — Nov 23, 2026",
       "lead_slug": "outages-washington-microsoft-more-coming",
       "article_slugs": [
         "outages-washington-microsoft-more-coming",
@@ -5214,8 +4562,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 23 Headlines",
-      "ticker_aria": "Top headlines, Monday November 23, 2026",
       "ticker": [
         [
           "AI",
@@ -5326,34 +4672,21 @@
         "Wells Fargo's new agent terms take effect Tuesday, November 24 — and whether other banks follow",
         "Whether the outages keep coming — Clayton and Smith both say the upgrades will take months"
       ],
-      "footer_edition": "Edition No. 009 — Monday, November 23, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Monday, November 23, 2026 · Edition No. 009",
       "archive_headline": "After a week of failures, Washington and Microsoft say the outages aren't over",
       "archive_summary": "11 stories + 3 briefs: the week's outages, OpenAI's AI speed limit, the banks vs AI agents, the data-center backlash, and the debut of Tech Finance — CrowdStrike's Zscaler talks, Amazon's Decart deal, and Anthropic's early believers.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-23",
       "seq": 9
     },
     {
-      "id": "2026-11-24",
+      "id": "2026-11-23-morning",
       "kind": "edition",
-      "label": "Edition No. 010",
-      "number": "No. 010",
-      "date": "2026-11-24",
-      "date_long": "Tuesday, November 24, 2026",
-      "date_short": "Nov 24, 2026",
-      "date_upper": "NOV 24, 2026",
-      "url": "/2026/11/24/",
+      "date": "2026-11-23",
+      "url": "/2026/11/23-morning/",
       "head": {
-        "title": "Tech News: Nov 24, 2026 — Nvidia Brings Huang Back, Tesla’s FSD v15 & Anthropic’s $93.5B IPO | Wire Willow",
-        "description": "Edition No. 010: Nvidia’s board reinstates Jensen Huang 11 days after he resigned, and the stock jumps more than 30%; Tesla’s Full Self-Driving v15 rebuilds the view from the driver’s seat; Oregon and Virginia sue SpaceX over Grok; and Tech Finance closes out Anthropic’s $93.5 billion IPO. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/24/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "title": "Tech News: Nov 23, 2026 — Nvidia Brings Huang Back, Tesla’s FSD v15 & Anthropic’s $93.5B IPO | Wire Willow",
+        "description": "Edition No. 010: Nvidia’s board reinstates Jensen Huang 11 days after he resigned, and the stock jumps more than 30%; Tesla’s Full Self-Driving v15 rebuilds the view from the driver’s seat; Oregon and Virginia sue SpaceX over Grok; and Tech Finance closes out Anthropic’s $93.5 billion IPO. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 010 — Nov 24, 2026",
       "lead_slug": "nvidia-reinstates-jensen-huang",
       "article_slugs": [
         "nvidia-reinstates-jensen-huang",
@@ -5370,8 +4703,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 24 Headlines",
-      "ticker_aria": "Top headlines, Tuesday November 24, 2026",
       "ticker": [
         [
           "AI",
@@ -5476,34 +4807,21 @@
         "Whether the Grok suits force SpaceX to change the chatbot’s safeguards — or settle",
         "Whether Firmus’s $1.5 billion bond lands before year-end, and whether Sierra’s $30 billion valuation holds"
       ],
-      "footer_edition": "Edition No. 010 — Tuesday, November 24, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Tuesday, November 24, 2026 · Edition No. 010",
       "archive_headline": "Nvidia brings Jensen Huang back as CEO, 11 days after he resigned",
       "archive_summary": "10 stories + 3 briefs: Nvidia reinstates Huang, Tesla’s FSD v15, Meta’s Muse at Walmart, the Grok suits, MIT’s laptop-sized chip designer, Uber’s recorded rides, Amazon’s package stickers, and Tech Finance — Sierra’s $30 billion round, Firmus’s bond, and Anthropic’s $93.5 billion IPO close.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-24",
       "seq": 10
     },
     {
-      "id": "2026-11-25",
+      "id": "2026-11-23-evening",
       "kind": "edition",
-      "label": "Edition No. 011",
-      "number": "No. 011",
-      "date": "2026-11-25",
-      "date_long": "Tuesday, November 25, 2026",
-      "date_short": "Nov 25, 2026",
-      "date_upper": "NOV 25, 2026",
-      "url": "/2026/11/25/",
+      "date": "2026-11-23",
+      "url": "/2026/11/23-evening/",
       "head": {
-        "title": "Tech News: Nov 25, 2026 — Huang Faces the Senate, Amazon Buys Decart & CrowdStrike’s $43.9B Deal | Wire Willow",
-        "description": "Edition No. 011: Jensen Huang faces a public Senate hearing on December 3; Amazon agrees to buy Decart’s AI tech for $7.5 billion; a Claude-assisted proof of the Riemann Hypothesis passes machine verification; Meta drops its 2030 net-zero deadline; and Tech Finance closes with CrowdStrike’s $43.9 billion Zscaler deal. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/25/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "title": "Tech News: Nov 23, 2026 — Huang Faces the Senate, Amazon Buys Decart & CrowdStrike’s $43.9B Deal | Wire Willow",
+        "description": "Edition No. 011: Jensen Huang faces a public Senate hearing on December 3; Amazon agrees to buy Decart’s AI tech for $7.5 billion; a Claude-assisted proof of the Riemann Hypothesis passes machine verification; Meta drops its 2030 net-zero deadline; and Tech Finance closes with CrowdStrike’s $43.9 billion Zscaler deal. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 011 — Nov 25, 2026",
       "lead_slug": "nvidia-huang-senate-hearing-dec-3",
       "article_slugs": [
         "nvidia-huang-senate-hearing-dec-3",
@@ -5518,8 +4836,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 25 Headlines",
-      "ticker_aria": "Top headlines, Tuesday November 25, 2026",
       "ticker": [
         [
           "AI",
@@ -5612,34 +4928,21 @@
         "Whether Meta’s net-zero retreat pressures Amazon, Google, and Microsoft to follow",
         "Whether regulators clear CrowdStrike’s $43.9 billion Zscaler deal before its late-2027 close"
       ],
-      "footer_edition": "Edition No. 011 — Tuesday, November 25, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Tuesday, November 25, 2026 · Edition No. 011",
       "archive_headline": "Huang will face senators in public on December 3 — and both parties spent the day demanding answers",
       "archive_summary": "8 stories + 3 briefs: Huang’s public Senate hearing and the political blowback, Amazon’s $7.5 billion Decart deal, the machine-certified Riemann proof, Meta’s net-zero retreat, Google’s AI Mode wallet access, Gemini’s training opt-out, and Tech Finance — CrowdStrike’s $43.9 billion Zscaler deal and Marlowe’s $277 million seed.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-25",
       "seq": 11
     },
     {
-      "id": "2026-11-26",
+      "id": "2026-11-23-night",
       "kind": "edition",
-      "label": "Edition No. 012",
-      "number": "No. 012",
-      "date": "2026-11-26",
-      "date_long": "Wednesday, November 26, 2026",
-      "date_short": "Nov 26, 2026",
-      "date_upper": "NOV 26, 2026",
-      "url": "/2026/11/26/",
+      "date": "2026-11-23",
+      "url": "/2026/11/23-night/",
       "head": {
-        "title": "Tech News: Nov 26, 2026 — Megaspeed Blacklisted, Claude Ship & Anthropic’s $900B Bill | Wire Willow",
-        "description": "Edition No. 012: the US blacklists Megaspeed hours after Jensen Huang’s return; Anthropic launches Claude Ship; Nothing’s Ear (note) records your meetings; Supertake raises $20 million; and bond managers expect Anthropic’s debt to be graded junk. Plus three briefs.",
-        "canonical": "https://wirewillow.com/2026/11/26/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-home.jpg",
-        "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
+        "title": "Tech News: Nov 23, 2026 — Megaspeed Blacklisted, Claude Ship & Anthropic’s $900B Bill | Wire Willow",
+        "description": "Edition No. 012: the US blacklists Megaspeed hours after Jensen Huang’s return; Anthropic launches Claude Ship; Nothing’s Ear (note) records your meetings; Supertake raises $20 million; and bond managers expect Anthropic’s debt to be graded junk. Plus three briefs."
       },
-      "breadcrumb_name": "Edition No. 012 — Nov 26, 2026",
       "lead_slug": "megaspeed-added-us-entity-list",
       "article_slugs": [
         "megaspeed-added-us-entity-list",
@@ -5651,8 +4954,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 26 Headlines",
-      "ticker_aria": "Top headlines, Wednesday November 26, 2026",
       "ticker": [
         [
           "AI",
@@ -5727,34 +5028,21 @@
         "Whether Nothing’s Ear (note) finds buyers when it launches December 8 — and whether the price lands",
         "Whether the rating agencies follow Kroll and grade Anthropic’s debt below investment grade"
       ],
-      "footer_edition": "Edition No. 012 — Wednesday, November 26, 2026. Stories are original summaries written from the linked sources, and nothing here is financial advice.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Wednesday, November 26, 2026 · Edition No. 012",
       "archive_headline": "The US just blacklisted Megaspeed, the firm at the center of the Nvidia scandal — hours after Huang’s return",
       "archive_summary": "5 stories + 3 briefs: the US blacklists Megaspeed hours after Huang’s return, Anthropic launches Claude Ship, Nothing’s Ear (note) records your meetings and calls, and Tech Finance — Supertake’s $20 million seed and Anthropic’s $900 billion compute bill facing a junk-debt rating.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-26",
       "seq": 12
     },
     {
       "id": "2026-11-24-morning",
       "kind": "edition",
-      "label": "Edition No. 013",
-      "number": "No. 013",
       "date": "2026-11-24",
-      "date_long": "Tuesday, November 24, 2026",
-      "date_short": "Nov 24, 2026",
-      "date_upper": "NOV 24, 2026",
       "url": "/2026/11/24-morning/",
       "head": {
         "title": "Wire Willow — Edition No. 013 — Tuesday, November 24, 2026",
-        "description": "Edition No. 013: a Financial Times reconstruction of how President Trump and Silicon Valley investors forced Nvidia to take Jensen Huang back — plus AI agents breaking into a server in 11 minutes, the OpenAI recorder case, Uber’s driverless robotaxis, Z.ai’s GLM-5.4, and 3.5 billion exposed records.",
-        "canonical": "https://wirewillow.com/2026/11/24-morning/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-trump-silicon-valley-huang-return.jpg",
-        "og_image_alt": "Editorial illustration of a semiconductor company headquarters lobby at sunset, with a red carpet and employees applauding as a chief executive in a black leather jacket walks in through tall glass doors"
+        "description": "Edition No. 013: a Financial Times reconstruction of how President Trump and Silicon Valley investors forced Nvidia to take Jensen Huang back — plus AI agents breaking into a server in 11 minutes, the OpenAI recorder case, Uber’s driverless robotaxis, Z.ai’s GLM-5.4, and 3.5 billion exposed records."
       },
-      "breadcrumb_name": "Edition No. 013",
       "lead_slug": "trump-silicon-valley-huang-return",
       "article_slugs": [
         "trump-silicon-valley-huang-return",
@@ -5767,8 +5055,6 @@
       "briefs": "2026-11-22",
       "briefs_label": "Three more things",
       "briefs_links": false,
-      "ticker_label": "Nov 24 Headlines",
-      "ticker_aria": "Top headlines, Tuesday November 24, 2026",
       "ticker": [
         [
           "AI",
@@ -5844,34 +5130,21 @@
         "Whether Uber’s driverless robotaxis reach their public launch in the first quarter of 2027",
         "Whether the court grants Alfozan bail at today’s bond hearing in San Francisco"
       ],
-      "footer_edition": "Edition No. 013 — Tuesday, November 24, 2026. Stories are original summaries of the day’s technology reporting, written for this site; source links appear on each article page.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Tuesday, November 24, 2026 · Edition No. 013",
       "archive_headline": "Trump called the board. Silicon Valley ran a war room. That’s how Huang got Nvidia back",
       "archive_summary": "6 stories and 3 briefs: the Nvidia return reconstruction, AI agents breaking into a server, the OpenAI recorder case, Uber’s driverless Lucid robotaxis, Z.ai’s GLM-5.4, and two databases exposing 3.5 billion records.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-24",
       "seq": 13
     },
     {
       "id": "2026-11-24-midday",
       "kind": "edition",
-      "label": "Edition No. 014",
-      "number": "No. 014",
       "date": "2026-11-24",
-      "date_long": "Tuesday, November 24, 2026",
-      "date_short": "Nov 24, 2026",
-      "date_upper": "NOV 24, 2026",
       "url": "/2026/11/24-midday/",
       "head": {
         "title": "Wire Willow — Edition No. 014 — Tuesday, November 24, 2026",
-        "description": "Edition No. 014: Jensen Huang told Nvidia staff Trump didn’t get him rehired — and that he’s in therapy — plus Tidal’s AI music ban, Muse on Instagram, Anthropic’s Siren honeypot, the Amazon drone crash, the CIA breach, the Nvidia/Anthropic sell-off, and the SpaceX/Tesla merger directors.",
-        "canonical": "https://wirewillow.com/2026/11/24-midday/",
-        "og_type": "website",
-        "og_image": "https://wirewillow.com/images/og-huang-all-hands-therapy-trump.jpg",
-        "og_image_alt": "Editorial illustration of a chief executive in a black leather jacket addressing employees from a podium in a large tech company auditorium"
+        "description": "Edition No. 014: Jensen Huang told Nvidia staff Trump didn’t get him rehired — and that he’s in therapy — plus Tidal’s AI music ban, Muse on Instagram, Anthropic’s Siren honeypot, the Amazon drone crash, the CIA breach, the Nvidia/Anthropic sell-off, and the SpaceX/Tesla merger directors."
       },
-      "breadcrumb_name": "Edition No. 014",
       "lead_slug": "huang-all-hands-therapy-trump",
       "article_slugs": [
         "huang-all-hands-therapy-trump",
@@ -5886,8 +5159,6 @@
       "briefs": "2026-11-24-midday",
       "briefs_label": "Two more things",
       "briefs_links": false,
-      "ticker_label": "Nov 24 Headlines",
-      "ticker_aria": "Top headlines, Tuesday November 24, 2026",
       "ticker": [
         [
           "AI",
@@ -5974,13 +5245,10 @@
         "Whether the SpaceX/Tesla committees reach a deal by the December 31 deadline",
         "Whether Anthropic’s stock steadies after falling below its IPO price"
       ],
-      "footer_edition": "Edition No. 014 — Tuesday, November 24, 2026. Stories are original summaries of the day’s technology reporting, written for this site; source links appear on each article page.",
       "footer_fine": "Illustrations: original editorial artwork created for this edition",
-      "archive_eyebrow": "Tuesday, November 24, 2026 · Edition No. 014",
       "archive_headline": "Huang told Nvidia staff Trump didn’t get him rehired — and that he’s in therapy",
       "archive_summary": "8 stories and 2 briefs: Huang’s all-hands apology, Tidal’s AI music ban, Muse on Instagram, Anthropic’s Siren honeypot, the Amazon drone crash, the CIA breach, the Nvidia/Anthropic sell-off, and the SpaceX/Tesla merger directors.",
       "archive_read_text": "Read the full edition →",
-      "lastmod": "2026-11-24",
       "seq": 14
     }
   ],
@@ -5996,9 +5264,7 @@
       "og_type": "website",
       "og_image": "https://wirewillow.com/images/og-home.jpg",
       "og_image_alt": "Wire Willow — daily tech news: AI, robotics, drones, fintech and gossip"
-    },
-    "lastmod": "2026-11-24",
-    "changefreq": "daily"
+    }
   },
   "pages": {
     "about": {
@@ -6039,352 +5305,18 @@
       }
     }
   },
-  "sitemap": [
+  "redirects": [
     {
-      "url": "https://wirewillow.com/",
-      "lastmod": "2026-11-24",
-      "changefreq": "daily"
+      "from": "/2026/11/24/",
+      "to": "/2026/11/23-morning/"
     },
     {
-      "url": "https://wirewillow.com/2026/11/13/",
-      "lastmod": "2026-11-13"
+      "from": "/2026/11/25/",
+      "to": "/2026/11/23-evening/"
     },
     {
-      "url": "https://wirewillow.com/2026/11/18/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/19/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/20/",
-      "lastmod": "2026-11-20"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/21/",
-      "lastmod": "2026-11-21"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/25/",
-      "lastmod": "2026-11-25"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/26/",
-      "lastmod": "2026-11-26"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24-morning/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24-midday/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/archive/",
-      "lastmod": "2026-11-24",
-      "changefreq": "daily"
-    },
-    {
-      "url": "https://wirewillow.com/about/",
-      "lastmod": "2026-11-17"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/13/spacex-ai-supercomputing-campuses/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/13/gemini-4-hydrogen-coding-agents/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/13/doodle-labs-xtend-striker-drones/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/13/gagamba-unlv-window-washing-drone/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/18/drone-war-arrived-before-america-was-ready/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/18/gpt-6-2-astra-sol-cheaper-savings-smaller/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/18/california-sues-openai-hugging-face-agents/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/18/china-blocks-softbank-abb-robotics-deal/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/19/us-bans-remote-access-ai-chips-five-countries/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/19/jensen-huang-nvidia-return-odds/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/19/anthropic-ipo-83-dollars-record/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/21/riemann-hypothesis-claude-proof/",
-      "lastmod": "2026-11-21"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/21/signal-blocks-screenshots-ai-surveillance/",
-      "lastmod": "2026-11-21"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/21/meta-reconsiders-net-zero-ai-emissions/",
-      "lastmod": "2026-11-21"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/21/waymo-recalls-robotaxis-highway-problems/",
-      "lastmod": "2026-11-21"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/20/california-subpoenas-nvidia-hopper-halt/",
-      "lastmod": "2026-11-20"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/20/gemini-4-neon-price-war/",
-      "lastmod": "2026-11-20"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/20/fcc-drone-spectrum-order-450-mhz/",
-      "lastmod": "2026-11-20"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/20/korea-humanoid-split-lg-hyundai-samsung/",
-      "lastmod": "2026-11-20"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/openai-outage-postgres-replicas-75-percent/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/together-ai-prompt-leak-coding-agent/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/payoneer-stablecoin-bank-occ-approval/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/niosh-humanoid-robot-safety-review/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/outages-washington-microsoft-more-coming/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/openai-pachocki-perplexity-speed-limit/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/banks-ai-agents-at-your-own-risk/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/data-center-backlash-hyperscale-paris-marx/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/binding-of-isaac-ai-music-removed/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/delta-alis-weight-balance-failure/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/starlink-pricing-2020-vs-2026/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/crowdstrike-zscaler-talks/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/amazon-decart-7-5-billion/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/ant-group-simplexity-100-million/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/22/anthropic-early-investors-paper-fortune/",
-      "lastmod": "2026-11-22"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/nvidia-reinstates-jensen-huang/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/tesla-fsd-v15-reality-view/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/meta-muse-walmart-black-friday/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/states-sue-spacex-grok-deepfakes/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/mit-slic-analog-chip-design/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/uber-recorded-rides/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/amazon-package-stickers-nyc-delivery-law/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/sierra-30-billion-series-f/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/firmus-1-5-billion-bond-nvidia-chips/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/anthropic-ipo-closes-93-5-billion/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/nvidia-huang-senate-hearing-dec-3/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/amazon-decart-agreed-7-5-billion/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/riemann-hypothesis-proof-certified/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/meta-drops-net-zero-2030/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/google-ai-mode-wallet-drive-gemini/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/gemini-training-opt-out/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/crowdstrike-buys-zscaler-43-9-billion/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/marlowe-277-million-seed/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/megaspeed-added-us-entity-list/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/anthropic-claude-ship/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/nothing-ear-note-ai-recorder/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/supertake-20-million-seed/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/23/anthropic-900-billion-junk-debt/",
-      "lastmod": "2026-11-23"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/trump-silicon-valley-huang-return/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/amazon-cairn-ai-agents-zero-day/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/openai-alfozan-recorder-saudi/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/uber-lucid-nuro-robotaxi/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/zai-glm-5-4-loop-transformer/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/two-databases-3-5-billion-records-exposed/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/huang-all-hands-therapy-trump/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/tidal-bans-ai-generated-music/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/meta-muse-instagram-saved-posts/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/anthropic-siren-honeypot-agents/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/amazon-drone-crash-garage/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/cia-odni-breach-unclassified/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/nvidia-anthropic-selloff/",
-      "lastmod": "2026-11-24"
-    },
-    {
-      "url": "https://wirewillow.com/2026/11/24/spacex-tesla-merger-directors/",
-      "lastmod": "2026-11-24"
+      "from": "/2026/11/26/",
+      "to": "/2026/11/23-night/"
     }
   ]
 }
