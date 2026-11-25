@@ -3706,6 +3706,279 @@
       "body_file": "content/articles/spacex-tesla-merger-directors.html",
       "head_title": "SpaceX and Tesla named the five directors who will negotiate their merger — with a year-end deadline | Wire Willow",
       "head_description": "The FT reports the boards want a deal by December 31, though people familiar with the talks say an agreement isn’t close."
+    },
+    {
+      "id": "microsoft-code-red",
+      "slug": "microsoft-code-red-outlook-outage",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/microsoft-code-red-outlook-outage/",
+      "title": "Microsoft declares Code Red after day-long Outlook outage",
+      "dek": "Internal memos call the November 12-13 failure the worst in Exchange Online history and set a one-hour recovery target for the next one.",
+      "category": "industry",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "2 min read",
+      "image": "/images/microsoft-code-red-outlook-outage.webp",
+      "image_alt": "A dark server room with red alert lights and a wall of email envelopes piling up under a glowing red warning beacon",
+      "og_image": "https://wirewillow.com/images/og-microsoft-code-red-outlook-outage.jpg",
+      "caption": "Illustration: Wire Willow. Microsoft put its email business on crisis footing after the worst outage in Exchange Online history.",
+      "sources": [
+        [
+          "Reuters",
+          "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
+        ],
+        [
+          "New York Post",
+          "https://nypost.com/2026/11/24/business/microsoft-initiates-code-red-after-most-disruptive-outage-in-companys-history-report/"
+        ],
+        [
+          "Computer Weekly",
+          "https://www.computerweekly.com/news/366654803/Microsoft-outage-Three-times-a-failure"
+        ]
+      ],
+      "body_file": "content/articles/microsoft-code-red-outlook-outage.html",
+      "head_title": "Microsoft declares Code Red after day-long Outlook outage | Wire Willow"
+    },
+    {
+      "id": "huawei-guilty",
+      "slug": "huawei-guilty-trade-secrets-verdict",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/huawei-guilty-trade-secrets-verdict/",
+      "title": "Jury finds Huawei guilty of stealing US trade secrets",
+      "dek": "A Brooklyn jury convicted the company on 10 of 12 counts, including bank fraud and sanctions violations, and set sentencing for September 2027.",
+      "category": "industry",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "2 min read",
+      "image": "/images/huawei-guilty-trade-secrets-verdict.webp",
+      "image_alt": "A courthouse with a gavel, a smartphone circuit board, and scales of justice",
+      "og_image": "https://wirewillow.com/images/og-huawei-guilty-trade-secrets-verdict.jpg",
+      "caption": "Illustration: Wire Willow. A Brooklyn jury convicted Huawei on 10 of 12 counts.",
+      "sources": [
+        [
+          "CNN",
+          "https://www.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk"
+        ],
+        [
+          "Associated Press",
+          "https://www.reflector.com/news/national/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article_9d7553fc-5382-50b9-85b8-43abcd46aa66.html"
+        ]
+      ],
+      "body_file": "content/articles/huawei-guilty-trade-secrets-verdict.html",
+      "head_title": "Jury finds Huawei guilty of stealing US trade secrets | Wire Willow"
+    },
+    {
+      "id": "shellbench-agents",
+      "slug": "shellbench-ai-agents-everyday-tasks",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/shellbench-ai-agents-everyday-tasks/",
+      "title": "Top AI agents fail four in ten everyday tasks",
+      "dek": "GPT-6 Astra led the new ShellBench test at 62.5%, yet even it got the same task right three times in a row less than half the time.",
+      "category": "ai",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "2 min read",
+      "image": "/images/shellbench-ai-agents-everyday-tasks.webp",
+      "image_alt": "A robot assistant juggling a calendar, an envelope, a receipt, and a shopping bag, with some items dropping, beside a clipboard with a checklist",
+      "og_image": "https://wirewillow.com/images/og-shellbench-ai-agents-everyday-tasks.jpg",
+      "caption": "Illustration: Wire Willow. The best AI agents still fail more than a third of the everyday jobs people hand them.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        ],
+        [
+          "CryptoBriefing",
+          "https://cryptobriefing.com/openclaw-shellbench-ai-agent-benchmark/"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2611.32946"
+        ]
+      ],
+      "body_file": "content/articles/shellbench-ai-agents-everyday-tasks.html",
+      "head_title": "Top AI agents fail four in ten everyday tasks | Wire Willow"
+    },
+    {
+      "id": "uber-nuro-lucid",
+      "slug": "uber-nuro-lucid-driverless-tests",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/uber-nuro-lucid-driverless-tests/",
+      "title": "Uber and Nuro start driverless Lucid robotaxi tests",
+      "dek": "The companies pulled safety drivers from Lucid Gravity SUVs in four Bay Area cities, with employee rides next and a public launch set for early 2027.",
+      "category": "robotics",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "1 min read",
+      "image": "/images/uber-nuro-lucid-driverless-tests.webp",
+      "image_alt": "A sleek white SUV with a glowing sensor array on its roof driving down a sunny California street with palm trees",
+      "og_image": "https://wirewillow.com/images/og-uber-nuro-lucid-driverless-tests.jpg",
+      "caption": "Illustration: Wire Willow. Driverless testing has begun in four Bay Area cities.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/"
+        ],
+        [
+          "Business Wire",
+          "https://www.morningstar.com/news/business-wire/20261124557985/nuro-lucid-and-uber-begin-driverless-testing-on-public-roads-in-the-san-francisco-bay-area"
+        ]
+      ],
+      "body_file": "content/articles/uber-nuro-lucid-driverless-tests.html",
+      "head_title": "Uber and Nuro start driverless Lucid robotaxi tests | Wire Willow"
+    },
+    {
+      "id": "cairn-zero-day",
+      "slug": "cairn-ai-agents-zero-day",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/cairn-ai-agents-zero-day/",
+      "title": "Hackers' AI agents found a zero-day in 11 minutes",
+      "dek": "Amazon says the agents mapped a medical imaging server, exploited a flaw nobody knew about, and took full control with almost no human help.",
+      "category": "ai",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "2 min read",
+      "image": "/images/cairn-ai-agents-zero-day.webp",
+      "image_alt": "A digital lock being picked by glowing robotic arms while a stopwatch shows 11 minutes, with a medical imaging scan on a screen behind",
+      "og_image": "https://wirewillow.com/images/og-cairn-ai-agents-zero-day.jpg",
+      "caption": "Illustration: Wire Willow. AI agents turned a flaw nobody knew about into full control of a university server.",
+      "sources": [
+        [
+          "The Register",
+          "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+        ],
+        [
+          "Amazon Threat Intelligence",
+          "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        ]
+      ],
+      "body_file": "content/articles/cairn-ai-agents-zero-day.html",
+      "head_title": "Hackers' AI agents found a zero-day in 11 minutes | Wire Willow"
+    },
+    {
+      "id": "fincen-breach",
+      "slug": "fincen-cybersecurity-incident-breach",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/fincen-cybersecurity-incident-breach/",
+      "title": "FinCEN discloses breach after intruder reaches its systems",
+      "dek": "The Treasury bureau took some systems offline and pushed filing deadlines to December 30, but has not said who got in or what was taken.",
+      "category": "fintech",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "1 min read",
+      "image": "/images/fincen-cybersecurity-incident-breach.webp",
+      "image_alt": "The US Treasury building with a glowing shield and a padlock, a calendar page showing December 30, documents, and a magnifying glass",
+      "og_image": "https://wirewillow.com/images/og-fincen-cybersecurity-incident-breach.jpg",
+      "caption": "Illustration: Wire Willow. FinCEN took some systems offline after an intruder got in.",
+      "sources": [
+        [
+          "The Verge",
+          "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident"
+        ],
+        [
+          "BSC News",
+          "https://bsc.news/news/fincen-cybersecurity-incident-systems-offline"
+        ]
+      ],
+      "body_file": "content/articles/fincen-cybersecurity-incident-breach.html",
+      "head_title": "FinCEN discloses breach after intruder reaches its systems | Wire Willow"
+    },
+    {
+      "id": "walmart-muse",
+      "slug": "walmart-muse-black-friday-deals",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/walmart-muse-black-friday-deals/",
+      "title": "Walmart lets Meta's Muse shop its Black Friday deals",
+      "dek": "Shoppers can ask the AI agent to find deals and check out inside the chat, with spending limits and approvals set through Walmart's Agent Gateway.",
+      "category": "ai",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "1 min read",
+      "image": "/images/walmart-muse-black-friday-deals.webp",
+      "image_alt": "A shopping cart full of Black Friday deals with a television, toys, and a gift box, with a friendly chat bubble, a price tag, and confetti",
+      "og_image": "https://wirewillow.com/images/og-walmart-muse-black-friday-deals.jpg",
+      "caption": "Illustration: Wire Willow. Shoppers can now ask Meta's Muse to find Black Friday deals at Walmart.",
+      "sources": [
+        [
+          "Walmart",
+          "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse"
+        ],
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+        ]
+      ],
+      "body_file": "content/articles/walmart-muse-black-friday-deals.html",
+      "head_title": "Walmart lets Meta's Muse shop its Black Friday deals | Wire Willow"
+    },
+    {
+      "id": "dell-revenue",
+      "slug": "dell-revenue-doubles-ai-servers",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/dell-revenue-doubles-ai-servers/",
+      "title": "Dell revenue doubles on AI servers, but shares fall",
+      "dek": "Quarterly sales hit $54.9 billion with a record $132.3 billion AI backlog, yet the stock slid before the bell as investors questioned the buildout.",
+      "category": "finance",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "1 min read",
+      "image": "/images/dell-revenue-doubles-ai-servers.webp",
+      "image_alt": "A towering stack of server racks glowing with blue light, a rising revenue chart beside it, and a red downward arrow",
+      "og_image": "https://wirewillow.com/images/og-dell-revenue-doubles-ai-servers.jpg",
+      "caption": "Illustration: Wire Willow. Dell doubled its revenue on AI servers — and the market still sent its shares down.",
+      "sources": [
+        [
+          "Wall Street Journal",
+          "https://www.wsj.com/business/earnings/dell-lifts-outlook-as-revenue-doubles-on-server-demand-40c14b0b"
+        ],
+        [
+          "Reuters",
+          "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/"
+        ],
+        [
+          "Reuters",
+          "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/"
+        ]
+      ],
+      "body_file": "content/articles/dell-revenue-doubles-ai-servers.html",
+      "head_title": "Dell revenue doubles on AI servers, but shares fall | Wire Willow"
+    },
+    {
+      "id": "ai-stocks-slide",
+      "slug": "ai-stocks-slide-buildout-costs",
+      "edition": "2026-11-25",
+      "url": "/2026/11/25/ai-stocks-slide-buildout-costs/",
+      "title": "AI stocks slide as buildout costs spook investors",
+      "dek": "Nvidia fell about 5% in premarket trading and Anthropic slid further below its IPO price as debt fears hit the cloud companies behind the boom.",
+      "category": "finance",
+      "date": "2026-11-25",
+      "published": "2026-11-25T09:40:42-08:00",
+      "modified": "2026-11-25T09:40:42-08:00",
+      "read_time": "1 min read",
+      "image": "/images/ai-stocks-slide-buildout-costs.webp",
+      "image_alt": "A stock chart line plunging downward through a cloud of server racks and dollar signs, with red arrows under a stormy sky",
+      "og_image": "https://wirewillow.com/images/og-ai-stocks-slide-buildout-costs.jpg",
+      "caption": "Illustration: Wire Willow. AI stocks slid again as investors weighed the cost of the buildout.",
+      "sources": [
+        [
+          "Wall Street Journal",
+          "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-25-2026/card/stocks-to-watch-nvidia-anthropic-dell-wt2HkwvR171Ilamwyc6E"
+        ],
+        [
+          "Reuters",
+          "https://www.reuters.com/business/ai-stocks-slide-fears-over-infrastructure-buildout-costs-2026-11-25/"
+        ]
+      ],
+      "body_file": "content/articles/ai-stocks-slide-buildout-costs.html",
+      "head_title": "AI stocks slide as buildout costs spook investors | Wire Willow"
     }
   ],
   "brief_sets": {
@@ -3979,6 +4252,40 @@
             [
               "Windows Report",
               "https://windowsreport.com/breaking-tiktok-app-is-down-and-not-working-for-thousands-right-now-causing-video-feed-and-login-issues/"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-25": {
+      "briefs": [
+        {
+          "eyebrow": "AI",
+          "title": "OpenAI's GPT-6 designs proteins that bind in lab tests",
+          "body": "OpenAI said on Tuesday that its GPT-6 models can design new protein structures and sequences using reasoning and code, without calling on specialized biology models to generate the designs. The claim comes from a preprint, \"GPT-6 as a Universal Foundation Model for Protein Biology,\" published the same day. In lab tests with research partner Onava, 35 of 322 small proteins designed by a pre-release version of GPT-6.2 showed evidence of binding to their intended targets — a 10.9 percent hit rate across five targets: 18 against IL-17A, eight against VEGF-A, five against PD-L1, three against IL-7Rα and one against TrkA. The pipeline was hybrid, not end to end: a specialized model, SolubleMPNN, supplied the amino acid sequences that turned GPT-6.2's shapes into testable proteins, and other specialized models helped select candidates. OpenAI wrote that the results \"do not yet establish\" that its models can design minibinders end to end without help from specialized models. Predicting a complete protein structure from its sequence remains a clear weakness, and binding in a lab test is not proof a protein does anything useful — no affinity, potency or toxicity data was published. In separate sequence-redesign tests, 75 of 88 designs for MDM2, 26 of 42 for VEGF-A and eight of 59 for PD-1 showed binding, and 128 of 182 redesigned antibody loops kept binding to IL-4Rα.",
+          "sources": [
+            [
+              "OpenAI",
+              "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+            ],
+            [
+              "AI Weekly",
+              "https://aiweekly.co/alerts/openais-gpt-62-hits-109-wet-lab-rate-on-new-minibinders"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "Tech Industry",
+          "title": "Fincher film faces claims of AI use before premiere",
+          "body": "David Fincher's new film opens in IMAX theaters today facing claims from early viewers that it uses generative AI — claims Netflix has not commented on. It arrives on Netflix on December 23. The Further Mis-Adventures of Cliff Booth, a sequel to Quentin Tarantino's 2019 film Once Upon a Time in Hollywood, stars Brad Pitt as the stuntman-turned-fixer Cliff Booth in 1977. After early screenings last week, viewers described uncanny, inconsistent visuals, and some said the images looked altered in ways that suggested generative AI. YouTuber and director Patrick Tomasso posted on X on November 19 that he walked out feeling \"completely gutted,\" calling it \"some of the most blatant and egregious AI use I've ever seen in a studio film.\" Next Best Picture criticized what it called \"noticeably distracting\" use of generative AI, and the film credits a \"generative consultant.\" A shot in the trailer appears to show the drivers of a horse-drawn cart facing backward, away from the horse. Fincher told the Los Angeles Times he is open to the technology, saying: \"I'm not a Luddite, so I don't fear the unknown.\" Netflix bought Ben Affleck's AI startup InterPositive for around $600 million earlier this year; its tools modify footage-based assets, such as tweaking lighting and removing unwanted background elements. Whether AI was used in Cliff Booth remains unverified.",
+          "sources": [
+            [
+              "PetaPixel",
+              "https://petapixel.com/2026/11/23/david-finchers-new-movie-the-further-mis-adventures-of-cliff-booth-is-being-criticized-for-its-blatant-use-of-ai/"
+            ],
+            [
+              "The A.V. Club",
+              "https://www.avclub.com/david-fincher-netflix-cliff-booth-ai-accusations-allegations"
             ]
           ]
         }
@@ -5251,11 +5558,133 @@
       "archive_summary": "8 stories and 2 briefs: Huang’s all-hands apology, Tidal’s AI music ban, Muse on Instagram, Anthropic’s Siren honeypot, the Amazon drone crash, the CIA breach, the Nvidia/Anthropic sell-off, and the SpaceX/Tesla merger directors.",
       "archive_read_text": "Read the full edition →",
       "seq": 14
+    },
+    {
+      "id": "2026-11-25",
+      "kind": "edition",
+      "date": "2026-11-25",
+      "url": "/2026/11/25/",
+      "head": {
+        "title": "Wire Willow — Edition No. 015 — Wednesday, November 25, 2026",
+        "description": "Edition No. 015: Microsoft declared Code Red after its worst-ever Outlook outage — plus the Huawei verdict, AI agents that fail four in ten everyday tasks, driverless Lucid robotaxis, the Cairn zero-day, the FinCEN breach, Walmart’s Muse shopping, Dell’s doubled revenue, and AI stocks sliding."
+      },
+      "lead_slug": "microsoft-code-red-outlook-outage",
+      "article_slugs": [
+        "microsoft-code-red-outlook-outage",
+        "huawei-guilty-trade-secrets-verdict",
+        "shellbench-ai-agents-everyday-tasks",
+        "uber-nuro-lucid-driverless-tests",
+        "cairn-ai-agents-zero-day",
+        "fincen-cybersecurity-incident-breach",
+        "walmart-muse-black-friday-deals",
+        "dell-revenue-doubles-ai-servers",
+        "ai-stocks-slide-buildout-costs"
+      ],
+      "briefs": "2026-11-25",
+      "briefs_label": "Two more things",
+      "briefs_links": false,
+      "ticker": [
+        [
+          "TECH INDUSTRY",
+          "Microsoft declared Code Red after the worst outage in Exchange Online history",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "A Brooklyn jury found Huawei guilty of stealing US trade secrets",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "The best AI agents still fail four in ten everyday tasks",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "Uber and Nuro started driverless testing of Lucid robotaxis in the Bay Area",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Hackers’ AI agents found a zero-day in 11 minutes",
+          "",
+          ""
+        ],
+        [
+          "FINTECH",
+          "FinCEN disclosed a breach after an intruder reached its systems",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Walmart lets Meta’s Muse shop its Black Friday deals",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "Dell doubled its revenue on AI servers — and the stock still fell",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "AI stocks slid again as buildout costs spooked investors",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "OpenAI’s GPT-6 designed proteins that bound to their targets in lab tests",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "David Fincher’s new film faces claims of AI use before its premiere",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "80%",
+          "Of Microsoft’s gateway servers were down at the worst point of the Outlook outage"
+        ],
+        [
+          "10 of 12",
+          "Counts on which a Brooklyn jury convicted Huawei, including bank fraud and sanctions violations"
+        ],
+        [
+          "$132.3 billion",
+          "Dell’s record backlog of unbuilt AI servers after a quarter of doubled revenue"
+        ],
+        [
+          "11 minutes",
+          "For AI agents to turn a flaw nobody knew about into full control of a university server"
+        ]
+      ],
+      "watchbox": [
+        "Whether Microsoft hits its one-hour recovery target the next time Exchange Online fails",
+        "How big Huawei’s fines and forfeiture are when sentencing lands on September 14, 2027",
+        "Whether the AI stocks slide steadies or spreads to the next round of earnings",
+        "Whether Nuro wins its California fare permit before the robotaxi launch in early 2027"
+      ],
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_headline": "Microsoft declares Code Red after day-long Outlook outage",
+      "archive_summary": "9 stories and 2 briefs: Microsoft’s Code Red, the Huawei verdict, ShellBench’s agent test, driverless Lucid robotaxis, the Cairn zero-day, the FinCEN breach, Walmart’s Muse shopping, Dell’s doubled revenue, and AI stocks sliding.",
+      "archive_read_text": "Read the full edition →",
+      "seq": 15
     }
   ],
   "homepage": {
-    "edition": "2026-11-24-midday",
-    "briefs": "2026-11-24-midday",
+    "edition": "2026-11-25",
+    "briefs": "2026-11-25",
     "briefs_label": "Two more things",
     "briefs_links": false,
     "head": {
@@ -5310,10 +5739,6 @@
     {
       "from": "/2026/11/24/",
       "to": "/2026/11/23-morning/"
-    },
-    {
-      "from": "/2026/11/25/",
-      "to": "/2026/11/23-evening/"
     },
     {
       "from": "/2026/11/26/",
