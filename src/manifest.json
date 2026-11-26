@@ -3979,6 +3979,279 @@
       ],
       "body_file": "content/articles/ai-stocks-slide-buildout-costs.html",
       "head_title": "AI stocks slide as buildout costs spook investors | Wire Willow"
+    },
+    {
+      "id": "spacex-starmind",
+      "slug": "spacex-starmind-million-satellites",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/spacex-starmind-million-satellites/",
+      "title": "FCC clears SpaceX to launch 1 million AI satellites",
+      "dek": "The Starmind constellation must put one satellite up by 2033 and half a million by 2038, but scientists doubt the physics and the night sky.",
+      "category": "industry",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "2 min read",
+      "image": "/images/spacex-starmind-million-satellites.webp",
+      "image_alt": "A swarm of bright satellites with glowing solar panels orbiting above a blue Earth at sunset",
+      "og_image": "https://wirewillow.com/images/og-spacex-starmind-million-satellites.jpg",
+      "caption": "Illustration: Wire Willow. The FCC cleared SpaceX to put as many as one million satellites in orbit for AI data centers.",
+      "sources": [
+        [
+          "Engadget",
+          "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/"
+        ],
+        [
+          "CNN",
+          "https://www.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl"
+        ],
+        [
+          "Associated Press via NPR Illinois",
+          "https://www.nprillinois.org/2026-11-26/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scientists-are-skeptical"
+        ]
+      ],
+      "body_file": "content/articles/spacex-starmind-million-satellites.html",
+      "head_title": "FCC clears SpaceX to launch 1 million AI satellites | Wire Willow"
+    },
+    {
+      "id": "nvidia-halts-shipments",
+      "slug": "nvidia-halts-southeast-asia-shipments",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/nvidia-halts-southeast-asia-shipments/",
+      "title": "Nvidia halts AI server shipments to Southeast Asia",
+      "dek": "Dell and Supermicro told buyers in four countries their orders will not ship as Nvidia works through new US export controls.",
+      "category": "industry",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "1 min read",
+      "image": "/images/nvidia-halts-southeast-asia-shipments.webp",
+      "image_alt": "A shipping container port at dusk with stacked containers and a large green computer chip hovering above them",
+      "og_image": "https://wirewillow.com/images/og-nvidia-halts-southeast-asia-shipments.jpg",
+      "caption": "Illustration: Wire Willow. Nvidia told its partners to stop shipping AI servers to four Southeast Asian countries.",
+      "sources": [
+        [
+          "Reuters",
+          "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/"
+        ],
+        [
+          "Financial Times, as reported by Reuters",
+          "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/"
+        ]
+      ],
+      "body_file": "content/articles/nvidia-halts-southeast-asia-shipments.html",
+      "head_title": "Nvidia halts AI server shipments to Southeast Asia | Wire Willow"
+    },
+    {
+      "id": "character-ai-chat-sale",
+      "slug": "states-challenge-character-ai-chat-sale",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/states-challenge-character-ai-chat-sale/",
+      "title": "42 states fight Character.AI plan to auction chats",
+      "dek": "The chatbot maker's bankruptcy sale would hand a buyer the private conversations of 21 million users, including 2.1 million minors.",
+      "category": "ai",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "2 min read",
+      "image": "/images/states-challenge-character-ai-chat-sale.webp",
+      "image_alt": "A courtroom gavel resting on a stack of sealed envelopes and glowing chat bubbles",
+      "og_image": "https://wirewillow.com/images/og-states-challenge-character-ai-chat-sale.jpg",
+      "caption": "Illustration: Wire Willow. Forty-two state attorneys general want to block Character.AI from auctioning off its users' private chats.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+        ],
+        [
+          "California Attorney General",
+          "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns"
+        ]
+      ],
+      "body_file": "content/articles/states-challenge-character-ai-chat-sale.html",
+      "head_title": "42 states fight Character.AI plan to auction chats | Wire Willow"
+    },
+    {
+      "id": "ny-chatbot-toys",
+      "slug": "new-york-bans-ai-chatbot-toys",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/new-york-bans-ai-chatbot-toys/",
+      "title": "New York bans AI chatbot toys for five years",
+      "dek": "Toys that talk with children face fines of $15,000 a day per violation, though the moratorium takes effect 90 days after signing.",
+      "category": "ai",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "2 min read",
+      "image": "/images/new-york-bans-ai-chatbot-toys.webp",
+      "image_alt": "A toy robot and a teddy bear on a store shelf with a large red pause sign above them",
+      "og_image": "https://wirewillow.com/images/og-new-york-bans-ai-chatbot-toys.jpg",
+      "caption": "Illustration: Wire Willow. New York banned the sale of AI chatbot toys for five years.",
+      "sources": [
+        [
+          "Engadget",
+          "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/"
+        ],
+        [
+          "Office of Governor Kathy Hochul",
+          "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+        ]
+      ],
+      "body_file": "content/articles/new-york-bans-ai-chatbot-toys.html",
+      "head_title": "New York bans AI chatbot toys for five years | Wire Willow"
+    },
+    {
+      "id": "openai-shared-meter",
+      "slug": "openai-chatgpt-shared-usage-meter",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/openai-chatgpt-shared-usage-meter/",
+      "title": "OpenAI gives ChatGPT chat and work one limit",
+      "dek": "Heavy subscribers may hit their caps sooner under the shared meter, which rolls out broadly in December while instant chats stay unlimited.",
+      "category": "ai",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "1 min read",
+      "image": "/images/openai-chatgpt-shared-usage-meter.webp",
+      "image_alt": "A glowing meter gauge with two dials merging into one over a chat window",
+      "og_image": "https://wirewillow.com/images/og-openai-chatgpt-shared-usage-meter.jpg",
+      "caption": "Illustration: Wire Willow. OpenAI folded ChatGPT's chat and work tools into one product with a single usage limit.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        ],
+        [
+          "AI Weekly",
+          "https://aiweekly.co/ai-news-today/edition/2026-11-26"
+        ],
+        [
+          "Neowin",
+          "https://www.neowin.net/news/paying-chatgpt-users-will-hit-gpt-62-limits-faster-after-openai-fixes-a-launch-mistake/"
+        ]
+      ],
+      "body_file": "content/articles/openai-chatgpt-shared-usage-meter.html",
+      "head_title": "OpenAI gives ChatGPT chat and work one limit | Wire Willow"
+    },
+    {
+      "id": "amazon-meta-muse",
+      "slug": "amazon-meta-muse-shopping-talks",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/amazon-meta-muse-shopping-talks/",
+      "title": "Amazon and Meta talk over Muse shopping block",
+      "dek": "Fortune reports the two companies are negotiating how search results and ads would work if the AI agent returns to Amazon's store.",
+      "category": "ai",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "1 min read",
+      "image": "/images/amazon-meta-muse-shopping-talks.webp",
+      "image_alt": "Two large storefronts facing each other across a street, one with a shopping cart and one with a robot assistant waving",
+      "og_image": "https://wirewillow.com/images/og-amazon-meta-muse-shopping-talks.jpg",
+      "caption": "Illustration: Wire Willow. Amazon and Meta are talking about letting Muse shop on Amazon again.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+        ],
+        [
+          "Neowin",
+          "https://www.neowin.net/news/amazon-is-reportedly-in-talks-with-meta-to-get-its-muse-ai-agent-unblocked/"
+        ]
+      ],
+      "body_file": "content/articles/amazon-meta-muse-shopping-talks.html",
+      "head_title": "Amazon and Meta talk over Muse shopping block | Wire Willow"
+    },
+    {
+      "id": "xpeng-iron",
+      "slug": "xpeng-iron-humanoid-mass-production",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/xpeng-iron-humanoid-mass-production/",
+      "title": "XPeng unveils humanoid IRON for mass production",
+      "dek": "The robot has 76 joints and 1,500 touch sensors, and XPeng says its line will build one every 2.5 minutes from January 2027.",
+      "category": "robotics",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "1 min read",
+      "image": "/images/xpeng-iron-humanoid-mass-production.webp",
+      "image_alt": "A sleek white humanoid robot with glowing visor eyes walking across a bright factory floor past a red assembly line",
+      "og_image": "https://wirewillow.com/images/og-xpeng-iron-humanoid-mass-production.jpg",
+      "caption": "Illustration: Wire Willow. XPeng's IRON humanoid robot walked on stage at its AI Day event in Guangzhou.",
+      "sources": [
+        [
+          "XPENG via GlobeNewswire/TradingView",
+          "https://www.tradingview.com/news/globenewswire:e3a40f480094b:0-xpeng-achieves-new-milestone-in-humanoid-robotics-as-iron-brings-human-centric-intelligence-into-the-mass-production-era/"
+        ],
+        [
+          "Interesting Engineering",
+          "https://interestingengineering.com/ai-robotics/xpeng-iron-humanoid-robot-1500-tactile-sensors"
+        ]
+      ],
+      "body_file": "content/articles/xpeng-iron-humanoid-mass-production.html",
+      "head_title": "XPeng unveils humanoid IRON for mass production | Wire Willow"
+    },
+    {
+      "id": "sp-nvidia-downgrade",
+      "slug": "sp-nvidia-credit-downgrade-watch",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/sp-nvidia-credit-downgrade-watch/",
+      "title": "S&P may cut Nvidia credit rating over governance",
+      "dek": "The agency placed Nvidia's AA rating on CreditWatch and could cut it to AA- within 90 days, while Moody's held its rating steady.",
+      "category": "finance",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "2 min read",
+      "image": "/images/sp-nvidia-credit-downgrade-watch.webp",
+      "image_alt": "A tall green bar chart with a magnifying glass over a small red downward arrow",
+      "og_image": "https://wirewillow.com/images/og-sp-nvidia-credit-downgrade-watch.jpg",
+      "caption": "Illustration: Wire Willow. S&P put Nvidia's AA credit rating on watch for a possible downgrade over governance concerns.",
+      "sources": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+        ],
+        [
+          "Barron's",
+          "https://www.barrons.com/articles/nvidia-credit-rating-sp-downgrade-d6c982ff"
+        ]
+      ],
+      "body_file": "content/articles/sp-nvidia-credit-downgrade-watch.html",
+      "head_title": "S&P may cut Nvidia credit rating over governance | Wire Willow"
+    },
+    {
+      "id": "eu-tech-fund",
+      "slug": "eu-50-billion-tech-fund",
+      "edition": "2026-11-26",
+      "url": "/2026/11/26/eu-50-billion-tech-fund/",
+      "title": "EU proposes €50 billion fund for AI and quantum",
+      "dek": "The Sovereign Tech Equity Fund would back larger companies and infrastructure, but the money depends on a budget still being negotiated.",
+      "category": "finance",
+      "date": "2026-11-26",
+      "published": "2026-11-26T09:57:53-08:00",
+      "modified": "2026-11-26T09:57:53-08:00",
+      "read_time": "1 min read",
+      "image": "/images/eu-50-billion-tech-fund.webp",
+      "image_alt": "A large blue-and-gold vault door opening onto a row of glowing quantum computers and server racks",
+      "og_image": "https://wirewillow.com/images/og-eu-50-billion-tech-fund.jpg",
+      "caption": "Illustration: Wire Willow. The European Commission proposed a €50 billion fund for AI and quantum technology.",
+      "sources": [
+        [
+          "Reuters via Euronext",
+          "https://live.euronext.com/en/financial-news/europe-plans-eu50-billion-sovereign-tech-equity-fund-boost-quantum-technology"
+        ],
+        [
+          "TechXplore",
+          "https://techxplore.com/news/2026-11-eu-billion-euro-investment-ai.html"
+        ],
+        [
+          "Financial Times, as reported by CoinDesk",
+          "https://www.coindesk.com/business/2026/11/25/eu-proposes-usd54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push"
+        ]
+      ],
+      "body_file": "content/articles/eu-50-billion-tech-fund.html",
+      "head_title": "EU proposes €50 billion fund for AI and quantum | Wire Willow"
     }
   ],
   "brief_sets": {
@@ -4286,6 +4559,40 @@
             [
               "The A.V. Club",
               "https://www.avclub.com/david-fincher-netflix-cliff-booth-ai-accusations-allegations"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026-11-26": {
+      "briefs": [
+        {
+          "eyebrow": "AI",
+          "title": "Neuralink wins FDA nod for pivotal brain trial",
+          "body": "Neuralink has received FDA permission to launch the first pivotal trial of an implantable brain-computer interface in the United States. The company announced on Wednesday that the LINK study will test its N1 brain implant and R1 surgical robot in people with severe paralysis caused by ALS, a progressive disease that damages the nerve cells controlling voluntary muscle movement. The study will evaluate whether participants can control digital devices through thought alone, with a focus on outcomes that improve independence in daily life. Enrollment is now open to adults with ALS in the US. The trial builds on earlier studies in the United States, Canada and Britain involving more than 30 participants. Neuralink said last year that its first participant with ALS, Bradford Smith, was able to communicate using brain signals alone. The approval covers the trial only: the implant is not approved for sale, and the devices remain experimental.",
+          "sources": [
+            [
+              "Engadget",
+              "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+            ],
+            [
+              "Digital Trends",
+              "https://www.digitaltrends.com/computing/fda-clears-neuralink-to-start-the-first-pivotal-us-trial-of-an-implantable-brain-computer-interface/"
+            ]
+          ]
+        },
+        {
+          "eyebrow": "AI",
+          "title": "Anthropic rebuilt its API in Rust with Claude",
+          "body": "Anthropic has moved the Messages API — the main way customers and its own apps, including Claude Code and Cowork, reach Claude — from Python to Rust, and says the rewrite cuts CPU use by about 70 percent per request. The company published the account on Wednesday. Claude wrote the first version of the API's core request path in about a week, but proving the new version behaved like the old one took from April until public traffic switched over in September 2026. The team shadowed live traffic, compared every stage of each request before and after the change, and sent agents to fix the differences — all without taking the service offline or freezing feature development. The new version uses about 70 percent less CPU per request and more than 80 percent less memory, and cuts median time to first token by about 20 percent. API traffic grew roughly 1,800 times from early 2024 to fall 2026, which is why Anthropic wanted the faster language in the first place. The hard part was verification, not writing code. In April the Rust version passed about 98 percent of roughly 700 integration tests, yet only about a quarter of real production inputs produced an identical result. An earlier, partial step — parsing model output in Rust while keeping the rest in Python — saved only 8 to 10 percent of CPU, because each token crossed between the two languages three times. By May 2026, Anthropic says, Claude was writing more than 80 percent of the code the company merged. One caveat: the CPU figure covers one region, and the time-to-first-token figure is for Claude Code requests.",
+          "sources": [
+            [
+              "Anthropic",
+              "https://www.anthropic.com/research/migrating-api-to-rust"
+            ],
+            [
+              "InfoWorld",
+              "https://www.infoworld.com/article/4253460/anthropic-says-it-moved-its-claude-api-from-python-to-rust-with-no-downtime.html"
             ]
           ]
         }
@@ -5680,11 +5987,133 @@
       "archive_summary": "9 stories and 2 briefs: Microsoft’s Code Red, the Huawei verdict, ShellBench’s agent test, driverless Lucid robotaxis, the Cairn zero-day, the FinCEN breach, Walmart’s Muse shopping, Dell’s doubled revenue, and AI stocks sliding.",
       "archive_read_text": "Read the full edition →",
       "seq": 15
+    },
+    {
+      "id": "2026-11-26",
+      "kind": "edition",
+      "date": "2026-11-26",
+      "url": "/2026/11/26/",
+      "head": {
+        "title": "Wire Willow — Edition No. 016 — Thursday, November 26, 2026",
+        "description": "Edition No. 016: the FCC cleared SpaceX to launch one million AI satellites — plus Nvidia halting AI server shipments to Southeast Asia, 42 states fighting Character.AI's chat auction, New York's AI toy ban, OpenAI's shared usage meter, and the EU's €50 billion tech fund."
+      },
+      "lead_slug": "spacex-starmind-million-satellites",
+      "article_slugs": [
+        "spacex-starmind-million-satellites",
+        "nvidia-halts-southeast-asia-shipments",
+        "states-challenge-character-ai-chat-sale",
+        "new-york-bans-ai-chatbot-toys",
+        "openai-chatgpt-shared-usage-meter",
+        "amazon-meta-muse-shopping-talks",
+        "xpeng-iron-humanoid-mass-production",
+        "sp-nvidia-credit-downgrade-watch",
+        "eu-50-billion-tech-fund"
+      ],
+      "briefs": "2026-11-26",
+      "briefs_label": "Two more things",
+      "briefs_links": false,
+      "ticker": [
+        [
+          "TECH INDUSTRY",
+          "FCC cleared SpaceX to launch one million AI satellites",
+          "",
+          ""
+        ],
+        [
+          "TECH INDUSTRY",
+          "Nvidia halted AI server shipments to four Southeast Asian countries",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "42 states are fighting Character.AI's plan to auction users' private chats",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "New York banned AI chatbot toys for five years",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "OpenAI merged ChatGPT's chat and work limits into one meter",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Amazon and Meta are talking about letting Muse shop on Amazon again",
+          "",
+          ""
+        ],
+        [
+          "ROBOTICS",
+          "XPeng unveiled its IRON humanoid robot for mass production",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "S&P may cut Nvidia's credit rating over governance concerns",
+          "",
+          ""
+        ],
+        [
+          "TECH FINANCE",
+          "The EU proposed a €50 billion fund for AI and quantum technology",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Neuralink won FDA permission for a pivotal brain-implant trial",
+          "",
+          ""
+        ],
+        [
+          "AI",
+          "Anthropic rebuilt its API in Rust with Claude",
+          "",
+          ""
+        ]
+      ],
+      "band_stats": [
+        [
+          "1,000,000",
+          "Satellites SpaceX may now put in orbit for its Starmind AI data centers"
+        ],
+        [
+          "42",
+          "State attorneys general fighting Character.AI's plan to auction users' private chats"
+        ],
+        [
+          "76",
+          "Degrees of freedom on XPeng's IRON humanoid robot"
+        ],
+        [
+          "€50 billion",
+          "Target size of the EU's proposed Sovereign Tech Equity Fund"
+        ]
+      ],
+      "watchbox": [
+        "Whether SpaceX hits its first Starmind milestone — one satellite in orbit by 2033",
+        "Whether the bankruptcy court blocks Character.AI's December 1 chat auction",
+        "Whether Amazon and Meta reach a deal before Black Friday shopping peaks",
+        "Whether S&P follows through on its Nvidia downgrade within 90 days"
+      ],
+      "footer_fine": "Illustrations: original editorial artwork created for this edition",
+      "archive_headline": "FCC clears SpaceX to launch one million AI satellites",
+      "archive_summary": "9 stories and 2 briefs: the FCC's Starmind approval, Nvidia's shipment halt, the Character.AI chat auction fight, New York's AI toy ban, OpenAI's shared meter, Amazon and Meta's Muse talks, XPeng's IRON robot, S&P's Nvidia watch, and the EU's €50 billion fund.",
+      "archive_read_text": "Read the full edition →",
+      "seq": 16
     }
   ],
   "homepage": {
-    "edition": "2026-11-25",
-    "briefs": "2026-11-25",
+    "edition": "2026-11-26",
+    "briefs": "2026-11-26",
     "briefs_label": "Two more things",
     "briefs_links": false,
     "head": {
@@ -5739,10 +6168,6 @@
     {
       "from": "/2026/11/24/",
       "to": "/2026/11/23-morning/"
-    },
-    {
-      "from": "/2026/11/26/",
-      "to": "/2026/11/23-night/"
     }
   ]
 }
