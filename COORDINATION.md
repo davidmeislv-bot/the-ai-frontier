@@ -41,9 +41,9 @@
 - Newsletter: mailto fallback is live; David chose to retry Substack later (no Buttondown, no self-sign-in).
 - David signs into GitHub with Google. No card numbers in chat.
 
-## Current state (Nov 26, 2026)
+## Current state (Nov 28, 2026)
 
-- Live: Edition No. 016 at https://wirewillow.com.
+- Live: Edition No. 017 at https://wirewillow.com.
 - Editions 010–012 were re-dated to Nov 23 (their real publish day); old /2026/11/24/ URL redirects to /2026/11/23-morning/. The /2026/11/25/ redirect (Edition 011's old address) was removed when Edition 015 took its real publish-day URL /2026/11/25/, and the /2026/11/26/ redirect (Edition 012's old address) was removed when Edition 016 took its real publish-day URL /2026/11/26/.
 - Pending: Edition No. 003 (Nov 14 draft) awaiting David's approve/edit/cut; Substack retry later; Wire Willow X/LinkedIn accounts unconfirmed.
 - Draft scan runs every other day ~8:30 a.m. PT; drafts go to David for approve/edit/cut.
@@ -55,3 +55,4 @@
 - 2026-11-24 — Tars: Edition 014 lead photo swapped to the Stanford Apr 30, 2026 close-up (007) with structured credit; build OK, lint OK, Actions run passed, verified live.
 - 2026-11-25 — Tars: Edition No. 015 published (9 stories + 2 briefs; lead: Microsoft Code Red Outlook outage). Briefs are text-only in this system — no brief images. The /2026/11/25/ re-dating redirect was removed so Edition 015 could take its real publish-day URL. Build OK, lint OK, Actions run #8 passed, verified live.
 - 2026-11-26 — Tars: Edition No. 016 published (9 stories + 2 briefs; lead: FCC clears SpaceX to launch 1 million AI satellites). The /2026/11/26/ re-dating redirect was removed so Edition 016 could take its real publish-day URL. Build OK, lint OK, Actions run #11 passed, verified live.
+- 2026-11-28 — Tars: Edition No. 017 published (10 stories + 2 briefs; lead: 1Password breach takes customer data, vaults safe). Dated Nov 28, its real publish day (drafts were written Nov 27; published after midnight). Build OK, lint OK, verified live. Single push failed first: push-files rejects binary images, so images went up via the web UI (commit b9c5e1a) and text via push-files (commit 6ec2303b).
